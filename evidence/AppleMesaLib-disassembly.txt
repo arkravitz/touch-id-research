@@ -1,0 +1,2864 @@
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/AppleMesaLib:
+(__TEXT,__text) section
+__ZN10MesaPlugIn14QueryInterfaceEPv11CFUUIDBytesPS0_:
+00000000000006a8	b	__ZN10MesaPlugIn14QueryInterfaceE11CFUUIDBytesPPv
+__ZN10MesaPlugIn6AddRefEPv:
+00000000000006ac	b	__ZN10MesaPlugIn6AddRefEv
+__ZN10MesaPlugIn7ReleaseEPv:
+00000000000006b0	b	__ZN10MesaPlugIn7ReleaseEv
+__ZN10MesaPlugIn5ProbeEPvPK14__CFDictionaryjPi:
+00000000000006b4	pacibsp
+00000000000006b8	stp	x29, x30, [sp, #-0x10]!
+00000000000006bc	mov	x29, sp
+00000000000006c0	bl	__ZN10MesaPlugIn5ProbeEPK14__CFDictionaryjPi
+00000000000006c4	mov	w0, #0x0
+00000000000006c8	ldp	x29, x30, [sp], #0x10
+00000000000006cc	retab
+__ZN10MesaPlugIn5StartEPvPK14__CFDictionaryj:
+00000000000006d0	b	__ZN10MesaPlugIn5StartEPK14__CFDictionaryj
+__ZN10MesaPlugIn4StopEPv:
+00000000000006d4	b	__ZN10MesaPlugIn4StopEv
+__ZN10MesaPlugIn4OpenEPvj:
+00000000000006d8	b	__ZN10MesaPlugIn4OpenEj
+__ZN10MesaPlugIn5CloseEPvj:
+00000000000006dc	b	__ZN10MesaPlugIn5CloseEj
+__ZN10MesaPlugIn5ResetEPv10eResetTypePhm:
+00000000000006e0	b	__ZN10MesaPlugIn5ResetE10eResetTypePhm
+__ZN10MesaPlugIn4IdleEPvPhm:
+00000000000006e4	b	__ZN10MesaPlugIn4IdleEPhm
+__ZN10MesaPlugIn12StartCaptureEPvPhm:
+00000000000006e8	b	__ZN10MesaPlugIn12StartCaptureEPhm
+__ZN10MesaPlugIn11StopCaptureEPvPhm:
+00000000000006ec	b	__ZN10MesaPlugIn11StopCaptureEPhm
+__ZN10MesaPlugIn12PauseCaptureEPvPhm:
+00000000000006f0	b	__ZN10MesaPlugIn12PauseCaptureEPhm
+__ZN10MesaPlugIn9GetStatusEPvPhm:
+00000000000006f4	b	__ZN10MesaPlugIn9GetStatusEPhm
+__ZN10MesaPlugIn15GetSerialNumberEPvPhm:
+00000000000006f8	b	__ZN10MesaPlugIn15GetSerialNumberEPhm
+__ZN10MesaPlugIn21GetModuleSerialNumberEPvPhm:
+00000000000006fc	b	__ZN10MesaPlugIn21GetModuleSerialNumberEPhm
+__ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPvPhPm:
+0000000000000700	b	__ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPhPm
+__ZN10MesaPlugIn18GoToProductionModeEPvPhm:
+0000000000000704	b	__ZN10MesaPlugIn18GoToProductionModeEPhm
+__ZN10MesaPlugIn9LoadPatchEPvS0_m:
+0000000000000708	b	__ZN10MesaPlugIn9LoadPatchEPvm
+__ZN10MesaPlugIn9ProvisionEPvPhS1_m:
+000000000000070c	b	__ZN10MesaPlugIn9ProvisionEPhS0_m
+__ZN10MesaPlugIn19ScheduleWithRunLoopEPvP11__CFRunLoopPK10__CFString:
+0000000000000710	b	__ZN10MesaPlugIn19ScheduleWithRunLoopEP11__CFRunLoopPK10__CFString
+__ZN10MesaPlugIn21UnscheduleWithRunLoopEPvP11__CFRunLoopPK10__CFString:
+0000000000000714	b	__ZN10MesaPlugIn21UnscheduleWithRunLoopEP11__CFRunLoopPK10__CFString
+__ZN10MesaPlugIn20SetInterruptCallbackEPvPFvmPhmEm:
+0000000000000718	b	__ZN10MesaPlugIn20SetInterruptCallbackEPFvmPhmEm
+__ZN10MesaPlugIn18SetCaptureCallbackEPvPFvmEmS0_m:
+000000000000071c	pacibsp
+0000000000000720	sub	sp, sp, #0x60
+0000000000000724	stp	x24, x23, [sp, #0x20]
+0000000000000728	stp	x22, x21, [sp, #0x30]
+000000000000072c	stp	x20, x19, [sp, #0x40]
+0000000000000730	stp	x29, x30, [sp, #0x50]
+0000000000000734	add	x29, sp, #0x50
+0000000000000738	mov	x19, x4
+000000000000073c	mov	x20, x3
+0000000000000740	mov	x21, x2
+0000000000000744	mov	x22, x1
+0000000000000748	mov	x23, x0
+000000000000074c	adrp	x0, 4 ; 0x4000
+0000000000000750	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000754	mov	w1, #0x1
+0000000000000758	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000075c	cbz	w0, 0x7ac
+0000000000000760	adrp	x8, 3 ; 0x3000
+0000000000000764	ldr	d0, [x8, #0x400]
+0000000000000768	str	s0, [sp]
+000000000000076c	adrp	x8, 3 ; 0x3000
+0000000000000770	add	x8, x8, #0x5ef ; literal pool for: "SetCaptureCallback"
+0000000000000774	stur	x8, [sp, #0x4]
+0000000000000778	mov	w9, #0x820
+000000000000077c	strh	w9, [sp, #0xc]
+0000000000000780	stur	x8, [sp, #0xe]
+0000000000000784	adrp	x0, 0 ; 0x0
+0000000000000788	add	x0, x0, #0x0
+000000000000078c	adrp	x1, 4 ; 0x4000
+0000000000000790	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000794	adrp	x3, 3 ; 0x3000
+0000000000000798	add	x3, x3, #0x434 ; literal pool for: "%s: %s: "
+000000000000079c	mov	x4, sp
+00000000000007a0	mov	w2, #0x1
+00000000000007a4	mov	w5, #0x16
+00000000000007a8	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000007ac	mov	x0, x23
+00000000000007b0	mov	x1, x22
+00000000000007b4	mov	x2, x21
+00000000000007b8	mov	x3, x20
+00000000000007bc	mov	x4, x19
+00000000000007c0	bl	__ZN10MesaPlugIn18SetCaptureCallbackEPFvmEmPvm
+00000000000007c4	ldp	x29, x30, [sp, #0x50]
+00000000000007c8	ldp	x20, x19, [sp, #0x40]
+00000000000007cc	ldp	x22, x21, [sp, #0x30]
+00000000000007d0	ldp	x24, x23, [sp, #0x20]
+00000000000007d4	add	sp, sp, #0x60
+00000000000007d8	retab
+__ZN10MesaPlugIn8SetPowerEPvj:
+00000000000007dc	b	__ZN10MesaPlugIn8SetPowerEj
+__ZN10MesaPlugIn13SetParametersEPvPhm:
+00000000000007e0	b	__ZN10MesaPlugIn13SetParametersEPhm
+__ZN10MesaPlugIn10TriggerESDEPv:
+00000000000007e4	b	__ZN10MesaPlugIn10TriggerESDEv
+__ZN10MesaPlugIn18ClearPatchOverrideEPv:
+00000000000007e8	b	__ZN10MesaPlugIn18ClearPatchOverrideEv
+__ZN10MesaPlugIn15TriggerSPIErrorEPv:
+00000000000007ec	b	__ZN10MesaPlugIn15TriggerSPIErrorEv
+__ZN10MesaPlugIn17StartFingerDetectEPvPhm:
+00000000000007f0	b	__ZN10MesaPlugIn17StartFingerDetectEPhm
+__ZN10MesaPlugIn11StartBurnInEPvPhm:
+00000000000007f4	b	__ZN10MesaPlugIn11StartBurnInEPhm
+__ZN10MesaPlugIn10StopSSHBHBEPvhPhm:
+00000000000007f8	b	__ZN10MesaPlugIn10StopSSHBHBEhPhm
+_AppleMesaFactory:
+00000000000007fc	pacibsp
+0000000000000800	sub	sp, sp, #0x60
+0000000000000804	stp	x22, x21, [sp, #0x30]
+0000000000000808	stp	x20, x19, [sp, #0x40]
+000000000000080c	stp	x29, x30, [sp, #0x50]
+0000000000000810	add	x29, sp, #0x50
+0000000000000814	mov	x19, x1
+0000000000000818	adrp	x0, 4 ; 0x4000
+000000000000081c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000820	mov	w1, #0x1
+0000000000000824	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000828	adrp	x21, 3 ; 0x3000
+000000000000082c	add	x21, x21, #0x4a9 ; literal pool for: "AppleMesaFactory"
+0000000000000830	cbz	w0, 0x878
+0000000000000834	adrp	x8, 3 ; 0x3000
+0000000000000838	ldr	d0, [x8, #0x400]
+000000000000083c	str	s0, [sp, #0x10]
+0000000000000840	stur	x21, [sp, #0x14]
+0000000000000844	mov	w8, #0x820
+0000000000000848	strh	w8, [sp, #0x1c]
+000000000000084c	stur	x21, [sp, #0x1e]
+0000000000000850	adrp	x0, 0 ; 0x0
+0000000000000854	add	x0, x0, #0x0
+0000000000000858	adrp	x1, 4 ; 0x4000
+000000000000085c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000860	adrp	x3, 3 ; 0x3000
+0000000000000864	add	x3, x3, #0x434 ; literal pool for: "%s: %s: "
+0000000000000868	add	x4, sp, #0x10
+000000000000086c	mov	w2, #0x1
+0000000000000870	mov	w5, #0x16
+0000000000000874	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000878	adrp	x8, 4 ; 0x4000
+000000000000087c	ldr	x8, [x8, #0xf8] ; literal pool symbol address: _kCFAllocatorSystemDefault
+0000000000000880	ldr	x20, [x8]
+0000000000000884	mov	w8, #0x71
+0000000000000888	strb	w8, [sp, #0x8]
+000000000000088c	mov	x8, #0x9da5
+0000000000000890	movk	x8, #0x78df, lsl #16
+0000000000000894	movk	x8, #0x8c76, lsl #32
+0000000000000898	movk	x8, #0x6796, lsl #48
+000000000000089c	str	x8, [sp]
+00000000000008a0	mov	x0, x20
+00000000000008a4	mov	w1, #0x3f
+00000000000008a8	mov	w2, #0x3b
+00000000000008ac	mov	w3, #0x4
+00000000000008b0	mov	w4, #0xcc
+00000000000008b4	mov	w5, #0xa0
+00000000000008b8	mov	w6, #0x7a
+00000000000008bc	mov	w7, #0x46
+00000000000008c0	bl	0x32dc ; symbol stub for: _CFUUIDGetConstantUUIDWithBytes
+00000000000008c4	mov	x1, x0
+00000000000008c8	mov	x0, x19
+00000000000008cc	bl	0x324c ; symbol stub for: _CFEqual
+00000000000008d0	cbz	w0, 0x950
+00000000000008d4	adrp	x8, 4 ; 0x4000
+00000000000008d8	ldr	x8, [x8, #0xf0] ; literal pool symbol address: _kCFAllocatorDefault
+00000000000008dc	ldr	x0, [x8]
+00000000000008e0	mov	x2, #0x87ab
+00000000000008e4	movk	x2, #0x9b1b, lsl #16
+00000000000008e8	movk	x2, #0x40, lsl #32
+00000000000008ec	movk	x2, #0x10e, lsl #48
+00000000000008f0	mov	w1, #0x68
+00000000000008f4	mov	x3, #0x0
+00000000000008f8	bl	0x323c ; symbol stub for: _CFAllocatorAllocateTyped
+00000000000008fc	mov	x19, x0
+0000000000000900	mov	w8, #0x1
+0000000000000904	strb	w8, [sp, #0x8]
+0000000000000908	mov	x8, #0x9af9
+000000000000090c	movk	x8, #0x79a2, lsl #16
+0000000000000910	movk	x8, #0xc04a, lsl #32
+0000000000000914	movk	x8, #0xf682, lsl #48
+0000000000000918	str	x8, [sp]
+000000000000091c	mov	x0, x20
+0000000000000920	mov	w1, #0x1
+0000000000000924	mov	w2, #0xbf
+0000000000000928	mov	w3, #0x9a
+000000000000092c	mov	w4, #0x83
+0000000000000930	mov	w5, #0x2b
+0000000000000934	mov	w6, #0x71
+0000000000000938	mov	w7, #0x40
+000000000000093c	bl	0x32dc ; symbol stub for: _CFUUIDGetConstantUUIDWithBytes
+0000000000000940	mov	x1, x0
+0000000000000944	mov	x0, x19
+0000000000000948	bl	__ZN10MesaPlugInC2EPK8__CFUUID
+000000000000094c	b	0x954
+0000000000000950	mov	x19, #0x0
+0000000000000954	adrp	x0, 4 ; 0x4000
+0000000000000958	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+000000000000095c	mov	w1, #0x1
+0000000000000960	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000964	cbz	w0, 0x9b8
+0000000000000968	adrp	x8, 3 ; 0x3000
+000000000000096c	ldr	d0, [x8, #0x408]
+0000000000000970	str	s0, [sp, #0x10]
+0000000000000974	stur	x21, [sp, #0x14]
+0000000000000978	mov	w8, #0x820
+000000000000097c	strh	w8, [sp, #0x1c]
+0000000000000980	stur	x21, [sp, #0x1e]
+0000000000000984	mov	w8, #0x800
+0000000000000988	strh	w8, [sp, #0x26]
+000000000000098c	str	x19, [sp, #0x28]
+0000000000000990	adrp	x0, 0 ; 0x0
+0000000000000994	add	x0, x0, #0x0
+0000000000000998	adrp	x1, 4 ; 0x4000
+000000000000099c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000009a0	adrp	x3, 3 ; 0x3000
+00000000000009a4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000009a8	add	x4, sp, #0x10
+00000000000009ac	mov	w2, #0x1
+00000000000009b0	mov	w5, #0x20
+00000000000009b4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000009b8	mov	x0, x19
+00000000000009bc	ldp	x29, x30, [sp, #0x50]
+00000000000009c0	ldp	x20, x19, [sp, #0x40]
+00000000000009c4	ldp	x22, x21, [sp, #0x30]
+00000000000009c8	add	sp, sp, #0x60
+00000000000009cc	retab
+__ZN10MesaPlugInC1EPK8__CFUUID:
+00000000000009d0	b	__ZN10MesaPlugInC2EPK8__CFUUID
+__ZN10MesaPlugInC2EPK8__CFUUID:
+00000000000009d4	pacibsp
+00000000000009d8	sub	sp, sp, #0x40
+00000000000009dc	stp	x20, x19, [sp, #0x20]
+00000000000009e0	stp	x29, x30, [sp, #0x30]
+00000000000009e4	add	x29, sp, #0x30
+00000000000009e8	mov	x20, x1
+00000000000009ec	mov	x19, x0
+00000000000009f0	mov	x0, x1
+00000000000009f4	bl	0x328c ; symbol stub for: _CFRetain
+00000000000009f8	mov	w8, #0x1
+00000000000009fc	str	w8, [x19, #0x10]
+0000000000000a00	str	xzr, [x19, #0x20]
+0000000000000a04	adrp	x8, 8 ; 0x8000
+0000000000000a08	add	x8, x8, #0x0
+0000000000000a0c	stp	x8, x0, [x19]
+0000000000000a10	adrp	x0, 4 ; 0x4000
+0000000000000a14	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000a18	mov	w1, #0x1
+0000000000000a1c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000a20	cbz	w0, 0xa7c
+0000000000000a24	adrp	x8, 3 ; 0x3000
+0000000000000a28	ldr	d0, [x8, #0x408]
+0000000000000a2c	str	s0, [sp]
+0000000000000a30	adrp	x8, 3 ; 0x3000
+0000000000000a34	add	x8, x8, #0x4ba ; literal pool for: "MesaPlugIn"
+0000000000000a38	stur	x8, [sp, #0x4]
+0000000000000a3c	mov	w9, #0x820
+0000000000000a40	strh	w9, [sp, #0xc]
+0000000000000a44	stur	x8, [sp, #0xe]
+0000000000000a48	mov	w8, #0x800
+0000000000000a4c	strh	w8, [sp, #0x16]
+0000000000000a50	str	x19, [sp, #0x18]
+0000000000000a54	adrp	x0, 0 ; 0x0
+0000000000000a58	add	x0, x0, #0x0
+0000000000000a5c	adrp	x1, 4 ; 0x4000
+0000000000000a60	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000a64	adrp	x3, 3 ; 0x3000
+0000000000000a68	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000a6c	mov	x4, sp
+0000000000000a70	mov	w2, #0x1
+0000000000000a74	mov	w5, #0x20
+0000000000000a78	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000a7c	mov	x0, x20
+0000000000000a80	bl	0x325c ; symbol stub for: _CFPlugInAddInstanceForFactory
+0000000000000a84	mov	x0, x19
+0000000000000a88	ldp	x29, x30, [sp, #0x30]
+0000000000000a8c	ldp	x20, x19, [sp, #0x20]
+0000000000000a90	add	sp, sp, #0x40
+0000000000000a94	retab
+__ZN10MesaPlugInD2Ev:
+0000000000000a98	pacibsp
+0000000000000a9c	sub	sp, sp, #0x40
+0000000000000aa0	stp	x20, x19, [sp, #0x20]
+0000000000000aa4	stp	x29, x30, [sp, #0x30]
+0000000000000aa8	add	x29, sp, #0x30
+0000000000000aac	mov	x19, x0
+0000000000000ab0	adrp	x0, 4 ; 0x4000
+0000000000000ab4	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000ab8	mov	w1, #0x1
+0000000000000abc	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000ac0	cbz	w0, 0xb1c
+0000000000000ac4	adrp	x8, 3 ; 0x3000
+0000000000000ac8	ldr	d0, [x8, #0x408]
+0000000000000acc	str	s0, [sp]
+0000000000000ad0	adrp	x8, 3 ; 0x3000
+0000000000000ad4	add	x8, x8, #0x4c5 ; literal pool for: "~MesaPlugIn"
+0000000000000ad8	stur	x8, [sp, #0x4]
+0000000000000adc	mov	w9, #0x820
+0000000000000ae0	strh	w9, [sp, #0xc]
+0000000000000ae4	stur	x8, [sp, #0xe]
+0000000000000ae8	mov	w8, #0x800
+0000000000000aec	strh	w8, [sp, #0x16]
+0000000000000af0	str	x19, [sp, #0x18]
+0000000000000af4	adrp	x0, 0 ; 0x0
+0000000000000af8	add	x0, x0, #0x0
+0000000000000afc	adrp	x1, 4 ; 0x4000
+0000000000000b00	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000b04	adrp	x3, 3 ; 0x3000
+0000000000000b08	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000b0c	mov	x4, sp
+0000000000000b10	mov	w2, #0x1
+0000000000000b14	mov	w5, #0x20
+0000000000000b18	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000b1c	ldr	x0, [x19, #0x8]
+0000000000000b20	bl	0x326c ; symbol stub for: _CFPlugInRemoveInstanceForFactory
+0000000000000b24	ldr	x0, [x19, #0x8]
+0000000000000b28	bl	0x327c ; symbol stub for: _CFRelease
+0000000000000b2c	mov	x0, x19
+0000000000000b30	ldp	x29, x30, [sp, #0x30]
+0000000000000b34	ldp	x20, x19, [sp, #0x20]
+0000000000000b38	add	sp, sp, #0x40
+0000000000000b3c	retab
+0000000000000b40	bl	0xb44
+0000000000000b44	pacibsp
+0000000000000b48	stp	x29, x30, [sp, #-0x10]!
+0000000000000b4c	mov	x29, sp
+0000000000000b50	bl	0x33ac ; symbol stub for: ___cxa_begin_catch
+0000000000000b54	bl	0x338c ; symbol stub for: __ZSt9terminatev
+__ZN10MesaPlugInD1Ev:
+0000000000000b58	b	__ZN10MesaPlugInD2Ev
+__ZN10MesaPlugIn14QueryInterfaceE11CFUUIDBytesPPv:
+0000000000000b5c	pacibsp
+0000000000000b60	sub	sp, sp, #0x60
+0000000000000b64	stp	x22, x21, [sp, #0x30]
+0000000000000b68	stp	x20, x19, [sp, #0x40]
+0000000000000b6c	stp	x29, x30, [sp, #0x50]
+0000000000000b70	add	x29, sp, #0x50
+0000000000000b74	mov	x19, x3
+0000000000000b78	mov	x21, x2
+0000000000000b7c	mov	x22, x1
+0000000000000b80	mov	x20, x0
+0000000000000b84	adrp	x0, 4 ; 0x4000
+0000000000000b88	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000b8c	mov	w1, #0x1
+0000000000000b90	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000b94	cbz	w0, 0xbf0
+0000000000000b98	adrp	x8, 3 ; 0x3000
+0000000000000b9c	ldr	d0, [x8, #0x408]
+0000000000000ba0	str	s0, [sp, #0x10]
+0000000000000ba4	adrp	x8, 3 ; 0x3000
+0000000000000ba8	add	x8, x8, #0x4d1 ; literal pool for: "QueryInterface"
+0000000000000bac	stur	x8, [sp, #0x14]
+0000000000000bb0	mov	w9, #0x820
+0000000000000bb4	strh	w9, [sp, #0x1c]
+0000000000000bb8	stur	x8, [sp, #0x1e]
+0000000000000bbc	mov	w8, #0x800
+0000000000000bc0	strh	w8, [sp, #0x26]
+0000000000000bc4	str	x20, [sp, #0x28]
+0000000000000bc8	adrp	x0, 0 ; 0x0
+0000000000000bcc	add	x0, x0, #0x0
+0000000000000bd0	adrp	x1, 4 ; 0x4000
+0000000000000bd4	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000bd8	adrp	x3, 3 ; 0x3000
+0000000000000bdc	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000be0	add	x4, sp, #0x10
+0000000000000be4	mov	w2, #0x1
+0000000000000be8	mov	w5, #0x20
+0000000000000bec	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000bf0	mov	x0, #0x0
+0000000000000bf4	mov	x1, x22
+0000000000000bf8	mov	x2, x21
+0000000000000bfc	bl	0x32cc ; symbol stub for: _CFUUIDCreateFromUUIDBytes
+0000000000000c00	mov	x21, x0
+0000000000000c04	adrp	x8, 4 ; 0x4000
+0000000000000c08	ldr	x8, [x8, #0xf8] ; literal pool symbol address: _kCFAllocatorSystemDefault
+0000000000000c0c	ldr	x22, [x8]
+0000000000000c10	mov	w8, #0xa0
+0000000000000c14	strb	w8, [sp, #0x8]
+0000000000000c18	mov	x8, #0xb82a
+0000000000000c1c	movk	x8, #0xe533, lsl #16
+0000000000000c20	movk	x8, #0xba71, lsl #32
+0000000000000c24	movk	x8, #0x9fe2, lsl #48
+0000000000000c28	str	x8, [sp]
+0000000000000c2c	mov	x0, x22
+0000000000000c30	mov	w1, #0x5b
+0000000000000c34	mov	w2, #0x12
+0000000000000c38	mov	w3, #0x84
+0000000000000c3c	mov	w4, #0x69
+0000000000000c40	mov	w5, #0x10
+0000000000000c44	mov	w6, #0xe8
+0000000000000c48	mov	w7, #0x43
+0000000000000c4c	bl	0x32dc ; symbol stub for: _CFUUIDGetConstantUUIDWithBytes
+0000000000000c50	mov	x1, x0
+0000000000000c54	mov	x0, x21
+0000000000000c58	bl	0x324c ; symbol stub for: _CFEqual
+0000000000000c5c	cbnz	w0, 0xcf4
+0000000000000c60	mov	w8, #0x6f
+0000000000000c64	strb	w8, [sp, #0x8]
+0000000000000c68	mov	x8, #0x91d4
+0000000000000c6c	movk	x8, #0xd4, lsl #16
+0000000000000c70	movk	x8, #0xe450, lsl #32
+0000000000000c74	movk	x8, #0x42c6, lsl #48
+0000000000000c78	str	x8, [sp]
+0000000000000c7c	mov	x0, #0x0
+0000000000000c80	mov	w1, #0xc2
+0000000000000c84	mov	w2, #0x44
+0000000000000c88	mov	w3, #0xe8
+0000000000000c8c	mov	w4, #0x58
+0000000000000c90	mov	w5, #0x10
+0000000000000c94	mov	w6, #0x9c
+0000000000000c98	mov	w7, #0x11
+0000000000000c9c	bl	0x32dc ; symbol stub for: _CFUUIDGetConstantUUIDWithBytes
+0000000000000ca0	mov	x1, x0
+0000000000000ca4	mov	x0, x21
+0000000000000ca8	bl	0x324c ; symbol stub for: _CFEqual
+0000000000000cac	cbnz	w0, 0xcf4
+0000000000000cb0	mov	w8, #0x46
+0000000000000cb4	strb	w8, [sp, #0x8]
+0000000000000cb8	mov	w8, #0xc000
+0000000000000cbc	str	x8, [sp]
+0000000000000cc0	mov	x0, x22
+0000000000000cc4	mov	w1, #0x0
+0000000000000cc8	mov	w2, #0x0
+0000000000000ccc	mov	w3, #0x0
+0000000000000cd0	mov	w4, #0x0
+0000000000000cd4	mov	w5, #0x0
+0000000000000cd8	mov	w6, #0x0
+0000000000000cdc	mov	w7, #0x0
+0000000000000ce0	bl	0x32dc ; symbol stub for: _CFUUIDGetConstantUUIDWithBytes
+0000000000000ce4	mov	x1, x0
+0000000000000ce8	mov	x0, x21
+0000000000000cec	bl	0x324c ; symbol stub for: _CFEqual
+0000000000000cf0	cbz	w0, 0xd24
+0000000000000cf4	mov	x0, x20
+0000000000000cf8	bl	__ZN10MesaPlugIn6AddRefEv
+0000000000000cfc	mov	w22, #0x0
+0000000000000d00	str	x20, [x19]
+0000000000000d04	mov	x0, x21
+0000000000000d08	bl	0x327c ; symbol stub for: _CFRelease
+0000000000000d0c	mov	x0, x22
+0000000000000d10	ldp	x29, x30, [sp, #0x50]
+0000000000000d14	ldp	x20, x19, [sp, #0x40]
+0000000000000d18	ldp	x22, x21, [sp, #0x30]
+0000000000000d1c	add	sp, sp, #0x60
+0000000000000d20	retab
+0000000000000d24	mov	x20, #0x0
+0000000000000d28	mov	w22, #0x4
+0000000000000d2c	movk	w22, #0x8000, lsl #16
+0000000000000d30	b	0xd00
+__ZN10MesaPlugIn6AddRefEv:
+0000000000000d34	pacibsp
+0000000000000d38	sub	sp, sp, #0x40
+0000000000000d3c	stp	x20, x19, [sp, #0x20]
+0000000000000d40	stp	x29, x30, [sp, #0x30]
+0000000000000d44	add	x29, sp, #0x30
+0000000000000d48	mov	x19, x0
+0000000000000d4c	adrp	x0, 4 ; 0x4000
+0000000000000d50	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000d54	mov	w1, #0x1
+0000000000000d58	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000d5c	cbz	w0, 0xdb8
+0000000000000d60	adrp	x8, 3 ; 0x3000
+0000000000000d64	ldr	d0, [x8, #0x408]
+0000000000000d68	str	s0, [sp]
+0000000000000d6c	adrp	x8, 3 ; 0x3000
+0000000000000d70	add	x8, x8, #0x4e0 ; literal pool for: "AddRef"
+0000000000000d74	stur	x8, [sp, #0x4]
+0000000000000d78	mov	w9, #0x820
+0000000000000d7c	strh	w9, [sp, #0xc]
+0000000000000d80	stur	x8, [sp, #0xe]
+0000000000000d84	mov	w8, #0x800
+0000000000000d88	strh	w8, [sp, #0x16]
+0000000000000d8c	str	x19, [sp, #0x18]
+0000000000000d90	adrp	x0, 0 ; 0x0
+0000000000000d94	add	x0, x0, #0x0
+0000000000000d98	adrp	x1, 4 ; 0x4000
+0000000000000d9c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000da0	adrp	x3, 3 ; 0x3000
+0000000000000da4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000da8	mov	x4, sp
+0000000000000dac	mov	w2, #0x1
+0000000000000db0	mov	w5, #0x20
+0000000000000db4	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000db8	ldr	w8, [x19, #0x10]
+0000000000000dbc	add	w0, w8, #0x1
+0000000000000dc0	str	w0, [x19, #0x10]
+0000000000000dc4	ldp	x29, x30, [sp, #0x30]
+0000000000000dc8	ldp	x20, x19, [sp, #0x20]
+0000000000000dcc	add	sp, sp, #0x40
+0000000000000dd0	retab
+__ZN10MesaPlugIn7ReleaseEv:
+0000000000000dd4	pacibsp
+0000000000000dd8	sub	sp, sp, #0x40
+0000000000000ddc	stp	x20, x19, [sp, #0x20]
+0000000000000de0	stp	x29, x30, [sp, #0x30]
+0000000000000de4	add	x29, sp, #0x30
+0000000000000de8	mov	x19, x0
+0000000000000dec	adrp	x0, 4 ; 0x4000
+0000000000000df0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000df4	mov	w1, #0x1
+0000000000000df8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000dfc	cbz	w0, 0xe58
+0000000000000e00	adrp	x8, 3 ; 0x3000
+0000000000000e04	ldr	d0, [x8, #0x408]
+0000000000000e08	str	s0, [sp]
+0000000000000e0c	adrp	x8, 3 ; 0x3000
+0000000000000e10	add	x8, x8, #0x4e7 ; literal pool for: "Release"
+0000000000000e14	stur	x8, [sp, #0x4]
+0000000000000e18	mov	w9, #0x820
+0000000000000e1c	strh	w9, [sp, #0xc]
+0000000000000e20	stur	x8, [sp, #0xe]
+0000000000000e24	mov	w8, #0x800
+0000000000000e28	strh	w8, [sp, #0x16]
+0000000000000e2c	str	x19, [sp, #0x18]
+0000000000000e30	adrp	x0, 0 ; 0x0
+0000000000000e34	add	x0, x0, #0x0
+0000000000000e38	adrp	x1, 4 ; 0x4000
+0000000000000e3c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000e40	adrp	x3, 3 ; 0x3000
+0000000000000e44	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000e48	mov	x4, sp
+0000000000000e4c	mov	w2, #0x1
+0000000000000e50	mov	w5, #0x20
+0000000000000e54	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000e58	ldr	w8, [x19, #0x10]
+0000000000000e5c	subs	w20, w8, #0x1
+0000000000000e60	str	w20, [x19, #0x10]
+0000000000000e64	b.ne	0xe84
+0000000000000e68	mov	x0, x19
+0000000000000e6c	bl	__ZN10MesaPlugInD2Ev
+0000000000000e70	mov	x1, #0x87ab
+0000000000000e74	movk	x1, #0x9b1b, lsl #16
+0000000000000e78	movk	x1, #0xc40, lsl #32
+0000000000000e7c	movk	x1, #0x10e, lsl #48
+0000000000000e80	bl	0x339c ; symbol stub for: __ZdlPvSt19__type_descriptor_t
+0000000000000e84	mov	x0, x20
+0000000000000e88	ldp	x29, x30, [sp, #0x30]
+0000000000000e8c	ldp	x20, x19, [sp, #0x20]
+0000000000000e90	add	sp, sp, #0x40
+0000000000000e94	retab
+__ZN10MesaPlugIn5ProbeEPK14__CFDictionaryjPi:
+0000000000000e98	pacibsp
+0000000000000e9c	sub	sp, sp, #0x40
+0000000000000ea0	stp	x20, x19, [sp, #0x20]
+0000000000000ea4	stp	x29, x30, [sp, #0x30]
+0000000000000ea8	add	x29, sp, #0x30
+0000000000000eac	mov	x19, x3
+0000000000000eb0	mov	x20, x0
+0000000000000eb4	adrp	x0, 4 ; 0x4000
+0000000000000eb8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000ebc	mov	w1, #0x1
+0000000000000ec0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000ec4	cbz	w0, 0xf20
+0000000000000ec8	adrp	x8, 3 ; 0x3000
+0000000000000ecc	ldr	d0, [x8, #0x408]
+0000000000000ed0	str	s0, [sp]
+0000000000000ed4	adrp	x8, 3 ; 0x3000
+0000000000000ed8	add	x8, x8, #0x4ef ; literal pool for: "Probe"
+0000000000000edc	stur	x8, [sp, #0x4]
+0000000000000ee0	mov	w9, #0x820
+0000000000000ee4	strh	w9, [sp, #0xc]
+0000000000000ee8	stur	x8, [sp, #0xe]
+0000000000000eec	mov	w8, #0x800
+0000000000000ef0	strh	w8, [sp, #0x16]
+0000000000000ef4	str	x20, [sp, #0x18]
+0000000000000ef8	adrp	x0, 0 ; 0x0
+0000000000000efc	add	x0, x0, #0x0
+0000000000000f00	adrp	x1, 4 ; 0x4000
+0000000000000f04	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000f08	adrp	x3, 3 ; 0x3000
+0000000000000f0c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000f10	mov	x4, sp
+0000000000000f14	mov	w2, #0x1
+0000000000000f18	mov	w5, #0x20
+0000000000000f1c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000f20	mov	w8, #0x3e8
+0000000000000f24	str	w8, [x19]
+0000000000000f28	mov	w0, #0x0
+0000000000000f2c	ldp	x29, x30, [sp, #0x30]
+0000000000000f30	ldp	x20, x19, [sp, #0x20]
+0000000000000f34	add	sp, sp, #0x40
+0000000000000f38	retab
+__ZN10MesaPlugIn5StartEPK14__CFDictionaryj:
+0000000000000f3c	pacibsp
+0000000000000f40	sub	sp, sp, #0x40
+0000000000000f44	stp	x20, x19, [sp, #0x20]
+0000000000000f48	stp	x29, x30, [sp, #0x30]
+0000000000000f4c	add	x29, sp, #0x30
+0000000000000f50	mov	x19, x2
+0000000000000f54	mov	x20, x0
+0000000000000f58	adrp	x0, 4 ; 0x4000
+0000000000000f5c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000f60	mov	w1, #0x1
+0000000000000f64	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000000f68	cbz	w0, 0xfc4
+0000000000000f6c	adrp	x8, 3 ; 0x3000
+0000000000000f70	ldr	d0, [x8, #0x408]
+0000000000000f74	str	s0, [sp]
+0000000000000f78	adrp	x8, 3 ; 0x3000
+0000000000000f7c	add	x8, x8, #0x4f5 ; literal pool for: "Start"
+0000000000000f80	stur	x8, [sp, #0x4]
+0000000000000f84	mov	w9, #0x820
+0000000000000f88	strh	w9, [sp, #0xc]
+0000000000000f8c	stur	x8, [sp, #0xe]
+0000000000000f90	mov	w8, #0x800
+0000000000000f94	strh	w8, [sp, #0x16]
+0000000000000f98	str	x20, [sp, #0x18]
+0000000000000f9c	adrp	x0, 0 ; 0x0
+0000000000000fa0	add	x0, x0, #0x0
+0000000000000fa4	adrp	x1, 4 ; 0x4000
+0000000000000fa8	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000000fac	adrp	x3, 3 ; 0x3000
+0000000000000fb0	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000000fb4	mov	x4, sp
+0000000000000fb8	mov	w2, #0x1
+0000000000000fbc	mov	w5, #0x20
+0000000000000fc0	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000000fc4	str	w19, [x20, #0x14]
+0000000000000fc8	adrp	x8, 4 ; 0x4000
+0000000000000fcc	ldr	x8, [x8, #0x118] ; literal pool symbol address: _mach_task_self_
+0000000000000fd0	ldr	w1, [x8]
+0000000000000fd4	add	x3, x20, #0x18
+0000000000000fd8	mov	x0, x19
+0000000000000fdc	mov	w2, #0x1
+0000000000000fe0	bl	0x337c ; symbol stub for: _IOServiceOpen
+0000000000000fe4	ldp	x29, x30, [sp, #0x30]
+0000000000000fe8	ldp	x20, x19, [sp, #0x20]
+0000000000000fec	add	sp, sp, #0x40
+0000000000000ff0	retab
+__ZN10MesaPlugIn4StopEv:
+0000000000000ff4	pacibsp
+0000000000000ff8	sub	sp, sp, #0x40
+0000000000000ffc	stp	x20, x19, [sp, #0x20]
+0000000000001000	stp	x29, x30, [sp, #0x30]
+0000000000001004	add	x29, sp, #0x30
+0000000000001008	mov	x19, x0
+000000000000100c	adrp	x0, 3 ; 0x4000
+0000000000001010	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001014	mov	w1, #0x1
+0000000000001018	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000101c	cbz	w0, 0x1078
+0000000000001020	adrp	x8, 2 ; 0x3000
+0000000000001024	ldr	d0, [x8, #0x408]
+0000000000001028	str	s0, [sp]
+000000000000102c	adrp	x8, 2 ; 0x3000
+0000000000001030	add	x8, x8, #0x4fb ; literal pool for: "Stop"
+0000000000001034	stur	x8, [sp, #0x4]
+0000000000001038	mov	w9, #0x820
+000000000000103c	strh	w9, [sp, #0xc]
+0000000000001040	stur	x8, [sp, #0xe]
+0000000000001044	mov	w8, #0x800
+0000000000001048	strh	w8, [sp, #0x16]
+000000000000104c	str	x19, [sp, #0x18]
+0000000000001050	adrp	x0, -1 ; 0x0
+0000000000001054	add	x0, x0, #0x0
+0000000000001058	adrp	x1, 3 ; 0x4000
+000000000000105c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001060	adrp	x3, 2 ; 0x3000
+0000000000001064	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001068	mov	x4, sp
+000000000000106c	mov	w2, #0x1
+0000000000001070	mov	w5, #0x20
+0000000000001074	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001078	ldr	w0, [x19, #0x18]
+000000000000107c	bl	0x336c ; symbol stub for: _IOServiceClose
+0000000000001080	stp	wzr, wzr, [x19, #0x14]
+0000000000001084	ldp	x29, x30, [sp, #0x30]
+0000000000001088	ldp	x20, x19, [sp, #0x20]
+000000000000108c	add	sp, sp, #0x40
+0000000000001090	retab
+__ZN10MesaPlugIn4OpenEj:
+0000000000001094	pacibsp
+0000000000001098	sub	sp, sp, #0x60
+000000000000109c	stp	x22, x21, [sp, #0x30]
+00000000000010a0	stp	x20, x19, [sp, #0x40]
+00000000000010a4	stp	x29, x30, [sp, #0x50]
+00000000000010a8	add	x29, sp, #0x50
+00000000000010ac	mov	x20, x1
+00000000000010b0	mov	x19, x0
+00000000000010b4	adrp	x8, 3 ; 0x4000
+00000000000010b8	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000010bc	ldr	x8, [x8]
+00000000000010c0	str	x8, [sp, #0x28]
+00000000000010c4	adrp	x0, 3 ; 0x4000
+00000000000010c8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000010cc	mov	w1, #0x1
+00000000000010d0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000010d4	adrp	x22, 2 ; 0x3000
+00000000000010d8	adrp	x21, 2 ; 0x3000
+00000000000010dc	add	x21, x21, #0x500 ; literal pool for: "Open"
+00000000000010e0	cbz	w0, 0x1130
+00000000000010e4	ldr	d0, [x22, #0x408]
+00000000000010e8	str	s0, [sp]
+00000000000010ec	stur	x21, [sp, #0x4]
+00000000000010f0	mov	w8, #0x820
+00000000000010f4	strh	w8, [sp, #0xc]
+00000000000010f8	stur	x21, [sp, #0xe]
+00000000000010fc	mov	w8, #0x800
+0000000000001100	strh	w8, [sp, #0x16]
+0000000000001104	str	x19, [sp, #0x18]
+0000000000001108	adrp	x0, -1 ; 0x0
+000000000000110c	add	x0, x0, #0x0
+0000000000001110	adrp	x1, 3 ; 0x4000
+0000000000001114	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001118	adrp	x3, 2 ; 0x3000
+000000000000111c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001120	mov	x4, sp
+0000000000001124	mov	w2, #0x1
+0000000000001128	mov	w5, #0x20
+000000000000112c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001130	mov	w8, w20
+0000000000001134	str	x8, [sp, #0x20]
+0000000000001138	ldr	w0, [x19, #0x18]
+000000000000113c	add	x2, sp, #0x20
+0000000000001140	mov	w1, #0x3
+0000000000001144	mov	w3, #0x1
+0000000000001148	mov	x4, #0x0
+000000000000114c	mov	x5, #0x0
+0000000000001150	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+0000000000001154	mov	x19, x0
+0000000000001158	adrp	x0, 3 ; 0x4000
+000000000000115c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001160	mov	w1, #0x1
+0000000000001164	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001168	cbz	w0, 0x11bc
+000000000000116c	mov	x0, x19
+0000000000001170	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001174	mov	w8, #0x820
+0000000000001178	ldr	d0, [x22, #0x408]
+000000000000117c	str	s0, [sp]
+0000000000001180	stur	x21, [sp, #0x4]
+0000000000001184	strh	w8, [sp, #0xc]
+0000000000001188	stur	x21, [sp, #0xe]
+000000000000118c	strh	w8, [sp, #0x16]
+0000000000001190	str	x0, [sp, #0x18]
+0000000000001194	adrp	x0, -1 ; 0x0
+0000000000001198	add	x0, x0, #0x0
+000000000000119c	adrp	x1, 3 ; 0x4000
+00000000000011a0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000011a4	adrp	x3, 2 ; 0x3000
+00000000000011a8	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+00000000000011ac	mov	x4, sp
+00000000000011b0	mov	w2, #0x1
+00000000000011b4	mov	w5, #0x20
+00000000000011b8	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000011bc	ldr	x8, [sp, #0x28]
+00000000000011c0	adrp	x9, 3 ; 0x4000
+00000000000011c4	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000011c8	ldr	x9, [x9]
+00000000000011cc	cmp	x9, x8
+00000000000011d0	b.ne	0x11ec
+00000000000011d4	mov	x0, x19
+00000000000011d8	ldp	x29, x30, [sp, #0x50]
+00000000000011dc	ldp	x20, x19, [sp, #0x40]
+00000000000011e0	ldp	x22, x21, [sp, #0x30]
+00000000000011e4	add	sp, sp, #0x60
+00000000000011e8	retab
+00000000000011ec	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn5CloseEj:
+00000000000011f0	pacibsp
+00000000000011f4	sub	sp, sp, #0x60
+00000000000011f8	stp	x22, x21, [sp, #0x30]
+00000000000011fc	stp	x20, x19, [sp, #0x40]
+0000000000001200	stp	x29, x30, [sp, #0x50]
+0000000000001204	add	x29, sp, #0x50
+0000000000001208	mov	x20, x1
+000000000000120c	mov	x19, x0
+0000000000001210	adrp	x8, 3 ; 0x4000
+0000000000001214	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000001218	ldr	x8, [x8]
+000000000000121c	str	x8, [sp, #0x28]
+0000000000001220	adrp	x0, 3 ; 0x4000
+0000000000001224	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001228	mov	w1, #0x1
+000000000000122c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001230	adrp	x22, 2 ; 0x3000
+0000000000001234	adrp	x21, 2 ; 0x3000
+0000000000001238	add	x21, x21, #0x505 ; literal pool for: "Close"
+000000000000123c	cbz	w0, 0x128c
+0000000000001240	ldr	d0, [x22, #0x408]
+0000000000001244	str	s0, [sp]
+0000000000001248	stur	x21, [sp, #0x4]
+000000000000124c	mov	w8, #0x820
+0000000000001250	strh	w8, [sp, #0xc]
+0000000000001254	stur	x21, [sp, #0xe]
+0000000000001258	mov	w8, #0x800
+000000000000125c	strh	w8, [sp, #0x16]
+0000000000001260	str	x19, [sp, #0x18]
+0000000000001264	adrp	x0, -1 ; 0x0
+0000000000001268	add	x0, x0, #0x0
+000000000000126c	adrp	x1, 3 ; 0x4000
+0000000000001270	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001274	adrp	x3, 2 ; 0x3000
+0000000000001278	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+000000000000127c	mov	x4, sp
+0000000000001280	mov	w2, #0x1
+0000000000001284	mov	w5, #0x20
+0000000000001288	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000128c	mov	w8, w20
+0000000000001290	str	x8, [sp, #0x20]
+0000000000001294	ldr	w0, [x19, #0x18]
+0000000000001298	add	x2, sp, #0x20
+000000000000129c	mov	w1, #0x4
+00000000000012a0	mov	w3, #0x1
+00000000000012a4	mov	x4, #0x0
+00000000000012a8	mov	x5, #0x0
+00000000000012ac	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+00000000000012b0	mov	x19, x0
+00000000000012b4	adrp	x0, 3 ; 0x4000
+00000000000012b8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000012bc	mov	w1, #0x1
+00000000000012c0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000012c4	cbz	w0, 0x1318
+00000000000012c8	mov	x0, x19
+00000000000012cc	bl	0x33dc ; symbol stub for: _mach_error_string
+00000000000012d0	mov	w8, #0x820
+00000000000012d4	ldr	d0, [x22, #0x408]
+00000000000012d8	str	s0, [sp]
+00000000000012dc	stur	x21, [sp, #0x4]
+00000000000012e0	strh	w8, [sp, #0xc]
+00000000000012e4	stur	x21, [sp, #0xe]
+00000000000012e8	strh	w8, [sp, #0x16]
+00000000000012ec	str	x0, [sp, #0x18]
+00000000000012f0	adrp	x0, -1 ; 0x0
+00000000000012f4	add	x0, x0, #0x0
+00000000000012f8	adrp	x1, 3 ; 0x4000
+00000000000012fc	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001300	adrp	x3, 2 ; 0x3000
+0000000000001304	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001308	mov	x4, sp
+000000000000130c	mov	w2, #0x1
+0000000000001310	mov	w5, #0x20
+0000000000001314	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001318	ldr	x8, [sp, #0x28]
+000000000000131c	adrp	x9, 3 ; 0x4000
+0000000000001320	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000001324	ldr	x9, [x9]
+0000000000001328	cmp	x9, x8
+000000000000132c	b.ne	0x1348
+0000000000001330	mov	x0, x19
+0000000000001334	ldp	x29, x30, [sp, #0x50]
+0000000000001338	ldp	x20, x19, [sp, #0x40]
+000000000000133c	ldp	x22, x21, [sp, #0x30]
+0000000000001340	add	sp, sp, #0x60
+0000000000001344	retab
+0000000000001348	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn5ResetE10eResetTypePhm:
+000000000000134c	pacibsp
+0000000000001350	sub	sp, sp, #0xa0
+0000000000001354	stp	x24, x23, [sp, #0x60]
+0000000000001358	stp	x22, x21, [sp, #0x70]
+000000000000135c	stp	x20, x19, [sp, #0x80]
+0000000000001360	stp	x29, x30, [sp, #0x90]
+0000000000001364	add	x29, sp, #0x90
+0000000000001368	mov	x20, x3
+000000000000136c	mov	x19, x2
+0000000000001370	mov	x22, x1
+0000000000001374	mov	x21, x0
+0000000000001378	adrp	x8, 3 ; 0x4000
+000000000000137c	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000001380	ldr	x8, [x8]
+0000000000001384	stur	x8, [x29, #-0x38]
+0000000000001388	adrp	x0, 3 ; 0x4000
+000000000000138c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001390	mov	w1, #0x1
+0000000000001394	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001398	adrp	x23, 2 ; 0x3000
+000000000000139c	add	x23, x23, #0x50b ; literal pool for: "Reset"
+00000000000013a0	cbz	w0, 0x1400
+00000000000013a4	adrp	x8, 2 ; 0x3000
+00000000000013a8	ldr	d0, [x8, #0x410]
+00000000000013ac	str	s0, [sp, #0x20]
+00000000000013b0	stur	x23, [sp, #0x24]
+00000000000013b4	mov	w8, #0x820
+00000000000013b8	strh	w8, [sp, #0x2c]
+00000000000013bc	stur	x23, [sp, #0x2e]
+00000000000013c0	mov	w8, #0x800
+00000000000013c4	strh	w8, [sp, #0x36]
+00000000000013c8	str	x21, [sp, #0x38]
+00000000000013cc	mov	w8, #0x400
+00000000000013d0	strh	w8, [sp, #0x40]
+00000000000013d4	stur	w22, [sp, #0x42]
+00000000000013d8	adrp	x0, -1 ; 0x0
+00000000000013dc	add	x0, x0, #0x0
+00000000000013e0	adrp	x1, 3 ; 0x4000
+00000000000013e4	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000013e8	adrp	x3, 2 ; 0x3000
+00000000000013ec	add	x3, x3, #0x454 ; literal pool for: "%s: %s: %p %x"
+00000000000013f0	add	x4, sp, #0x20
+00000000000013f4	mov	w2, #0x1
+00000000000013f8	mov	w5, #0x26
+00000000000013fc	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001400	mov	w8, w22
+0000000000001404	stur	x8, [x29, #-0x40]
+0000000000001408	str	x20, [sp, #0x18]
+000000000000140c	ldr	w0, [x21, #0x18]
+0000000000001410	add	x8, sp, #0x18
+0000000000001414	stp	x19, x8, [sp]
+0000000000001418	sub	x2, x29, #0x40
+000000000000141c	mov	w1, #0x5
+0000000000001420	mov	w3, #0x1
+0000000000001424	mov	x4, #0x0
+0000000000001428	mov	x5, #0x0
+000000000000142c	mov	x6, #0x0
+0000000000001430	mov	x7, #0x0
+0000000000001434	bl	0x32fc ; symbol stub for: _IOConnectCallMethod
+0000000000001438	mov	x19, x0
+000000000000143c	adrp	x0, 3 ; 0x4000
+0000000000001440	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001444	mov	w1, #0x1
+0000000000001448	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000144c	cbz	w0, 0x14a4
+0000000000001450	mov	x0, x19
+0000000000001454	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001458	adrp	x8, 2 ; 0x3000
+000000000000145c	ldr	d0, [x8, #0x408]
+0000000000001460	str	s0, [sp, #0x20]
+0000000000001464	stur	x23, [sp, #0x24]
+0000000000001468	mov	w8, #0x820
+000000000000146c	strh	w8, [sp, #0x2c]
+0000000000001470	stur	x23, [sp, #0x2e]
+0000000000001474	strh	w8, [sp, #0x36]
+0000000000001478	str	x0, [sp, #0x38]
+000000000000147c	adrp	x0, -1 ; 0x0
+0000000000001480	add	x0, x0, #0x0
+0000000000001484	adrp	x1, 3 ; 0x4000
+0000000000001488	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+000000000000148c	adrp	x3, 2 ; 0x3000
+0000000000001490	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001494	add	x4, sp, #0x20
+0000000000001498	mov	w2, #0x1
+000000000000149c	mov	w5, #0x20
+00000000000014a0	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000014a4	ldur	x8, [x29, #-0x38]
+00000000000014a8	adrp	x9, 3 ; 0x4000
+00000000000014ac	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000014b0	ldr	x9, [x9]
+00000000000014b4	cmp	x9, x8
+00000000000014b8	b.ne	0x14d8
+00000000000014bc	mov	x0, x19
+00000000000014c0	ldp	x29, x30, [sp, #0x90]
+00000000000014c4	ldp	x20, x19, [sp, #0x80]
+00000000000014c8	ldp	x22, x21, [sp, #0x70]
+00000000000014cc	ldp	x24, x23, [sp, #0x60]
+00000000000014d0	add	sp, sp, #0xa0
+00000000000014d4	retab
+00000000000014d8	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn4IdleEPhm:
+00000000000014dc	pacibsp
+00000000000014e0	sub	sp, sp, #0x70
+00000000000014e4	stp	x24, x23, [sp, #0x30]
+00000000000014e8	stp	x22, x21, [sp, #0x40]
+00000000000014ec	stp	x20, x19, [sp, #0x50]
+00000000000014f0	stp	x29, x30, [sp, #0x60]
+00000000000014f4	add	x29, sp, #0x60
+00000000000014f8	mov	x20, x2
+00000000000014fc	mov	x19, x1
+0000000000001500	mov	x21, x0
+0000000000001504	adrp	x0, 3 ; 0x4000
+0000000000001508	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+000000000000150c	mov	w1, #0x1
+0000000000001510	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001514	adrp	x23, 2 ; 0x3000
+0000000000001518	adrp	x22, 2 ; 0x3000
+000000000000151c	add	x22, x22, #0x511 ; literal pool for: "Idle"
+0000000000001520	cbz	w0, 0x1570
+0000000000001524	ldr	d0, [x23, #0x408]
+0000000000001528	str	s0, [sp, #0x10]
+000000000000152c	stur	x22, [sp, #0x14]
+0000000000001530	mov	w8, #0x820
+0000000000001534	strh	w8, [sp, #0x1c]
+0000000000001538	stur	x22, [sp, #0x1e]
+000000000000153c	mov	w8, #0x800
+0000000000001540	strh	w8, [sp, #0x26]
+0000000000001544	str	x21, [sp, #0x28]
+0000000000001548	adrp	x0, -1 ; 0x0
+000000000000154c	add	x0, x0, #0x0
+0000000000001550	adrp	x1, 3 ; 0x4000
+0000000000001554	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001558	adrp	x3, 2 ; 0x3000
+000000000000155c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001560	add	x4, sp, #0x10
+0000000000001564	mov	w2, #0x1
+0000000000001568	mov	w5, #0x20
+000000000000156c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001570	str	x20, [sp, #0x8]
+0000000000001574	ldr	w0, [x21, #0x18]
+0000000000001578	add	x5, sp, #0x8
+000000000000157c	mov	w1, #0x17
+0000000000001580	mov	x2, #0x0
+0000000000001584	mov	x3, #0x0
+0000000000001588	mov	x4, x19
+000000000000158c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001590	mov	x19, x0
+0000000000001594	adrp	x0, 3 ; 0x4000
+0000000000001598	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+000000000000159c	mov	w1, #0x1
+00000000000015a0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000015a4	cbz	w0, 0x15f8
+00000000000015a8	mov	x0, x19
+00000000000015ac	bl	0x33dc ; symbol stub for: _mach_error_string
+00000000000015b0	mov	w8, #0x820
+00000000000015b4	ldr	d0, [x23, #0x408]
+00000000000015b8	str	s0, [sp, #0x10]
+00000000000015bc	stur	x22, [sp, #0x14]
+00000000000015c0	strh	w8, [sp, #0x1c]
+00000000000015c4	stur	x22, [sp, #0x1e]
+00000000000015c8	strh	w8, [sp, #0x26]
+00000000000015cc	str	x0, [sp, #0x28]
+00000000000015d0	adrp	x0, -1 ; 0x0
+00000000000015d4	add	x0, x0, #0x0
+00000000000015d8	adrp	x1, 3 ; 0x4000
+00000000000015dc	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000015e0	adrp	x3, 2 ; 0x3000
+00000000000015e4	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+00000000000015e8	add	x4, sp, #0x10
+00000000000015ec	mov	w2, #0x1
+00000000000015f0	mov	w5, #0x20
+00000000000015f4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000015f8	mov	x0, x19
+00000000000015fc	ldp	x29, x30, [sp, #0x60]
+0000000000001600	ldp	x20, x19, [sp, #0x50]
+0000000000001604	ldp	x22, x21, [sp, #0x40]
+0000000000001608	ldp	x24, x23, [sp, #0x30]
+000000000000160c	add	sp, sp, #0x70
+0000000000001610	retab
+__ZN10MesaPlugIn12StartCaptureEPhm:
+0000000000001614	pacibsp
+0000000000001618	sub	sp, sp, #0x70
+000000000000161c	stp	x24, x23, [sp, #0x30]
+0000000000001620	stp	x22, x21, [sp, #0x40]
+0000000000001624	stp	x20, x19, [sp, #0x50]
+0000000000001628	stp	x29, x30, [sp, #0x60]
+000000000000162c	add	x29, sp, #0x60
+0000000000001630	mov	x20, x2
+0000000000001634	mov	x19, x1
+0000000000001638	mov	x21, x0
+000000000000163c	adrp	x0, 3 ; 0x4000
+0000000000001640	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001644	mov	w1, #0x1
+0000000000001648	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000164c	adrp	x23, 2 ; 0x3000
+0000000000001650	adrp	x22, 2 ; 0x3000
+0000000000001654	add	x22, x22, #0x516 ; literal pool for: "StartCapture"
+0000000000001658	cbz	w0, 0x16a8
+000000000000165c	ldr	d0, [x23, #0x408]
+0000000000001660	str	s0, [sp, #0x10]
+0000000000001664	stur	x22, [sp, #0x14]
+0000000000001668	mov	w8, #0x820
+000000000000166c	strh	w8, [sp, #0x1c]
+0000000000001670	stur	x22, [sp, #0x1e]
+0000000000001674	mov	w8, #0x800
+0000000000001678	strh	w8, [sp, #0x26]
+000000000000167c	str	x21, [sp, #0x28]
+0000000000001680	adrp	x0, -1 ; 0x0
+0000000000001684	add	x0, x0, #0x0
+0000000000001688	adrp	x1, 3 ; 0x4000
+000000000000168c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001690	adrp	x3, 2 ; 0x3000
+0000000000001694	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001698	add	x4, sp, #0x10
+000000000000169c	mov	w2, #0x1
+00000000000016a0	mov	w5, #0x20
+00000000000016a4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000016a8	str	x20, [sp, #0x8]
+00000000000016ac	ldr	w0, [x21, #0x18]
+00000000000016b0	add	x5, sp, #0x8
+00000000000016b4	mov	w1, #0x6
+00000000000016b8	mov	x2, #0x0
+00000000000016bc	mov	x3, #0x0
+00000000000016c0	mov	x4, x19
+00000000000016c4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+00000000000016c8	mov	x19, x0
+00000000000016cc	adrp	x0, 3 ; 0x4000
+00000000000016d0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000016d4	mov	w1, #0x1
+00000000000016d8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000016dc	cbz	w0, 0x1730
+00000000000016e0	mov	x0, x19
+00000000000016e4	bl	0x33dc ; symbol stub for: _mach_error_string
+00000000000016e8	mov	w8, #0x820
+00000000000016ec	ldr	d0, [x23, #0x408]
+00000000000016f0	str	s0, [sp, #0x10]
+00000000000016f4	stur	x22, [sp, #0x14]
+00000000000016f8	strh	w8, [sp, #0x1c]
+00000000000016fc	stur	x22, [sp, #0x1e]
+0000000000001700	strh	w8, [sp, #0x26]
+0000000000001704	str	x0, [sp, #0x28]
+0000000000001708	adrp	x0, -1 ; 0x0
+000000000000170c	add	x0, x0, #0x0
+0000000000001710	adrp	x1, 3 ; 0x4000
+0000000000001714	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001718	adrp	x3, 2 ; 0x3000
+000000000000171c	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001720	add	x4, sp, #0x10
+0000000000001724	mov	w2, #0x1
+0000000000001728	mov	w5, #0x20
+000000000000172c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001730	mov	x0, x19
+0000000000001734	ldp	x29, x30, [sp, #0x60]
+0000000000001738	ldp	x20, x19, [sp, #0x50]
+000000000000173c	ldp	x22, x21, [sp, #0x40]
+0000000000001740	ldp	x24, x23, [sp, #0x30]
+0000000000001744	add	sp, sp, #0x70
+0000000000001748	retab
+__ZN10MesaPlugIn11StopCaptureEPhm:
+000000000000174c	pacibsp
+0000000000001750	sub	sp, sp, #0x70
+0000000000001754	stp	x24, x23, [sp, #0x30]
+0000000000001758	stp	x22, x21, [sp, #0x40]
+000000000000175c	stp	x20, x19, [sp, #0x50]
+0000000000001760	stp	x29, x30, [sp, #0x60]
+0000000000001764	add	x29, sp, #0x60
+0000000000001768	mov	x20, x2
+000000000000176c	mov	x19, x1
+0000000000001770	mov	x21, x0
+0000000000001774	adrp	x0, 3 ; 0x4000
+0000000000001778	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+000000000000177c	mov	w1, #0x1
+0000000000001780	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001784	adrp	x23, 2 ; 0x3000
+0000000000001788	adrp	x22, 2 ; 0x3000
+000000000000178c	add	x22, x22, #0x523 ; literal pool for: "StopCapture"
+0000000000001790	cbz	w0, 0x17e0
+0000000000001794	ldr	d0, [x23, #0x408]
+0000000000001798	str	s0, [sp, #0x10]
+000000000000179c	stur	x22, [sp, #0x14]
+00000000000017a0	mov	w8, #0x820
+00000000000017a4	strh	w8, [sp, #0x1c]
+00000000000017a8	stur	x22, [sp, #0x1e]
+00000000000017ac	mov	w8, #0x800
+00000000000017b0	strh	w8, [sp, #0x26]
+00000000000017b4	str	x21, [sp, #0x28]
+00000000000017b8	adrp	x0, -1 ; 0x0
+00000000000017bc	add	x0, x0, #0x0
+00000000000017c0	adrp	x1, 3 ; 0x4000
+00000000000017c4	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000017c8	adrp	x3, 2 ; 0x3000
+00000000000017cc	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000017d0	add	x4, sp, #0x10
+00000000000017d4	mov	w2, #0x1
+00000000000017d8	mov	w5, #0x20
+00000000000017dc	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000017e0	str	x20, [sp, #0x8]
+00000000000017e4	ldr	w0, [x21, #0x18]
+00000000000017e8	add	x5, sp, #0x8
+00000000000017ec	mov	w1, #0x7
+00000000000017f0	mov	x2, #0x0
+00000000000017f4	mov	x3, #0x0
+00000000000017f8	mov	x4, x19
+00000000000017fc	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001800	mov	x19, x0
+0000000000001804	adrp	x0, 3 ; 0x4000
+0000000000001808	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+000000000000180c	mov	w1, #0x1
+0000000000001810	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001814	cbz	w0, 0x1868
+0000000000001818	mov	x0, x19
+000000000000181c	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001820	mov	w8, #0x820
+0000000000001824	ldr	d0, [x23, #0x408]
+0000000000001828	str	s0, [sp, #0x10]
+000000000000182c	stur	x22, [sp, #0x14]
+0000000000001830	strh	w8, [sp, #0x1c]
+0000000000001834	stur	x22, [sp, #0x1e]
+0000000000001838	strh	w8, [sp, #0x26]
+000000000000183c	str	x0, [sp, #0x28]
+0000000000001840	adrp	x0, -1 ; 0x0
+0000000000001844	add	x0, x0, #0x0
+0000000000001848	adrp	x1, 3 ; 0x4000
+000000000000184c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001850	adrp	x3, 2 ; 0x3000
+0000000000001854	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001858	add	x4, sp, #0x10
+000000000000185c	mov	w2, #0x1
+0000000000001860	mov	w5, #0x20
+0000000000001864	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001868	mov	x0, x19
+000000000000186c	ldp	x29, x30, [sp, #0x60]
+0000000000001870	ldp	x20, x19, [sp, #0x50]
+0000000000001874	ldp	x22, x21, [sp, #0x40]
+0000000000001878	ldp	x24, x23, [sp, #0x30]
+000000000000187c	add	sp, sp, #0x70
+0000000000001880	retab
+__ZN10MesaPlugIn12PauseCaptureEPhm:
+0000000000001884	pacibsp
+0000000000001888	sub	sp, sp, #0x70
+000000000000188c	stp	x24, x23, [sp, #0x30]
+0000000000001890	stp	x22, x21, [sp, #0x40]
+0000000000001894	stp	x20, x19, [sp, #0x50]
+0000000000001898	stp	x29, x30, [sp, #0x60]
+000000000000189c	add	x29, sp, #0x60
+00000000000018a0	mov	x20, x2
+00000000000018a4	mov	x19, x1
+00000000000018a8	mov	x21, x0
+00000000000018ac	adrp	x0, 3 ; 0x4000
+00000000000018b0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000018b4	mov	w1, #0x1
+00000000000018b8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000018bc	adrp	x23, 2 ; 0x3000
+00000000000018c0	adrp	x22, 2 ; 0x3000
+00000000000018c4	add	x22, x22, #0x52f ; literal pool for: "PauseCapture"
+00000000000018c8	cbz	w0, 0x1918
+00000000000018cc	ldr	d0, [x23, #0x408]
+00000000000018d0	str	s0, [sp, #0x10]
+00000000000018d4	stur	x22, [sp, #0x14]
+00000000000018d8	mov	w8, #0x820
+00000000000018dc	strh	w8, [sp, #0x1c]
+00000000000018e0	stur	x22, [sp, #0x1e]
+00000000000018e4	mov	w8, #0x800
+00000000000018e8	strh	w8, [sp, #0x26]
+00000000000018ec	str	x21, [sp, #0x28]
+00000000000018f0	adrp	x0, -1 ; 0x0
+00000000000018f4	add	x0, x0, #0x0
+00000000000018f8	adrp	x1, 3 ; 0x4000
+00000000000018fc	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001900	adrp	x3, 2 ; 0x3000
+0000000000001904	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001908	add	x4, sp, #0x10
+000000000000190c	mov	w2, #0x1
+0000000000001910	mov	w5, #0x20
+0000000000001914	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001918	str	x20, [sp, #0x8]
+000000000000191c	ldr	w0, [x21, #0x18]
+0000000000001920	add	x5, sp, #0x8
+0000000000001924	mov	w1, #0x8
+0000000000001928	mov	x2, #0x0
+000000000000192c	mov	x3, #0x0
+0000000000001930	mov	x4, x19
+0000000000001934	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001938	mov	x19, x0
+000000000000193c	adrp	x0, 3 ; 0x4000
+0000000000001940	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001944	mov	w1, #0x1
+0000000000001948	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000194c	cbz	w0, 0x19a0
+0000000000001950	mov	x0, x19
+0000000000001954	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001958	mov	w8, #0x820
+000000000000195c	ldr	d0, [x23, #0x408]
+0000000000001960	str	s0, [sp, #0x10]
+0000000000001964	stur	x22, [sp, #0x14]
+0000000000001968	strh	w8, [sp, #0x1c]
+000000000000196c	stur	x22, [sp, #0x1e]
+0000000000001970	strh	w8, [sp, #0x26]
+0000000000001974	str	x0, [sp, #0x28]
+0000000000001978	adrp	x0, -1 ; 0x0
+000000000000197c	add	x0, x0, #0x0
+0000000000001980	adrp	x1, 3 ; 0x4000
+0000000000001984	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001988	adrp	x3, 2 ; 0x3000
+000000000000198c	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001990	add	x4, sp, #0x10
+0000000000001994	mov	w2, #0x1
+0000000000001998	mov	w5, #0x20
+000000000000199c	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000019a0	mov	x0, x19
+00000000000019a4	ldp	x29, x30, [sp, #0x60]
+00000000000019a8	ldp	x20, x19, [sp, #0x50]
+00000000000019ac	ldp	x22, x21, [sp, #0x40]
+00000000000019b0	ldp	x24, x23, [sp, #0x30]
+00000000000019b4	add	sp, sp, #0x70
+00000000000019b8	retab
+__ZN10MesaPlugIn9GetStatusEPhm:
+00000000000019bc	pacibsp
+00000000000019c0	sub	sp, sp, #0x70
+00000000000019c4	stp	x24, x23, [sp, #0x30]
+00000000000019c8	stp	x22, x21, [sp, #0x40]
+00000000000019cc	stp	x20, x19, [sp, #0x50]
+00000000000019d0	stp	x29, x30, [sp, #0x60]
+00000000000019d4	add	x29, sp, #0x60
+00000000000019d8	mov	x20, x2
+00000000000019dc	mov	x19, x1
+00000000000019e0	mov	x21, x0
+00000000000019e4	adrp	x0, 3 ; 0x4000
+00000000000019e8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000019ec	mov	w1, #0x1
+00000000000019f0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000019f4	adrp	x23, 2 ; 0x3000
+00000000000019f8	adrp	x22, 2 ; 0x3000
+00000000000019fc	add	x22, x22, #0x53c ; literal pool for: "GetStatus"
+0000000000001a00	cbz	w0, 0x1a50
+0000000000001a04	ldr	d0, [x23, #0x408]
+0000000000001a08	str	s0, [sp, #0x10]
+0000000000001a0c	stur	x22, [sp, #0x14]
+0000000000001a10	mov	w8, #0x820
+0000000000001a14	strh	w8, [sp, #0x1c]
+0000000000001a18	stur	x22, [sp, #0x1e]
+0000000000001a1c	mov	w8, #0x800
+0000000000001a20	strh	w8, [sp, #0x26]
+0000000000001a24	str	x21, [sp, #0x28]
+0000000000001a28	adrp	x0, -1 ; 0x0
+0000000000001a2c	add	x0, x0, #0x0
+0000000000001a30	adrp	x1, 3 ; 0x4000
+0000000000001a34	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001a38	adrp	x3, 2 ; 0x3000
+0000000000001a3c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001a40	add	x4, sp, #0x10
+0000000000001a44	mov	w2, #0x1
+0000000000001a48	mov	w5, #0x20
+0000000000001a4c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001a50	str	x20, [sp, #0x8]
+0000000000001a54	ldr	w0, [x21, #0x18]
+0000000000001a58	add	x5, sp, #0x8
+0000000000001a5c	mov	w1, #0x9
+0000000000001a60	mov	x2, #0x0
+0000000000001a64	mov	x3, #0x0
+0000000000001a68	mov	x4, x19
+0000000000001a6c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001a70	mov	x19, x0
+0000000000001a74	adrp	x0, 3 ; 0x4000
+0000000000001a78	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001a7c	mov	w1, #0x1
+0000000000001a80	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001a84	cbz	w0, 0x1ad8
+0000000000001a88	mov	x0, x19
+0000000000001a8c	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001a90	mov	w8, #0x820
+0000000000001a94	ldr	d0, [x23, #0x408]
+0000000000001a98	str	s0, [sp, #0x10]
+0000000000001a9c	stur	x22, [sp, #0x14]
+0000000000001aa0	strh	w8, [sp, #0x1c]
+0000000000001aa4	stur	x22, [sp, #0x1e]
+0000000000001aa8	strh	w8, [sp, #0x26]
+0000000000001aac	str	x0, [sp, #0x28]
+0000000000001ab0	adrp	x0, -1 ; 0x0
+0000000000001ab4	add	x0, x0, #0x0
+0000000000001ab8	adrp	x1, 3 ; 0x4000
+0000000000001abc	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001ac0	adrp	x3, 2 ; 0x3000
+0000000000001ac4	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001ac8	add	x4, sp, #0x10
+0000000000001acc	mov	w2, #0x1
+0000000000001ad0	mov	w5, #0x20
+0000000000001ad4	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001ad8	mov	x0, x19
+0000000000001adc	ldp	x29, x30, [sp, #0x60]
+0000000000001ae0	ldp	x20, x19, [sp, #0x50]
+0000000000001ae4	ldp	x22, x21, [sp, #0x40]
+0000000000001ae8	ldp	x24, x23, [sp, #0x30]
+0000000000001aec	add	sp, sp, #0x70
+0000000000001af0	retab
+__ZN10MesaPlugIn15GetSerialNumberEPhm:
+0000000000001af4	pacibsp
+0000000000001af8	sub	sp, sp, #0x70
+0000000000001afc	stp	x22, x21, [sp, #0x40]
+0000000000001b00	stp	x20, x19, [sp, #0x50]
+0000000000001b04	stp	x29, x30, [sp, #0x60]
+0000000000001b08	add	x29, sp, #0x60
+0000000000001b0c	mov	x20, x2
+0000000000001b10	mov	x19, x1
+0000000000001b14	mov	x21, x0
+0000000000001b18	adrp	x0, 3 ; 0x4000
+0000000000001b1c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001b20	mov	w1, #0x1
+0000000000001b24	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001b28	adrp	x22, 2 ; 0x3000
+0000000000001b2c	add	x22, x22, #0x546 ; literal pool for: "GetSerialNumber"
+0000000000001b30	cbz	w0, 0x1b84
+0000000000001b34	adrp	x8, 2 ; 0x3000
+0000000000001b38	ldr	d0, [x8, #0x408]
+0000000000001b3c	str	s0, [sp]
+0000000000001b40	stur	x22, [sp, #0x4]
+0000000000001b44	mov	w8, #0x820
+0000000000001b48	strh	w8, [sp, #0xc]
+0000000000001b4c	stur	x22, [sp, #0xe]
+0000000000001b50	mov	w8, #0x800
+0000000000001b54	strh	w8, [sp, #0x16]
+0000000000001b58	str	x21, [sp, #0x18]
+0000000000001b5c	adrp	x0, -1 ; 0x0
+0000000000001b60	add	x0, x0, #0x0
+0000000000001b64	adrp	x1, 3 ; 0x4000
+0000000000001b68	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001b6c	adrp	x3, 2 ; 0x3000
+0000000000001b70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001b74	mov	x4, sp
+0000000000001b78	mov	w2, #0x1
+0000000000001b7c	mov	w5, #0x20
+0000000000001b80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001b84	stur	x20, [x29, #-0x28]
+0000000000001b88	ldr	w0, [x21, #0x18]
+0000000000001b8c	sub	x5, x29, #0x28
+0000000000001b90	mov	w1, #0xa
+0000000000001b94	mov	x2, #0x0
+0000000000001b98	mov	x3, #0x0
+0000000000001b9c	mov	x4, x19
+0000000000001ba0	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001ba4	mov	x19, x0
+0000000000001ba8	adrp	x0, 3 ; 0x4000
+0000000000001bac	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001bb0	mov	w1, #0x1
+0000000000001bb4	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001bb8	cbz	w0, 0x1c20
+0000000000001bbc	mov	x0, x19
+0000000000001bc0	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001bc4	adrp	x8, 2 ; 0x3000
+0000000000001bc8	ldr	d0, [x8, #0x410]
+0000000000001bcc	ldur	x8, [x29, #-0x28]
+0000000000001bd0	str	s0, [sp]
+0000000000001bd4	stur	x22, [sp, #0x4]
+0000000000001bd8	mov	w9, #0x820
+0000000000001bdc	strh	w9, [sp, #0xc]
+0000000000001be0	stur	x22, [sp, #0xe]
+0000000000001be4	strh	w9, [sp, #0x16]
+0000000000001be8	str	x0, [sp, #0x18]
+0000000000001bec	mov	w9, #0x800
+0000000000001bf0	strh	w9, [sp, #0x20]
+0000000000001bf4	stur	x8, [sp, #0x22]
+0000000000001bf8	adrp	x0, -1 ; 0x0
+0000000000001bfc	add	x0, x0, #0x0
+0000000000001c00	adrp	x1, 3 ; 0x4000
+0000000000001c04	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001c08	adrp	x3, 2 ; 0x3000
+0000000000001c0c	add	x3, x3, #0x462 ; literal pool for: "%s: %s: %s size=%zu\n"
+0000000000001c10	mov	x4, sp
+0000000000001c14	mov	w2, #0x1
+0000000000001c18	mov	w5, #0x2a
+0000000000001c1c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001c20	mov	x0, x19
+0000000000001c24	ldp	x29, x30, [sp, #0x60]
+0000000000001c28	ldp	x20, x19, [sp, #0x50]
+0000000000001c2c	ldp	x22, x21, [sp, #0x40]
+0000000000001c30	add	sp, sp, #0x70
+0000000000001c34	retab
+__ZN10MesaPlugIn21GetModuleSerialNumberEPhm:
+0000000000001c38	pacibsp
+0000000000001c3c	sub	sp, sp, #0x70
+0000000000001c40	stp	x22, x21, [sp, #0x40]
+0000000000001c44	stp	x20, x19, [sp, #0x50]
+0000000000001c48	stp	x29, x30, [sp, #0x60]
+0000000000001c4c	add	x29, sp, #0x60
+0000000000001c50	mov	x20, x2
+0000000000001c54	mov	x19, x1
+0000000000001c58	mov	x21, x0
+0000000000001c5c	adrp	x0, 3 ; 0x4000
+0000000000001c60	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001c64	mov	w1, #0x1
+0000000000001c68	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001c6c	adrp	x22, 2 ; 0x3000
+0000000000001c70	add	x22, x22, #0x556 ; literal pool for: "GetModuleSerialNumber"
+0000000000001c74	cbz	w0, 0x1cc8
+0000000000001c78	adrp	x8, 2 ; 0x3000
+0000000000001c7c	ldr	d0, [x8, #0x408]
+0000000000001c80	str	s0, [sp]
+0000000000001c84	stur	x22, [sp, #0x4]
+0000000000001c88	mov	w8, #0x820
+0000000000001c8c	strh	w8, [sp, #0xc]
+0000000000001c90	stur	x22, [sp, #0xe]
+0000000000001c94	mov	w8, #0x800
+0000000000001c98	strh	w8, [sp, #0x16]
+0000000000001c9c	str	x21, [sp, #0x18]
+0000000000001ca0	adrp	x0, -1 ; 0x0
+0000000000001ca4	add	x0, x0, #0x0
+0000000000001ca8	adrp	x1, 3 ; 0x4000
+0000000000001cac	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001cb0	adrp	x3, 2 ; 0x3000
+0000000000001cb4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001cb8	mov	x4, sp
+0000000000001cbc	mov	w2, #0x1
+0000000000001cc0	mov	w5, #0x20
+0000000000001cc4	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001cc8	stur	x20, [x29, #-0x28]
+0000000000001ccc	ldr	w0, [x21, #0x18]
+0000000000001cd0	sub	x5, x29, #0x28
+0000000000001cd4	mov	w1, #0xb
+0000000000001cd8	mov	x2, #0x0
+0000000000001cdc	mov	x3, #0x0
+0000000000001ce0	mov	x4, x19
+0000000000001ce4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001ce8	mov	x19, x0
+0000000000001cec	adrp	x0, 3 ; 0x4000
+0000000000001cf0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001cf4	mov	w1, #0x1
+0000000000001cf8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001cfc	cbz	w0, 0x1d64
+0000000000001d00	mov	x0, x19
+0000000000001d04	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001d08	adrp	x8, 2 ; 0x3000
+0000000000001d0c	ldr	d0, [x8, #0x410]
+0000000000001d10	ldur	x8, [x29, #-0x28]
+0000000000001d14	str	s0, [sp]
+0000000000001d18	stur	x22, [sp, #0x4]
+0000000000001d1c	mov	w9, #0x820
+0000000000001d20	strh	w9, [sp, #0xc]
+0000000000001d24	stur	x22, [sp, #0xe]
+0000000000001d28	strh	w9, [sp, #0x16]
+0000000000001d2c	str	x0, [sp, #0x18]
+0000000000001d30	mov	w9, #0x800
+0000000000001d34	strh	w9, [sp, #0x20]
+0000000000001d38	stur	x8, [sp, #0x22]
+0000000000001d3c	adrp	x0, -1 ; 0x0
+0000000000001d40	add	x0, x0, #0x0
+0000000000001d44	adrp	x1, 3 ; 0x4000
+0000000000001d48	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001d4c	adrp	x3, 2 ; 0x3000
+0000000000001d50	add	x3, x3, #0x462 ; literal pool for: "%s: %s: %s size=%zu\n"
+0000000000001d54	mov	x4, sp
+0000000000001d58	mov	w2, #0x1
+0000000000001d5c	mov	w5, #0x2a
+0000000000001d60	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001d64	mov	x0, x19
+0000000000001d68	ldp	x29, x30, [sp, #0x60]
+0000000000001d6c	ldp	x20, x19, [sp, #0x50]
+0000000000001d70	ldp	x22, x21, [sp, #0x40]
+0000000000001d74	add	sp, sp, #0x70
+0000000000001d78	retab
+__ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPhPm:
+0000000000001d7c	pacibsp
+0000000000001d80	sub	sp, sp, #0x90
+0000000000001d84	stp	x24, x23, [sp, #0x50]
+0000000000001d88	stp	x22, x21, [sp, #0x60]
+0000000000001d8c	stp	x20, x19, [sp, #0x70]
+0000000000001d90	stp	x29, x30, [sp, #0x80]
+0000000000001d94	add	x29, sp, #0x80
+0000000000001d98	mov	x19, x2
+0000000000001d9c	mov	x20, x1
+0000000000001da0	mov	x21, x0
+0000000000001da4	adrp	x0, 3 ; 0x4000
+0000000000001da8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001dac	mov	w23, #0x1
+0000000000001db0	mov	w1, #0x1
+0000000000001db4	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001db8	adrp	x22, 2 ; 0x3000
+0000000000001dbc	add	x22, x22, #0x56c ; literal pool for: "GetModuleSerialNumberDynamic"
+0000000000001dc0	cbz	w0, 0x1e14
+0000000000001dc4	adrp	x8, 2 ; 0x3000
+0000000000001dc8	ldr	d0, [x8, #0x408]
+0000000000001dcc	str	s0, [sp, #0x10]
+0000000000001dd0	stur	x22, [sp, #0x14]
+0000000000001dd4	mov	w8, #0x820
+0000000000001dd8	strh	w8, [sp, #0x1c]
+0000000000001ddc	stur	x22, [sp, #0x1e]
+0000000000001de0	mov	w8, #0x800
+0000000000001de4	strh	w8, [sp, #0x26]
+0000000000001de8	str	x21, [sp, #0x28]
+0000000000001dec	adrp	x0, -1 ; 0x0
+0000000000001df0	add	x0, x0, #0x0
+0000000000001df4	adrp	x1, 3 ; 0x4000
+0000000000001df8	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001dfc	adrp	x3, 2 ; 0x3000
+0000000000001e00	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001e04	add	x4, sp, #0x10
+0000000000001e08	mov	w2, #0x1
+0000000000001e0c	mov	w5, #0x20
+0000000000001e10	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001e14	ldr	x8, [x19]
+0000000000001e18	stur	x8, [x29, #-0x38]
+0000000000001e1c	stur	w23, [x29, #-0x3c]
+0000000000001e20	ldr	w0, [x21, #0x18]
+0000000000001e24	sub	x8, x29, #0x38
+0000000000001e28	stp	x20, x8, [sp]
+0000000000001e2c	sub	x7, x29, #0x3c
+0000000000001e30	mov	w1, #0xc
+0000000000001e34	mov	x2, #0x0
+0000000000001e38	mov	w3, #0x0
+0000000000001e3c	mov	x4, #0x0
+0000000000001e40	mov	x5, #0x0
+0000000000001e44	mov	x6, x19
+0000000000001e48	bl	0x32fc ; symbol stub for: _IOConnectCallMethod
+0000000000001e4c	mov	x20, x0
+0000000000001e50	adrp	x0, 3 ; 0x4000
+0000000000001e54	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001e58	mov	w1, #0x1
+0000000000001e5c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001e60	cbz	w0, 0x1ed4
+0000000000001e64	mov	x0, x20
+0000000000001e68	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001e6c	adrp	x8, 2 ; 0x3000
+0000000000001e70	ldr	d0, [x8, #0x418]
+0000000000001e74	ldur	x8, [x29, #-0x38]
+0000000000001e78	ldr	x9, [x19]
+0000000000001e7c	str	s0, [sp, #0x10]
+0000000000001e80	stur	x22, [sp, #0x14]
+0000000000001e84	mov	w10, #0x820
+0000000000001e88	strh	w10, [sp, #0x1c]
+0000000000001e8c	stur	x22, [sp, #0x1e]
+0000000000001e90	strh	w10, [sp, #0x26]
+0000000000001e94	str	x0, [sp, #0x28]
+0000000000001e98	mov	w10, #0x800
+0000000000001e9c	strh	w10, [sp, #0x30]
+0000000000001ea0	stur	x8, [sp, #0x32]
+0000000000001ea4	strh	w10, [sp, #0x3a]
+0000000000001ea8	stur	x9, [sp, #0x3c]
+0000000000001eac	adrp	x0, -1 ; 0x0
+0000000000001eb0	add	x0, x0, #0x0
+0000000000001eb4	adrp	x1, 3 ; 0x4000
+0000000000001eb8	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001ebc	adrp	x3, 2 ; 0x3000
+0000000000001ec0	add	x3, x3, #0x477 ; literal pool for: "%s: %s: %s size=%zu serialLen:%zu\n"
+0000000000001ec4	add	x4, sp, #0x10
+0000000000001ec8	mov	w2, #0x1
+0000000000001ecc	mov	w5, #0x34
+0000000000001ed0	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001ed4	mov	x0, x20
+0000000000001ed8	ldp	x29, x30, [sp, #0x80]
+0000000000001edc	ldp	x20, x19, [sp, #0x70]
+0000000000001ee0	ldp	x22, x21, [sp, #0x60]
+0000000000001ee4	ldp	x24, x23, [sp, #0x50]
+0000000000001ee8	add	sp, sp, #0x90
+0000000000001eec	retab
+__ZN10MesaPlugIn18GoToProductionModeEPhm:
+0000000000001ef0	pacibsp
+0000000000001ef4	sub	sp, sp, #0x70
+0000000000001ef8	stp	x24, x23, [sp, #0x30]
+0000000000001efc	stp	x22, x21, [sp, #0x40]
+0000000000001f00	stp	x20, x19, [sp, #0x50]
+0000000000001f04	stp	x29, x30, [sp, #0x60]
+0000000000001f08	add	x29, sp, #0x60
+0000000000001f0c	mov	x20, x2
+0000000000001f10	mov	x19, x1
+0000000000001f14	mov	x21, x0
+0000000000001f18	adrp	x0, 3 ; 0x4000
+0000000000001f1c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001f20	mov	w1, #0x1
+0000000000001f24	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001f28	adrp	x23, 2 ; 0x3000
+0000000000001f2c	adrp	x22, 2 ; 0x3000
+0000000000001f30	add	x22, x22, #0x589 ; literal pool for: "GoToProductionMode"
+0000000000001f34	cbz	w0, 0x1f84
+0000000000001f38	ldr	d0, [x23, #0x408]
+0000000000001f3c	str	s0, [sp, #0x10]
+0000000000001f40	stur	x22, [sp, #0x14]
+0000000000001f44	mov	w8, #0x820
+0000000000001f48	strh	w8, [sp, #0x1c]
+0000000000001f4c	stur	x22, [sp, #0x1e]
+0000000000001f50	mov	w8, #0x800
+0000000000001f54	strh	w8, [sp, #0x26]
+0000000000001f58	str	x21, [sp, #0x28]
+0000000000001f5c	adrp	x0, -1 ; 0x0
+0000000000001f60	add	x0, x0, #0x0
+0000000000001f64	adrp	x1, 3 ; 0x4000
+0000000000001f68	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001f6c	adrp	x3, 2 ; 0x3000
+0000000000001f70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001f74	add	x4, sp, #0x10
+0000000000001f78	mov	w2, #0x1
+0000000000001f7c	mov	w5, #0x20
+0000000000001f80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001f84	str	x20, [sp, #0x8]
+0000000000001f88	ldr	w0, [x21, #0x18]
+0000000000001f8c	add	x5, sp, #0x8
+0000000000001f90	mov	w1, #0xd
+0000000000001f94	mov	x2, #0x0
+0000000000001f98	mov	x3, #0x0
+0000000000001f9c	mov	x4, x19
+0000000000001fa0	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000001fa4	mov	x19, x0
+0000000000001fa8	adrp	x0, 3 ; 0x4000
+0000000000001fac	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001fb0	mov	w1, #0x1
+0000000000001fb4	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000001fb8	cbz	w0, 0x200c
+0000000000001fbc	mov	x0, x19
+0000000000001fc0	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000001fc4	mov	w8, #0x820
+0000000000001fc8	ldr	d0, [x23, #0x408]
+0000000000001fcc	str	s0, [sp, #0x10]
+0000000000001fd0	stur	x22, [sp, #0x14]
+0000000000001fd4	strh	w8, [sp, #0x1c]
+0000000000001fd8	stur	x22, [sp, #0x1e]
+0000000000001fdc	strh	w8, [sp, #0x26]
+0000000000001fe0	str	x0, [sp, #0x28]
+0000000000001fe4	adrp	x0, -1 ; 0x0
+0000000000001fe8	add	x0, x0, #0x0
+0000000000001fec	adrp	x1, 3 ; 0x4000
+0000000000001ff0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000001ff4	adrp	x3, 2 ; 0x3000
+0000000000001ff8	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000001ffc	add	x4, sp, #0x10
+0000000000002000	mov	w2, #0x1
+0000000000002004	mov	w5, #0x20
+0000000000002008	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000200c	mov	x0, x19
+0000000000002010	ldp	x29, x30, [sp, #0x60]
+0000000000002014	ldp	x20, x19, [sp, #0x50]
+0000000000002018	ldp	x22, x21, [sp, #0x40]
+000000000000201c	ldp	x24, x23, [sp, #0x30]
+0000000000002020	add	sp, sp, #0x70
+0000000000002024	retab
+__ZN10MesaPlugIn9LoadPatchEPvm:
+0000000000002028	pacibsp
+000000000000202c	sub	sp, sp, #0x60
+0000000000002030	stp	x22, x21, [sp, #0x30]
+0000000000002034	stp	x20, x19, [sp, #0x40]
+0000000000002038	stp	x29, x30, [sp, #0x50]
+000000000000203c	add	x29, sp, #0x50
+0000000000002040	mov	x19, x2
+0000000000002044	mov	x20, x1
+0000000000002048	mov	x21, x0
+000000000000204c	adrp	x0, 2 ; 0x4000
+0000000000002050	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002054	mov	w1, #0x1
+0000000000002058	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000205c	adrp	x22, 1 ; 0x3000
+0000000000002060	add	x22, x22, #0x59c ; literal pool for: "LoadPatch"
+0000000000002064	cbz	w0, 0x20c0
+0000000000002068	adrp	x8, 1 ; 0x3000
+000000000000206c	ldr	d0, [x8, #0x410]
+0000000000002070	str	s0, [sp]
+0000000000002074	stur	x22, [sp, #0x4]
+0000000000002078	mov	w8, #0x820
+000000000000207c	strh	w8, [sp, #0xc]
+0000000000002080	stur	x22, [sp, #0xe]
+0000000000002084	mov	w8, #0x800
+0000000000002088	strh	w8, [sp, #0x16]
+000000000000208c	str	x20, [sp, #0x18]
+0000000000002090	strh	w8, [sp, #0x20]
+0000000000002094	stur	x19, [sp, #0x22]
+0000000000002098	adrp	x0, -2 ; 0x0
+000000000000209c	add	x0, x0, #0x0
+00000000000020a0	adrp	x1, 2 ; 0x4000
+00000000000020a4	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000020a8	adrp	x3, 1 ; 0x3000
+00000000000020ac	add	x3, x3, #0x49a ; literal pool for: "%s: %s: %p %zx"
+00000000000020b0	mov	x4, sp
+00000000000020b4	mov	w2, #0x1
+00000000000020b8	mov	w5, #0x2a
+00000000000020bc	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000020c0	ldr	w0, [x21, #0x18]
+00000000000020c4	mov	w1, #0xe
+00000000000020c8	mov	x2, x20
+00000000000020cc	mov	x3, x19
+00000000000020d0	mov	x4, #0x0
+00000000000020d4	mov	x5, #0x0
+00000000000020d8	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+00000000000020dc	mov	x19, x0
+00000000000020e0	adrp	x0, 2 ; 0x4000
+00000000000020e4	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000020e8	mov	w1, #0x1
+00000000000020ec	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000020f0	cbz	w0, 0x2148
+00000000000020f4	mov	x0, x19
+00000000000020f8	bl	0x33dc ; symbol stub for: _mach_error_string
+00000000000020fc	adrp	x8, 1 ; 0x3000
+0000000000002100	ldr	d0, [x8, #0x408]
+0000000000002104	str	s0, [sp]
+0000000000002108	stur	x22, [sp, #0x4]
+000000000000210c	mov	w8, #0x820
+0000000000002110	strh	w8, [sp, #0xc]
+0000000000002114	stur	x22, [sp, #0xe]
+0000000000002118	strh	w8, [sp, #0x16]
+000000000000211c	str	x0, [sp, #0x18]
+0000000000002120	adrp	x0, -2 ; 0x0
+0000000000002124	add	x0, x0, #0x0
+0000000000002128	adrp	x1, 2 ; 0x4000
+000000000000212c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002130	adrp	x3, 1 ; 0x3000
+0000000000002134	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002138	mov	x4, sp
+000000000000213c	mov	w2, #0x1
+0000000000002140	mov	w5, #0x20
+0000000000002144	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002148	mov	x0, x19
+000000000000214c	ldp	x29, x30, [sp, #0x50]
+0000000000002150	ldp	x20, x19, [sp, #0x40]
+0000000000002154	ldp	x22, x21, [sp, #0x30]
+0000000000002158	add	sp, sp, #0x60
+000000000000215c	retab
+__ZN10MesaPlugIn9ProvisionEPhS0_m:
+0000000000002160	pacibsp
+0000000000002164	sub	sp, sp, #0x70
+0000000000002168	stp	x24, x23, [sp, #0x30]
+000000000000216c	stp	x22, x21, [sp, #0x40]
+0000000000002170	stp	x20, x19, [sp, #0x50]
+0000000000002174	stp	x29, x30, [sp, #0x60]
+0000000000002178	add	x29, sp, #0x60
+000000000000217c	mov	x21, x3
+0000000000002180	mov	x19, x2
+0000000000002184	mov	x20, x1
+0000000000002188	mov	x22, x0
+000000000000218c	adrp	x0, 2 ; 0x4000
+0000000000002190	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002194	mov	w1, #0x1
+0000000000002198	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000219c	adrp	x24, 1 ; 0x3000
+00000000000021a0	adrp	x23, 1 ; 0x3000
+00000000000021a4	add	x23, x23, #0x5a6 ; literal pool for: "Provision"
+00000000000021a8	cbz	w0, 0x21f8
+00000000000021ac	ldr	d0, [x24, #0x408]
+00000000000021b0	str	s0, [sp, #0x10]
+00000000000021b4	stur	x23, [sp, #0x14]
+00000000000021b8	mov	w8, #0x820
+00000000000021bc	strh	w8, [sp, #0x1c]
+00000000000021c0	stur	x23, [sp, #0x1e]
+00000000000021c4	mov	w8, #0x800
+00000000000021c8	strh	w8, [sp, #0x26]
+00000000000021cc	str	x22, [sp, #0x28]
+00000000000021d0	adrp	x0, -2 ; 0x0
+00000000000021d4	add	x0, x0, #0x0
+00000000000021d8	adrp	x1, 2 ; 0x4000
+00000000000021dc	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000021e0	adrp	x3, 1 ; 0x3000
+00000000000021e4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000021e8	add	x4, sp, #0x10
+00000000000021ec	mov	w2, #0x1
+00000000000021f0	mov	w5, #0x20
+00000000000021f4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000021f8	str	x21, [sp, #0x8]
+00000000000021fc	ldr	w0, [x22, #0x18]
+0000000000002200	add	x5, sp, #0x8
+0000000000002204	mov	w1, #0xf
+0000000000002208	mov	x2, x20
+000000000000220c	mov	w3, #0x20
+0000000000002210	mov	x4, x19
+0000000000002214	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000002218	mov	x19, x0
+000000000000221c	adrp	x0, 2 ; 0x4000
+0000000000002220	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002224	mov	w1, #0x1
+0000000000002228	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000222c	cbz	w0, 0x2280
+0000000000002230	mov	x0, x19
+0000000000002234	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002238	mov	w8, #0x820
+000000000000223c	ldr	d0, [x24, #0x408]
+0000000000002240	str	s0, [sp, #0x10]
+0000000000002244	stur	x23, [sp, #0x14]
+0000000000002248	strh	w8, [sp, #0x1c]
+000000000000224c	stur	x23, [sp, #0x1e]
+0000000000002250	strh	w8, [sp, #0x26]
+0000000000002254	str	x0, [sp, #0x28]
+0000000000002258	adrp	x0, -2 ; 0x0
+000000000000225c	add	x0, x0, #0x0
+0000000000002260	adrp	x1, 2 ; 0x4000
+0000000000002264	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002268	adrp	x3, 1 ; 0x3000
+000000000000226c	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002270	add	x4, sp, #0x10
+0000000000002274	mov	w2, #0x1
+0000000000002278	mov	w5, #0x20
+000000000000227c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002280	mov	x0, x19
+0000000000002284	ldp	x29, x30, [sp, #0x60]
+0000000000002288	ldp	x20, x19, [sp, #0x50]
+000000000000228c	ldp	x22, x21, [sp, #0x40]
+0000000000002290	ldp	x24, x23, [sp, #0x30]
+0000000000002294	add	sp, sp, #0x70
+0000000000002298	retab
+__ZN10MesaPlugIn19ScheduleWithRunLoopEP11__CFRunLoopPK10__CFString:
+000000000000229c	pacibsp
+00000000000022a0	sub	sp, sp, #0x40
+00000000000022a4	stp	x20, x19, [sp, #0x20]
+00000000000022a8	stp	x29, x30, [sp, #0x30]
+00000000000022ac	add	x29, sp, #0x30
+00000000000022b0	mov	x19, x0
+00000000000022b4	adrp	x0, 2 ; 0x4000
+00000000000022b8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000022bc	mov	w1, #0x1
+00000000000022c0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000022c4	cbz	w0, 0x2320
+00000000000022c8	adrp	x8, 1 ; 0x3000
+00000000000022cc	ldr	d0, [x8, #0x408]
+00000000000022d0	str	s0, [sp]
+00000000000022d4	adrp	x8, 1 ; 0x3000
+00000000000022d8	add	x8, x8, #0x5b0 ; literal pool for: "ScheduleWithRunLoop"
+00000000000022dc	stur	x8, [sp, #0x4]
+00000000000022e0	mov	w9, #0x820
+00000000000022e4	strh	w9, [sp, #0xc]
+00000000000022e8	stur	x8, [sp, #0xe]
+00000000000022ec	mov	w8, #0x800
+00000000000022f0	strh	w8, [sp, #0x16]
+00000000000022f4	str	x19, [sp, #0x18]
+00000000000022f8	adrp	x0, -2 ; 0x0
+00000000000022fc	add	x0, x0, #0x0
+0000000000002300	adrp	x1, 2 ; 0x4000
+0000000000002304	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002308	adrp	x3, 1 ; 0x3000
+000000000000230c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002310	mov	x4, sp
+0000000000002314	mov	w2, #0x1
+0000000000002318	mov	w5, #0x20
+000000000000231c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002320	mov	w20, #0x2bc
+0000000000002324	movk	w20, #0xe000, lsl #16
+0000000000002328	ldr	x8, [x19, #0x20]
+000000000000232c	cbnz	x8, 0x2374
+0000000000002330	adrp	x8, 2 ; 0x4000
+0000000000002334	ldr	x8, [x8, #0xe8] ; literal pool symbol address: _kIOMainPortDefault
+0000000000002338	ldr	w0, [x8]
+000000000000233c	bl	0x332c ; symbol stub for: _IONotificationPortCreate
+0000000000002340	str	x0, [x19, #0x20]
+0000000000002344	cbz	x0, 0x2374
+0000000000002348	bl	0x32ac ; symbol stub for: _CFRunLoopGetCurrent
+000000000000234c	mov	x20, x0
+0000000000002350	ldr	x0, [x19, #0x20]
+0000000000002354	bl	0x335c ; symbol stub for: _IONotificationPortGetRunLoopSource
+0000000000002358	mov	x1, x0
+000000000000235c	adrp	x8, 2 ; 0x4000
+0000000000002360	ldr	x8, [x8, #0x100] ; literal pool symbol address: _kCFRunLoopDefaultMode
+0000000000002364	ldr	x2, [x8]
+0000000000002368	mov	x0, x20
+000000000000236c	bl	0x329c ; symbol stub for: _CFRunLoopAddSource
+0000000000002370	mov	w20, #0x0
+0000000000002374	mov	x0, x20
+0000000000002378	ldp	x29, x30, [sp, #0x30]
+000000000000237c	ldp	x20, x19, [sp, #0x20]
+0000000000002380	add	sp, sp, #0x40
+0000000000002384	retab
+__ZN10MesaPlugIn21UnscheduleWithRunLoopEP11__CFRunLoopPK10__CFString:
+0000000000002388	pacibsp
+000000000000238c	sub	sp, sp, #0x40
+0000000000002390	stp	x20, x19, [sp, #0x20]
+0000000000002394	stp	x29, x30, [sp, #0x30]
+0000000000002398	add	x29, sp, #0x30
+000000000000239c	mov	x19, x0
+00000000000023a0	adrp	x0, 2 ; 0x4000
+00000000000023a4	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000023a8	mov	w1, #0x1
+00000000000023ac	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000023b0	cbz	w0, 0x240c
+00000000000023b4	adrp	x8, 1 ; 0x3000
+00000000000023b8	ldr	d0, [x8, #0x408]
+00000000000023bc	str	s0, [sp]
+00000000000023c0	adrp	x8, 1 ; 0x3000
+00000000000023c4	add	x8, x8, #0x5c4 ; literal pool for: "UnscheduleWithRunLoop"
+00000000000023c8	stur	x8, [sp, #0x4]
+00000000000023cc	mov	w9, #0x820
+00000000000023d0	strh	w9, [sp, #0xc]
+00000000000023d4	stur	x8, [sp, #0xe]
+00000000000023d8	mov	w8, #0x800
+00000000000023dc	strh	w8, [sp, #0x16]
+00000000000023e0	str	x19, [sp, #0x18]
+00000000000023e4	adrp	x0, -2 ; 0x0
+00000000000023e8	add	x0, x0, #0x0
+00000000000023ec	adrp	x1, 2 ; 0x4000
+00000000000023f0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000023f4	adrp	x3, 1 ; 0x3000
+00000000000023f8	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000023fc	mov	x4, sp
+0000000000002400	mov	w2, #0x1
+0000000000002404	mov	w5, #0x20
+0000000000002408	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000240c	ldr	x8, [x19, #0x20]
+0000000000002410	cbz	x8, 0x2450
+0000000000002414	bl	0x32ac ; symbol stub for: _CFRunLoopGetCurrent
+0000000000002418	mov	x20, x0
+000000000000241c	ldr	x0, [x19, #0x20]
+0000000000002420	bl	0x335c ; symbol stub for: _IONotificationPortGetRunLoopSource
+0000000000002424	mov	x1, x0
+0000000000002428	adrp	x8, 2 ; 0x4000
+000000000000242c	ldr	x8, [x8, #0x100] ; literal pool symbol address: _kCFRunLoopDefaultMode
+0000000000002430	ldr	x2, [x8]
+0000000000002434	mov	x0, x20
+0000000000002438	bl	0x32bc ; symbol stub for: _CFRunLoopRemoveSource
+000000000000243c	ldr	x0, [x19, #0x20]
+0000000000002440	bl	0x333c ; symbol stub for: _IONotificationPortDestroy
+0000000000002444	mov	w0, #0x0
+0000000000002448	str	xzr, [x19, #0x20]
+000000000000244c	b	0x2458
+0000000000002450	mov	w0, #0x2bc
+0000000000002454	movk	w0, #0xe000, lsl #16
+0000000000002458	ldp	x29, x30, [sp, #0x30]
+000000000000245c	ldp	x20, x19, [sp, #0x20]
+0000000000002460	add	sp, sp, #0x40
+0000000000002464	retab
+__ZN10MesaPlugIn22_interruptAsyncCalloutEPviS0_:
+0000000000002468	b	__ZN10MesaPlugIn21interruptAsyncCalloutEiPv
+__ZN10MesaPlugIn21interruptAsyncCalloutEiPv:
+000000000000246c	pacibsp
+0000000000002470	sub	sp, sp, #0x90
+0000000000002474	stp	x20, x19, [sp, #0x70]
+0000000000002478	stp	x29, x30, [sp, #0x80]
+000000000000247c	add	x29, sp, #0x80
+0000000000002480	mov	x19, x0
+0000000000002484	adrp	x8, 2 ; 0x4000
+0000000000002488	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+000000000000248c	ldr	x8, [x8]
+0000000000002490	stur	x8, [x29, #-0x18]
+0000000000002494	ldr	x8, [x0, #0x38]
+0000000000002498	cbz	x8, 0x24ac
+000000000000249c	ldr	x0, [x19, #0x40]
+00000000000024a0	add	x1, x19, #0x28
+00000000000024a4	mov	w2, #0x10
+00000000000024a8	blraaz	x8
+00000000000024ac	movi.2d	v0, #0000000000000000
+00000000000024b0	stp	q0, q0, [sp, #0x20]
+00000000000024b4	stp	q0, q0, [sp, #0x40]
+00000000000024b8	adrp	x16, 0 ; 0x2000
+00000000000024bc	add	x16, x16, #0x468
+00000000000024c0	paciza	x16
+00000000000024c4	stp	x16, x19, [sp, #0x28]
+00000000000024c8	add	x8, x19, #0x28
+00000000000024cc	mov	w9, #0x10
+00000000000024d0	stp	x8, x9, [sp, #0x10]
+00000000000024d4	str	wzr, [sp, #0xc]
+00000000000024d8	ldr	w20, [x19, #0x18]
+00000000000024dc	ldr	x0, [x19, #0x20]
+00000000000024e0	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+00000000000024e4	mov	x2, x0
+00000000000024e8	add	x8, sp, #0xc
+00000000000024ec	str	x8, [sp]
+00000000000024f0	add	x3, sp, #0x20
+00000000000024f4	add	x5, sp, #0x10
+00000000000024f8	mov	x0, x20
+00000000000024fc	mov	w1, #0x16
+0000000000002500	mov	w4, #0x3
+0000000000002504	mov	w6, #0x2
+0000000000002508	mov	x7, #0x0
+000000000000250c	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+0000000000002510	ldur	x8, [x29, #-0x18]
+0000000000002514	adrp	x9, 2 ; 0x4000
+0000000000002518	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+000000000000251c	ldr	x9, [x9]
+0000000000002520	cmp	x9, x8
+0000000000002524	b.ne	0x2538
+0000000000002528	ldp	x29, x30, [sp, #0x80]
+000000000000252c	ldp	x20, x19, [sp, #0x70]
+0000000000002530	add	sp, sp, #0x90
+0000000000002534	retab
+0000000000002538	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn20SetInterruptCallbackEPFvmPhmEm:
+000000000000253c	pacibsp
+0000000000002540	sub	sp, sp, #0xa0
+0000000000002544	stp	x22, x21, [sp, #0x70]
+0000000000002548	stp	x20, x19, [sp, #0x80]
+000000000000254c	stp	x29, x30, [sp, #0x90]
+0000000000002550	add	x29, sp, #0x90
+0000000000002554	mov	x19, x2
+0000000000002558	mov	x21, x1
+000000000000255c	mov	x20, x0
+0000000000002560	adrp	x8, 2 ; 0x4000
+0000000000002564	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000002568	ldr	x8, [x8]
+000000000000256c	stur	x8, [x29, #-0x28]
+0000000000002570	adrp	x0, 2 ; 0x4000
+0000000000002574	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002578	mov	w1, #0x1
+000000000000257c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002580	cbz	w0, 0x25dc
+0000000000002584	adrp	x8, 1 ; 0x3000
+0000000000002588	ldr	d0, [x8, #0x408]
+000000000000258c	str	s0, [sp, #0x20]
+0000000000002590	adrp	x8, 1 ; 0x3000
+0000000000002594	add	x8, x8, #0x5da ; literal pool for: "SetInterruptCallback"
+0000000000002598	stur	x8, [sp, #0x24]
+000000000000259c	mov	w9, #0x820
+00000000000025a0	strh	w9, [sp, #0x2c]
+00000000000025a4	stur	x8, [sp, #0x2e]
+00000000000025a8	mov	w8, #0x800
+00000000000025ac	strh	w8, [sp, #0x36]
+00000000000025b0	str	x20, [sp, #0x38]
+00000000000025b4	adrp	x0, -2 ; 0x0
+00000000000025b8	add	x0, x0, #0x0
+00000000000025bc	adrp	x1, 2 ; 0x4000
+00000000000025c0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000025c4	adrp	x3, 1 ; 0x3000
+00000000000025c8	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000025cc	add	x4, sp, #0x20
+00000000000025d0	mov	w2, #0x1
+00000000000025d4	mov	w5, #0x20
+00000000000025d8	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000025dc	ldr	x0, [x20, #0x20]
+00000000000025e0	cbz	x0, 0x2650
+00000000000025e4	movi.2d	v0, #0000000000000000
+00000000000025e8	stp	q0, q0, [sp, #0x20]
+00000000000025ec	stp	q0, q0, [sp, #0x40]
+00000000000025f0	adrp	x16, 0 ; 0x2000
+00000000000025f4	add	x16, x16, #0x468
+00000000000025f8	paciza	x16
+00000000000025fc	stp	x16, x20, [sp, #0x28]
+0000000000002600	add	x8, x20, #0x28
+0000000000002604	mov	w9, #0x10
+0000000000002608	stp	x8, x9, [sp, #0x10]
+000000000000260c	str	wzr, [sp, #0xc]
+0000000000002610	ldr	w22, [x20, #0x18]
+0000000000002614	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+0000000000002618	mov	x2, x0
+000000000000261c	add	x8, sp, #0xc
+0000000000002620	str	x8, [sp]
+0000000000002624	add	x3, sp, #0x20
+0000000000002628	add	x5, sp, #0x10
+000000000000262c	mov	x0, x22
+0000000000002630	mov	w1, #0x16
+0000000000002634	mov	w4, #0x3
+0000000000002638	mov	w6, #0x2
+000000000000263c	mov	x7, #0x0
+0000000000002640	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+0000000000002644	cbnz	w0, 0x2658
+0000000000002648	stp	x21, x19, [x20, #0x38]
+000000000000264c	b	0x2658
+0000000000002650	mov	w0, #0x2bc
+0000000000002654	movk	w0, #0xe000, lsl #16
+0000000000002658	ldur	x8, [x29, #-0x28]
+000000000000265c	adrp	x9, 2 ; 0x4000
+0000000000002660	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000002664	ldr	x9, [x9]
+0000000000002668	cmp	x9, x8
+000000000000266c	b.ne	0x2684
+0000000000002670	ldp	x29, x30, [sp, #0x90]
+0000000000002674	ldp	x20, x19, [sp, #0x80]
+0000000000002678	ldp	x22, x21, [sp, #0x70]
+000000000000267c	add	sp, sp, #0xa0
+0000000000002680	retab
+0000000000002684	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn25_ReadCaptureAsyncCallbackEPviS0_:
+0000000000002688	b	__ZN10MesaPlugIn24ReadCaptureAsyncCallbackEiPv
+__ZN10MesaPlugIn24ReadCaptureAsyncCallbackEiPv:
+000000000000268c	pacibsp
+0000000000002690	sub	sp, sp, #0x90
+0000000000002694	stp	x20, x19, [sp, #0x70]
+0000000000002698	stp	x29, x30, [sp, #0x80]
+000000000000269c	add	x29, sp, #0x80
+00000000000026a0	mov	x19, x0
+00000000000026a4	adrp	x8, 2 ; 0x4000
+00000000000026a8	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000026ac	ldr	x8, [x8]
+00000000000026b0	stur	x8, [x29, #-0x18]
+00000000000026b4	ldr	x8, [x0, #0x48]
+00000000000026b8	cbz	x8, 0x26c4
+00000000000026bc	ldr	x0, [x19, #0x50]
+00000000000026c0	blraaz	x8
+00000000000026c4	movi.2d	v0, #0000000000000000
+00000000000026c8	stp	q0, q0, [sp, #0x20]
+00000000000026cc	stp	q0, q0, [sp, #0x40]
+00000000000026d0	adrp	x16, 0 ; 0x2000
+00000000000026d4	add	x16, x16, #0x688
+00000000000026d8	paciza	x16
+00000000000026dc	stp	x16, x19, [sp, #0x28]
+00000000000026e0	ldp	x8, x9, [x19, #0x58]
+00000000000026e4	stp	x8, x9, [sp, #0x10]
+00000000000026e8	str	wzr, [sp, #0xc]
+00000000000026ec	ldr	w20, [x19, #0x18]
+00000000000026f0	ldr	x0, [x19, #0x20]
+00000000000026f4	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+00000000000026f8	mov	x2, x0
+00000000000026fc	add	x8, sp, #0xc
+0000000000002700	str	x8, [sp]
+0000000000002704	add	x3, sp, #0x20
+0000000000002708	add	x5, sp, #0x10
+000000000000270c	mov	x0, x20
+0000000000002710	mov	w1, #0x1
+0000000000002714	mov	w4, #0x3
+0000000000002718	mov	w6, #0x2
+000000000000271c	mov	x7, #0x0
+0000000000002720	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+0000000000002724	ldur	x8, [x29, #-0x18]
+0000000000002728	adrp	x9, 2 ; 0x4000
+000000000000272c	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000002730	ldr	x9, [x9]
+0000000000002734	cmp	x9, x8
+0000000000002738	b.ne	0x274c
+000000000000273c	ldp	x29, x30, [sp, #0x80]
+0000000000002740	ldp	x20, x19, [sp, #0x70]
+0000000000002744	add	sp, sp, #0x90
+0000000000002748	retab
+000000000000274c	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn18SetCaptureCallbackEPFvmEmPvm:
+0000000000002750	pacibsp
+0000000000002754	sub	sp, sp, #0xb0
+0000000000002758	stp	x24, x23, [sp, #0x70]
+000000000000275c	stp	x22, x21, [sp, #0x80]
+0000000000002760	stp	x20, x19, [sp, #0x90]
+0000000000002764	stp	x29, x30, [sp, #0xa0]
+0000000000002768	add	x29, sp, #0xa0
+000000000000276c	mov	x20, x4
+0000000000002770	mov	x21, x3
+0000000000002774	mov	x22, x2
+0000000000002778	mov	x23, x1
+000000000000277c	mov	x19, x0
+0000000000002780	adrp	x8, 2 ; 0x4000
+0000000000002784	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000002788	ldr	x8, [x8]
+000000000000278c	stur	x8, [x29, #-0x38]
+0000000000002790	adrp	x0, 2 ; 0x4000
+0000000000002794	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002798	mov	w1, #0x1
+000000000000279c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000027a0	tbz	w0, #0x0, 0x27fc
+00000000000027a4	adrp	x8, 1 ; 0x3000
+00000000000027a8	ldr	d0, [x8, #0x408]
+00000000000027ac	str	s0, [sp, #0x20]
+00000000000027b0	adrp	x8, 1 ; 0x3000
+00000000000027b4	add	x8, x8, #0x5ef ; literal pool for: "SetCaptureCallback"
+00000000000027b8	stur	x8, [sp, #0x24]
+00000000000027bc	mov	w9, #0x820
+00000000000027c0	strh	w9, [sp, #0x2c]
+00000000000027c4	stur	x8, [sp, #0x2e]
+00000000000027c8	mov	w8, #0x800
+00000000000027cc	strh	w8, [sp, #0x36]
+00000000000027d0	str	x19, [sp, #0x38]
+00000000000027d4	adrp	x0, -2 ; 0x0
+00000000000027d8	add	x0, x0, #0x0
+00000000000027dc	adrp	x1, 2 ; 0x4000
+00000000000027e0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000027e4	adrp	x3, 1 ; 0x3000
+00000000000027e8	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000027ec	add	x4, sp, #0x20
+00000000000027f0	mov	w2, #0x1
+00000000000027f4	mov	w5, #0x20
+00000000000027f8	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000027fc	stp	x23, x22, [x19, #0x48]
+0000000000002800	stp	x21, x20, [x19, #0x58]
+0000000000002804	movi.2d	v0, #0000000000000000
+0000000000002808	stp	q0, q0, [sp, #0x20]
+000000000000280c	stp	q0, q0, [sp, #0x40]
+0000000000002810	adrp	x16, 0 ; 0x2000
+0000000000002814	add	x16, x16, #0x688
+0000000000002818	paciza	x16
+000000000000281c	stp	x16, x19, [sp, #0x28]
+0000000000002820	stp	x21, x20, [sp, #0x10]
+0000000000002824	ldr	w20, [x19, #0x18]
+0000000000002828	ldr	x0, [x19, #0x20]
+000000000000282c	str	wzr, [sp, #0xc]
+0000000000002830	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+0000000000002834	mov	x2, x0
+0000000000002838	add	x8, sp, #0xc
+000000000000283c	str	x8, [sp]
+0000000000002840	add	x3, sp, #0x20
+0000000000002844	add	x5, sp, #0x10
+0000000000002848	mov	x0, x20
+000000000000284c	mov	w1, #0x1
+0000000000002850	mov	w4, #0x3
+0000000000002854	mov	w6, #0x2
+0000000000002858	mov	x7, #0x0
+000000000000285c	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+0000000000002860	adrp	x8, 2 ; 0x4000
+0000000000002864	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+0000000000002868	ldr	x8, [x8]
+000000000000286c	ldur	x9, [x29, #-0x38]
+0000000000002870	cmp	x8, x9
+0000000000002874	b.ne	0x2890
+0000000000002878	ldp	x29, x30, [sp, #0xa0]
+000000000000287c	ldp	x20, x19, [sp, #0x90]
+0000000000002880	ldp	x22, x21, [sp, #0x80]
+0000000000002884	ldp	x24, x23, [sp, #0x70]
+0000000000002888	add	sp, sp, #0xb0
+000000000000288c	retab
+0000000000002890	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn8SetPowerEj:
+0000000000002894	pacibsp
+0000000000002898	sub	sp, sp, #0x60
+000000000000289c	stp	x22, x21, [sp, #0x30]
+00000000000028a0	stp	x20, x19, [sp, #0x40]
+00000000000028a4	stp	x29, x30, [sp, #0x50]
+00000000000028a8	add	x29, sp, #0x50
+00000000000028ac	mov	x20, x1
+00000000000028b0	mov	x19, x0
+00000000000028b4	adrp	x8, 2 ; 0x4000
+00000000000028b8	ldr	x8, [x8, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000028bc	ldr	x8, [x8]
+00000000000028c0	str	x8, [sp, #0x28]
+00000000000028c4	adrp	x0, 2 ; 0x4000
+00000000000028c8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000028cc	mov	w1, #0x1
+00000000000028d0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000028d4	adrp	x22, 1 ; 0x3000
+00000000000028d8	adrp	x21, 1 ; 0x3000
+00000000000028dc	add	x21, x21, #0x602 ; literal pool for: "SetPower"
+00000000000028e0	cbz	w0, 0x2930
+00000000000028e4	ldr	d0, [x22, #0x408]
+00000000000028e8	str	s0, [sp]
+00000000000028ec	stur	x21, [sp, #0x4]
+00000000000028f0	mov	w8, #0x820
+00000000000028f4	strh	w8, [sp, #0xc]
+00000000000028f8	stur	x21, [sp, #0xe]
+00000000000028fc	mov	w8, #0x800
+0000000000002900	strh	w8, [sp, #0x16]
+0000000000002904	str	x19, [sp, #0x18]
+0000000000002908	adrp	x0, -2 ; 0x0
+000000000000290c	add	x0, x0, #0x0
+0000000000002910	adrp	x1, 2 ; 0x4000
+0000000000002914	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002918	adrp	x3, 1 ; 0x3000
+000000000000291c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002920	mov	x4, sp
+0000000000002924	mov	w2, #0x1
+0000000000002928	mov	w5, #0x20
+000000000000292c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002930	mov	w8, w20
+0000000000002934	str	x8, [sp, #0x20]
+0000000000002938	ldr	w0, [x19, #0x18]
+000000000000293c	add	x2, sp, #0x20
+0000000000002940	mov	w1, #0x10
+0000000000002944	mov	w3, #0x1
+0000000000002948	mov	x4, #0x0
+000000000000294c	mov	x5, #0x0
+0000000000002950	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+0000000000002954	mov	x19, x0
+0000000000002958	adrp	x0, 2 ; 0x4000
+000000000000295c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002960	mov	w1, #0x1
+0000000000002964	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002968	cbz	w0, 0x29bc
+000000000000296c	mov	x0, x19
+0000000000002970	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002974	mov	w8, #0x820
+0000000000002978	ldr	d0, [x22, #0x408]
+000000000000297c	str	s0, [sp]
+0000000000002980	stur	x21, [sp, #0x4]
+0000000000002984	strh	w8, [sp, #0xc]
+0000000000002988	stur	x21, [sp, #0xe]
+000000000000298c	strh	w8, [sp, #0x16]
+0000000000002990	str	x0, [sp, #0x18]
+0000000000002994	adrp	x0, -2 ; 0x0
+0000000000002998	add	x0, x0, #0x0
+000000000000299c	adrp	x1, 2 ; 0x4000
+00000000000029a0	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000029a4	adrp	x3, 1 ; 0x3000
+00000000000029a8	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+00000000000029ac	mov	x4, sp
+00000000000029b0	mov	w2, #0x1
+00000000000029b4	mov	w5, #0x20
+00000000000029b8	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000029bc	ldr	x8, [sp, #0x28]
+00000000000029c0	adrp	x9, 2 ; 0x4000
+00000000000029c4	ldr	x9, [x9, #0x108] ; literal pool symbol address: ___stack_chk_guard
+00000000000029c8	ldr	x9, [x9]
+00000000000029cc	cmp	x9, x8
+00000000000029d0	b.ne	0x29ec
+00000000000029d4	mov	x0, x19
+00000000000029d8	ldp	x29, x30, [sp, #0x50]
+00000000000029dc	ldp	x20, x19, [sp, #0x40]
+00000000000029e0	ldp	x22, x21, [sp, #0x30]
+00000000000029e4	add	sp, sp, #0x60
+00000000000029e8	retab
+00000000000029ec	bl	0x33bc ; symbol stub for: ___stack_chk_fail
+__ZN10MesaPlugIn13SetParametersEPhm:
+00000000000029f0	pacibsp
+00000000000029f4	sub	sp, sp, #0x60
+00000000000029f8	stp	x24, x23, [sp, #0x20]
+00000000000029fc	stp	x22, x21, [sp, #0x30]
+0000000000002a00	stp	x20, x19, [sp, #0x40]
+0000000000002a04	stp	x29, x30, [sp, #0x50]
+0000000000002a08	add	x29, sp, #0x50
+0000000000002a0c	mov	x19, x2
+0000000000002a10	mov	x20, x1
+0000000000002a14	mov	x21, x0
+0000000000002a18	adrp	x0, 2 ; 0x4000
+0000000000002a1c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002a20	mov	w1, #0x1
+0000000000002a24	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002a28	adrp	x23, 1 ; 0x3000
+0000000000002a2c	adrp	x22, 1 ; 0x3000
+0000000000002a30	add	x22, x22, #0x60b ; literal pool for: "SetParameters"
+0000000000002a34	cbz	w0, 0x2a84
+0000000000002a38	ldr	d0, [x23, #0x408]
+0000000000002a3c	str	s0, [sp]
+0000000000002a40	stur	x22, [sp, #0x4]
+0000000000002a44	mov	w8, #0x820
+0000000000002a48	strh	w8, [sp, #0xc]
+0000000000002a4c	stur	x22, [sp, #0xe]
+0000000000002a50	mov	w8, #0x800
+0000000000002a54	strh	w8, [sp, #0x16]
+0000000000002a58	str	x21, [sp, #0x18]
+0000000000002a5c	adrp	x0, -2 ; 0x0
+0000000000002a60	add	x0, x0, #0x0
+0000000000002a64	adrp	x1, 2 ; 0x4000
+0000000000002a68	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002a6c	adrp	x3, 1 ; 0x3000
+0000000000002a70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002a74	mov	x4, sp
+0000000000002a78	mov	w2, #0x1
+0000000000002a7c	mov	w5, #0x20
+0000000000002a80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002a84	ldr	w0, [x21, #0x18]
+0000000000002a88	mov	w1, #0x11
+0000000000002a8c	mov	x2, x20
+0000000000002a90	mov	x3, x19
+0000000000002a94	mov	x4, #0x0
+0000000000002a98	mov	x5, #0x0
+0000000000002a9c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000002aa0	mov	x19, x0
+0000000000002aa4	adrp	x0, 2 ; 0x4000
+0000000000002aa8	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002aac	mov	w1, #0x1
+0000000000002ab0	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002ab4	cbz	w0, 0x2b08
+0000000000002ab8	mov	x0, x19
+0000000000002abc	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002ac0	mov	w8, #0x820
+0000000000002ac4	ldr	d0, [x23, #0x408]
+0000000000002ac8	str	s0, [sp]
+0000000000002acc	stur	x22, [sp, #0x4]
+0000000000002ad0	strh	w8, [sp, #0xc]
+0000000000002ad4	stur	x22, [sp, #0xe]
+0000000000002ad8	strh	w8, [sp, #0x16]
+0000000000002adc	str	x0, [sp, #0x18]
+0000000000002ae0	adrp	x0, -2 ; 0x0
+0000000000002ae4	add	x0, x0, #0x0
+0000000000002ae8	adrp	x1, 2 ; 0x4000
+0000000000002aec	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002af0	adrp	x3, 1 ; 0x3000
+0000000000002af4	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002af8	mov	x4, sp
+0000000000002afc	mov	w2, #0x1
+0000000000002b00	mov	w5, #0x20
+0000000000002b04	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002b08	mov	x0, x19
+0000000000002b0c	ldp	x29, x30, [sp, #0x50]
+0000000000002b10	ldp	x20, x19, [sp, #0x40]
+0000000000002b14	ldp	x22, x21, [sp, #0x30]
+0000000000002b18	ldp	x24, x23, [sp, #0x20]
+0000000000002b1c	add	sp, sp, #0x60
+0000000000002b20	retab
+__ZN10MesaPlugIn10TriggerESDEv:
+0000000000002b24	pacibsp
+0000000000002b28	sub	sp, sp, #0x50
+0000000000002b2c	stp	x22, x21, [sp, #0x20]
+0000000000002b30	stp	x20, x19, [sp, #0x30]
+0000000000002b34	stp	x29, x30, [sp, #0x40]
+0000000000002b38	add	x29, sp, #0x40
+0000000000002b3c	mov	x19, x0
+0000000000002b40	adrp	x0, 2 ; 0x4000
+0000000000002b44	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002b48	mov	w1, #0x1
+0000000000002b4c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002b50	adrp	x21, 1 ; 0x3000
+0000000000002b54	adrp	x20, 1 ; 0x3000
+0000000000002b58	add	x20, x20, #0x619 ; literal pool for: "TriggerESD"
+0000000000002b5c	cbz	w0, 0x2bac
+0000000000002b60	ldr	d0, [x21, #0x408]
+0000000000002b64	str	s0, [sp]
+0000000000002b68	stur	x20, [sp, #0x4]
+0000000000002b6c	mov	w8, #0x820
+0000000000002b70	strh	w8, [sp, #0xc]
+0000000000002b74	stur	x20, [sp, #0xe]
+0000000000002b78	mov	w8, #0x800
+0000000000002b7c	strh	w8, [sp, #0x16]
+0000000000002b80	str	x19, [sp, #0x18]
+0000000000002b84	adrp	x0, -2 ; 0x0
+0000000000002b88	add	x0, x0, #0x0
+0000000000002b8c	adrp	x1, 2 ; 0x4000
+0000000000002b90	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002b94	adrp	x3, 1 ; 0x3000
+0000000000002b98	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002b9c	mov	x4, sp
+0000000000002ba0	mov	w2, #0x1
+0000000000002ba4	mov	w5, #0x20
+0000000000002ba8	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002bac	ldr	w0, [x19, #0x18]
+0000000000002bb0	mov	w1, #0x12
+0000000000002bb4	mov	x2, #0x0
+0000000000002bb8	mov	w3, #0x0
+0000000000002bbc	mov	x4, #0x0
+0000000000002bc0	mov	x5, #0x0
+0000000000002bc4	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+0000000000002bc8	mov	x19, x0
+0000000000002bcc	adrp	x0, 2 ; 0x4000
+0000000000002bd0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002bd4	mov	w1, #0x1
+0000000000002bd8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002bdc	cbz	w0, 0x2c30
+0000000000002be0	mov	x0, x19
+0000000000002be4	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002be8	mov	w8, #0x820
+0000000000002bec	ldr	d0, [x21, #0x408]
+0000000000002bf0	str	s0, [sp]
+0000000000002bf4	stur	x20, [sp, #0x4]
+0000000000002bf8	strh	w8, [sp, #0xc]
+0000000000002bfc	stur	x20, [sp, #0xe]
+0000000000002c00	strh	w8, [sp, #0x16]
+0000000000002c04	str	x0, [sp, #0x18]
+0000000000002c08	adrp	x0, -2 ; 0x0
+0000000000002c0c	add	x0, x0, #0x0
+0000000000002c10	adrp	x1, 2 ; 0x4000
+0000000000002c14	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002c18	adrp	x3, 1 ; 0x3000
+0000000000002c1c	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002c20	mov	x4, sp
+0000000000002c24	mov	w2, #0x1
+0000000000002c28	mov	w5, #0x20
+0000000000002c2c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002c30	mov	x0, x19
+0000000000002c34	ldp	x29, x30, [sp, #0x40]
+0000000000002c38	ldp	x20, x19, [sp, #0x30]
+0000000000002c3c	ldp	x22, x21, [sp, #0x20]
+0000000000002c40	add	sp, sp, #0x50
+0000000000002c44	retab
+__ZN10MesaPlugIn15TriggerSPIErrorEv:
+0000000000002c48	pacibsp
+0000000000002c4c	sub	sp, sp, #0x50
+0000000000002c50	stp	x22, x21, [sp, #0x20]
+0000000000002c54	stp	x20, x19, [sp, #0x30]
+0000000000002c58	stp	x29, x30, [sp, #0x40]
+0000000000002c5c	add	x29, sp, #0x40
+0000000000002c60	mov	x19, x0
+0000000000002c64	adrp	x0, 2 ; 0x4000
+0000000000002c68	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002c6c	mov	w1, #0x1
+0000000000002c70	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002c74	adrp	x21, 1 ; 0x3000
+0000000000002c78	adrp	x20, 1 ; 0x3000
+0000000000002c7c	add	x20, x20, #0x624 ; literal pool for: "TriggerSPIError"
+0000000000002c80	cbz	w0, 0x2cd0
+0000000000002c84	ldr	d0, [x21, #0x408]
+0000000000002c88	str	s0, [sp]
+0000000000002c8c	stur	x20, [sp, #0x4]
+0000000000002c90	mov	w8, #0x820
+0000000000002c94	strh	w8, [sp, #0xc]
+0000000000002c98	stur	x20, [sp, #0xe]
+0000000000002c9c	mov	w8, #0x800
+0000000000002ca0	strh	w8, [sp, #0x16]
+0000000000002ca4	str	x19, [sp, #0x18]
+0000000000002ca8	adrp	x0, -2 ; 0x0
+0000000000002cac	add	x0, x0, #0x0
+0000000000002cb0	adrp	x1, 2 ; 0x4000
+0000000000002cb4	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002cb8	adrp	x3, 1 ; 0x3000
+0000000000002cbc	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002cc0	mov	x4, sp
+0000000000002cc4	mov	w2, #0x1
+0000000000002cc8	mov	w5, #0x20
+0000000000002ccc	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002cd0	ldr	w0, [x19, #0x18]
+0000000000002cd4	mov	w1, #0x18
+0000000000002cd8	mov	x2, #0x0
+0000000000002cdc	mov	w3, #0x0
+0000000000002ce0	mov	x4, #0x0
+0000000000002ce4	mov	x5, #0x0
+0000000000002ce8	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+0000000000002cec	mov	x19, x0
+0000000000002cf0	adrp	x0, 2 ; 0x4000
+0000000000002cf4	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002cf8	mov	w1, #0x1
+0000000000002cfc	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002d00	cbz	w0, 0x2d54
+0000000000002d04	mov	x0, x19
+0000000000002d08	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002d0c	mov	w8, #0x820
+0000000000002d10	ldr	d0, [x21, #0x408]
+0000000000002d14	str	s0, [sp]
+0000000000002d18	stur	x20, [sp, #0x4]
+0000000000002d1c	strh	w8, [sp, #0xc]
+0000000000002d20	stur	x20, [sp, #0xe]
+0000000000002d24	strh	w8, [sp, #0x16]
+0000000000002d28	str	x0, [sp, #0x18]
+0000000000002d2c	adrp	x0, -2 ; 0x0
+0000000000002d30	add	x0, x0, #0x0
+0000000000002d34	adrp	x1, 2 ; 0x4000
+0000000000002d38	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002d3c	adrp	x3, 1 ; 0x3000
+0000000000002d40	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002d44	mov	x4, sp
+0000000000002d48	mov	w2, #0x1
+0000000000002d4c	mov	w5, #0x20
+0000000000002d50	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002d54	mov	x0, x19
+0000000000002d58	ldp	x29, x30, [sp, #0x40]
+0000000000002d5c	ldp	x20, x19, [sp, #0x30]
+0000000000002d60	ldp	x22, x21, [sp, #0x20]
+0000000000002d64	add	sp, sp, #0x50
+0000000000002d68	retab
+__ZN10MesaPlugIn18ClearPatchOverrideEv:
+0000000000002d6c	pacibsp
+0000000000002d70	sub	sp, sp, #0x50
+0000000000002d74	stp	x22, x21, [sp, #0x20]
+0000000000002d78	stp	x20, x19, [sp, #0x30]
+0000000000002d7c	stp	x29, x30, [sp, #0x40]
+0000000000002d80	add	x29, sp, #0x40
+0000000000002d84	mov	x19, x0
+0000000000002d88	adrp	x0, 2 ; 0x4000
+0000000000002d8c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002d90	mov	w1, #0x1
+0000000000002d94	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002d98	adrp	x21, 1 ; 0x3000
+0000000000002d9c	adrp	x20, 1 ; 0x3000
+0000000000002da0	add	x20, x20, #0x634 ; literal pool for: "ClearPatchOverride"
+0000000000002da4	cbz	w0, 0x2df4
+0000000000002da8	ldr	d0, [x21, #0x408]
+0000000000002dac	str	s0, [sp]
+0000000000002db0	stur	x20, [sp, #0x4]
+0000000000002db4	mov	w8, #0x820
+0000000000002db8	strh	w8, [sp, #0xc]
+0000000000002dbc	stur	x20, [sp, #0xe]
+0000000000002dc0	mov	w8, #0x800
+0000000000002dc4	strh	w8, [sp, #0x16]
+0000000000002dc8	str	x19, [sp, #0x18]
+0000000000002dcc	adrp	x0, -2 ; 0x0
+0000000000002dd0	add	x0, x0, #0x0
+0000000000002dd4	adrp	x1, 2 ; 0x4000
+0000000000002dd8	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002ddc	adrp	x3, 1 ; 0x3000
+0000000000002de0	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002de4	mov	x4, sp
+0000000000002de8	mov	w2, #0x1
+0000000000002dec	mov	w5, #0x20
+0000000000002df0	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002df4	ldr	w0, [x19, #0x18]
+0000000000002df8	mov	w1, #0x13
+0000000000002dfc	mov	x2, #0x0
+0000000000002e00	mov	w3, #0x0
+0000000000002e04	mov	x4, #0x0
+0000000000002e08	mov	x5, #0x0
+0000000000002e0c	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+0000000000002e10	mov	x19, x0
+0000000000002e14	adrp	x0, 2 ; 0x4000
+0000000000002e18	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002e1c	mov	w1, #0x1
+0000000000002e20	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002e24	cbz	w0, 0x2e78
+0000000000002e28	mov	x0, x19
+0000000000002e2c	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002e30	mov	w8, #0x820
+0000000000002e34	ldr	d0, [x21, #0x408]
+0000000000002e38	str	s0, [sp]
+0000000000002e3c	stur	x20, [sp, #0x4]
+0000000000002e40	strh	w8, [sp, #0xc]
+0000000000002e44	stur	x20, [sp, #0xe]
+0000000000002e48	strh	w8, [sp, #0x16]
+0000000000002e4c	str	x0, [sp, #0x18]
+0000000000002e50	adrp	x0, -2 ; 0x0
+0000000000002e54	add	x0, x0, #0x0
+0000000000002e58	adrp	x1, 2 ; 0x4000
+0000000000002e5c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002e60	adrp	x3, 1 ; 0x3000
+0000000000002e64	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002e68	mov	x4, sp
+0000000000002e6c	mov	w2, #0x1
+0000000000002e70	mov	w5, #0x20
+0000000000002e74	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002e78	mov	x0, x19
+0000000000002e7c	ldp	x29, x30, [sp, #0x40]
+0000000000002e80	ldp	x20, x19, [sp, #0x30]
+0000000000002e84	ldp	x22, x21, [sp, #0x20]
+0000000000002e88	add	sp, sp, #0x50
+0000000000002e8c	retab
+__ZN10MesaPlugIn17StartFingerDetectEPhm:
+0000000000002e90	pacibsp
+0000000000002e94	sub	sp, sp, #0x70
+0000000000002e98	stp	x24, x23, [sp, #0x30]
+0000000000002e9c	stp	x22, x21, [sp, #0x40]
+0000000000002ea0	stp	x20, x19, [sp, #0x50]
+0000000000002ea4	stp	x29, x30, [sp, #0x60]
+0000000000002ea8	add	x29, sp, #0x60
+0000000000002eac	mov	x20, x2
+0000000000002eb0	mov	x19, x1
+0000000000002eb4	mov	x21, x0
+0000000000002eb8	adrp	x0, 2 ; 0x4000
+0000000000002ebc	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002ec0	mov	w1, #0x1
+0000000000002ec4	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002ec8	adrp	x23, 1 ; 0x3000
+0000000000002ecc	adrp	x22, 1 ; 0x3000
+0000000000002ed0	add	x22, x22, #0x647 ; literal pool for: "StartFingerDetect"
+0000000000002ed4	cbz	w0, 0x2f24
+0000000000002ed8	ldr	d0, [x23, #0x408]
+0000000000002edc	str	s0, [sp, #0x10]
+0000000000002ee0	stur	x22, [sp, #0x14]
+0000000000002ee4	mov	w8, #0x820
+0000000000002ee8	strh	w8, [sp, #0x1c]
+0000000000002eec	stur	x22, [sp, #0x1e]
+0000000000002ef0	mov	w8, #0x800
+0000000000002ef4	strh	w8, [sp, #0x26]
+0000000000002ef8	str	x21, [sp, #0x28]
+0000000000002efc	adrp	x0, -2 ; 0x0
+0000000000002f00	add	x0, x0, #0x0
+0000000000002f04	adrp	x1, 2 ; 0x4000
+0000000000002f08	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002f0c	adrp	x3, 1 ; 0x3000
+0000000000002f10	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002f14	add	x4, sp, #0x10
+0000000000002f18	mov	w2, #0x1
+0000000000002f1c	mov	w5, #0x20
+0000000000002f20	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002f24	str	x20, [sp, #0x8]
+0000000000002f28	ldr	w0, [x21, #0x18]
+0000000000002f2c	add	x5, sp, #0x8
+0000000000002f30	mov	w1, #0x19
+0000000000002f34	mov	x2, #0x0
+0000000000002f38	mov	x3, #0x0
+0000000000002f3c	mov	x4, x19
+0000000000002f40	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+0000000000002f44	mov	x19, x0
+0000000000002f48	adrp	x0, 2 ; 0x4000
+0000000000002f4c	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002f50	mov	w1, #0x1
+0000000000002f54	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000002f58	cbz	w0, 0x2fac
+0000000000002f5c	mov	x0, x19
+0000000000002f60	bl	0x33dc ; symbol stub for: _mach_error_string
+0000000000002f64	mov	w8, #0x820
+0000000000002f68	ldr	d0, [x23, #0x408]
+0000000000002f6c	str	s0, [sp, #0x10]
+0000000000002f70	stur	x22, [sp, #0x14]
+0000000000002f74	strh	w8, [sp, #0x1c]
+0000000000002f78	stur	x22, [sp, #0x1e]
+0000000000002f7c	strh	w8, [sp, #0x26]
+0000000000002f80	str	x0, [sp, #0x28]
+0000000000002f84	adrp	x0, -2 ; 0x0
+0000000000002f88	add	x0, x0, #0x0
+0000000000002f8c	adrp	x1, 2 ; 0x4000
+0000000000002f90	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002f94	adrp	x3, 1 ; 0x3000
+0000000000002f98	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000002f9c	add	x4, sp, #0x10
+0000000000002fa0	mov	w2, #0x1
+0000000000002fa4	mov	w5, #0x20
+0000000000002fa8	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002fac	mov	x0, x19
+0000000000002fb0	ldp	x29, x30, [sp, #0x60]
+0000000000002fb4	ldp	x20, x19, [sp, #0x50]
+0000000000002fb8	ldp	x22, x21, [sp, #0x40]
+0000000000002fbc	ldp	x24, x23, [sp, #0x30]
+0000000000002fc0	add	sp, sp, #0x70
+0000000000002fc4	retab
+__ZN10MesaPlugIn11StartBurnInEPhm:
+0000000000002fc8	pacibsp
+0000000000002fcc	sub	sp, sp, #0x70
+0000000000002fd0	stp	x24, x23, [sp, #0x30]
+0000000000002fd4	stp	x22, x21, [sp, #0x40]
+0000000000002fd8	stp	x20, x19, [sp, #0x50]
+0000000000002fdc	stp	x29, x30, [sp, #0x60]
+0000000000002fe0	add	x29, sp, #0x60
+0000000000002fe4	mov	x20, x2
+0000000000002fe8	mov	x19, x1
+0000000000002fec	mov	x21, x0
+0000000000002ff0	adrp	x0, 2 ; 0x4000
+0000000000002ff4	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000002ff8	mov	w1, #0x1
+0000000000002ffc	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000003000	adrp	x23, 0 ; 0x3000
+0000000000003004	adrp	x22, 0 ; 0x3000
+0000000000003008	add	x22, x22, #0x659 ; literal pool for: "StartBurnIn"
+000000000000300c	cbz	w0, 0x305c
+0000000000003010	ldr	d0, [x23, #0x408]
+0000000000003014	str	s0, [sp, #0x10]
+0000000000003018	stur	x22, [sp, #0x14]
+000000000000301c	mov	w8, #0x820
+0000000000003020	strh	w8, [sp, #0x1c]
+0000000000003024	stur	x22, [sp, #0x1e]
+0000000000003028	mov	w8, #0x800
+000000000000302c	strh	w8, [sp, #0x26]
+0000000000003030	str	x21, [sp, #0x28]
+0000000000003034	adrp	x0, -3 ; 0x0
+0000000000003038	add	x0, x0, #0x0
+000000000000303c	adrp	x1, 1 ; 0x4000
+0000000000003040	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000003044	adrp	x3, 0 ; 0x3000
+0000000000003048	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+000000000000304c	add	x4, sp, #0x10
+0000000000003050	mov	w2, #0x1
+0000000000003054	mov	w5, #0x20
+0000000000003058	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000305c	str	x20, [sp, #0x8]
+0000000000003060	ldr	w0, [x21, #0x18]
+0000000000003064	add	x5, sp, #0x8
+0000000000003068	mov	w1, #0x1a
+000000000000306c	mov	x2, #0x0
+0000000000003070	mov	x3, #0x0
+0000000000003074	mov	x4, x19
+0000000000003078	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+000000000000307c	mov	x19, x0
+0000000000003080	adrp	x0, 1 ; 0x4000
+0000000000003084	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000003088	mov	w1, #0x1
+000000000000308c	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+0000000000003090	cbz	w0, 0x30e4
+0000000000003094	mov	x0, x19
+0000000000003098	bl	0x33dc ; symbol stub for: _mach_error_string
+000000000000309c	mov	w8, #0x820
+00000000000030a0	ldr	d0, [x23, #0x408]
+00000000000030a4	str	s0, [sp, #0x10]
+00000000000030a8	stur	x22, [sp, #0x14]
+00000000000030ac	strh	w8, [sp, #0x1c]
+00000000000030b0	stur	x22, [sp, #0x1e]
+00000000000030b4	strh	w8, [sp, #0x26]
+00000000000030b8	str	x0, [sp, #0x28]
+00000000000030bc	adrp	x0, -3 ; 0x0
+00000000000030c0	add	x0, x0, #0x0
+00000000000030c4	adrp	x1, 1 ; 0x4000
+00000000000030c8	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+00000000000030cc	adrp	x3, 0 ; 0x3000
+00000000000030d0	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+00000000000030d4	add	x4, sp, #0x10
+00000000000030d8	mov	w2, #0x1
+00000000000030dc	mov	w5, #0x20
+00000000000030e0	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000030e4	mov	x0, x19
+00000000000030e8	ldp	x29, x30, [sp, #0x60]
+00000000000030ec	ldp	x20, x19, [sp, #0x50]
+00000000000030f0	ldp	x22, x21, [sp, #0x40]
+00000000000030f4	ldp	x24, x23, [sp, #0x30]
+00000000000030f8	add	sp, sp, #0x70
+00000000000030fc	retab
+__ZN10MesaPlugIn10StopSSHBHBEhPhm:
+0000000000003100	pacibsp
+0000000000003104	sub	sp, sp, #0x80
+0000000000003108	stp	x24, x23, [sp, #0x40]
+000000000000310c	stp	x22, x21, [sp, #0x50]
+0000000000003110	stp	x20, x19, [sp, #0x60]
+0000000000003114	stp	x29, x30, [sp, #0x70]
+0000000000003118	add	x29, sp, #0x70
+000000000000311c	mov	x20, x3
+0000000000003120	mov	x19, x2
+0000000000003124	mov	x21, x0
+0000000000003128	sturb	w1, [x29, #-0x31]
+000000000000312c	adrp	x0, 1 ; 0x4000
+0000000000003130	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+0000000000003134	mov	w1, #0x1
+0000000000003138	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+000000000000313c	adrp	x23, 0 ; 0x3000
+0000000000003140	adrp	x22, 0 ; 0x3000
+0000000000003144	add	x22, x22, #0x665 ; literal pool for: "StopSSHBHB"
+0000000000003148	cbz	w0, 0x3198
+000000000000314c	ldr	d0, [x23, #0x408]
+0000000000003150	str	s0, [sp, #0x10]
+0000000000003154	stur	x22, [sp, #0x14]
+0000000000003158	mov	w8, #0x820
+000000000000315c	strh	w8, [sp, #0x1c]
+0000000000003160	stur	x22, [sp, #0x1e]
+0000000000003164	mov	w8, #0x800
+0000000000003168	strh	w8, [sp, #0x26]
+000000000000316c	str	x21, [sp, #0x28]
+0000000000003170	adrp	x0, -3 ; 0x0
+0000000000003174	add	x0, x0, #0x0
+0000000000003178	adrp	x1, 1 ; 0x4000
+000000000000317c	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000003180	adrp	x3, 0 ; 0x3000
+0000000000003184	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000003188	add	x4, sp, #0x10
+000000000000318c	mov	w2, #0x1
+0000000000003190	mov	w5, #0x20
+0000000000003194	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000003198	str	x20, [sp, #0x8]
+000000000000319c	ldr	w0, [x21, #0x18]
+00000000000031a0	sub	x2, x29, #0x31
+00000000000031a4	add	x5, sp, #0x8
+00000000000031a8	mov	w1, #0x1b
+00000000000031ac	mov	w3, #0x1
+00000000000031b0	mov	x4, x19
+00000000000031b4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+00000000000031b8	mov	x19, x0
+00000000000031bc	adrp	x0, 1 ; 0x4000
+00000000000031c0	ldr	x0, [x0, #0x110] ; literal pool symbol address: __os_log_default
+00000000000031c4	mov	w1, #0x1
+00000000000031c8	bl	0x33ec ; symbol stub for: _os_log_type_enabled
+00000000000031cc	cbz	w0, 0x3220
+00000000000031d0	mov	x0, x19
+00000000000031d4	bl	0x33dc ; symbol stub for: _mach_error_string
+00000000000031d8	mov	w8, #0x820
+00000000000031dc	ldr	d0, [x23, #0x408]
+00000000000031e0	str	s0, [sp, #0x10]
+00000000000031e4	stur	x22, [sp, #0x14]
+00000000000031e8	strh	w8, [sp, #0x1c]
+00000000000031ec	stur	x22, [sp, #0x1e]
+00000000000031f0	strh	w8, [sp, #0x26]
+00000000000031f4	str	x0, [sp, #0x28]
+00000000000031f8	adrp	x0, -3 ; 0x0
+00000000000031fc	add	x0, x0, #0x0
+0000000000003200	adrp	x1, 1 ; 0x4000
+0000000000003204	ldr	x1, [x1, #0x110] ; literal pool symbol address: __os_log_default
+0000000000003208	adrp	x3, 0 ; 0x3000
+000000000000320c	add	x3, x3, #0x448 ; literal pool for: "%s: %s: %s\n"
+0000000000003210	add	x4, sp, #0x10
+0000000000003214	mov	w2, #0x1
+0000000000003218	mov	w5, #0x20
+000000000000321c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000003220	mov	x0, x19
+0000000000003224	ldp	x29, x30, [sp, #0x70]
+0000000000003228	ldp	x20, x19, [sp, #0x60]
+000000000000322c	ldp	x22, x21, [sp, #0x50]
+0000000000003230	ldp	x24, x23, [sp, #0x40]
+0000000000003234	add	sp, sp, #0x80
+0000000000003238	retab
