@@ -1,0 +1,32 @@
++-o AppleAuthCPDock  <class AppleAuthCPDock, id 0x1000006ff, registered, matched, active, busy 0 (18 ms), retain 5>
+    {
+      "IOPropertyMatch" = {"IOAccessoryManagerPortAuthentication"=Yes}
+      "CFBundleIdentifier" = "com.apple.driver.AppleAuthCP"
+      "IOMatchCategory" = "AUDock"
+      "IOClass" = "AppleAuthCPDock"
+      "IOPersonalityPublisher" = "com.apple.driver.AppleAuthCP"
+      "IOProviderClass" = "IOAccessoryManager"
+      "CFBundleIdentifierKernel" = "com.apple.driver.AppleAuthCP"
+      "IOProbeScore" = 0
+      "IOUserClientClass" = "AppleAuthCPUserClient"
+      "IOMatchedAtBoot" = Yes
+      "flags" = 262144
+    }
+    
+
++-o AppleAuthCPDock  <class AppleAuthCPDock, id 0x1000006d3, registered, matched, active, busy 0 (22 ms), retain 5>
+    {
+      "IOPropertyMatch" = {"IOAccessoryManagerPortAuthentication"=Yes}
+      "CFBundleIdentifier" = "com.apple.driver.AppleAuthCP"
+      "IOMatchCategory" = "AUDock"
+      "IOClass" = "AppleAuthCPDock"
+      "IOPersonalityPublisher" = "com.apple.driver.AppleAuthCP"
+      "IOProviderClass" = "IOAccessoryManager"
+      "CFBundleIdentifierKernel" = "com.apple.driver.AppleAuthCP"
+      "IOProbeScore" = 0
+      "IOUserClientClass" = "AppleAuthCPUserClient"
+      "IOMatchedAtBoot" = Yes
+      "flags" = 262144
+    }
+    
+

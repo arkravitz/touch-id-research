@@ -1,0 +1,30 @@
+[
+  {
+    "class_name": "MesaCoreAnalyticsEvent",
+    "selector": "accessoryImageInfo:",
+    "selector_reference": "0x100113e20",
+    "encoding": "v24@0:8r^{?={?=I[16C]}{?={?=QQ}CCCCC[5{?=SCCS{?=CCC}{?=fffI}{?=QQQQ}}]}Q}16",
+    "implementation": "0x100002684"
+  },
+  {
+    "class_name": "MesaCoreAnalyticsMatchEvent",
+    "selector": "accessoryImageInfo:",
+    "selector_reference": "0x100113e20",
+    "encoding": "v24@0:8r^{?={?=I[16C]}{?={?=QQ}CCCCC[5{?=SCCS{?=CCC}{?=fffI}{?=QQQQ}}]}Q}16",
+    "implementation": "0x100006cb8"
+  },
+  {
+    "class_name": "BiometricKitXPCServerMesa",
+    "selector": "accessorySensorInfo:",
+    "selector_reference": "0x100113e30",
+    "encoding": "@24@0:8@16",
+    "implementation": "0x100021708"
+  },
+  {
+    "class_name": "MesaCoreAnalytics",
+    "selector": "accessoryImageInfo:",
+    "selector_reference": "0x100113e20",
+    "encoding": "v24@0:8@16",
+    "implementation": "0x10002ef60"
+  }
+]

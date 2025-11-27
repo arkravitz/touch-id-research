@@ -1,0 +1,4908 @@
+$ file /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd: Mach-O universal binary with 2 architectures: [arm64e:Mach-O 64-bit executable arm64e] [arm64e.x1]
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd (for architecture arm64e):	Mach-O 64-bit executable arm64e
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd (for architecture arm64e.x1):	Mach-O 64-bit executable arm64e.x1
+
+$ otool -L /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd:
+	/usr/lib/libFDR.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libMobileGestalt.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/PrivateFrameworks/BiometricSupport.framework/Versions/A/BiometricSupport (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight (compatibility version 64.0.0, current version 600.0.0)
+	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter (compatibility version 1.0.0, current version 0.0.0, weak)
+	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (compatibility version 1.0.0, current version 275.0.0)
+	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (compatibility version 1.0.0, current version 24.0.0)
+	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5027.0.69)
+	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5027.0.69)
+	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libbsm.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libEndpointSecuritySystem.dylib (compatibility version 1.0.0, current version 0.0.0, weak)
+	/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.0.0)
+	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2775.10.103)
+	/System/Library/PrivateFrameworks/BiometricKit.framework/Versions/A/BiometricKit (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/swift/libswiftCore.dylib (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/swift/libswiftCoreFoundation.dylib (compatibility version 1.0.0, current version 120.100.0, weak)
+	/usr/lib/swift/libswiftDispatch.dylib (compatibility version 1.0.0, current version 1605.0.2)
+	/usr/lib/swift/libswiftIOKit.dylib (compatibility version 1.0.0, current version 1.0.0, weak)
+	/usr/lib/swift/libswiftObjectiveC.dylib (compatibility version 1.0.0, current version 973.1.0)
+	/usr/lib/swift/libswiftSynchronization.dylib (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/swift/libswiftXPC.dylib (compatibility version 1.0.0, current version 167.0.2, weak)
+	/usr/lib/swift/libswift_Builtin_float.dylib (compatibility version 0.0.0, current version 0.0.0, weak)
+	/usr/lib/swift/libswiftos.dylib (compatibility version 1.0.0, current version 1090.0.0)
+
+$ codesign -d --entitlements :- /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+Executable=/private/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+warning: Specifying ':' in the path is deprecated and will not work in a future release
+warning: binary contains an invalid entitlements blob. The OS will ignore these entitlements.
+
+$ nm -gU /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd (for architecture arm64e):
+0000000100000000 T __mh_execute_header
+
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd (for architecture arm64e.x1):
+0000000100000000 T __mh_execute_header
+
+$ strings -a -n 6 /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/biometrickitd
+ 07H!87H
+@9/!@9 
+Ttj68H
+bjv8~U
+bjv8pU
+bjv8bU
+bjv8TU
+Ti2@9i
+Th>@9(
+Th2@9h
+Th2@9H
+Th6@9(
+Th2@9h
+7h6@9(
+T3syH7syh"
+_k)8_k(8`
+k(8ur@
+X!@9Z%@9h&
+@9(!@9
+g/@9f+@9e'@9d#@9c
+Thk8,
+0@94@9
+4@98@9
+TouchID
+biometrickitd
+UnlockAttempt
+MesaCA
+SensorInit
+ExcessiveUnlockAttemptCount
+InternalSensorTypeNotSet
+CalculateWeeklyValueException
+SensorResetFailure
+AssertMacros: %s, %s file: %s, line: %d, value: %lld
+inData
+inName
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AthabaskanSnapshot/support/catacomb.c
+outData
+err == 0 
+size > 0
+read == size
+*ioSize > 0
+ioPath
+Library/Catacomb
+self = [super initWithName:eventName]
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/MesaCoreAnalytics/MesaCoreAnalyticsEvent.m
+previousEventDate
+Transport
+Bluetooth
+AppleDeviceManagementHIDEventService
+DeviceUsagePage
+DeviceUsage
+DeviceUsagePairs
+VendorID
+ProductID
+SerialNumber
+ColorID
+template%luMatchCount
+template%luUsage
+template%luMatchCountContinuous
+template%luUsageContinuous
+eventCanceled
+fingerDetected
+displayOn
+timeSinceLastEnrollment
+timeSinceLastEnrollmentBinned
+timeSinceFirstEnrollment
+timeSinceFirstEnrollmentBinned
+deviceOrientation
+accessoryTransport
+accessoryColorID
+template1Usage
+template2Usage
+template3Usage
+template4Usage
+template5Usage
+totalTemplateMatchCount
+deviceAngle
+deviceAngleState
+usedDeviceCount
+attachedDeviceCount
+template1MatchCount
+template2MatchCount
+template3MatchCount
+template4MatchCount
+template5MatchCount
+activeTemplatesCount
+enrolledTemplatesCount
+matchOperation
+imageAbsoluteTimeId
+totalMatchAttempts
+totalMatchAttemptsFingerDetected
+totalMatchOperationsFingerDetected
+totalMatchOperationsFailedRetry
+totalMatchAttemptsSuccessful
+totalMatchAttemptsFailed
+totalMatchAttemptsFailedFingerDetected
+subsetMatchAttempts
+subsetMatchAttemptsFingerDetected
+subsetMatchAttemptsFailedTarget
+subsetMatchAttemptsSuccessful
+subsetMatchAttemptsFailed
+subsetMatchAttemptsFailedFingerDetected
+unlockMatchAttempts
+unlockMatchAttemptsFingerDetected
+unlockMatchAttemptsSuccessful
+unlockMatchAttemptsFailed
+unlockMatchAttemptsFailedFingerDetected
+localAuthMatchAttempts
+localAuthMatchAttemptsFingerDetected
+localAuthMatchAttemptsSuccessful
+localAuthMatchAttemptsFailed
+localAuthMatchAttemptsFailedFingerDetected
+preArmMatchAttempts
+preArmMatchAttemptsFingerDetected
+preArmMatchAttemptsSuccessful
+preArmMatchAttemptsFailed
+preArmMatchAttemptsFailedFingerDetected
+nonArtefactMatchAttempts
+nonArtefactMatchAttemptsFingerDetected
+nonArtefactMatchAttemptsSuccessful
+nonArtefactMatchAttemptsFailed
+nonArtefactMatchAttemptsFailedFingerDetected
+artefactMatchAttempts
+artefactMatchAttemptsFingerDetected
+artefactMatchAttemptsSuccessful
+artefactMatchAttemptsFailed
+artefactMatchAttemptsFailedFingerDetected
+bioLockoutCount
+_fingerDetectEndTime
+[[self fingerDetected] boolValue] && _fingerDetectEndTime
+_firstCaptureEndTime
+_imageProcessingEndTime
+_matcherEndTime
+[info.deblurringInfo length] >= sizeof(*imgDeblurrInfo)
+imageInfo
+imageInfoMessage
+imageInfoIndex < touchInfo->imageCount
+[selectedIdentitiesBlob length] >= sizeof(*list)
+[selectedIdentitiesBlob length] >= listLength
+lastMatchResult
+canceledByNewCommand
+usedDevicesList
+eventFinished
+userID
+alignmentData
+topology.nodeAdded < 300
+attachedDevicesList
+pairedDevicesList
+self = [super initWithName:eventName dictionary:mutableDict]
+operationCount
+operationTimeSum
+matcherTimeCount
+matcherTimeSum
+matcherTimeMatchCount
+matcherTimeMatchSum
+matcherTimeNoMatchCount
+matcherTimeNoMatchSum
+captureTimeCount
+captureTimeSum
+drxStrengthPctCol2BinCount
+drxStrengthPctCol2BinSum
+drxStrengthPctCol7BinCount
+drxStrengthPctCol7BinSum
+maxFingerToProbeAttenuationCount
+maxFingerToProbeAttenuationSum
+drxStrengthPctCol2RawCount
+drxStrengthPctCol2RawSum
+drxStrengthPctCol7RawCount
+drxStrengthPctCol7RawSum
+imagePixelOutlierCountCount
+imagePixelOutlierCountSum
+numPxOutliersPhase1Count
+numPxOutliersPhase1Sum
+numPxOutliersPhase2Count
+numPxOutliersPhase2Sum
+artefactScoreCount
+artefactScoreSum
+artefactStrengthCount
+artefactStrengthSum
+artefactNonlinearityCount
+artefactNonlinearityM2
+artefactNonlinearitySum
+artefactNonlinearitySumSq
+artefactAnchorXCount
+artefactAnchorXM2
+artefactAnchorXSum
+artefactAnchorXSumSq
+artefactAnchorYCount
+artefactAnchorYM2
+artefactAnchorYSum
+artefactAnchorYSumSq
+dailyEvents
+badDay
+dailyEventIndex
+timeSinceLastEvent
+[dailyEvents isKindOfClass: [NSArray class]] && [dailyEvents count] <= 7
+[dailyEvent isKindOfClass: [NSDictionary class]]
+deviceType
+maxFingerToProbeAttenuationMax
+maxFingerToProbeAttenuationMin
+[_biometricABC sendAutoBugCaptureEvent:kMesaAbcCalculateWeeklyValueException]
+dailyEvent
+[deviceList isKindOfClass:[NSArray class]]
+deviceGroupType
+sensorType
+template1MatchCountContinuous
+template2MatchCountContinuous
+template3MatchCountContinuous
+template4MatchCountContinuous
+template5MatchCountContinuous
+template1UsageContinuous
+template2UsageContinuous
+template3UsageContinuous
+template4UsageContinuous
+template5UsageContinuous
+totalTemplateMatchCountContinuous
+CatacombVersion
+CatacombIdentityList
+CatacombTemplateList
+CatacombEnrollmentCount
+CatacombCurrentDate
+com.apple.purplebuddy
+com.apple.springboard
+ariadneSignpostsEnabled
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/biometrickitd/BiometricKitXPCServerMesa.m
+size == sizeof(outData)
+_templListCache
+_statistics != ((void *)0)
+_userDefaults
+_dummyEnrollClient
+_hidClient
+com.apple.biometrickitd.hid
+_hidClientQueue
+ClientEventFilter
+com.apple.biometrickitd.power
+_powerNotificationQueue
+_rootPowerDomain
+[self initDisplayService] == 0 
+com.apple.biometrickitd.driverNotify
+_driverNotifyQueue
+_driverNotifyPort
+IOServiceFirstMatch
+AppleBiometricServices
+self.biometricABC
+v24@?0Q8@"NSDictionary"16
+_SLSClient
+!error
+operation
+client
+BKOptionMatchForExtendEnrollment
+BKOptionMatchCaptureOnly
+BKOptionFilterOutHomeButtonEvents
+BKOptionSuppressHapticFeedback
+BKOptionMatchRequireFingerOff
+BKOptionMatchRequireStrictCoverage
+!operation.forUnlock
+!operation.forCredentialSet
+!operation.forPreArm
+!operation.stopOnSuccess
+!operation.noBioLockout
+!operation.selectedIdentitiesBlob
+filter
+[identities count] == 1
+operation.forPreArm
+operation.acmContext.length <= sizeof(inData->matchInitData.data.acmContext.data)
+[self.biometricABC sendAutoBugCaptureEvent:kMesaAbcSensorResetFailure]
+MesaCustomPatch.binary
+kEsdMonitorTimeout
+kCalDataState
+kProvisioningState
+kDevGidDisabled
+kStartedOperations
+kEsdOccurrence
+kSystemUpTime
+kEsdMonitoredOccurrence
+identity
+result
+size >= 18
+serialNumber
+GetCombined
+VerifyData
+StripImg4
+calData
+biosensor,mesa
+matching
+service != 0
+calibration-blob
+property
+([calibrationData length] > (__builtin_offsetof(tsCafpnCal, uiStructSize) + sizeof(((tsCafpnCal *)0)->uiStructSize)))
+fdrData
+timestampCollection
+dataSize
+size == dataSize
+Touch ID authentication
+outData.sensorInfo.structSize == sizeof(_sensorInfo)
+_dailyUpdateTimer
+sbioInfo
+calDataInfo
+captureHandlingErrorCount
+captureHandlingErrorCode
+What were you doing when issue happened?
+MesaAutofiledAssert
+[CAPTURE HANDLING ERROR]
+Timestamp: %@
+Code: 0x%lx
+Count: %lu
+[Details]
+Internal description: %@
+Provisioning state: %lu
+Sensor patch version: %ld
+Steps to reproduce:
+rdar://new/problem/componentId=529507&classification=Other Bug&reproducibility=Not Applicable&
+configuration=Keyword:%@&
+attachments=
+description=%@
+service
+fdetOperation
+matchData
+[matchData length] >= sizeof(message_match_node_v1_t)
+bioOp.type == kBioOpTypeMatch
+[matchData length] >= sizeof(match_result) + (matchResult->lotlItems * sizeof(matchResult->lotlUserIDs[0]))
+[identity userID] == matchResult->identity.userID
+matchEvent
+BKClientType
+device
+accessory
+BKAuthRequiredForAccessory
+BKTemplateUpdateDetailTopologyData
+BKTemplateUpdateDetailImageMetadata
+IOGeneralInterest
+_connect
+mesa_fdr
+mesa_eeprom
+/var/root/mesa_calibration.bin
+err != 4 && err != 57 && err != 60
+No calibration data loaded. 
+/System/Library/Mesa/ANENets/NetBlob_H19_Oc_De.bin
+msgVersion == 2
+[msgData length] >= sizeof(message_match_node_v2_t)
+[msgData length] >= sizeof(message_enroll_node_v2_t)
+msgVersion == 1
+[msgData length] >= sizeof(message_statistics_v1_t)
+[msgData length] >= sizeof(message_sks_state_v1_t)
+%sDeviceLocked
+%sPasscodeLockout
+%sBioLockout
+%sUnlockTokenPresent
+%sApplePayTokenPresent
+%sBeforeFirstUnlock
+%sPasscodeValidated
+%sIdentificationLockout
+%sCatacombCorrupted
+%sRemoteUnlocked
+[msgData length] >= sizeof(message_match_event_v1_t)
+[msgData length] >= sizeof(message_device_auth_required_v1_t)
+[msgData length] >= sizeof(message_accessory_image_info_v1_t)
+com.apple.biometrickitd.performCommand
+component
+archiver
+unarchiver
+size >= sizeof(*header)
+header->magic == 0x31544143
+size >= sizeof(*header) + identListSize + templListSize
+(identCount == 0 && templListSize == 0) || (identCount > 0 && templListSize > 0)
+TemplateList.cat
+%@ - LoadDataFromCatacomb(), err = %d, already in SEP: %s
+Loading Catacomb file
+version == 0x00020000
+%@ - Archiver exception %@
+Loading TemplateList
+outBuffer
+(size % sizeof(identity_v1_t)) == 0
+(size % sizeof(catacomb_state_v1_t)) == 0
+(size % sizeof(catacomb_group_state_v1_t)) == 0
+outBuffer.length >= size
+(size % sizeof(identity_record_v1_t)) == 0
+(size % sizeof(biodevice_info_v1_t)) == 0
+size == [sensorInfoData length]
+setCfg
+effectiveCfg
+(cfg.bioMatchLifespan == -1) && (cfg.passcodeInputLifespan == -1)
+messageData
+messageDataSize == size
+There are no Mesa messages in syslog.
+-------- SysLog start (delay: %.0fs) --------
+%@-------- SysLog end (delay: %.0fs) -------- 
+messages
+mobile
+dataStorePath
+timestampFormatter
+yyyy_MM_dd_HH_mm_ss_SSS
+%@/XFER_%@
+Timestamp
+Direction
+Command
+Message
+0x%llX
+DataSize
+[NSJSONSerialization isValidJSONObject:transfers]
+jsonData
+osLogLatency
+latencyLog
+ENROLL LATENCY:
+[Total]: %llu
+MATCH LATENCY:
+[messageData length] >= sizeof(*message)
+message->headerSize >= sizeof(*message)
+(uint64_t)message->headerSize + message->dataSize <= [messageData length]
+message->dataSize >= sizeof(logging_sensor_status_log_t)
+v24@?0^v8Q16
+message->dataSize > sizeof(*imageLog)
+message->dataSize > imageLog->headerSize + sizeof(*imageItem)
+message->dataSize > imageLog->headerSize + imageItem->headerSize
+imageLog->captureItemOffset < remainingItemsSize - sizeof(*captureItem)
+remainingItemsSize >= itemSize
+message->dataSize == sizeof(unsigned long)
+message->dataSize >= sizeof(*latencyLog)
+isTouchIDPlatform()
+Daemon-Mesa
+__listener
+IsVirtualDevice
+/usr/local/lib/libBKDMVirt.dylib
+BiometricKitXPCServerVirt
+biometricKitXPCServerVirtClass
+__xpcServer
+com.apple.biometrickitd.xpcListenerQueue
+__xpcListenerQueue
+com.apple.notifyd.matching
+v16@?0@"NSObject<OS_xpc_object>"8
+com.apple.iokit.matching
+kIOMessageCanSystemSleep
+kIOMessageSystemWillSleep
+kIOMessageSystemWillPowerOn
+kIOMessageSystemHasPoweredOn
+Latency
+serviceMatch
+serviceStatus
+[msgDataV1 length] >= sizeof(*srcV1)
+([msgDataV1 length] - sizeof(*srcV1)) == srcV1->lotlItems * sizeof(srcV1->lotlUserIDs[0])
+[msgDataV1 length] == sizeof(*srcV1)
+([msgDataV1 length] - sizeof(*srcV1)) == srcV1->imgDeblurringInfoSize
+com.apple.biometrickit.mesa.templateMatchCounts
+com.apple.biometrickit.mesa.fingerTouchTime
+com.apple.biometrickit.mesa.fingerLiftTime
+com.apple.biometrickit.mesa.matchAttempt
+com.apple.biometrickit.mesa.unlockAttempt
+com.apple.biometrickit.mesa.enrollAttempt
+com.apple.biometrickit.mesa.dailyUpdate
+com.apple.biometrickit.mesa.weeklyUpdate
+com.apple.biometrickit.mesa.templateUpdate
+quickTapsCount
+timeSinceIdentityEnrollmentBinned
+firstEnrollmentDate
+imgProcResData
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/MesaCoreAnalytics/MesaCoreAnalyticsDefines.m
+[imgProcResData length] >= sizeof(imgProcResFull->imgProcessingResult)
+[imgProcResData length] >= sizeof(*imgProcResFull)
+imgProcResFull->imgProcessingResult.imgDeblurringInfoSize >= sizeof(imgProcResFull->imgDeblurringInfo)
+accImgInfoData
+[accImgInfoData length] >= sizeof(*accImgInfo)
+com.apple.mesad.analytics
+_analyticsDispatchQueue
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/MesaCoreAnalytics/MesaCoreAnalytics.m
+biometricABC != ((void *)0)
+_currentEvent == _matchEvent
+[_biometricABC sendAutoBugCaptureEvent:kMesaAbcInternalSensorTypeNotSet]
+dailyDictionary
+_currentEvent == _enrollEvent || [_enrollEvent isWaitingForFinish]
+BKUserCfgEffectiveTouchIDUnlockEnabled
+BKUserCfgEffectiveTouchIDApplePayEnabled
+[_biometricABC sendAutoBugCaptureEvent:kMesaAbcExcessiveUnlockAttemptCount]
+weeklyDictionary
+lockStateDictionary
+q24@?0@8@16
+lastEnrollmentDate
+bioAccessory
+accessoryIndex < 5
+enrolledIdentityCount%d
+enrolledUserCount%d
+stats->value.fixed > _lastMatchAttemptTimeOffset
+_matchEvent.firstCaptureEndTime
+_matchEvent.imageProcessingEndTime
+_matchEvent.matcherTime
+[imageInfoData length] >= sizeof(*imageInfoMessage)
+EEPROMHelper.m
+IOProviderClass
+AppleARMIICDevice
+connect
+ret == 0 
+*connect
+addressSize
+*dataSize
+128 >= addressSize
+mesa-eeprom
+mesa-eeprom-lower-64k
+outputSize == sizeof(calBlobHeader)
+outputSize < 64*1024
+outputSize == calBlobHeader.uiStructSize
+-[BiometricKitDStatistics startBioOperation:]
+-[BiometricKitDStatistics startMatchOperation:]
+-[BiometricKitDStatistics cancel]
+-[BiometricKitDStatistics timestampEvent:absoluteTime:]
+-[BiometricKitDStatistics matchResult:withDictionary:]
+NoMatch
+-[BiometricKitDStatistics templateUpdate:withDictionary:]
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/biometrickitd/BiometricKitDStatistics.m
+details
+topologyData
+[topologyData length] == sizeof(node_placement_t)
+-[BiometricKitDStatistics removeAllIdentities]
+-[BiometricKitDStatistics resetMatchCounts]
+-[BiometricKitDStatistics statusMessage:]
+-[BiometricKitDStatistics matchAttemptFinished:]
+-[BiometricKitDStatistics homeButtonStateChanged:]
+-[BiometricKitDStatistics lockStateUpdated:]
+-[BiometricKitDStatistics displayStatusChanged:]
+-[BiometricKitDStatistics unlockAttemptCanceled:]
+-[BiometricKitDStatistics unlockAttemptStarted:]
+-[BiometricKitDStatistics unlockAttemptFinished]
+-[BiometricKitDStatistics matchOperationStarted]
+-[BiometricKitDStatistics matchOperationFinished:]
+-[BiometricKitDStatistics lastImageIsProcessed]
+-[BiometricKitDStatistics logFingerOff]
+-[BiometricKitDStatistics wasDeviceHibernated:]
+Daemon-Statistics
+MatchModeNone
+MatchModeUnlock
+MatchModeExplicit
+MatchModeACM
+MatchModeExtendedEnrollment
+MatchModePrearm
+SENSOR_WAIT_FINGER_HVBOOST
+SENSOR_CAP_RESTART_RCMD
+SENSOR_WAIT_MENU
+SENSOR_NEEDS_RESET
+SENSOR_CAP_RESTARTING
+SENSOR_WAIT_FINGER
+SENSOR_CMD_NOT_SUPPORTED
+SENSOR_DATA_READY
+CS_Starting_IBFD
+CS_Starting_FBFD
+CS_NVM_NOT_MAGIC_ENOUGH
+CS_NVM_REFRESH_ERROR
+CS_I2C_ERROR_NACK_REG_DATA
+CS_I2C_ERROR_NACK_REG_ADDR
+CS_I2C_ERROR_NACK_SLAVE
+CS_CMD_NOT_VALID
+CS_CAL_FAIL_OFFSET
+CS_CAL_NVM_WRTE_FAIL
+CS_CAL_FAIL_FREQ
+CS_CAL_FAIL_ULPO
+CS_CMD_NOT_ALLOWED
+SA_ERROR_PHYSICAL_PRESENCE_FAILED
+SA_ERROR_GET_NONCE_REQUIRED
+SA_ERROR_NEVER_PROVISIONED
+SA_INFO_FACTORY_CLEAR_DONE
+SA_INFO_FACTORY_CLEAR_IS_ARMED
+SA_ERROR_IN_DMA_LENGTH
+SA_ERROR_IN_CCM_LENGTH
+SA_ERROR_BAD_PROVISIONING
+SA_ERROR_IN_TRNG_STATE
+SA_ERROR_KSM_MAGIC_ACCB_FAILURE
+SA_ERROR_SKE_UNWRAP_ATTACK
+SA_ERROR_NVM_FAILURE
+SA_ERROR_SPD_ROM_CHECKSUM_FAILURE
+SA_ERROR_CRC_FAILURE
+SA_ERROR_IN_SEQUENCE_COUNTER
+SA_ERROR_BAD_PARAMETERS
+SA_ERROR_BAD_PREVIOUS_STATE
+SA_ERROR_BAD_STATE
+SA_ERROR_SPD_AUTH_FAILURE_SECOND_TIME
+SA_ERROR_AUTH_FAILURE
+SA_ERROR_SKE_UNWRAP_FAILURE
+SelfResetAfterPatchLoad
+0x%02x,0x%02x,0x%02x,0x%02x,0x%02x,0x%08x
+waitingApache3Bank
+requirePhysicalPresence
+physicalPresenceAsserted
+IBFD_REGION_FP_CNT
+IBFD_REGION_FLAGS
+MI_CONTRAST_48P96
+provisionCmdStatus
+provisionCmdStatusMI_CONTRAST_MIN
+provisionCmdStatusBlankingBit
+secStatusR0_VPIX
+secStatusStallDuration
+secStatusMI_CONTRAST_MIN
+NoReset
+PowerOnReset
+WatchdogReset
+ESDErrorReset
+ResetCommand
+IdleCommand
+IdleNoResponse
+UNKNOWN
+SA_NO_ERRORS
+R0_VPIX
+StallDuration
+R0_CMP
+MI_CONTRAST_MIN
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioLog/BioLogSensorStatus.swift
+init(_:sensorStatus:provisionCmdStatus:)
+SecStatus: Unknown value: 
+UNINITIALIZED
+ATE_TEST
+UNPROVISIONED
+PROVISIONED
+FAILURE
+PATCHED
+CS_CRC_ERROR
+CS_CMD_ERROR
+CS_BAD_TAG
+CS_LENGTH_ERROR
+CS_PATCHED
+CS_FAILURE
+RESERVED
+CS_FBFD
+CS_IBFD
+CS_FD_Settling
+CS_FD_Motion
+CS_FOffInCap
+init(_:sensorStatus:)
+ProvisionCmdStatus(
+): Unknown value: 
+ProvisionCmdStatus: Unknown value: 
+SENSOR_IDLE
+SENSOR_BUSY
+SENSOR_HOLD
+SENSOR_CAP
+init(_:)
+SensorStatus: Unknown value: 
+yyyy-MM-dd_HH_mm_ss
+enroll
+com.apple.BioLog.retention
+bioLogRetentionSequenceList
+bioLogRetentionTemplateDataList
+bioLogRetentionPendingInit
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioLog/BioLogRetention.swift
+removeTemplateData(at:userID:numberRange:)
+Removing templateData
+checkEmptyLogDirectory(previousSequencePath:removedSequencePath:nextSequencePath:)
+Removing from templateDataList
+FileManager.default.removeItem(at: 
+bioLogRetentionSize
+bioLogRetentionDebugDaysInMinutes
+applySizeLimit()
+com.apple.BioLog.Retention.sizeLimit
+classPolicy[retentionClass]?.portion
+sizePerClass[retentionClass]
+sequenceList.isEmpty
+removeBioLog()
+FileManager.default.removeItem(atPath: 
+applyDaysLimit()
+com.apple.BioLog.Retention.daysLimit
+formatter.string(from: remainingInterval)
+addTemplateData(at:size:logURL:userID:number:)
+Appending templateDataList
+setSequence(at:retentionClass:size:templateDataUserID:templateDataNumber:)
+Updating sequenceList
+init(at:classPolicy:)
+Could not move residual logs to 
+com.apple.BiometricKit
+/Library/Logs/BioLog
+com.apple.BioLog.logging
+com.apple.BioLog.writing
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioLog/BioLog.swift
+logSensorStatus(_:)
+find . -name '*.json' | tar -acf 
+archive(allLogs:)
+biometrickitd.BioLog
+init()
+addImageComment(message:)
+jsonEncoder.encode()
+createPGMImageFile(path:data:width:height:comment:)
+createFile(atPath: 
+finishSequence(type:reset:)
+sequenceURL == nil
+FileManager.createSymbolicLink(atPath: 
+createFile(sequenceInfo)
+createFile(path:contents:logDataName:)
+com.apple.BioLog.sequence
+startSequence(type:client:priority:)
+logSymlink(url:destinationURL:relativeToURL:)
+FileManager.createDirectory(at: 
+logTemplateUpdateResult(updated:data:)
+templateUpdateInfo
+data.loadMemoryBound(to: template_update_info_t.self)
+createFile(templateUpdateInfo)
+templateUpdateURL
+resultInfo.resultValid == 0
+data.loadMemoryBound(to: bgops_result_t.self)
+logTemplateList(userID:update:)
+templateListData(userID: 
+self.templateListNumber[userID]
+logCalibrationData(accessoryObj:)
+sources[kBioDeviceTypeBuiltin].accessoryObjKey
+logCalibrationData(accessoryObj:source:)
+calibrationData(accessory: 
+createFile(path:contents:)
+FileManager.createFile(atPath: 
+bioLogDataLoggingEnabled
+bioLogLatencyLoggingEnabled
+bioLogRetentionEnabled
+bioLogRetentionDaysLimit
+bioLogRetentionSizeLimit
+bioLogDebugImageLoggingEnabled
+bioLogImageLoggingEnabled
+bioLogCaptureLoggingEnabled
+updateLoggingState(initial:)
+bioLogTemplateLoggingEnabled
+bioLogCalibrationDataLoggingEnabled
+ensureLogDirectory()
+runInShell(command: 
+runInShell(command:workingDirectory:)
+logMatchLatency(_:timestamp:)
+logEnrollLatency(_:timestamp:)
+logDebugImage(data:id:captureCounter:label:fileExtension:timestamp:sourceUUID:)
+logImage(data:width:height:id:captureCounter:timestamp:sourceUUID:)
+logCapture(data:id:captureCounter:timestamp:)
+data.loadMemoryBound(to: sensor_status_log_t.self)
+logEnrollResult(identity:timestamp:)
+logAccessoryImageInfo(_:timestamp:)
+imageInfoData.loadMemoryBound(to: message_accessory_image_info_v1_t.self)
+logAccessoryRemoved(_:)
+Accessory not found: 
+logAccessoryUpdated(_:info:)
+Missing info for accessory: 
+logAccessoryAdded(_:)
+Accessory already present: 
+logStatusMessage(_:data:timestamp:)
+data.loadMemoryBound(to: message_info_v1_t.self)
+sequence (status: 
+).loadMemoryBound(to: image_processing_result.self) (
+data.loadMemoryBound(to: enrollment_info_t.self)
+kStatusEnrollmentCancelled: sequence?.enrollment
+kStatusMatchingCancelled: sequence?.match
+kStatusFingerDetectCancelled: deferredSequenceStarts.count == 0
+kStatusEnrollmentFailed: sequence?.enrollment
+kStatusEnrollmentTimeout: sequence?.enrollment
+kStatusMatchingStopped: sequence?.match
+kStatusTemplateListUpdated: data
+kStatusTemplateListNotUpdated: data
+logRemoveAllIdentities(userID:client:)
+Identity removal during active sequence! (
+sepTranferStorePath
+com.apple.biometrickitd
+com.apple.BioLog.init
+ExternalPowerSourceConnected
+BatteryIsCharging
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioLog/BioLogStruct.swift
+updateAccessory(_:info:)
+init(_:initTemplateInfo:)
+init(_:initTemplateTopology:)
+captureHandlingError
+backgroundFingerDetectDisabled
+backgroundFingerDetectEnabled
+systemPowerState
+accessoryImageInfo
+accessoryRemoved
+accessoryDisconnected
+accessoryConnected
+BKMatchDetailNoMatchReason
+BKMatchDetailLockoutState
+BKMatchDetailPreArm
+BKMatchDetailUnlocked
+BKMatchDetailHomeButtonPressed
+BKMatchDetailCredentialAdded
+BKMatchDetailResultIgnored
+BKMatchDetailNoMatchMatcher
+BKMatchDetailNoMatchImageQuality
+BKMatchDetailTopologyData
+BKMatchDetailLOTLUserIDs
+BKMatchDetailImageMetadata
+init(_:matching:)
+bridgeOSBuildVersion
+sepLoggingSupport
+provisioningState
+sensorParameters
+calibrationDataFilename
+connectedAccessory
+unlockTokenPresent
+beforeFirstUnlock
+passcodeValidated
+identificationLockout
+catacombCorrupted
+applePayTokenPresent
+unlockTokenDropped
+templateListFilename
+sksLockStateTimestamp
+systemPowerStateTimestamp
+buttonPressedTimestamp
+buttonReleasedTimestamp
+thermalLevelTimestamp
+backgroundFingerDetectTimestamp
+backgroundFingerDetect
+backgroundFingerDetectClient
+wakeOnMenuPinTimestamp
+autoMatchingStartedTimestamp
+fingerStateTimestamp
+fingerStateInSequenceNumber
+externalPowerSourceConnected
+batteryIsCharging
+displayStateTimestamp
+removedFromTemplate
+addedToTemplateUUID
+removedFromTemplateUUID
+resampleScale100
+largestCompNodes
+iTemplateUpdatedMain
+iTemplateUpdatedWR
+templateTopology
+forExtendEnrollment
+filterIdentityUUID
+forCredentialSet
+requireFingerOff
+selectedIdentityUUIDs
+requireStrictCoverage
+imageDiagProblemClass
+crackDetectionResult
+maxFingerToProbeAttenuation
+imageDiagContrast
+imageDiagBrightness
+imageDiagFeatureStrength
+imageDiagNumPxOutliers
+imageDiagClassFeatures
+imageDeblurringInfo
+wEnrollImageCount
+sLargestCompState_wArea
+sLargestCompState_wNodeCount
+sLargestCompState_wEdgeCount
+sensorData_vhvldo
+sensorData_fgrMotionCnt
+sensorData_framesDiscardedRcmd
+diagnostics_contrast
+diagnostics_brightness
+diagnostics_featureStrength
+diagnostics_numPxOutliers
+fingerOnToCaptureDuration
+captureDecryptionDuration
+imageProcessingDuration
+imagePostProcessingDuration
+fingerOnToImageReportDuration
+captureRestartCount
+sensorResetCount
+imageProcessingResult
+templateGraphState
+homeButtonPressed
+noMatchImageQuality
+matchForExtendEnrollment
+canceledTimestamp
+lastResultTimestamp
+capture
+debugImage
+matchTopology.structSize(
+) != matchTopologyData.count(
+matchTopologyData.loadMemoryBound(to: match_node_placement_v1_t.self)
+imageMetadataData.loadMemoryBound(to: image_metadata.self)
+accessoryAdded
+buttonPressed
+buttonReleased
+displayOff
+sksLockState
+thermalLevel
+sensorRecovery
+identityRemoved
+canSleep
+willNotSleep
+willSleep
+willPowerOn
+hasPoweredOn
+unknown
+SystemPowerState: Unknown value 
+BKClientConnectionId
+BKClientProcessName
+BKClientBundleIdentifier
+Accessory type mismatch: 
+Accessory UUID mismatch: 
+TestPatch
+ProdPatch
+EngrPatch
+Unknown
+Reserved
+ProvisionedWithUID
+ProvisionedLockedWithUID
+ProvisionedWithStatic
+ProvisionedUnknownKey
+ProvisionedWithGID
+ProvisionedWithTest
+ProvisionedLockedUnknownKey
+MaxTemplateCount(50)
+CredentialRemoved
+ImageQueueIsEmpty
+WakeOnMenuPinEnabled
+StockholmAutoMatchStarted
+TemplateListNotUpdated
+SensorOperationModeFdet
+TaskResumeFailed
+EnrollmentComplete
+EnrollmentCancelled
+EnrollmentFailed
+EnrollmentTimeout
+ImageForProcessing
+TemplateListUpdated
+RequestFingerOff
+AutoMatchingStarted
+AutoMatchingStopped
+AutoMatchingStartByHomeButton
+MatchingCancelled
+FingerOnBeforeFirstPasscodeUnlock
+FingerOnInPasscodeLockout
+FingerOnInBioLockout
+ImageRejectedUnknown
+ImageRejectedBadBlocks
+ImageRejectedChFPN
+ImageRejectedCaFPN
+SensorOperationModeIdle
+SensorOperationModeCapture
+SensorOperationModePause
+FingerOnTokenExpired
+DirtOnSensorDetected
+CalibrationDataLoaded
+ImageWasAccepted
+DesenseMitigationPause
+MatchRetryAfterHomeButtonRelease
+ImageRejectedMovement
+FingerDetectCancelled
+ProgressBaseOffset(100)
+AuthorizationRequired
+BeforeFirstUnlock
+InPasscodeLockout
+InIdentificationLockout
+PearlInterlocked
+UnknownEnumGapValue(1)
+IQ_ACCEPT_CONDITIONALLY
+IQ_ACCEPT_PREVIOUS
+IQ_FEEDBACK_BADIMAGE
+IQ_FEEDBACK_BADBLOCKS
+IQ_FEEDBACK_CHFPN
+UnknownEnumGapValue(203)
+IQ_FEEDBACK_CAFPN
+IQ_FEEDBACK_MOTION
+captureProcessing
+imageProcessingDone
+imageHandlingDone
+sepImageDecryption
+sepImageDecryptionDone
+sepImageProcessing
+sepSANEClientInference
+sepSANEClientInferenceDone
+sepImageProcessingDone
+sepAddImageToTemplate
+sepFinalizeEnrollment
+sepUpdateTemplateList
+sepEnrollImageHandlingDone
+sepAddImageToExtendedEnrollment
+sepNodePlacement
+sepMatchExtImageHandlingDone
+sepResultProcessing
+sepMatchImageHandlingDone
+ProgressBaseOffset(
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioFoundation/BioBlockFile.swift
+move(offset:toLeftBy:)
+move(offset:toRightBy:)
+readNextBlock(lowerCount:)
+fileHandle.read(upToCount: 
+offset >= endOffset
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioFoundation/BioJSONArray.swift
+replaceItem(_:)
+itemStartOffset > itemEndOffset
+nextItem()
+readNextItemData()
+Unexpected start of array
+Corrupted array opening
+JSON item too large for readBuffer(max: 
+Unexpected end of JSON file
+appendItem(_:)
+fileHandle (Not open?)
+removeItem()
+removeCount <= 0
+isEmpty
+Daemon-MesaSwift
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/biometrickitd/BiometricKitXPCServerMesa.swift
+loggingSEPSupport()
+setIORegistryProperty(_:toValue:onService:)
+templateListData(userID:)
+sksLockState(userID:)
+reportStatusMessages
+AppleBiometricSensor
+loggingSetState(_:)
+performCommand(kSetLoggingDataCommand, inValue: 
+kGetSKSLockStateCommand(userID: 
+kPrepareSerialisedTemplatesCommand(userID: 
+checkCatacomb(forUser: 
+IORegistryEntrySetCFProperty(
+IOServiceGetMatchingService(
+performCommand(kGetLoggingDataCommand, inValue: kLoggingSupport, outStruct: &sepLoggingSupport)
+updateLoggingState()
+loggingSetState(
+/AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/BioLog/BioLogRetentionStruct.swift
+remove()
+T@"NSArray",R,N
+$__lazy_storage_$_secondsInDay
+T@"NSNumber",&,V_badImagesCount
+$__lazy_storage_$_sepTranferStorePath
+T@"NSNumber",&,V_imageBadBlocks
+BSRBin
+T@"NSNumber",&,V_nonArtefactFRR
+DRXAmpMaxBin
+T@"NSNumber",&,V_scanGroupCount
+DRXAmpMinBin
+T@"NSNumber",&,V_targetTemplate
+FMRBin
+T@"NSNumber",&,V_temperatureRaw
+T@"NSNumber",&,V_template2Usage
+T@"BiometricKitXPCServerMesa",V_server
+T@"NSNumber",&,V_template4Usage
+T@"NSArray",R,V_attachedDevicesList
+T@"NSNumber",&,V_tidButtonState
+T@"NSData",&,V_deblurringInfo
+T@"NSNumber",&,V_totalScanCount
+T@"NSDate",&,V_sensorOperationStartDate
+T@"NSNumber",R,V_captureTimeSum
+T@"NSMutableArray",R,V_dailyEvents
+T@"NSNumber",R,V_matcherTimeSum
+T@"NSNumber",&,N,V_captureTime
+TQ,N,VcaptureHandlingErrorCount
+T@"NSNumber",&,N,V_imageProcessingTime
+_BSRRaw
+T@"NSNumber",&,N,V_timeSinceFirstEnrollment
+_FMRRaw
+T@"NSNumber",&,N,V_timeSinceSecondLastEnrollment
+_badImagesCount
+T@"NSNumber",&,V_BSRRaw
+_deblurringInfo
+T@"NSNumber",&,V_DRXAmpMaxRaw
+_fingerDetected
+T@"NSNumber",&,V_DRXAmpMinRaw
+_hidClientQueue
+T@"NSNumber",&,V_FMRRaw
+_logger
+T@"NSNumber",&,V_accessoryColorID
+_matcherEndTime
+T@"NSNumber",&,V_activeTemplatesCount
+_maxFingerToProbeAttenuationBin
+T@"NSNumber",&,V_applePayEnabled
+_maxFingerToProbeAttenuationMin
+T@"NSNumber",&,V_artefactAnchorXAverage
+_maxFingerToProbeAttenuationSum
+T@"NSNumber",&,V_artefactAnchorY
+_nonArtefactMatchAttemptsFailed
+T@"NSNumber",&,V_artefactAnchorYSTD
+_quickTapsCount
+T@"NSNumber",&,V_artefactFRR
+_server
+T@"NSNumber",&,V_artefactMatchAttemptsFailed
+_status
+T@"NSNumber",&,V_artefactMatchAttemptsFingerDetected
+_targetTemplate
+T@"NSNumber",&,V_artefactNonlinearity
+_temperatureRaw
+T@"NSNumber",&,V_artefactNonlinearitySTD
+_template1Usage
+T@"NSNumber",&,V_artefactScore
+_template3Usage
+T@"NSNumber",&,V_artefactStrength
+_template5Usage
+T@"NSNumber",&,V_assessment
+_timeSinceFirstEnrollmentBinned
+T@"NSNumber",&,V_badDay
+_totalNodeCount
+T@"NSNumber",&,V_badDaysCount
+_userID
+T@"NSNumber",&,V_bioLockoutCount
+accessoryAdded:
+T@"NSNumber",&,V_builtinSensorType
+applePayEnabled
+T@"NSNumber",&,V_captureRestartCount
+artefactAnchorX
+T@"NSNumber",&,V_capturedImageCount
+artefactMatchAttemptsSuccessful
+T@"NSNumber",&,V_carrierAttenRaw
+biometryEnabled
+T@"NSNumber",&,V_deviceAngle
+cacheSensorInfo
+T@"NSNumber",&,V_deviceGroupType
+carrierAttenRaw
+T@"NSNumber",&,V_deviceWakeReason
+classPortionSum
+T@"NSNumber",&,V_driveVoltage
+containsString:
+T@"NSNumber",&,V_drxStrengthPctCol2BinAverage
+dailyEventIndex
+T@"NSNumber",&,V_drxStrengthPctCol2RawAverage
+T@"NSNumber",&,V_drxStrengthPctCol7BinAverage
+deviceGroupType
+T@"NSNumber",&,V_drxStrengthPctCol7RawAverage
+enabled
+T@"NSNumber",&,V_enrolledIdentityCount
+fileHandleForUpdatingURL:error:
+T@"NSNumber",&,V_enrolledIdentityCount1
+getEnrolledIdentitiesCountTotal
+T@"NSNumber",&,V_enrolledIdentityCount3
+getIdentityObjectByUserID:UUID:
+T@"NSNumber",&,V_enrolledIdentityCount5
+haveMatchResult
+T@"NSNumber",&,V_enrolledIdentityUserCount
+imageBrightness
+T@"NSNumber",&,V_enrolledUserCount
+isUserComponent
+T@"NSNumber",&,V_enrolledUserCount1
+lastEnrollmentDeviceOrientation
+T@"NSNumber",&,V_enrolledUserCount3
+logInfo
+T@"NSNumber",&,V_enrolledUserCount5
+loggingMessage:
+T@"NSNumber",&,V_eventEndType
+nodesCountTotal
+T@"NSNumber",&,V_failedMatchAttempts
+notifyAppIsInactive:withClient:
+T@"NSNumber",&,V_feedback
+numberWithBool:
+T@"NSNumber",&,V_fingerOffTime
+performGetBioDeviceListCommand:
+T@"NSNumber",&,V_firstCaptureEndTimeToFirstMatcherEndTime
+pgmImageComment
+T@"NSNumber",&,V_fitDiffRaw
+removeIdentity:
+T@"NSNumber",&,V_fitResEdge6SigmaRaw
+T@"NSNumber",&,V_imageBrightness
+T@"NSNumber",&,V_imageContrast
+setArtefactMatchAttemptsFailed:
+T@"NSNumber",&,V_imageDecryptionTime
+setBool:forKey:
+T@"NSNumber",&,V_imageFeatureStrengthNorm
+setCaptureTime:
+T@"NSNumber",&,V_imagePixelOutlierCountAverage
+setDrxStrengthPctCol2:rawValue:
+T@"NSNumber",&,V_imageProcessingEndTime
+setMatchCounts:totalMatchCount:
+T@"NSNumber",&,V_largestComponentArea
+setMatchWithDesensePauseLogged:
+T@"NSNumber",&,V_lastEnrollmentDeviceOrientation
+setNodesDeletedFromWaitingRoom:
+T@"NSNumber",&,V_lastEnrollmentScanGroupCount
+setRejectedImageBadBlocksCount:
+T@"NSNumber",&,V_lastMatchResult
+setTimeSinceIdentityEnrollment:
+T@"NSNumber",&,V_localAuthFRR0
+setWithObjects:
+T@"NSNumber",&,V_localAuthFRR2
+sources
+T@"NSNumber",&,V_localAuthFRR4
+stringFromDate:
+T@"NSNumber",&,V_localAuthFRR6
+subsetTargetFRR
+T@"NSNumber",&,V_localAuthMatchAttemptsFailed
+templatesAtBoot
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected0
+touchesToUnlock
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected2
+useCase
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected4
+usedDevicesList
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected6
+$__lazy_storage_$_analyticsStorePath
+T@"NSArray",R,V_usedDevicesList
+$__lazy_storage_$_sensorInfo
+T@"NSNumber",&,V_fingerLiftTime
+.cxx_destruct
+T@"NSNumber",&,V_matcherEndTime
+BSRRaw
+T@"NSNumber",&,V_quickTapsCount
+DRXAmpMaxRaw
+T@"NSNumber",&,V_subsetMatchFRR
+DRXAmpMinRaw
+T@"NSNumber",&,V_temperatureBin
+FMRRaw
+T@"NSNumber",&,V_template1Usage
+T@"BiometricKitAccessory",&,N,V_accessory
+T@"NSNumber",&,V_template3Usage
+T@"BiometricMatchOperationMesa",&,V_matchOperation
+T@"NSNumber",&,V_template5Usage
+T@"NSArray",R,V_pairedDevicesList
+T@"NSNumber",&,V_timeSinceSleep
+T@"NSDate",&,N,V_creationTime
+T@"NSNumber",&,V_validDaysCount
+T@"NSDate",N,C
+T@"NSNumber",R,V_fingerDetected
+T@"NSMutableDictionary",&,V_templateStats
+T@"NSNumber",R,V_operationCount
+T@"NSNumber",&,N,V_deviceType
+_BSRBin
+T@"NSNumber",&,N,V_sensorRecoveryReason
+_FMRBin
+T@"NSNumber",&,N,V_timeSinceIdentityEnrollment
+_badDay
+T@"NSNumber",&,V_BSRBin
+_captureTimeSum
+T@"NSNumber",&,V_DRXAmpMaxBin
+_events
+T@"NSNumber",&,V_DRXAmpMinBin
+_fingerLiftTime
+T@"NSNumber",&,V_FMRBin
+_imageBadBlocks
+T@"NSNumber",&,V_acceptedImageCount
+_matchOperation
+T@"NSNumber",&,V_accessoryTransport
+_matcherTimeSum
+T@"NSNumber",&,V_activeUsersCount
+_maxFingerToProbeAttenuationMax
+T@"NSNumber",&,V_artefactAnchorX
+_maxFingerToProbeAttenuationRaw
+T@"NSNumber",&,V_artefactAnchorXSTD
+_nonArtefactFRR
+T@"NSNumber",&,V_artefactAnchorYAverage
+_operationCount
+T@"NSNumber",&,V_artefactDetectionResult
+_scanGroupCount
+T@"NSNumber",&,V_artefactMatchAttempts
+_source
+T@"NSNumber",&,V_artefactMatchAttemptsFailedFingerDetected
+_subsetMatchFRR
+T@"NSNumber",&,V_artefactMatchAttemptsSuccessful
+_temperatureBin
+T@"NSNumber",&,V_artefactNonlinearityAverage
+_templListCache
+T@"NSNumber",&,V_artefactPrevalence
+_template2Usage
+T@"NSNumber",&,V_artefactScoreAverage
+_template4Usage
+T@"NSNumber",&,V_artefactStrengthAverage
+_tidButtonState
+T@"NSNumber",&,V_attachedDeviceCount
+_timeSinceSleep
+T@"NSNumber",&,V_badDayFRR
+_totalScanCount
+T@"NSNumber",&,V_bioLockout
+_validDaysCount
+T@"NSNumber",&,V_bioOperationType
+allKeys
+T@"NSNumber",&,V_canceledByNewCommand
+arrayWithArray:
+T@"NSNumber",&,V_captureTimeAverage
+artefactAnchorY
+T@"NSNumber",&,V_carrierAttenBin
+bioLockoutCount
+T@"NSNumber",&,V_desenseMitigationPause
+bytesInMegabyte
+T@"NSNumber",&,V_deviceAngleState
+carrierAttenBin
+T@"NSNumber",&,V_deviceOrientation
+catacombVersion
+T@"NSNumber",&,V_dirtOnSensor
+containsObject:
+T@"NSNumber",&,V_drxStrengthPctCol2Bin
+currentCalendar
+T@"NSNumber",&,V_drxStrengthPctCol2Raw
+dataWithLength:
+T@"NSNumber",&,V_drxStrengthPctCol7Bin
+dealloc
+T@"NSNumber",&,V_drxStrengthPctCol7Raw
+displayTouchIDIssueNotification
+T@"NSNumber",&,V_enrollResult
+enrollProgress:
+T@"NSNumber",&,V_enrolledIdentityCount0
+fileURL
+T@"NSNumber",&,V_enrolledIdentityCount2
+getEnrolledUserIDsForAccessory:
+T@"NSNumber",&,V_enrolledIdentityCount4
+getProvisioningStateWithClient:
+T@"NSNumber",&,V_enrolledIdentityTotalCount
+identitiesCount
+T@"NSNumber",&,V_enrolledTemplatesCount
+isProxy
+T@"NSNumber",&,V_enrolledUserCount0
+itemStartOffset
+T@"NSNumber",&,V_enrolledUserCount2
+lastMatchResult
+T@"NSNumber",&,V_enrolledUserCount4
+logUnlockedStateWithIdentities:
+T@"NSNumber",&,V_enrolledUsersCount
+modulationRatio
+T@"NSNumber",&,V_eventFinished
+nodesMovedFromWaitingRoomToMain
+T@"NSNumber",&,V_failedUnlockAttempts
+T@"NSNumber",&,V_fingerDetectEndTime
+passcodeNedded:
+T@"NSNumber",&,V_firstCaptureEndTime
+performGetCatacombStateCommand:
+T@"NSNumber",&,V_fitDiffBin
+release
+T@"NSNumber",&,V_fitResEdge6SigmaBin
+rootURL
+T@"NSNumber",&,V_imageAbsoluteTimeId
+sensorPauseTime
+T@"NSNumber",&,V_imageBrightnessNorm
+setArtefactFRR:
+T@"NSNumber",&,V_imageContrastNorm
+setArtefactNonlinearityAverage:
+T@"NSNumber",&,V_imageFeatureStrength
+setCaptureOnly:
+T@"NSNumber",&,V_imagePixelOutlierCount
+setDeviceAngle:
+T@"NSNumber",&,V_imageProblemClass
+setDrxStrengthPctCol7:rawValue:
+T@"NSNumber",&,V_imageTransferTime
+setMatchCountsFromIdentityList:
+T@"NSNumber",&,V_largestComponentNodeCount
+setMatcherTime:
+T@"NSNumber",&,V_lastEnrollmentScanCount
+setOverallTime:
+T@"NSNumber",&,V_lastEnrollmentTouchesCount
+setSensorReady:
+T@"NSNumber",&,V_localAuthFRR
+setUpdateCount:
+T@"NSNumber",&,V_localAuthFRR1
+sharedWorkspace
+T@"NSNumber",&,V_localAuthFRR3
+stringByAppendingPathExtension:
+T@"NSNumber",&,V_localAuthFRR5
+subsetMatchAttemptsFailedTarget
+T@"NSNumber",&,V_localAuthMatchAttempts
+templateUpdated
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected
+totalMatchOperationsFailedRetry
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected1
+unlockOperationStartedByCommand
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected3
+usedDeviceCount
+T@"NSNumber",&,V_localAuthMatchAttemptsFailedFingerDetected5
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected0
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected1
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected2
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected3
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected4
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected5
+T@"NSNumber",&,V_localAuthMatchAttemptsFingerDetected6
+T@"NSNumber",&,V_localAuthMatchAttemptsSuccessful
+T@"NSNumber",&,V_matchIdentityCount
+T@"NSNumber",&,V_matchMode
+T@"NSNumber",&,V_matchType
+T@"NSNumber",&,V_matchUseCase
+T@"NSNumber",&,V_matcherEndTimeWithRetry
+T@"NSNumber",&,V_matcherResult
+T@"NSNumber",&,V_matcherTime
+T@"NSNumber",&,V_matcherTimeAverage
+T@"NSNumber",&,V_matcherTimeMatchAverage
+T@"NSNumber",&,V_matcherTimeNoMatchAverage
+T@"NSNumber",&,V_matcherTimeWithRetry
+T@"NSNumber",&,V_matchingTemplateMatchCount
+T@"NSNumber",&,V_matchingTemplateMatchCountContinuous
+T@"NSNumber",&,V_matchingTemplateUsage
+T@"NSNumber",&,V_matchingTemplateUsageDaily
+T@"NSNumber",&,V_maxFingerToProbeAttenuationAverage
+T@"NSNumber",&,V_maxFingerToProbeAttenuationBin
+T@"NSNumber",&,V_maxFingerToProbeAttenuationMax
+T@"NSNumber",&,V_maxFingerToProbeAttenuationMin
+T@"NSNumber",&,V_maxFingerToProbeAttenuationRaw
+T@"NSNumber",&,V_nodesAddedToMain
+T@"NSNumber",&,V_nodesAddedToWaitingRoom
+T@"NSNumber",&,V_nodesCountTotal
+T@"NSNumber",&,V_nodesDeletedFromMain
+T@"NSNumber",&,V_nodesDeletedFromWaitingRoom
+T@"NSNumber",&,V_nodesMovedFromWaitingRoomToMain
+T@"NSNumber",&,V_nonArtefactMatchAttempts
+T@"NSNumber",&,V_nonArtefactMatchAttemptsFailed
+T@"NSNumber",&,V_nonArtefactMatchAttemptsFailedFingerDetected
+T@"NSNumber",&,V_nonArtefactMatchAttemptsFingerDetected
+T@"NSNumber",&,V_nonArtefactMatchAttemptsSuccessful
+T@"NSNumber",&,V_numPxOutliersPhase1
+T@"NSNumber",&,V_numPxOutliersPhase1Average
+T@"NSNumber",&,V_numPxOutliersPhase2
+T@"NSNumber",&,V_numPxOutliersPhase2Average
+T@"NSNumber",&,V_operationStartTime
+T@"NSNumber",&,V_operationTimeAverage
+T@"NSNumber",&,V_overallResult
+T@"NSNumber",&,V_overallTime
+T@"NSNumber",&,V_overallTimeFingerOn
+T@"NSNumber",&,V_pairedDeviceCount
+T@"NSNumber",&,V_preArmMatchAttempts
+T@"NSNumber",&,V_preArmMatchAttemptsFailed
+T@"NSNumber",&,V_preArmMatchAttemptsFailedFingerDetected
+T@"NSNumber",&,V_preArmMatchAttemptsFingerDetected
+T@"NSNumber",&,V_preArmMatchAttemptsSuccessful
+T@"NSNumber",&,V_preArmedMatch
+T@"NSNumber",&,V_prearmFRR
+T@"NSNumber",&,V_pressureMitigationUsed
+T@"NSNumber",&,V_rejectedImageBadBlocksCount
+T@"NSNumber",&,V_rejectedImageCaFPNCount
+T@"NSNumber",&,V_rejectedImageChFPNCount
+T@"NSNumber",&,V_rejectedImageCount
+T@"NSNumber",&,V_rejectedImageMovementCount
+T@"NSNumber",&,V_rejectedImageUnknownCount
+T@"NSNumber",&,V_rejectedImagesCount
+T@"NSNumber",&,V_requestFingerOff
+T@"NSNumber",&,V_requestFingerOffEndTime
+T@"NSNumber",&,V_scanCount
+T@"NSNumber",&,V_sensorModulationRatio
+T@"NSNumber",&,V_sensorModulationRatioRaw
+T@"NSNumber",&,V_sensorPauseTime
+T@"NSNumber",&,V_sensorPaused
+T@"NSNumber",&,V_sensorResetCount
+T@"NSNumber",&,V_sensorType
+T@"NSNumber",&,V_subsetFRR
+T@"NSNumber",&,V_subsetMatchAttempts
+T@"NSNumber",&,V_subsetMatchAttemptsFailed
+T@"NSNumber",&,V_subsetMatchAttemptsFailedFingerDetected
+T@"NSNumber",&,V_subsetMatchAttemptsFailedTarget
+T@"NSNumber",&,V_subsetMatchAttemptsFingerDetected
+T@"NSNumber",&,V_subsetMatchAttemptsSuccessful
+T@"NSNumber",&,V_subsetTargetFRR
+T@"NSNumber",&,V_targetTemplateMatchCount
+T@"NSNumber",&,V_targetTemplateMatchCountContinuous
+T@"NSNumber",&,V_targetTemplateUsage
+T@"NSNumber",&,V_targetTemplateUsageDaily
+T@"NSNumber",&,V_template1MatchCount
+T@"NSNumber",&,V_template1MatchCountContinuous
+T@"NSNumber",&,V_template1UsageContinuous
+T@"NSNumber",&,V_template2MatchCount
+T@"NSNumber",&,V_template2MatchCountContinuous
+T@"NSNumber",&,V_template2UsageContinuous
+T@"NSNumber",&,V_template3MatchCount
+T@"NSNumber",&,V_template3MatchCountContinuous
+T@"NSNumber",&,V_template3UsageContinuous
+T@"NSNumber",&,V_template4MatchCount
+T@"NSNumber",&,V_template4MatchCountContinuous
+T@"NSNumber",&,V_template4UsageContinuous
+T@"NSNumber",&,V_template5MatchCount
+T@"NSNumber",&,V_template5MatchCountContinuous
+T@"NSNumber",&,V_template5UsageContinuous
+T@"NSNumber",&,V_templateEnrollmentsCount
+T@"NSNumber",&,V_templateUpdated
+T@"NSNumber",&,V_tidButtonStateSequence
+T@"NSNumber",&,V_tidButtonStateSequenceBounded
+T@"NSNumber",&,V_timeSinceFirstEnrollmentBinned
+T@"NSNumber",&,V_timeSinceIdentityEnrollmentBinned
+T@"NSNumber",&,V_timeSinceSecondLastEnrollmentBinned
+T@"NSNumber",&,V_totalFRR
+T@"NSNumber",&,V_totalFRR0
+T@"NSNumber",&,V_totalFRR1
+T@"NSNumber",&,V_totalFRR2
+T@"NSNumber",&,V_totalFRR3
+T@"NSNumber",&,V_totalFRR4
+T@"NSNumber",&,V_totalFRR5
+T@"NSNumber",&,V_totalFRR6
+T@"NSNumber",&,V_totalMatchAttempts
+T@"NSNumber",&,V_totalMatchAttemptsFailed
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected0
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected1
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected2
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected3
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected4
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected5
+T@"NSNumber",&,V_totalMatchAttemptsFailedFingerDetected6
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected0
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected1
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected2
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected3
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected4
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected5
+T@"NSNumber",&,V_totalMatchAttemptsFingerDetected6
+T@"NSNumber",&,V_totalMatchAttemptsSuccessful
+T@"NSNumber",&,V_totalMatchOperationsFailedRetry
+T@"NSNumber",&,V_totalMatchOperationsFingerDetected
+T@"NSNumber",&,V_totalScanGroupCount
+T@"NSNumber",&,V_totalTemplateMatchCount
+T@"NSNumber",&,V_totalTemplateMatchCountContinuous
+T@"NSNumber",&,V_touchesCount
+T@"NSNumber",&,V_touchesToUnlock
+T@"NSNumber",&,V_unlockEnabled
+T@"NSNumber",&,V_unlockFRR
+T@"NSNumber",&,V_unlockFRR0
+T@"NSNumber",&,V_unlockFRR1
+T@"NSNumber",&,V_unlockFRR2
+T@"NSNumber",&,V_unlockFRR3
+T@"NSNumber",&,V_unlockFRR4
+T@"NSNumber",&,V_unlockFRR5
+T@"NSNumber",&,V_unlockFRR6
+T@"NSNumber",&,V_unlockMatchAttempts
+T@"NSNumber",&,V_unlockMatchAttemptsFailed
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected0
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected1
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected2
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected3
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected4
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected5
+T@"NSNumber",&,V_unlockMatchAttemptsFailedFingerDetected6
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected0
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected1
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected2
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected3
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected4
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected5
+T@"NSNumber",&,V_unlockMatchAttemptsFingerDetected6
+T@"NSNumber",&,V_unlockMatchAttemptsSuccessful
+T@"NSNumber",&,V_unlockResult
+T@"NSNumber",&,V_unlocked
+T@"NSNumber",&,V_updateType
+T@"NSNumber",&,V_usedDeviceCount
+T@"NSNumber",&,V_userID
+T@"NSNumber",&,V_waitingRoomNodesCount
+T@"NSNumber",&,V_waitingRoomUpdated
+T@"NSNumber",&,V_wakeOnMenuPinUsed
+T@"NSNumber",R,V_artefactAnchorXCount
+T@"NSNumber",R,V_artefactAnchorXM2
+T@"NSNumber",R,V_artefactAnchorXSum
+T@"NSNumber",R,V_artefactAnchorXSumSq
+T@"NSNumber",R,V_artefactAnchorYCount
+T@"NSNumber",R,V_artefactAnchorYM2
+T@"NSNumber",R,V_artefactAnchorYSum
+T@"NSNumber",R,V_artefactAnchorYSumSq
+T@"NSNumber",R,V_artefactNonlinearityCount
+T@"NSNumber",R,V_artefactNonlinearityM2
+T@"NSNumber",R,V_artefactNonlinearitySum
+T@"NSNumber",R,V_artefactNonlinearitySumSq
+T@"NSNumber",R,V_artefactScoreCount
+T@"NSNumber",R,V_artefactScoreSum
+T@"NSNumber",R,V_artefactStrengthCount
+T@"NSNumber",R,V_artefactStrengthSum
+T@"NSNumber",R,V_captureTimeCount
+T@"NSNumber",R,V_dailyEventIndex
+T@"NSNumber",R,V_drxStrengthPctCol2BinCount
+T@"NSNumber",R,V_drxStrengthPctCol2BinSum
+T@"NSNumber",R,V_drxStrengthPctCol2RawCount
+T@"NSNumber",R,V_drxStrengthPctCol2RawSum
+T@"NSNumber",R,V_drxStrengthPctCol7BinCount
+T@"NSNumber",R,V_drxStrengthPctCol7BinSum
+T@"NSNumber",R,V_drxStrengthPctCol7RawCount
+T@"NSNumber",R,V_drxStrengthPctCol7RawSum
+T@"NSNumber",R,V_imagePixelOutlierCountCount
+T@"NSNumber",R,V_imagePixelOutlierCountSum
+T@"NSNumber",R,V_matcherTimeCount
+T@"NSNumber",R,V_matcherTimeMatchCount
+T@"NSNumber",R,V_matcherTimeMatchSum
+T@"NSNumber",R,V_matcherTimeNoMatchCount
+T@"NSNumber",R,V_matcherTimeNoMatchSum
+T@"NSNumber",R,V_maxFingerToProbeAttenuationCount
+T@"NSNumber",R,V_maxFingerToProbeAttenuationSum
+T@"NSNumber",R,V_numPxOutliersPhase1Count
+T@"NSNumber",R,V_numPxOutliersPhase1Sum
+T@"NSNumber",R,V_numPxOutliersPhase2Count
+T@"NSNumber",R,V_numPxOutliersPhase2Sum
+T@"NSNumber",R,V_operationTimeSum
+T@"NSString",&,V_clientName
+T@"NSString",?,R,C
+T@"NSString",N,C
+T@"NSString",R,C
+T@"_TtC13biometrickitd6BioLog",N,R
+TB,N,V_captureOnly
+TB,N,V_filterHomeButtonEvents
+TB,N,V_forExtendEnrollment
+TB,N,V_requireFingerOff
+TB,N,V_requireStrictCoverage
+TB,N,V_sensorReady
+TB,N,V_suppressHapticFeedback
+TB,V_deviceWokeUpByHomeButton
+TB,V_deviceWokeUpByLiftToWake
+TB,V_fingerOn
+TB,V_haveImageToProcess
+TB,V_haveMatchResult
+TB,V_homeButtonPressedDuringTouch
+TB,V_lastMatchResultWakePin
+TB,V_matchOperationInProgress
+TB,V_matchWithDesensePauseLogged
+TB,V_prearmedApplePay
+TB,V_pressureMitigationUsed
+TB,V_unlockOperationInProgress
+TB,V_unlockOperationStartedByCommand
+TB,V_waitingForMatchResult
+TI,V_sksLockState
+TQ,V_failQuickTapsToUnlock
+TQ,V_failTouchesToMatch
+TQ,V_failTouchesToUnlock
+TQ,V_imageCaptureRestartsPerFingerDown
+TQ,V_imagesPerFingerDown
+TQ,V_lastMatchResultID
+TQ,V_matchRestarts
+TQ,V_sensorCaptureRestartsPerFingerDown
+TQ,V_sensorOperationMode
+T^{?=II[32C]},R,N
+T^{?=I[16C]},R,N
+Td,V_largestComponentArea
+Td,V_totalArea
+Tf,V_modulationRatio
+Ti,V_lastBioOp
+Ti,V_lastMatchUseCase
+Tq,N,V_matchCount
+Tq,N,V_updateCount
+Tq,N,VcaptureHandlingErrorCode
+Tq,V_calibrationDataState
+Tq,V_lastStartedMatch
+Ts,V_clusterCount
+Ts,V_largestComponentNodeCount
+Ts,V_totalNodeCount
+T{?=I[16C]},V_source
+URLQueryAllowedCharacterSet
+URLWithString:
+UTF8String
+UUIDString
+_DRXAmpMaxBin
+_DRXAmpMaxRaw
+_DRXAmpMinBin
+_DRXAmpMinRaw
+_SLSClient
+_acceptPrev
+_acceptedImageCount
+_accessory
+_accessoryColorID
+_accessoryTransport
+_activeTemplatesCount
+_activeUsersCount
+_analyticsDispatchQueue
+_applePayEnabled
+_artefactAnchorX
+_artefactAnchorXAverage
+_artefactAnchorXCount
+_artefactAnchorXM2
+_artefactAnchorXSTD
+_artefactAnchorXSum
+_artefactAnchorXSumSq
+_artefactAnchorY
+_artefactAnchorYAverage
+_artefactAnchorYCount
+_artefactAnchorYM2
+_artefactAnchorYSTD
+_artefactAnchorYSum
+_artefactAnchorYSumSq
+_artefactDetectionResult
+_artefactFRR
+_artefactMatchAttempts
+_artefactMatchAttemptsFailed
+_artefactMatchAttemptsFailedFingerDetected
+_artefactMatchAttemptsFingerDetected
+_artefactMatchAttemptsSuccessful
+_artefactNonlinearity
+_artefactNonlinearityAverage
+_artefactNonlinearityCount
+_artefactNonlinearityM2
+_artefactNonlinearitySTD
+_artefactNonlinearitySum
+_artefactNonlinearitySumSq
+_artefactPrevalence
+_artefactScore
+_artefactScoreAverage
+_artefactScoreCount
+_artefactScoreSum
+_artefactStrength
+_artefactStrengthAverage
+_artefactStrengthCount
+_artefactStrengthSum
+_assessment
+_attachedDeviceCount
+_attachedDevices
+_attachedDevicesList
+_autoMatchStartedByHomeButton
+_badDayFRR
+_badDaysCount
+_badImagePerFingerDown
+_bioLockout
+_bioLockoutCount
+_bioOperationType
+_biometricABC
+_bluetoothAccessories
+_builtinSensorType
+_buttonStateCount
+_calibrationDataState
+_canceledByNewCommand
+_captureOnly
+_captureRestartCount
+_captureTime
+_captureTimeAverage
+_captureTimeCount
+_capturedImageCount
+_carrierAttenBin
+_carrierAttenRaw
+_clientName
+_clusterCount
+_commProtocolVersion
+_connect
+_creationTime
+_currentBioOpType
+_currentDate
+_currentEvent
+_dailyEvent
+_dailyEventIndex
+_dailyEvents
+_dailyUpdateTimer
+_desenseMitigationPause
+_deviceAngle
+_deviceAngleState
+_deviceGroupType
+_deviceOrientation
+_deviceType
+_deviceWakeReason
+_deviceWokeUpByHomeButton
+_deviceWokeUpByLiftToWake
+_dirtOnSensor
+_displayOn
+_driveVoltage
+_driverNotifyPort
+_driverNotifyQueue
+_drxStrengthPctCol2Bin
+_drxStrengthPctCol2BinAverage
+_drxStrengthPctCol2BinCount
+_drxStrengthPctCol2BinSum
+_drxStrengthPctCol2Raw
+_drxStrengthPctCol2RawAverage
+_drxStrengthPctCol2RawCount
+_drxStrengthPctCol2RawSum
+_drxStrengthPctCol7Bin
+_drxStrengthPctCol7BinAverage
+_drxStrengthPctCol7BinCount
+_drxStrengthPctCol7BinSum
+_drxStrengthPctCol7Raw
+_drxStrengthPctCol7RawAverage
+_drxStrengthPctCol7RawCount
+_drxStrengthPctCol7RawSum
+_dummyEnrollClient
+_enrollEvent
+_enrollResult
+_enrolledIdentityCount
+_enrolledIdentityCount0
+_enrolledIdentityCount1
+_enrolledIdentityCount2
+_enrolledIdentityCount3
+_enrolledIdentityCount4
+_enrolledIdentityCount5
+_enrolledIdentityTotalCount
+_enrolledIdentityUserCount
+_enrolledTemplatesCount
+_enrolledUserCount
+_enrolledUserCount0
+_enrolledUserCount1
+_enrolledUserCount2
+_enrolledUserCount3
+_enrolledUserCount4
+_enrolledUserCount5
+_enrolledUsersCount
+_enrollmentCount
+_eventEndType
+_eventFinished
+_extendEnrollmentAuthData
+_extendEnrollmentIdentity
+_failQuickTapsToUnlock
+_failTouchesToMatch
+_failTouchesToUnlock
+_failedMatchAttempts
+_failedUnlockAttempts
+_feedback
+_filterHomeButtonEvents
+_fingerDetectEndTime
+_fingerIsOn
+_fingerLiftTimeEvent
+_fingerOffDate
+_fingerOffTime
+_fingerOn
+_fingerOnDate
+_fingerTouchTimeEvent
+_firstCaptureEndTime
+_firstCaptureEndTimeToFirstMatcherEndTime
+_firstEnrollmentDate
+_fitDiffBin
+_fitDiffRaw
+_fitResEdge6SigmaBin
+_fitResEdge6SigmaRaw
+_forExtendEnrollment
+_hasLegacyCatacomb
+_haveImageToProcess
+_haveMatchResult
+_hidClient
+_hidEventCallbackRegistered
+_hidEventFilterCallbackRegistered
+_homeButtonPressedDuringTouch
+_imageAbsoluteTimeId
+_imageBrightness
+_imageBrightnessNorm
+_imageCaptureRestartsPerFingerDown
+_imageContrast
+_imageContrastNorm
+_imageDecryptionTime
+_imageFeatureStrength
+_imageFeatureStrengthNorm
+_imagePixelOutlierCount
+_imagePixelOutlierCountAverage
+_imagePixelOutlierCountCount
+_imagePixelOutlierCountSum
+_imageProblemClass
+_imageProcessingEndTime
+_imageProcessingTime
+_imageTransferTime
+_imagesPerFingerDown
+_internalSensorType
+_largestComponentArea
+_largestComponentNodeCount
+_lastAcceptCondFeedback
+_lastAccessoryInfo
+_lastBioDevice
+_lastBioOp
+_lastEnrollmentDeviceOrientation
+_lastEnrollmentScanCount
+_lastEnrollmentScanGroupCount
+_lastEnrollmentTouchesCount
+_lastMatchAttemptTimeOffset
+_lastMatchResult
+_lastMatchResultID
+_lastMatchResultWakePin
+_lastMatchUseCase
+_lastSBFingerMsg
+_lastSBLockMsg
+_lastStartedMatch
+_lastWakeFromHibernationTime
+_localAuthFRR
+_localAuthFRR0
+_localAuthFRR1
+_localAuthFRR2
+_localAuthFRR3
+_localAuthFRR4
+_localAuthFRR5
+_localAuthFRR6
+_localAuthMatchAttempts
+_localAuthMatchAttemptsFailed
+_localAuthMatchAttemptsFailedFingerDetected
+_localAuthMatchAttemptsFailedFingerDetected0
+_localAuthMatchAttemptsFailedFingerDetected1
+_localAuthMatchAttemptsFailedFingerDetected2
+_localAuthMatchAttemptsFailedFingerDetected3
+_localAuthMatchAttemptsFailedFingerDetected4
+_localAuthMatchAttemptsFailedFingerDetected5
+_localAuthMatchAttemptsFailedFingerDetected6
+_localAuthMatchAttemptsFingerDetected
+_localAuthMatchAttemptsFingerDetected0
+_localAuthMatchAttemptsFingerDetected1
+_localAuthMatchAttemptsFingerDetected2
+_localAuthMatchAttemptsFingerDetected3
+_localAuthMatchAttemptsFingerDetected4
+_localAuthMatchAttemptsFingerDetected5
+_localAuthMatchAttemptsFingerDetected6
+_localAuthMatchAttemptsSuccessful
+_lockState
+_matchCount
+_matchEvent
+_matchIdentityCount
+_matchMode
+_matchOperationInProgress
+_matchRestarts
+_matchResultValid
+_matchType
+_matchUseCase
+_matchWithDesensePauseLogged
+_matcherEndTimeWithRetry
+_matcherResult
+_matcherTime
+_matcherTimeAverage
+_matcherTimeCount
+_matcherTimeMatchAverage
+_matcherTimeMatchCount
+_matcherTimeMatchSum
+_matcherTimeNoMatchAverage
+_matcherTimeNoMatchCount
+_matcherTimeNoMatchSum
+_matcherTimeWithRetry
+_matchingTemplateMatchCount
+_matchingTemplateMatchCountContinuous
+_matchingTemplateUUID
+_matchingTemplateUsage
+_matchingTemplateUsageDaily
+_maxFingerToProbeAttenuationAverage
+_maxFingerToProbeAttenuationCount
+_modulationRatio
+_nodesAddedToMain
+_nodesAddedToWaitingRoom
+_nodesCountTotal
+_nodesDeletedFromMain
+_nodesDeletedFromWaitingRoom
+_nodesMovedFromWaitingRoomToMain
+_nonArtefactMatchAttempts
+_nonArtefactMatchAttemptsFailedFingerDetected
+_nonArtefactMatchAttemptsFingerDetected
+_nonArtefactMatchAttemptsSuccessful
+_numPxOutliersPhase1
+_numPxOutliersPhase1Average
+_numPxOutliersPhase1Count
+_numPxOutliersPhase1Sum
+_numPxOutliersPhase2
+_numPxOutliersPhase2Average
+_numPxOutliersPhase2Count
+_numPxOutliersPhase2Sum
+_operationStartTime
+_operationTimeAverage
+_operationTimeSum
+_overallResult
+_overallTime
+_overallTimeFingerOn
+_pairedDeviceCount
+_pairedDevices
+_pairedDevicesList
+_powerNotificationQueue
+_preArmMatchAttempts
+_preArmMatchAttemptsFailed
+_preArmMatchAttemptsFailedFingerDetected
+_preArmMatchAttemptsFingerDetected
+_preArmMatchAttemptsSuccessful
+_preArmedMatch
+_preArmedMatchEvent
+_prearmFRR
+_prearmedApplePay
+_pressureMitigationUsed
+_previousDeviceType
+_rejectedImageBadBlocksCount
+_rejectedImageCaFPNCount
+_rejectedImageChFPNCount
+_rejectedImageCount
+_rejectedImageMovementCount
+_rejectedImageUnknownCount
+_rejectedImagesCount
+_requestFingerOff
+_requestFingerOffEndTime
+_requireFingerOff
+_requireStrictCoverage
+_rootPowerDomain
+_scanCount
+_sensorCaptureRestartsPerFingerDown
+_sensorInfo
+_sensorModulationRatio
+_sensorModulationRatioRaw
+_sensorOperationMode
+_sensorOperationStartDate
+_sensorPauseDate
+_sensorPauseTime
+_sensorPaused
+_sensorReady
+_sensorRecoveryReason
+_sensorResetCount
+_sensorType
+_services
+_setQueue:
+_sigTERMDispatchSource
+_sksLockState
+_sleepNotifierObject
+_sleepNotifyPortRef
+_statistics
+_subsetFRR
+_subsetMatchAttempts
+_subsetMatchAttemptsFailed
+_subsetMatchAttemptsFailedFingerDetected
+_subsetMatchAttemptsFailedTarget
+_subsetMatchAttemptsFingerDetected
+_subsetMatchAttemptsSuccessful
+_subsetTargetFRR
+_suppressHapticFeedback
+_systemSleepState
+_targetTemplateMatchCount
+_targetTemplateMatchCountContinuous
+_targetTemplateUUID
+_targetTemplateUsage
+_targetTemplateUsageDaily
+_template1MatchCount
+_template1MatchCountContinuous
+_template1UsageContinuous
+_template2MatchCount
+_template2MatchCountContinuous
+_template2UsageContinuous
+_template3MatchCount
+_template3MatchCountContinuous
+_template3UsageContinuous
+_template4MatchCount
+_template4MatchCountContinuous
+_template4UsageContinuous
+_template5MatchCount
+_template5MatchCountContinuous
+_template5UsageContinuous
+_templateEnrollmentsCount
+_templateStats
+_templateUpdateEvent
+_templateUpdated
+_tidButtonStateSequence
+_tidButtonStateSequenceBounded
+_timeSinceFirstEnrollment
+_timeSinceIdentityEnrollment
+_timeSinceIdentityEnrollmentBinned
+_timeSinceSecondLastEnrollment
+_timeSinceSecondLastEnrollmentBinned
+_totalArea
+_totalFRR
+_totalFRR0
+_totalFRR1
+_totalFRR2
+_totalFRR3
+_totalFRR4
+_totalFRR5
+_totalFRR6
+_totalMatchAttempts
+_totalMatchAttemptsFailed
+_totalMatchAttemptsFailedFingerDetected
+_totalMatchAttemptsFailedFingerDetected0
+_totalMatchAttemptsFailedFingerDetected1
+_totalMatchAttemptsFailedFingerDetected2
+_totalMatchAttemptsFailedFingerDetected3
+_totalMatchAttemptsFailedFingerDetected4
+_totalMatchAttemptsFailedFingerDetected5
+_totalMatchAttemptsFailedFingerDetected6
+_totalMatchAttemptsFingerDetected
+_totalMatchAttemptsFingerDetected0
+_totalMatchAttemptsFingerDetected1
+_totalMatchAttemptsFingerDetected2
+_totalMatchAttemptsFingerDetected3
+_totalMatchAttemptsFingerDetected4
+_totalMatchAttemptsFingerDetected5
+_totalMatchAttemptsFingerDetected6
+_totalMatchAttemptsSuccessful
+_totalMatchOperationsFailedRetry
+_totalMatchOperationsFingerDetected
+_totalScanGroupCount
+_totalTemplateMatchCount
+_totalTemplateMatchCountContinuous
+_touchesCount
+_touchesToUnlock
+_unlockEnabled
+_unlockEvent
+_unlockFRR
+_unlockFRR0
+_unlockFRR1
+_unlockFRR2
+_unlockFRR3
+_unlockFRR4
+_unlockFRR5
+_unlockFRR6
+_unlockMatchAttempts
+_unlockMatchAttemptsFailed
+_unlockMatchAttemptsFailedFingerDetected
+_unlockMatchAttemptsFailedFingerDetected0
+_unlockMatchAttemptsFailedFingerDetected1
+_unlockMatchAttemptsFailedFingerDetected2
+_unlockMatchAttemptsFailedFingerDetected3
+_unlockMatchAttemptsFailedFingerDetected4
+_unlockMatchAttemptsFailedFingerDetected5
+_unlockMatchAttemptsFailedFingerDetected6
+_unlockMatchAttemptsFingerDetected
+_unlockMatchAttemptsFingerDetected0
+_unlockMatchAttemptsFingerDetected1
+_unlockMatchAttemptsFingerDetected2
+_unlockMatchAttemptsFingerDetected3
+_unlockMatchAttemptsFingerDetected4
+_unlockMatchAttemptsFingerDetected5
+_unlockMatchAttemptsFingerDetected6
+_unlockMatchAttemptsSuccessful
+_unlockOperationInProgress
+_unlockOperationStartedByCommand
+_unlockResult
+_unlocked
+_updateCount
+_updateType
+_usedDeviceCount
+_usedDevices
+_usedDevicesList
+_userDefaults
+_valid
+_waitForFinish
+_waitingForMatchResult
+_waitingRoomNodesCount
+_waitingRoomUpdated
+_wakeOnMenuPinEnabled
+_wakeOnMenuPinUsed
+_weeklyEvent
+acceptPreviousImage
+acceptedImageCount
+acceptedImages
+accessories
+accessory
+accessoryCalibrationData:
+accessoryColorID
+accessoryColorID:
+accessoryConnected:
+accessoryDisconnected:
+accessoryImageInfo:
+accessoryInfo:
+accessoryMayHaveChanged
+accessoryRemoved:
+accessorySensorInfo:
+accessoryTransport
+acmContext
+activeBioOpsQueue
+activeTemplatesCount
+activeUsersCount
+addBioAccessory:
+addBioDevice:
+addBioDevice:used:
+addDailyEvent:
+addIdentitity:
+addIdentityObject:
+addIdentityObjects:
+addObject:
+allClients
+allObjects
+analyticsOSLogNSDictionary:forEvent:toLogPath:withPrefix:
+analyticsStorePath
+appendData:
+appendFormat:
+appendString:
+archiveCatacombDataForComponent:toArchiver:
+archiveWithAllLogs:
+ariadneSignposts
+arrayByAddingObjectsFromArray:
+arrayWithCapacity:
+arrayWithObjects:count:
+artefactAnchorXAverage
+artefactAnchorXCount
+artefactAnchorXM2
+artefactAnchorXSTD
+artefactAnchorXSum
+artefactAnchorXSumSq
+artefactAnchorYAverage
+artefactAnchorYCount
+artefactAnchorYM2
+artefactAnchorYSTD
+artefactAnchorYSum
+artefactAnchorYSumSq
+artefactDetectionResult
+artefactFRR
+artefactMatchAttempts
+artefactMatchAttemptsFailed
+artefactMatchAttemptsFailedFingerDetected
+artefactMatchAttemptsFingerDetected
+artefactNonlinearity
+artefactNonlinearityAverage
+artefactNonlinearityCount
+artefactNonlinearityM2
+artefactNonlinearitySTD
+artefactNonlinearitySum
+artefactNonlinearitySumSq
+artefactPrevalence
+artefactScore
+artefactScoreAverage
+artefactScoreCount
+artefactScoreSum
+artefactStrength
+artefactStrengthAverage
+artefactStrengthCount
+artefactStrengthSum
+assessment
+attachedDeviceCount
+attachedDevicesList
+auditToken
+authData
+autorelease
+badDay
+badDayFRR
+badDaysCount
+badImagesCount
+bioLockout
+bioMatchLifespan
+bioOperationType
+bioOpsQueue
+biometricABC
+biometricABCDispatchQueue
+biometricKitIdentity
+blockFile
+boolForKey:
+boolValue
+builtinSensorType
+cacheAccessories
+cacheAccesssoryInfo:
+cacheCatacombInfo
+cachePatch
+cachedIdentities
+calculateDailyValues
+calculateWeeklyValues
+calendar
+calibrationDataLoggingEnabled
+calibrationDataState
+calibrationDataStoreURL
+cancel
+cancelUnlockMatchIfTokenNotPresent:
+cancelWithClient:
+canceledByNewCommand
+captureHandlingErrorCode
+captureHandlingErrorCount
+captureHandlingErrorTimestamp
+captureLoggingEnabled
+captureOnly
+captureRestartCount
+captureTime
+captureTimeAverage
+captureTimeCount
+captureTimeSum
+capturedImageCount
+catacombCorrupted:
+catacombLock
+checkCatacombForUser:
+checkDailyUpdate
+checkSensorReadiness
+classPolicy
+clearTemplateList
+clearTemplateListForUser:
+client
+clientAppIsBackground
+clientID
+clientInfo
+clientName
+closeAndReturnError:
+clusterCount
+clusterCount:
+cmdDispatchQueue
+compare:
+component
+components:fromDate:toDate:options:
+componentsJoinedByString:
+componentsSeparatedByString:
+conformsToProtocol:
+connectedAccessories
+connection
+contentsOfDirectoryAtPath:error:
+countByEnumeratingWithState:objects:count:
+createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+createDirectoryAtURL:withIntermediateDirectories:attributes:error:
+createFileAtPath:contents:attributes:
+createMatchEventDictionary:
+createMatchOperation
+createPresenceDetectOperation
+createSymbolicLinkAtPath:withDestinationPath:error:
+creationTime
+currentRunLoop
+dailyEvents
+dataLoggingEnabled
+dataWithBytes:length:
+dataWithBytesNoCopy:length:freeWhenDone:
+dataWithContentsOfFile:
+dataWithData:
+dataWithJSONObject:options:error:
+daysLimit
+deblurringInfo
+debugDescription
+debugImageLoggingEnabled
+decimalNumberByAdding:
+decimalNumberWithDecimal:
+decimalValue
+decodeCatacombDataV1:withSize:
+decodeInt32ForKey:
+decodeIntegerForKey:
+decodeObjectOfClass:forKey:
+decodeObjectOfClasses:forKey:
+defaultManager
+defaults
+deferredSequenceStarts
+delegateRegistered
+description
+desenseMitigationPause
+deviceAngle
+deviceAngleState
+deviceAuthRequiredMessage:withTimestamp:
+deviceGroup
+deviceOrientation
+deviceType
+deviceWakeReason
+deviceWokeUpByHomeButton
+deviceWokeUpByLiftToWake
+diagnostics:withOptions:passed:withDetails:withClient:
+dictionary
+dictionaryRepresentation
+dictionaryRepresentationArchiving:
+dictionaryWithDictionary:
+dictionaryWithObjects:forKeys:count:
+dirtOnSensor
+dispatchBiometricHIDEvent
+dispatchQueue
+dispatchQueueLogging
+dispatchQueueWriting
+dispatchTimestamp
+displayOn
+displayStateChanged:
+displayStatusChanged:
+driveVoltage
+drxStrengthPctCol2Bin
+drxStrengthPctCol2BinAverage
+drxStrengthPctCol2BinCount
+drxStrengthPctCol2BinSum
+drxStrengthPctCol2Raw
+drxStrengthPctCol2RawAverage
+drxStrengthPctCol2RawCount
+drxStrengthPctCol2RawSum
+drxStrengthPctCol7Bin
+drxStrengthPctCol7BinAverage
+drxStrengthPctCol7BinCount
+drxStrengthPctCol7BinSum
+drxStrengthPctCol7Raw
+drxStrengthPctCol7RawAverage
+drxStrengthPctCol7RawCount
+drxStrengthPctCol7RawSum
+dumpSyslog
+dumpSyslogWithDelay:
+enableBackgroundFdet:withClient:
+encodeInteger:forKey:
+encodeObject:forKey:
+enrollContinue
+enrollEventFinished
+enrollResult
+enrollResult:
+enrollResult:withTimestamp:
+enrolledIdentityCount
+enrolledIdentityCount0
+enrolledIdentityCount1
+enrolledIdentityCount2
+enrolledIdentityCount3
+enrolledIdentityCount4
+enrolledIdentityCount5
+enrolledIdentityTotalCount
+enrolledIdentityUserCount
+enrolledTemplatesCount
+enrolledUserCount
+enrolledUserCount0
+enrolledUserCount1
+enrolledUserCount2
+enrolledUserCount3
+enrolledUserCount4
+enrolledUserCount5
+enrolledUsersCount
+eventEndType
+eventFinished
+exportedObject
+extendEnrollmentAuthData
+extendEnrollmentIdentity
+failQuickTapsToUnlock
+failTouchesToMatch
+failTouchesToUnlock
+failedMatchAttempts
+failedUnlockAttempts
+feedback
+fileExistsAtPath:
+fileRadarWithLogs:withDescription:
+filterHomeButtonEvents
+filterIdentities:withFilter:
+fingerDetectEndTime
+fingerDetected
+fingerLiftTime
+fingerOffTime
+fingerOn
+finishDecoding
+finishOnFingerOff
+firstCaptureEndTime
+firstCaptureEndTimeToFirstMatcherEndTime
+firstObject
+fitDiffBin
+fitDiffRaw
+fitResEdge6SigmaBin
+fitResEdge6SigmaRaw
+floatValue
+forCredentialSet
+forExtendEnrollment
+forPreArm
+forUnlock
+getAccessoryObject:
+getBioLockoutState:forUser:withClient:
+getBytes:length:
+getCalBlobVersion
+getCalibrationDataInfoWithClient:
+getCalibrationDataState
+getCatacombSaveListForComponents:list:
+getCommProtocolVersion
+getDataFromDriverCommand:value:data:size:
+getDaysSinceEnrollment
+getDaysSinceFirstEnrollment
+getDaysSinceLastEnrollment
+getEEPROMCalibrationData
+getEnabledForUnlock
+getEnrolledIdentitiesCountForAccessory:
+getEnrolledIdentitiesCountForUser:
+getEnrolledUserIDs
+getEnrolledUsersCount
+getEnrollmentCount
+getFDR3CalibrationData
+getFDRCalibrationData
+getFDRDataForClass:
+getFDRMSRkData
+getGroupTypeForAccessory:
+getLastWakeFromHibernationTime
+getLogs:withDetails:
+getModulationRatio
+getModuleSerialNumber
+getNodeTopologyForIdentity:withClient:
+getProtectedConfigurationForUser:withClient:
+getProtectedConfigurationMergedForAllUsers
+getRemoteFDRCalibrationData
+getSBIOInfo:
+getSensorCalibrationStatusWithClient:
+getSensorInfoWithClient:
+getSensorType
+getSubtypeForReason:
+getSysCfgCalibrationData
+getSyslog
+getSyslogArray
+getSyslogForQuery:withFilter:
+getTimestampCollection:
+getTypeForReason:
+getUUIDBytes:
+getWakeReason
+handleSensorOperationStatusMessage:
+handleStatusMessage:forOperation:
+handleStatusMessage:forOperation:displayOn:
+handleStatusMessage:withData:
+hasSuffix:
+haveImageToProcess
+homeButtonPressed
+homeButtonPressedDuringTouch
+homeButtonStateChanged:
+identificationEnabled
+identities
+identitiesOfUser:
+imageAbsoluteTimeId
+imageBadBlocks
+imageBrightnessNorm
+imageCaptureRestartsPerFingerDown
+imageContrast
+imageContrastNorm
+imageDecryptionTime
+imageFeatureStrength
+imageFeatureStrengthNorm
+imageInfoFromAccessoryImageInfo:souceBioDevice:
+imageInfoFromImageProcessingResult:
+imageLoggingEnabled
+imagePixelOutlierCount
+imagePixelOutlierCountAverage
+imagePixelOutlierCountCount
+imagePixelOutlierCountSum
+imageProblemClass
+imageProcessingEndTime
+imageProcessingTime
+imageTransferTime
+imagesPerFingerDown
+incrementCountField:
+initAutoBugCapture
+initBrightnessControlClient:notifyQueue:notificationBlock:
+initDisplayService
+initEnrollOperation:biometricType:userID:options:client:
+initForReadingFromData:error:
+initMatchOperation:filter:options:client:
+initSensor
+initWithBytes:length:encoding:
+initWithBytesNoCopy:length:deallocator:
+initWithCalendarIdentifier:
+initWithDictionary:
+initWithDictionary:copyItems:
+initWithDomain:process:dispatchQueue:
+initWithInteger:
+initWithMachServiceName:
+initWithName:
+initWithName:dictionary:
+initWithPersistedDataWithName:
+initWithUUIDBytes:
+intValue
+integerForKey:
+integerValue
+isBadDay
+isBaseSystem
+isClassCFileAccessible
+isDateInToday:
+isDisplayOn
+isEqual:
+isEqualToAccessoryGroup:
+isEqualToDate:
+isEqualToNumber:
+isEqualToString:
+isFingerOnWithClient:
+isKindOfClass:
+isMasterComponent
+isMemberOfClass:
+isMesaEnabled
+isPasscodeNeeded
+isValidJSONObject:
+isWaitingForFinish
+itemEndOffset
+itemSeparatorEndOffset
+jsonArray
+jsonDecoder
+jsonEncoder
+keyEnumerator
+keysSortedByValueUsingComparator:
+largestComponentArea
+largestComponentNodeCount
+lastBioDevice
+lastBioOp
+lastDisplayState
+lastEnrollmentScanCount
+lastEnrollmentScanGroupCount
+lastEnrollmentTouchesCount
+lastImageIsProcessed
+lastMatchResultID
+lastMatchResultWakePin
+lastMatchUseCase
+lastStartedMatch
+latencyLoggingEnabled
+laterDate:
+launchAndReturnError:
+length
+listener:shouldAcceptNewConnection:
+loadANENet
+loadBioLockoutRecord
+loadCalibrationData
+loadCatacomb
+loadCatacombForComponent:
+loadMSRkData
+localAuthFRR
+localAuthFRR0
+localAuthFRR1
+localAuthFRR2
+localAuthFRR3
+localAuthFRR4
+localAuthFRR5
+localAuthFRR6
+localAuthMatchAttempts
+localAuthMatchAttemptsFailed
+localAuthMatchAttemptsFailedFingerDetected
+localAuthMatchAttemptsFailedFingerDetected0
+localAuthMatchAttemptsFailedFingerDetected1
+localAuthMatchAttemptsFailedFingerDetected2
+localAuthMatchAttemptsFailedFingerDetected3
+localAuthMatchAttemptsFailedFingerDetected4
+localAuthMatchAttemptsFailedFingerDetected5
+localAuthMatchAttemptsFailedFingerDetected6
+localAuthMatchAttemptsFingerDetected
+localAuthMatchAttemptsFingerDetected0
+localAuthMatchAttemptsFingerDetected1
+localAuthMatchAttemptsFingerDetected2
+localAuthMatchAttemptsFingerDetected3
+localAuthMatchAttemptsFingerDetected4
+localAuthMatchAttemptsFingerDetected5
+localAuthMatchAttemptsFingerDetected6
+localAuthMatchAttemptsSuccessful
+localizedDescription
+lockStateUpdated:
+lockStateUpdated:forUser:
+logAccessoryAdded:
+logAccessoryImageInfo:timestamp:
+logAccessoryRemoved:
+logAccessoryUpdated:info:
+logAnalyticsDictionary:
+logBackgroundFingerDetectState:client:
+logButtonState:timestamp:
+logCancelWithClient:
+logCaptureHandlingError:timestamp:
+logCaptureWithData:id:captureCounter:timestamp:
+logCatacombInfo:data:
+logDebugImageWithData:id:captureCounter:label:fileExtension:timestamp:sourceUUID:
+logDisplayState:
+logEnrollLatency:
+logEnrollLatency:timestamp:
+logEnrollResultWithIdentity:timestamp:
+logEnrollWithOperation:
+logFingerDetectWithOperation:
+logFingerOff
+logImageWithData:width:height:id:captureCounter:timestamp:sourceUUID:
+logMatchLatency:
+logMatchLatency:timestamp:
+logMatchResultWithIdentity:details:timestamp:
+logMatchWithOperation:
+logRemoveAllIdentitiesWithUserID:client:
+logRemoveIdentity:client:
+logSEPTransferData:
+logSKSLockState:userID:timestamp:
+logSensorRecoveryReason:timestamp:
+logSensorStatus:
+logStatusMessage:data:timestamp:
+logSystemPowerWithMessage:
+logSystemPowerWithState:timestamp:
+logThermalLevel:
+logURL
+logger
+loginEnabled
+matchAttemptFinished:
+matchCount
+matchCountContinuous
+matchEventFinished
+matchEventMessage:
+matchIdentityCount
+matchMode
+matchOperation
+matchOperationFinished:
+matchOperationInProgress
+matchOperationStarted
+matchRestarts
+matchResult:details:
+matchResult:timestamp:
+matchResult:withDictionary:
+matchType
+matchUseCase
+matchWithDesensePauseLogged
+matcherEndTime
+matcherEndTimeWithRetry
+matcherResult
+matcherTime
+matcherTimeAverage
+matcherTimeCount
+matcherTimeMatchAverage
+matcherTimeMatchCount
+matcherTimeMatchSum
+matcherTimeNoMatchAverage
+matcherTimeNoMatchCount
+matcherTimeNoMatchSum
+matcherTimeSum
+matcherTimeWithRetry
+matchingTemplateMatchCount
+matchingTemplateMatchCountContinuous
+matchingTemplateUsage
+matchingTemplateUsageDaily
+maxFingerToProbeAttenuationAverage
+maxFingerToProbeAttenuationBin
+maxFingerToProbeAttenuationCount
+maxFingerToProbeAttenuationMax
+maxFingerToProbeAttenuationMin
+maxFingerToProbeAttenuationRaw
+maxFingerToProbeAttenuationSum
+mesaCaDeviceTypeFromBioDeviceType:
+mgNotificationToken
+moveItemAtPath:toPath:error:
+moveItemAtURL:toURL:error:
+mutableBytes
+noBioLockout
+noBioLockoutAuthData
+noBioLockoutUserID
+nodesAddedToMain
+nodesAddedToWaitingRoom
+nodesDeletedFromMain
+nodesDeletedFromWaitingRoom
+nonArtefactFRR
+nonArtefactMatchAttempts
+nonArtefactMatchAttemptsFailed
+nonArtefactMatchAttemptsFailedFingerDetected
+nonArtefactMatchAttemptsFingerDetected
+nonArtefactMatchAttemptsSuccessful
+numPxOutliersPhase1
+numPxOutliersPhase1Average
+numPxOutliersPhase1Count
+numPxOutliersPhase1Sum
+numPxOutliersPhase2
+numPxOutliersPhase2Average
+numPxOutliersPhase2Count
+numPxOutliersPhase2Sum
+numberWithDouble:
+numberWithFloat:
+numberWithInt:
+numberWithInteger:
+numberWithLongLong:
+numberWithShort:
+numberWithUnsignedChar:
+numberWithUnsignedInt:
+numberWithUnsignedInteger:
+numberWithUnsignedLongLong:
+numberWithUnsignedShort:
+objectAtIndex:
+objectAtIndexedSubscript:
+objectEnumerator
+objectForKey:
+objectForKeyedSubscript:
+oldestSequenceDate
+openURL:
+operationCount
+operationStartTime
+operationTimeAverage
+operationTimeSum
+osLogImageInfoMessage:
+overallResult
+overallTime
+overallTimeFingerOn
+pairedAccessories
+pairedDeviceCount
+pairedDevicesList
+parseAuthDict:toAuthData:
+passcodeInputLifespan
+performCancelCommand
+performCommand:inValue:inData:inSize:outData:outSize:
+performCommand:version:inValue:inData:inSize:outData:outSize:
+performCompleteSaveCatacombCommand:outBuffer:
+performConfirmSaveCatacombCommand:
+performDisplayStatusChangedCommand:
+performDropUnlockTokenCommand
+performEnrollCommand:
+performForceBioLockoutCommand:
+performGetBiometrickitdInfoCommand:
+performGetCatacombGroupStateCommand:
+performGetCatacombHashCommand:outHash:
+performGetCatacombUUIDCommand:outUUID:
+performGetFreeIdentityCountCommand:group:outCount:
+performGetFreeIdentityCountCommand:outCount:
+performGetIdentitiesListCommand:outBuffer:
+performGetIdentityRecordsCommand:
+performGetLastMatchEventCommand:
+performGetProtectedConfigCommand:outSetCfg:outEffectiveCfg:
+performGetSKSLockStateCommand:outState:
+performGetSystemProtectedConfigCommand:
+performGetTemplatesValidityCommand:isValid:
+performIsXARTAvailableCommand:
+performLoadBioLockoutRecordCommand:
+performLoadCatacombCommand:inData:
+performMatchCommand:
+performNoCatacombCommand:
+performPrepareSaveCatacombCommand:outDataSize:
+performPresenceDetectCommand:
+performRemoveIdentityCommand:
+performRemoveUserDataCommand:
+performRequestMaxIdentityCountCommand:
+performRequestMessageDataCommand:size:outData:
+performSaveBioLockoutRecordCommand:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+performSetProtectedConfigCommand:cfg:authData:
+performSetSystemProtectedConfigCommand:authData:
+postDailyAndWeeklyUpdates
+postEvent
+postEventAndUpdateDailyValues:enrolledIdentities:
+postEventExtendedBy:
+postGeneralLockoutStateNotification
+preArmMatchAttempts
+preArmMatchAttemptsFailed
+preArmMatchAttemptsFailedFingerDetected
+preArmMatchAttemptsFingerDetected
+preArmMatchAttemptsSuccessful
+preArmedMatch
+prearmFRR
+prearmedApplePay
+pressureMitigationUsed
+priority
+processBioOperation:
+processIdentifier
+processInfo
+processedFlags
+provisioningState
+pullAlignmentData
+quickTapsCount
+rangeOfString:
+readBuffer
+readBufferOffset
+readBufferSizeLimit
+receiveImage:
+registerDefaults:
+registerUpdateNotification:
+rejectedImageBadBlocksCount
+rejectedImageCaFPNCount
+rejectedImageChFPNCount
+rejectedImageCount
+rejectedImageMovementCount
+rejectedImageUnknownCount
+rejectedImagesCount
+removeAllIdentities
+removeAllIdentitiesForUser:withOptions:withClient:
+removeAllObjects
+removeIdentity:withOptions:withClient:
+removeIdentityObject:
+removeItemAtPath:error:
+removeItemAtURL:error:
+removeObject:
+removeObjectForKey:
+replaceBytesInRange:withBytes:
+reportMesaHardwarePass:
+requestFingerOff
+requestFingerOffEndTime
+requireFingerOff
+requireStrictCoverage
+resetContinuousCounters
+resetMatchCounts
+resetSensor
+respondsToSelector:
+restoreAndSyncTemplates
+restoreTemplateListSU
+resume
+retain
+retainCount
+retention
+runningBioOp
+saveBioLockoutRecord
+saveCatacomb
+saveCatacombForComponents:
+saveCatacombIfDirtyWithInterval:andDelay:
+scanCount
+scanGroupCount
+seekToOffset:error:
+selectedIdentities
+selectedIdentitiesBlob
+sendAutoBugCaptureEvent:
+sensorCaptureRestartsPerFingerDown
+sensorModulationRatio
+sensorModulationRatioRaw
+sensorOperationMode
+sensorOperationStartDate
+sensorPaused
+sensorReady
+sensorRecoveryReason
+sensorResetCount
+sensorType
+sepTranferStoreCreated
+sepTranferStorePath
+sequence
+sequenceDataSize
+sequenceList
+sequenceNumber
+sequenceTransaction
+sequenceTransactionLock
+sequenceURL
+server
+serviceMatch
+serviceMatchCommon
+serviceMatchCommonFinale
+serviceMatchWithIterator:context:
+serviceMatchWithServer:
+serviceStatus:type:inValue:
+serviceStatus:version:ordinal:data:timestamp:
+setAcceptedImageCount:
+setAccessory:
+setAccessoryColorID:
+setAccessoryInfo:
+setAccessoryTemplateStatsToEvent:forAccessories:
+setAccessoryTransport:
+setActiveTemplatesCount:
+setActiveUsersCount:
+setAllowedUnits:
+setAnalyticsStorePath:
+setAneNet:
+setApplePayEnabled:
+setArguments:
+setAriadneSignposts:
+setArray:
+setArtefactAnchorX:
+setArtefactAnchorXAverage:
+setArtefactAnchorXSTD:
+setArtefactAnchorY:
+setArtefactAnchorYAverage:
+setArtefactAnchorYSTD:
+setArtefactDetectionResult:
+setArtefactMatchAttempts:
+setArtefactMatchAttemptsFailedFingerDetected:
+setArtefactMatchAttemptsFingerDetected:
+setArtefactMatchAttemptsSuccessful:
+setArtefactNonlinearity:
+setArtefactNonlinearitySTD:
+setArtefactPrevalence:
+setArtefactScore:
+setArtefactScoreAverage:
+setArtefactStrength:
+setArtefactStrengthAverage:
+setAssessment:
+setAttachedDeviceCount:
+setAttribute:
+setBSRBin:
+setBSRRaw:
+setBadDay:
+setBadDayFRR:
+setBadDaysCount:
+setBadImagesCount:
+setBioLockout:
+setBioLockoutCount:
+setBioMatchLifespan:
+setBioOperationType:
+setBiometricABC:
+setBiometryEnabled:
+setBuiltinSensorType:
+setCalendar:
+setCalibrationData:source:
+setCalibrationDataState:
+setCanceledByNewCommand:
+setCaptureHandlingErrorCode:
+setCaptureHandlingErrorCount:
+setCaptureHandlingErrorTimestamp:
+setCaptureRestartCount:
+setCaptureTimeAverage:
+setCapturedImageCount:
+setCarrierAttenBin:
+setCarrierAttenRaw:
+setCatacombFileAccessed:
+setCatacombRestored:
+setClient:
+setClientName:
+setClusterCount:
+setCreationTime:
+setCurrentDirectoryURL:
+setDRXAmpMaxBin:
+setDRXAmpMaxRaw:
+setDRXAmpMinBin:
+setDRXAmpMinRaw:
+setData:
+setDateFormat:
+setDeblurringInfo:
+setDecodingFailurePolicy:
+setDelegate:
+setDesenseMitigationPause:
+setDeviceAngleState:
+setDeviceGroupType:
+setDeviceOrientation:
+setDeviceType:
+setDeviceWakeReason:
+setDeviceWokeUpByHomeButton:
+setDeviceWokeUpByLiftToWake:
+setDirtOnSensor:
+setDisplayOn:
+setDriveVoltage:
+setDrxStrengthPctCol2Bin:
+setDrxStrengthPctCol2BinAverage:
+setDrxStrengthPctCol2Raw:
+setDrxStrengthPctCol2RawAverage:
+setDrxStrengthPctCol7Bin:
+setDrxStrengthPctCol7BinAverage:
+setDrxStrengthPctCol7Raw:
+setDrxStrengthPctCol7RawAverage:
+setEnrollResult:
+setEnrolledIdentityCount0:
+setEnrolledIdentityCount1:
+setEnrolledIdentityCount2:
+setEnrolledIdentityCount3:
+setEnrolledIdentityCount4:
+setEnrolledIdentityCount5:
+setEnrolledIdentityCount:
+setEnrolledIdentityTotalCount:
+setEnrolledIdentityUserCount:
+setEnrolledTemplatesCount:
+setEnrolledUserCount0:
+setEnrolledUserCount1:
+setEnrolledUserCount2:
+setEnrolledUserCount3:
+setEnrolledUserCount4:
+setEnrolledUserCount5:
+setEnrolledUserCount:
+setEnrolledUsersCount:
+setEntity:
+setEventCanceled:
+setEventEndType:
+setEventFinished:
+setExecutableURL:
+setFMRBin:
+setFMRRaw:
+setFailQuickTapsToUnlock:
+setFailTouchesToMatch:
+setFailTouchesToUnlock:
+setFailedMatchAttempts:
+setFailedUnlockAttempts:
+setFeedback:
+setFilterHomeButtonEvents:
+setFingerDetectEndTime:
+setFingerDetected:
+setFingerLiftTime:
+setFingerOffTime:
+setFingerOn:
+setFirstCaptureEndTime:
+setFirstCaptureEndTimeToFirstMatcherEndTime:
+setFitDiffBin:
+setFitDiffRaw:
+setFitResEdge6SigmaBin:
+setFitResEdge6SigmaRaw:
+setForExtendEnrollment:
+setHaveImageToProcess:
+setHaveMatchResult:
+setHomeButtonPressedDuringTouch:
+setIORegistryProperty:toValue:onService:
+setIdentificationEnabled:
+setImageAbsoluteTimeId:
+setImageBadBlocks:
+setImageBrightness:
+setImageBrightnessNorm:
+setImageCaptureRestartsPerFingerDown:
+setImageContrast:
+setImageContrastNorm:
+setImageDecryptionTime:
+setImageFeatureStrength:
+setImageFeatureStrengthNorm:
+setImagePixelOutlierCount:
+setImagePixelOutlierCountAverage:
+setImageProblemClass:
+setImageProcessingEndTime:
+setImageProcessingTime:
+setImageTransferTime:
+setImagesPerFingerDown:
+setInternalSensorType:
+setLargestComponentArea:
+setLargestComponentNodeCount:
+setLastBioOp:
+setLastEnrollmentDeviceOrientation:
+setLastEnrollmentScanCount:
+setLastEnrollmentScanGroupCount:
+setLastEnrollmentTouchesCount:
+setLastMatchResult:
+setLastMatchResultID:
+setLastMatchResultWakePin:
+setLastMatchUseCase:
+setLastStartedMatch:
+setLength:
+setLocalAuthFRR0:
+setLocalAuthFRR1:
+setLocalAuthFRR2:
+setLocalAuthFRR3:
+setLocalAuthFRR4:
+setLocalAuthFRR5:
+setLocalAuthFRR6:
+setLocalAuthFRR:
+setLocalAuthMatchAttempts:
+setLocalAuthMatchAttemptsFailed:
+setLocalAuthMatchAttemptsFailedFingerDetected0:
+setLocalAuthMatchAttemptsFailedFingerDetected1:
+setLocalAuthMatchAttemptsFailedFingerDetected2:
+setLocalAuthMatchAttemptsFailedFingerDetected3:
+setLocalAuthMatchAttemptsFailedFingerDetected4:
+setLocalAuthMatchAttemptsFailedFingerDetected5:
+setLocalAuthMatchAttemptsFailedFingerDetected6:
+setLocalAuthMatchAttemptsFailedFingerDetected:
+setLocalAuthMatchAttemptsFingerDetected0:
+setLocalAuthMatchAttemptsFingerDetected1:
+setLocalAuthMatchAttemptsFingerDetected2:
+setLocalAuthMatchAttemptsFingerDetected3:
+setLocalAuthMatchAttemptsFingerDetected4:
+setLocalAuthMatchAttemptsFingerDetected5:
+setLocalAuthMatchAttemptsFingerDetected6:
+setLocalAuthMatchAttemptsFingerDetected:
+setLocalAuthMatchAttemptsSuccessful:
+setLoginEnabled:
+setMSRkData:
+setMatchCount:
+setMatchCountContinuous:
+setMatchCountsContinuous:totalMatchCount:
+setMatchIdentityCount:
+setMatchMode:
+setMatchModeWith:
+setMatchOperation:
+setMatchOperationInProgress:
+setMatchRestarts:
+setMatchResult:withDetails:
+setMatchType:
+setMatchTypeWith:
+setMatchUseCase:
+setMatcherEndTime:
+setMatcherEndTimeWithRetry:
+setMatcherResult:
+setMatcherTimeAverage:
+setMatcherTimeMatch:
+setMatcherTimeMatchAverage:
+setMatcherTimeNoMatch:
+setMatcherTimeNoMatchAverage:
+setMatcherTimeWithRetry:
+setMatchingTemplateMatchCount:
+setMatchingTemplateMatchCountContinuous:
+setMatchingTemplateUsage:
+setMatchingTemplateUsageDaily:
+setMaxFingerToProbeAttenuation:calculateAvg:
+setMaxFingerToProbeAttenuationAverage:
+setMaxFingerToProbeAttenuationBin:
+setMaxFingerToProbeAttenuationMax:
+setMaxFingerToProbeAttenuationMin:
+setMaxFingerToProbeAttenuationRaw:
+setModulationRatio:
+setNodesAddedToMain:
+setNodesAddedToWaitingRoom:
+setNodesCountTotal:
+setNodesDeletedFromMain:
+setNodesMovedFromWaitingRoomToMain:
+setNonArtefactFRR:
+setNonArtefactMatchAttempts:
+setNonArtefactMatchAttemptsFailed:
+setNonArtefactMatchAttemptsFailedFingerDetected:
+setNonArtefactMatchAttemptsFingerDetected:
+setNonArtefactMatchAttemptsSuccessful:
+setNumPxOutliersPhase1:
+setNumPxOutliersPhase1Average:
+setNumPxOutliersPhase2:
+setNumPxOutliersPhase2Average:
+setObject:atIndexedSubscript:
+setObject:forKey:
+setObject:forKeyedSubscript:
+setOperationStartTime:
+setOperationTime:
+setOperationTimeAverage:
+setOverallResult:
+setOverallTimeFingerOn:
+setPairedDeviceCount:
+setPasscodeInputLifespan:
+setPreArmMatchAttempts:
+setPreArmMatchAttemptsFailed:
+setPreArmMatchAttemptsFailedFingerDetected:
+setPreArmMatchAttemptsFingerDetected:
+setPreArmMatchAttemptsSuccessful:
+setPreArmedMatch:
+setPrearmFRR:
+setPrearmedApplePay:
+setPressureMitigationUsed:
+setPriority:
+setProcessedFlags:
+setQuickTapsCount:
+setRejectedImageCaFPNCount:
+setRejectedImageChFPNCount:
+setRejectedImageCount:
+setRejectedImageMovementCount:
+setRejectedImageUnknownCount:
+setRejectedImagesCount:
+setRequestFingerOff:
+setRequestFingerOffEndTime:
+setRequireFingerOff:
+setRequireStrictCoverage:
+setScanCount:
+setScanGroupCount:
+setSensorCaptureRestartsPerFingerDown:
+setSensorModulationRatio:
+setSensorModulationRatioRaw:
+setSensorModulationRatioWith:
+setSensorOperationMode:
+setSensorOperationStartDate:
+setSensorPauseTime:
+setSensorPaused:
+setSensorRecoveryReason:
+setSensorResetCount:
+setSensorType:
+setSepTranferStorePath:
+setServer:
+setSksLockState:
+setSource:
+setSubsetFRR:
+setSubsetMatchAttempts:
+setSubsetMatchAttemptsFailed:
+setSubsetMatchAttemptsFailedFingerDetected:
+setSubsetMatchAttemptsFailedTarget:
+setSubsetMatchAttemptsFingerDetected:
+setSubsetMatchAttemptsSuccessful:
+setSubsetMatchFRR:
+setSubsetTargetFRR:
+setSuppressHapticFeedback:
+setTargetTemplate:
+setTargetTemplateMatchCount:
+setTargetTemplateMatchCountContinuous:
+setTargetTemplateUsage:
+setTargetTemplateUsageDaily:
+setTargetTemplates:
+setTemperatureBin:
+setTemperatureRaw:
+setTemplate1MatchCount:
+setTemplate1MatchCountContinuous:
+setTemplate1Usage:
+setTemplate1UsageContinuous:
+setTemplate2MatchCount:
+setTemplate2MatchCountContinuous:
+setTemplate2Usage:
+setTemplate2UsageContinuous:
+setTemplate3MatchCount:
+setTemplate3MatchCountContinuous:
+setTemplate3Usage:
+setTemplate3UsageContinuous:
+setTemplate4MatchCount:
+setTemplate4MatchCountContinuous:
+setTemplate4Usage:
+setTemplate4UsageContinuous:
+setTemplate5MatchCount:
+setTemplate5MatchCountContinuous:
+setTemplate5Usage:
+setTemplate5UsageContinuous:
+setTemplateEnrollmentsCount:
+setTemplateStats:
+setTemplateUpdated:
+setTemplatesAtBoot:
+setTidButtonState:
+setTidButtonStateSequence:
+setTidButtonStateSequenceBounded:
+setTidButtonStateWith:
+setTimeSinceFirstEnrollment:
+setTimeSinceFirstEnrollmentBinned:
+setTimeSinceIdentityEnrollmentBinned:
+setTimeSinceLastEnrollment:
+setTimeSinceSecondLastEnrollment:
+setTimeSinceSecondLastEnrollmentBinned:
+setTimeSinceSleep:
+setTotalArea:
+setTotalFRR0:
+setTotalFRR1:
+setTotalFRR2:
+setTotalFRR3:
+setTotalFRR4:
+setTotalFRR5:
+setTotalFRR6:
+setTotalFRR:
+setTotalMatchAttempts:
+setTotalMatchAttemptsFailed:
+setTotalMatchAttemptsFailedFingerDetected0:
+setTotalMatchAttemptsFailedFingerDetected1:
+setTotalMatchAttemptsFailedFingerDetected2:
+setTotalMatchAttemptsFailedFingerDetected3:
+setTotalMatchAttemptsFailedFingerDetected4:
+setTotalMatchAttemptsFailedFingerDetected5:
+setTotalMatchAttemptsFailedFingerDetected6:
+setTotalMatchAttemptsFailedFingerDetected:
+setTotalMatchAttemptsFingerDetected0:
+setTotalMatchAttemptsFingerDetected1:
+setTotalMatchAttemptsFingerDetected2:
+setTotalMatchAttemptsFingerDetected3:
+setTotalMatchAttemptsFingerDetected4:
+setTotalMatchAttemptsFingerDetected5:
+setTotalMatchAttemptsFingerDetected6:
+setTotalMatchAttemptsFingerDetected:
+setTotalMatchAttemptsSuccessful:
+setTotalMatchOperationsFailedRetry:
+setTotalMatchOperationsFingerDetected:
+setTotalNodeCount:
+setTotalScanCount:
+setTotalScanGroupCount:
+setTotalTemplateMatchCount:
+setTotalTemplateMatchCountContinuous:
+setTouchesCount:
+setTouchesToUnlock:
+setType:
+setUnitsStyle:
+setUnlockEnabled:
+setUnlockFRR0:
+setUnlockFRR1:
+setUnlockFRR2:
+setUnlockFRR3:
+setUnlockFRR4:
+setUnlockFRR5:
+setUnlockFRR6:
+setUnlockFRR:
+setUnlockMatchAttempts:
+setUnlockMatchAttemptsFailed:
+setUnlockMatchAttemptsFailedFingerDetected0:
+setUnlockMatchAttemptsFailedFingerDetected1:
+setUnlockMatchAttemptsFailedFingerDetected2:
+setUnlockMatchAttemptsFailedFingerDetected3:
+setUnlockMatchAttemptsFailedFingerDetected4:
+setUnlockMatchAttemptsFailedFingerDetected5:
+setUnlockMatchAttemptsFailedFingerDetected6:
+setUnlockMatchAttemptsFailedFingerDetected:
+setUnlockMatchAttemptsFingerDetected0:
+setUnlockMatchAttemptsFingerDetected1:
+setUnlockMatchAttemptsFingerDetected2:
+setUnlockMatchAttemptsFingerDetected3:
+setUnlockMatchAttemptsFingerDetected4:
+setUnlockMatchAttemptsFingerDetected5:
+setUnlockMatchAttemptsFingerDetected6:
+setUnlockMatchAttemptsFingerDetected:
+setUnlockMatchAttemptsSuccessful:
+setUnlockOperationInProgress:
+setUnlockOperationStartedByCommand:
+setUnlockResult:
+setUnlockTokenMaxLifetime:
+setUnlocked:
+setUpdateType:
+setUsedDeviceCount:
+setUserID:
+setUuid:
+setValidDaysCount:
+setValue:forKey:
+setWaitingForMatchResult:
+setWaitingRoomNodesCount:
+setWaitingRoomUpdated:
+setWakeOnMenuPinUsed:
+setWithArray:
+setupDailyUpdateTimer
+sharedInstance
+shouldFilterStatusForSB:
+sizeLimit
+sizeOfLegacyCatacomb
+sksLockState
+sortDescriptorWithKey:ascending:
+sortedArrayUsingDescriptors:
+source
+startBioOperation:
+startEnrollOperation:
+startMatchAttempt:
+startMatchOperation:
+statistics
+statisticsMessage:
+status
+statusMessage:
+statusMessage:details:
+statusMessage:withData:
+statusMessage:withData:timestamp:
+stopBioOperation
+stopOnSuccess
+string
+stringByAddingPercentEncodingWithAllowedCharacters:
+stringFromTimeInterval:
+stringWithCString:encoding:
+stringWithCapacity:
+stringWithFormat:
+stringWithString:
+stringWithUTF8String:
+subsetFRR
+subsetMatchAttempts
+subsetMatchAttemptsFailed
+subsetMatchAttemptsFailedFingerDetected
+subsetMatchAttemptsFingerDetected
+subsetMatchAttemptsSuccessful
+subsetMatchFRR
+superclass
+suppressHapticFeedback
+suspendAllConnections:
+switchToNextBioOperation:
+syncTemplateListForUser:
+systemSleepStateChanged:
+systemUptime
+targetTemplate
+targetTemplateMatchCount
+targetTemplateMatchCountContinuous
+targetTemplateUsage
+targetTemplateUsageDaily
+temperatureBin
+temperatureRaw
+template1MatchCount
+template1MatchCountContinuous
+template1Usage
+template1UsageContinuous
+template2MatchCount
+template2MatchCountContinuous
+template2Usage
+template2UsageContinuous
+template3MatchCount
+template3MatchCountContinuous
+template3Usage
+template3UsageContinuous
+template4MatchCount
+template4MatchCountContinuous
+template4Usage
+template4UsageContinuous
+template5MatchCount
+template5MatchCountContinuous
+template5Usage
+template5UsageContinuous
+templateDataList
+templateEnrollmentsCount
+templateListNumber
+templateLoggingEnabled
+templateStats
+templateStoreURL
+templateUpdate:details:
+templateUpdate:withDictionary:
+templateUpdate:withDictionary:update:
+templateUpdateMessage:
+templateUpdateURL
+templatesExistAtBoot
+temporaryDirectory
+terminateConnection:
+terminationStatus
+tidButtonState
+tidButtonStateSequence
+tidButtonStateSequenceBounded
+timeIntervalSinceDate:
+timeIntervalSinceNow
+timeSinceFirstEnrollment
+timeSinceFirstEnrollmentBinned
+timeSinceIdentityEnrollment
+timeSinceIdentityEnrollmentBinned
+timeSinceLastEnrollment
+timeSinceSecondLastEnrollment
+timeSinceSecondLastEnrollmentBinned
+timeSinceSleep
+timestampEvent:absoluteTime:
+totalArea
+totalClusterCount
+totalFRR
+totalFRR0
+totalFRR1
+totalFRR2
+totalFRR3
+totalFRR4
+totalFRR5
+totalFRR6
+totalMatchAttempts
+totalMatchAttemptsFailed
+totalMatchAttemptsFailedFingerDetected
+totalMatchAttemptsFailedFingerDetected0
+totalMatchAttemptsFailedFingerDetected1
+totalMatchAttemptsFailedFingerDetected2
+totalMatchAttemptsFailedFingerDetected3
+totalMatchAttemptsFailedFingerDetected4
+totalMatchAttemptsFailedFingerDetected5
+totalMatchAttemptsFailedFingerDetected6
+totalMatchAttemptsFingerDetected
+totalMatchAttemptsFingerDetected0
+totalMatchAttemptsFingerDetected1
+totalMatchAttemptsFingerDetected2
+totalMatchAttemptsFingerDetected3
+totalMatchAttemptsFingerDetected4
+totalMatchAttemptsFingerDetected5
+totalMatchAttemptsFingerDetected6
+totalMatchAttemptsSuccessful
+totalMatchOperationsFingerDetected
+totalNodeCount
+totalPrimaryClusterArea
+totalPrimaryClusterNodeCount
+totalScanCount
+totalScanGroupCount
+totalTemplateMatchCount
+totalTemplateMatchCountContinuous
+touchIDButtonPressed:
+touchesCount
+truncateAtOffset:error:
+unarchiveCatacombDataForComponent:fromUnarchiver:secureData:identities:
+unionSet:
+unlock
+unlockAttemptCanceled:
+unlockAttemptFinished
+unlockAttemptStarted:
+unlockEnabled
+unlockEventFinished
+unlockFRR
+unlockFRR0
+unlockFRR1
+unlockFRR2
+unlockFRR3
+unlockFRR4
+unlockFRR5
+unlockFRR6
+unlockMatchAttempts
+unlockMatchAttemptsFailed
+unlockMatchAttemptsFailedFingerDetected
+unlockMatchAttemptsFailedFingerDetected0
+unlockMatchAttemptsFailedFingerDetected1
+unlockMatchAttemptsFailedFingerDetected2
+unlockMatchAttemptsFailedFingerDetected3
+unlockMatchAttemptsFailedFingerDetected4
+unlockMatchAttemptsFailedFingerDetected5
+unlockMatchAttemptsFailedFingerDetected6
+unlockMatchAttemptsFingerDetected
+unlockMatchAttemptsFingerDetected0
+unlockMatchAttemptsFingerDetected1
+unlockMatchAttemptsFingerDetected2
+unlockMatchAttemptsFingerDetected3
+unlockMatchAttemptsFingerDetected4
+unlockMatchAttemptsFingerDetected5
+unlockMatchAttemptsFingerDetected6
+unlockMatchAttemptsSuccessful
+unlockOperationInProgress
+unlockResult
+unlockTokenMaxLifetime
+unlocked
+unlockedByMesa
+unlockedByPasscode
+unlockedByRemote
+unsignedIntValue
+unsignedIntegerValue
+unsignedLongLongValue
+updateActiveOperationNotification
+updateActiveOperationNotificationWithOverride:
+updateBoundedFieldValue
+updateCount
+updateDailyValuesAfterMatch:
+updateEnrollmentChangedNotification:
+updateLog
+updateType
+userDefaults
+userID
+validDaysCount
+validateAllUsers
+valueForKey:
+waitUntilExit
+waitingForMatchResult
+waitingRoomNodesCount
+waitingRoomUpdated
+wakeOnMenuPinUsed
+wasDeviceHibernated:
+weeklyUsedDeviceCount
+writeAuditRecordWithToken:sucess:
+writeStringToPersistentLog:
+xpcServer
+MesaAutoBugCapture
+MesaCoreAnalyticsEvent
+MesaCoreAnalyticsTemplateMatchCountsEvent
+MesaCoreAnalyticsFingerTouchTimeEvent
+MesaCoreAnalyticsFingerLiftTimeEvent
+MesaCoreAnalyticsMatchEvent
+MesaCoreAnalyticsUnlockEvent
+MesaCoreAnalyticsEnrollEvent
+MesaCoreAnalyticsDailyEvent
+MesaCoreAnalyticsWeeklyEvent
+MesaCoreAnalyticsTemplateUpdateEvent
+BiometricMatchOperationMesa
+BiometricKitXPCServerMesa
+NSXPCListenerDelegate
+NSObject
+MesaCoreAnalyticsHelper
+MesaCAImageInfo
+MesaCoreAnalytics
+TemplateInfo
+BiometricKitDStatistics
+_TtC13biometrickitd12BioLogHelper
+_TtC13biometrickitd15BioLogRetention
+_TtC13biometrickitd6BioLog
+OS_os_transaction
+_TtC13biometrickitdP33_174C8F05D334FEB112725097E22DC8E116BioJSONArrayImpl
+_TtC13biometrickitd12BioJSONArray
+_TtC13biometrickitd30BiometricKitXPCServerMesaSwift
+@24@0:8Q16
+@24@0:8@16
+B16@0:8
+v28@0:8I16@20
+^{?=I[16C]}16@0:8
+v24@0:8r^{?={?=I[16C]}{?={?=QQ}CCCCC[5{?=SCCS{?=CCC}{?=fffI}{?=QQQQ}}]}Q}16
+v32@0:8@16Q24
+@"NSNumber"
+{?="type"I"uuid"[16C]}
+@"BiometricAutoBugCapture"
+v28@0:8I16C20B24
+@"NSDate"
+v24@0:8I16C20
+v24@0:8q16
+v32@0:8@16@24
+B32@0:8@16@24
+v20@0:8f16
+@"NSMutableArray"
+@"NSUUID"
+@"BiometricMatchOperationMesa"
+v36@0:8{?=I[16C]}16
+@"NSMutableSet"
+@32@0:8@16@24
+@20@0:8B16
+v28@0:8@16B24
+v40@0:8{?=I[16C]}16B36
+@"NSArray"
+^{?=II[32C]}16@0:8
+{?="userID"I"uuid"[16C]}
+{?="usingAuthToken"I"tokenLength"I"token"[32C]}
+#16@0:8
+@24@0:8:16
+B24@0:8#16
+Vv16@0:8
+@"NSString"16@0:8
+B32@0:8@"NSXPCListener"16@"NSXPCConnection"24
+i16@0:8
+i48@0:8@16i24I28@32@40
+i24@0:8@16
+i48@0:8@16@24@32@40
+i40@0:8@16@24@32
+i36@0:8I16@20@28
+i20@0:8B16
+i52@0:8i16@20^B28^@36@44
+q24@0:8@16
+i28@0:8B16@20
+i28@0:8@16i24
+i24@0:8^{?=QQQQQQQC}16
+i40@0:8C16C20*24Q32
+B20@0:8I16
+v24@0:8^{?=IS}16
+v52@0:8{?=[8I]}16B48
+i24@0:8^{?=C}16
+f16@0:8
+@28@0:8B16^@20
+v24@0:8^{?=QC{?=I[16C]}}16
+v32@0:8^{?=I[16C]}16Q24
+v24@0:8^{?=I(?=qd)}16
+v36@0:8I16@20Q28
+v24@0:8^{?={?=I[16C]}I{?=sss{?=sss}{?=sssssss[16C][16C]s(?=[300{?={?=sss}ss}]{?=ii[50{?=ssccccBB}]})ssssss}ii}{?=CCCCCIICCfffII[5f]CCCCQICCC{?=I[16C]}f}{?=CCCCCsssssssI}}16
+v28@0:8I16^v20
+i48@0:8I16I20Q24@32Q40
+i60@0:8S16S20S24r^v28Q36*44^Q52
+i56@0:8S16S20r^v24Q32*40^Q48
+v20@0:8I16
+i32@0:8@16^@24
+i32@0:8@16@24
+i48@0:8@16@24^@32^@40
+i32@0:8*16Q24
+I16@0:8
+i28@0:8I16@20
+i36@0:8I16^{?=I[16C]}20^I28
+i28@0:8I16^B20
+i24@0:8^{?=I[16C]}16
+i24@0:8^{?=IIIQCCC}16
+i20@0:8I16
+i32@0:8@16^I24
+i24@0:8^I16
+i28@0:8I16^I20
+i28@0:8I16^@20
+i24@0:8^B16
+i24@0:8^{?=QC{?=I[16C]}}16
+i36@0:8I16^@20^@28
+i24@0:8^@16
+i36@0:8I16@20^{?=II[32C]}28
+i32@0:8@16^{?=II[32C]}24
+i40@0:8Q16Q24^@32
+v24@0:8d16
+@32@0:8^{__asl_object_s=}16@?24
+v24@0:8^{?=[9Q][10Q]}16
+v24@0:8^{?={?=[9Q][10Q]}{?=[10Q]CC}}16
+^{IONotificationPort=}
+@"NSObject<OS_dispatch_queue>"
+@"NSMutableData"
+^{__IOHIDEventSystemClient=}
+@"MesaCoreAnalytics"
+{?="version"I"structSize"I"sensorType"I}
+@"SLSBrightnessControlClient"
+@"NSObject<OS_dispatch_source>"
+@"BiometricKitXPCExportedClientObject"
+@"BioUserDefaults"
+@20@0:8I16
+@44@0:8@16{?=I[16C]}24
+{?=I[16C]}16@0:8
+@"NSData"
+v24@0:8^{?=I[16C]}16
+v40@0:8@16@24r^{?=CCCCCsssssssI}32
+v24@0:8I16I20
+v20@0:8C16
+@"MesaCoreAnalyticsEvent"
+@"MesaCoreAnalyticsMatchEvent"
+@"MesaCoreAnalyticsUnlockEvent"
+@"MesaCoreAnalyticsEnrollEvent"
+@"MesaCoreAnalyticsFingerTouchTimeEvent"
+@"MesaCoreAnalyticsFingerLiftTimeEvent"
+@"MesaCoreAnalyticsDailyEvent"
+@"MesaCoreAnalyticsWeeklyEvent"
+@"MesaCoreAnalyticsTemplateUpdateEvent"
+@"BiometricKitCoreAnalyticsLockState"
+@"NSDictionary"
+@"BiometricKitCoreAnalyticsLogger"
+s16@0:8
+v20@0:8s16
+d16@0:8
+@"BiometricKitAccessory"
+I24@0:8r^{?=sssssss[16C][16C]s[300{?={?=sss}ss}]ssssss}16
+B24@0:8q16
+B24@0:8^{?=QQQQQQQC}16
+v20@0:8i16
+v24@0:8Q16
+@"NSMutableDictionary"
+@"NSString"
+@"BiometricKitXPCServerMesa"
+@16@0:8
+v16@0:8
+v24@0:8@16
+v40@0:8Q16@24Q32
+v32@0:8Q16Q24
+v28@0:8B16Q20
+v20@0:8B16
+v32@0:8S16I20Q24
+v28@0:8B16@20
+v40@0:8@16@24Q32
+q16@0:8
+v32@0:8q16Q24
+v48@0:8@16Q24Q32Q40
+v72@0:8@16Q24Q32Q40Q48Q56@64
+v72@0:8@16Q24Q32@40@48Q56@64
+v176@0:8{?=[9Q][10Q]}16Q168
+v258@0:8{?={?=[9Q][10Q]}{?=[10Q]CC}}16Q250
+v24@?0r^{__CFString=}8r^{__CFDictionary=}16
+B24@0:8@16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B24@0:8:16
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+SensorStatus
+ProvisionCmdStatus
+PatchType
+SecStatus
+Indicator
+ResetSource
+AdditionalData
+CodingKeys
+biometrickitd
+BioLogHelper
+SequenceType
+BioLogRetention
+RetentionClass
+ClassPolicy
+RetentionError
+AnalyticsData
+BioLog
+FileAttributes
+logging_match_latency_log_t
+logging_latency_log_t
+logging_sensor_status_log_t
+LatestSequence
+Current
+SEPTransferData
+CalibrationData
+TemplateData
+FileProtectionType
+NNSFileProtectionType
+message_info_v1_t
+image_processing_result_v2
+image_processing_result_full
+enrollment_info_v2_t
+message_accessory_image_info_v1_t
+template_update_info_v3_t
+bgops_result_v3_t
+FileAttributeKey
+NNSFileAttributeKey
+logging_latency_log_match_t
+Foundation
+image_deblurring_info_v2
+tsTemplateGraphState_v1
+node_placement_v1_t
+accessory_touch_info_v1_t
+biodevice_v1_t
+template_update_v1_t
+image_metadata_v2
+match_node_placement_v1_t
+identity_v1_t
+tsComponentState_v1
+accessory_image_info_v1_t
+__Unnamed_struct_timestamps
+tsTrans_v1
+tsWindow_v1
+__Unnamed_struct_diagnostics
+__Unnamed_struct_sensorData
+Nullable
+LogInfo
+SensorSiliconRevision
+SensorPatchType
+Source
+SensorInfo
+Accessory
+Identity
+ClientInfo
+SKSLockState
+SystemPowerState
+UserInfo
+NodeUpdateInfo
+NodePlacement
+TemplateInfo
+MatchNodePlacement
+DeviceAttitude
+Sequence
+Enrollment
+FingerDetect
+ImageProcessingResult
+Common
+Builtin
+ImageDeblurringInfo
+TemplateGraphState
+Message
+Auxiliary
+EventType
+AccessoryImageInfo
+ImageInfo
+Status
+Capture
+EnrollResult
+MatchResult
+Details
+Latency
+Enroll
+MatchForExtendEnrollment
+FileInfo
+FileType
+SequenceRoot
+TemplateUpdateInfo
+CodingKeys
+BiometricKitLockoutState
+logging_sep_support_t
+BioBlockFile
+BlockFileError
+BioJSONArrayImpl
+BioJSONArray
+jsonError
+BiometricKitXPCServerMesaSwift
+sensor_info_v1_t
+accessory_sensor_info_v1_t
+sensor_parameter
+rtn_log_root
+TemplateDataID
+SequenceDataItem
+TemplateDataItem
+CodingKeys
+AssertMacros: %s (value = 0x%lx), %s file: %s, line: %d
+MesaCoreAnalyticsEvent(%@) postEvent
+MesaCoreAnalyticsEvent(%@) reset event
+MesaCoreAnalyticsEvent: %@ setBiometricABC: %@
+MesaCoreAnalyticsFingerTouchTimeEvent postEvent _fingerOnDate: %@ _fingerOffDate: %@ _sensorPauseDate: %@
+MesaCoreAnalyticsFingerLiftTimeEvent postEvent _fingerOffDate: %@ _fingerOnDate: %@ 
+MesaCoreAnalyticsMatchEvent setMatchMode: %ld
+MesaCoreAnalyticsMatchEvent unknown matchMode: %ld
+MesaCoreAnalyticsMatchEvent setMatchType: %u
+MesaCoreAnalyticsMatchEvent setMatchResult: %@ withDetails: %@
+MesaCoreAnalyticsEnrollEvent info: %@
+MesaCoreAnalyticsEnrollEvent imageInfoMessage: %p
+MesaCoreAnalyticsEnrollEvent touchInfo->imageCount: %d
+setTidButtonStateWith: return %lld %lld %@ %@ %@
+MesaCoreAnalyticsEnrollEvent postEvent: %@
+MesaCoreAnalyticsDailyEvent dictionaryRepresentation
+MesaCoreAnalyticsDailyEvent calculateDailyValues
+MesaCoreAnalyticsWeeklyEvent dictionaryRepresentation
+MesaCoreAnalyticsWeeklyEvent calculateDailyValues
+MesaCoreAnalyticsWeeklyEvent calculateWeeklyValues
+calculateWeeklyValues: key:%@ weeklyValue:%@ dailyValue:%@ exception:%@
+getLastWakeFromHibernationTime
+getLastWakeFromHibernationTime -> %llu
+SIGTERM received
+init -> %@
+SLSDisplayControlNotification: displayPowerState %u _displayOn: %@
+initDisplayService: failed with error:%@
+homeButtonPressed
+homeButtonPressed -> void
+touchIDButtonPressed: %d
+touchIDButtonPressed: -> void
+systemSleepStateChanged: willSleep:%d
+checkSensorReadiness
+checkSensorReadiness -> err:0x%x (_sensorReady:%d)
+reportMesaHardwarePass: %d (alreadyReported:%d, lastHardwarePass:%d)
+initSensor
+initSensor -> err:0x%x
+resetSensor
+resetSensor -> err:0x%x
+cachePatch
+cachePatch -> err:0x%x
+diagnostics:withOptions:passed:withDetails:withClient: %d, %@, %p, %p, %@
+diagnostics:withOptions:passed:withDetails:withClient: -> err:0x%x (passed:%d, details:%@)
+enrollContinue
+enrollContinue -> err:0x%x
+pullAlignmentData
+pullAlignmentData -> %@ (err:0x%x)
+getNodeTopologyForIdentity:withClient: %@, %@
+getNodeTopologyForIdentity:withClient: %@, %@ -> %@ (err:0x%x)
+getEnabledForUnlock
+getEnabledForUnlock -> %u (err:0x%x)
+getProvisioningStateWithClient: %@
+getProvisioningStateWithClient: %@ -> %u (err:0x%x)
+isFingerOnWithClient: %@ -> %d
+enableBackgroundFdet:withClient: %d, %@
+enableBackgroundFdet:withClient: %d, %@ -> err:0x%x
+setCalibrationData:source: NSData(length:%lu), %d
+setCalibrationData:source: -> err:0x%x
+setMSRkData: NSData(length:%lu)
+setMSRkData: -> err:0x%x
+setAneNet: NSData(length:%lu)
+setAneNet:source: -> err:0x%x
+getModuleSerialNumber
+getModuleSerialNumber -> %@ (err:0x%x)
+getFDRCalibrationData
+getFDRCalibrationData -> NSData(length:%lu)
+getRemoteFDRCalibrationData
+getEEPROMCalibrationData
+getEEPROMCalibrationData -> NSData(length:%lu)
+getSysCfgCalibrationData
+getSysCfgCalibrationData -> NSData(length:%lu)
+getFDRDataForClass: %@
+getFDRDataForClass: AMFDRSealingMapCopyLocalDataForClass: error:%@
+getFDRDataForClass -> NSData(length:%lu)
+getFDR3CalibrationData
+getFDRMSRkData
+Display ON
+Display OFF
+getCommProtocolVersion
+getCommProtocolVersion -> err:0x%x
+shouldFilterStatusForSB: %d
+shouldFilterStatusForSB: -> %d
+cancelUnlockMatchIfTokenNotPresent: %p
+cancelUnlockMatchIfTokenNotPresent: unlock token not found - canceling on behalf of client
+cancelUnlockMatchIfTokenNotPresent: -> void
+Writing audit record (success = %u)
+cacheSensorInfo
+getSBIOInfo: %p
+getSBIOInfo -> err:0x%x
+getSensorCalibrationStatusWithClient: %@ -> %ld
+getCalibrationDataInfoWithClient: %@ -> NSData(length:%lu)
+getSensorInfoWithClient: %@ -> NSData(length:%lu)
+getLogs:withDetails: <- all:%u, details:%@ -> %@
+enrollResult:withTimestamp: %{public}@, %llu
+Starting high priority fdet operation between 1st and 2nd enrollment phase
+enrollResult:withTimestamp: -> void (activeClient:%@)
+matchResult:timestamp: NSData(length:%lu), %llu
+matchResult:timestamp: MATCH %d: %{public}@
+matchResult:timestamp: NO-MATCH
+matchResult:timestamp: -> void (activeClient:%@)
+matchEventMessage: %p(.result:%d, .timestamp:%lld)
+matchEventMessage: -> void
+deviceAuthRequiredMessage: %p
+deviceAuthRequiredMessage: kBiometricKitStatusAuthorizationRequired => %@
+deviceAuthRequiredMessage: -> void
+statusMessage:withData:timestamp: %u, NSData(length:%lu), %llu
+[TALt] BKDM::Accy: kBiometricKitStatusFinger(%d): transportInterval:%lld(us)
+kBiometricKitStatusTemplateListUpdated
+kBiometricKitStatusTemplateListNotUpdated
+statusMessage:withData:timestamp: -> void (activeClient:%@)
+templateUpdateMessage: %p
+templateUpdateMessage: -> void
+serviceMatch initialized
+loadCalibrationData
+loadCalibrationData -> err:0x%x %s(calBLOBSource:%d)
+loadMSRkData
+loadMSRkData: provisioningState: %d
+loadMSRkData -> No MSRk data loaded.
+loadMSRkData -> err:0x%x
+loadANENet
+loadANENet -> err:0x%x
+templatesExistAtBoot -> %d
+serviceStatus:version:ordinal:data:timestamp: 0x%x, 0x%x, 0x%llx, %@, %llu
+HomeButton PRESSED
+HomeButton RELEASED
+kAppleBiometricSensorRecovery: %u
+SKS state: %u: 0x%x (%@)
+serviceStatus:type:inValue: -> err:0x%x
+performCommand:version:inValue:inData:inSize:outData:outSize: %u, %u, %u, %p, %zu, %p, %p
+performCommand:version:inValue:inData:inSize:outData:outSize: -> err:0x%x
+performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+restoreAndSyncTemplates
+restoreAndSyncTemplates identities %lu: %{public}@
+restoreAndSyncTemplates -> err:0x%x
+getCatacombSaveListForComponents:list: %@
+decodeCatacombDataV1:withSize: %p, %zu
+kReadCatacombSUCommand - may bump catacomb counter
+decodeCatacombDataV1:withSize: -> err:0x%x
+restoreTemplateListSU
+restoreTemplateListSU -> err:0x%x
+saveCatacombForComponents: %{public}@
+Removing legacy catacomb
+saveCatacombForComponents -> err:0x%x
+Running in BaseSystem
+loadCatacombForComponent: %p
+loadCatacombForComponent: Protected configuration: %u:%@
+loadCatacombForComponent: -> err:0x%x
+loadCatacomb --> restoreTemplateListSU
+performGetIdentitiesListCommand:outBuffer: %u, %p
+performGetIdentitiesListCommand:outBuffer: -> err:0x%x
+performGetCatacombStateCommand: %p
+performGetCatacombStateCommand: -> err:0x%x
+performGetCatacombGroupStateCommand: %p
+performGetCatacombGroupStateCommand: -> err:0x%x
+performGetIdentityRecordsCommand: %p
+performGetIdentityRecordsCommand: -> err:0x%x
+performGetBioDeviceListCommand: %p
+performGetBioDeviceListCommand: -> err:0x%x
+performGetFreeIdentityCountCommand:group:outCount: %d, %p, %p
+performGetFreeIdentityCountCommand:group:outCount: -> err:0x%x
+accessoryAdded: %@
+accessoryRemoved: %@
+accessoryRemoved: %@: %@
+accessoryDisconnected: %@
+accessoryMayHaveChanged %@: %@
+ImageInfo[%i]: flags:0x%x, feedback:%u, assessment:%u, badBlockCount:%{private}u
+SensorData   : vhvldo:%{private}u, fgrMotionCnt:%{private}u, framesDiscardedRcmd:%{private}u
+Diagnostics  : contrast:%{private}f, brightness:%{private}f, featureStrength:%{private}f, numPxOutliers:%{private}u
+TouchInfo: flags:0x%x, captureCount:%u, captureRestartCount:%u, sensorResetCount:%u, imageCount:%u, deviceUUID:%@
+[TALt] BKDM::Accy: FON-SCP:%llu(us)
+[TALt] BKDM::Accy: SCP-CPD:%llu(us), CPD-CAP:%llu(us), CAP-IMG:%llu(us)
+[TALt] BKDM::Accy: IMG-REP:%llu(us) REP-HST:%lld(us)
+performGetTemplatesValidityCommand:isValid: %u, %p
+performGetTemplatesValidityCommand:isValid: -> err:0x%x, isValid:%d
+performRemoveIdentityCommand: %p
+performRemoveIdentityCommand: -> err:0x%x
+performGetBiometrickitdInfoCommand: %p
+performGetBiometrickitdInfoCommand: -> err:0x%x
+performRemoveUserDataCommand: %d
+performRemoveUserDataCommand: -> err:0x%x
+performPrepareSaveCatacombCommand:outDataSize: %@, %p
+performPrepareSaveCatacombCommand:outDataSize: -> err:0x%x
+performCompleteSaveCatacombCommand:outBuffer: %@, %p
+performCompleteSaveCatacombCommand:outBuffer: -> err:0x%x
+performConfirmSaveCatacombCommand: %@
+performConfirmSaveCatacombCommand: -> err:0x%x
+performNoCatacombCommand: %d
+performNoCatacombCommand: -> err:0x%x
+performLoadCatacombCommand:inData: %@, NSData(length:%lu)
+performLoadCatacombCommand:inData: -> err:0x%x
+performSaveBioLockoutRecordCommand: %p
+performSaveBioLockoutRecordCommand: -> err:0x%x
+performLoadBioLockoutRecordCommand: NSData(length:%lu)
+performLoadBioLockoutRecordCommand: -> err:0x%x
+performRequestMaxIdentityCountCommand: %p
+performRequestMaxIdentityCountCommand: -> err:0x%x
+performRequestMaxIdentityCountCommand:outCount: %d, %p
+performRequestMaxIdentityCountCommand:outCount: -> err:0x%x
+performGetCatacombUUIDCommand:outUUID: %d, %p
+performGetCatacombUUIDCommand:outUUID: -> err:0x%x
+performGetCatacombHashCommand:outHash: %d, %p
+performGetCatacombHashCommand:outHash: -> err:0x%x
+performDropUnlockTokenCommand
+performDropUnlockTokenCommand -> err:0x%x
+performForceBioLockoutCommand: %d
+performForceBioLockoutCommand -> err:0x%x
+performGetSKSLockStateCommand: %d
+performGetSKSLockStateCommand -> err:0x%x
+performIsXARTAvailableCommand: %p
+performIsXARTAvailableCommand: -> err:0x%x, isAvailable:%d
+performGetLastMatchEventCommand: %p
+performGetLastMatchEventCommand: -> err:0x%x
+performGetProtectedConfigCommand:outSetCfg:outEffectiveCfg: %u, %p, %p
+performGetProtectedConfigCommand:outSetCfg:outEffectiveCfg: -> err:0x%x
+performGetSystemProtectedConfigCommand: %p
+performGetSystemProtectedConfigCommand: -> err:0x%x
+performSetProtectedConfigCommand:cfg:authData: %u, %p, %p
+performSetProtectedConfigCommand -> err:0x%x
+performSetSystemProtectedConfigCommand: %p, %p
+performSetSystemProtectedConfigCommand -> err:0x%x
+performRequestMessageDataCommand:size:outData: 0x%llx, %zu, %p
+performRequestMessageDataCommand -> err:0x%x
+isDisplayOn (_displayOn:%@)
+isDisplayOn -> %d
+dispatchBiometricHIDEvent
+dispatchBiometricHIDEvent -> void
+logSEPTransferData > %@.dmp+json
+[TALt] %@
+loggingMessage: kLoggingMessageAnyData unsupported!
+ERROR: loggingMessage: Image type:%u unknown!
+loggingMessage: Unknown message: %u, length:%u
+--- biometrickitd (Mesa) ends ---
+Couldn't create OS Log for 'com.apple.BiometricKit.Daemon-Mesa'!
+--- biometrickitd (Mesa) starts ---
+Loading BKDMVirt -> %u
+__sleepWakeNotificationCallback(messageType:0x%x (%s), messageArgument:%ld)
+Detected wake from hibernation!
+__sleepWakeNotificationCallback -> void
+Couldn't create OS Log for 'com.apple.BiometricKit.Latency'!
+__serviceMatch(context:%p, iterator:%u)
+__serviceMatch -> void
+__serviceStatus %@ --> serviceStatus:type:inValue:
+__HIDEventCallback(target:%p, event:%p)
+PowerButton pressed
+PowerButton released
+__HIDEventCallback -> void
+MesaCoreAnalyticsHelper accImgInfoData: %@ souceBioDevice.type: %d
+MesaCoreAnalytics serviceMatch
+MesaCoreAnalytics initSensor
+MesaCoreAnalytics setBiometricABC: %@
+MesaCoreAnalytics startBioOperation: %@
+MesaCoreAnalytics stopBioOperation
+MesaCoreAnalytics cancel
+MesaCoreAnalytics timestampEvent: %lu absoluteTime: %llu
+MesaCoreAnalytics startMatchOperation: %@
+MesaCoreAnalytics startMatchAttempt: %@
+MesaCoreAnalytics matchResult: %@ withDictionary: %@
+MesaCoreAnalytics matchResult: use _preArmedMatchEvent
+MesaCoreAnalytics matchAttemptFinished: %d
+MesaCoreAnalytics matchOperationFinished: %d
+MesaCoreAnalytics matchEventFinished
+matchEventFinished: missing builtinSensorType
+MesaCoreAnalytics matchEventFinished copy preArmedMatchEvent
+MesaCoreAnalytics matchEventFinished save _preArmedMatchEvent
+MesaCoreAnalytics unlockAttemptStarted: %u
+MesaCoreAnalytics unlockAttemptCanceled
+MesaCoreAnalytics unlockedByMesa
+MesaCoreAnalytics unlockedByPasscode
+MesaCoreAnalytics unlockedByRemote
+MesaCoreAnalytics unlockAttemptFinished
+MesaCoreAnalytics unlockEventFinished
+MesaCoreAnalytics startEnrollOperation
+MesaCoreAnalytics enrollProgress: %@
+MesaCoreAnalytics enrollEventFinished
+MesaCoreAnalytics postDailyAndWeeklyUpdates
+MesaCoreAnalytics templateUpdate: %@ withDictionary: %@
+MesaCoreAnalytics addIdentitity: %@ 
+MesaCoreAnalytics removeIdentity: %@ 
+MesaCoreAnalytics removeAllIdentities
+MesaCoreAnalytics resetMatchCounts - Count template match counts per user
+MesaCoreAnalytics statusMessage: %u
+MesaCoreAnalytics statisticsMessage: %p
+MesaCoreAnalytics statisticsMessage: type %d fixed: %lld floating: %f
+MesaCoreAnalytics homeButtonStateChanged: %u
+MesaCoreAnalytics lockStateUpdated: %u
+MesaCoreAnalytics displayStatusChanged: %u
+MesaCoreAnalytics catacombCorrupted: %lld
+MesaCoreAnalytics setSensorType: %d
+MesaCoreAnalytics addBioAccessory: type: %d uuid: %@
+MesaCoreAnalytics accessoryImageInfo: %p
+MesaCoreAnalytics accessoryImageInfo: %p _currentEvent: %@
+AssertMacros: %s (value = 0x%lx), version: Mesa-10317~1342, %s file: %s, line: %d
+%{public}s: type: %d
+%{public}s: %@ - UseCase: %d
+%{public}s: O:%d - M:%ld - U:%d - _fO:%d - _hmr:%d - _wfmr:%d, _client:%@
+%{public}s: %lu - %llu
+%{public}s: %s
+%{public}s: 
+%{public}s: FingerON (Fon:%d - Op:%d - M:%ld - _wfmr:%d - _hitp:%d)
+%{public}s: %d
+%{public}s: HB Pressed: %d
+%{public}s: LockState:0x%x -> 0x%x, MesaEnabled:%d
+%{public}s: _unlockOpInProgress: %d
+%{public}s: byCommand: %d, _unlockOpInProgress: %d
+%{public}s: _matchOpInProgress: %d
+%{public}s: PowerOnButtonPressDelay: %llu
+Pending init detected - resetting BioLog!
+WARNING: applyPolicy() should be called on BioLogRetention.dispatchQueue!
+Removing emptied log directory: %s
+Debugging days in minutes! (%s)
+WARNING: Couldn't set file purgeable: %s
+applySizeLimit threw unexpected error: %@
+Applying retention policy size limit...
+Retention size %sMB, limit %ldMB
+Retention policy removed %sMB in %fs, resulting size %sMB
+Removing entire BioLog...
+applyDaysLimit threw unexpected error: %@
+Applying retention policy %ld days limit...
+Days limit will apply no sooner than in %s
+Legacy and all residual BioLog content moved to %s
+THE END of BioLog > %s (%s: %{bool}d
+Skipping retention policy due to active sequence
+finishSequence: Starting deferred sequence
+Incomplete sequence! (%s)
+%s(count: %ld) > %s
+Log directory does not exist! Recreating: %s
+startSequence(type: %s) > %s
+logTemplateUpdateResult(updated: %s) > %s
+templateList %s already in store.
+templateListData(count: %ld) > %s
+calibrationData %s already in store.
+calibrationData(count: %ld) > %s
+updateLoggingState:
+dataLoggingEnabled: %{bool}d
+.calibrationDataLoggingEnabled: %{bool}d
+.templateLoggingEnabled: %{bool}d
+.captureLoggingEnabled: %{bool}d
+.imageLoggingEnabled: %{bool}d
+.debugImageLoggingEnabled: %{bool}d
+latencyLoggingEnabled: %{bool}d
+retention.enabled: %{bool}d
+retention.daysLimit: %ld
+retention.sizeLimit: %ld
+debugImageData(count: %ld) > %s
+imageData(count: %ld) > %s
+captureData(count: %ld) > %s
+startSequence: deferred (count:%ld)
+kStatusFingerDetectCancelled: Skipping first deferred sequence start
+Unexpected log exists at: %s
+BioLog.init() -> %s > %s
+BioAssert: (%s) threw %@ at %s:%lu in %s
+BioAssert: (%s) at %s:%lu in %s
+BioAssert: err == %s: (%s) at %s:%lu in %s
+BioAssert: nil (%s) at %s:%lu in %s
+BioJSONArray cannot decode itemData(count:%ld)!
+$ss12CaseIterableP
+SnySiG
+SNySiG
+SaySSG
+_A13At
+So8NSObjectC
+$ss26ExpressibleByStringLiteralP
+$ss43ExpressibleByExtendedGraphemeClusterLiteralP
+$ss33ExpressibleByUnicodeScalarLiteralP
+So17OS_dispatch_queueC
+So15BioUserDefaultsC
+So8NSObjectCSg
+So20BiometricKitIdentityC
+So35BiometricKitXPCExportedClientObjectC
+SaySo20BiometricKitIdentityCG
+So21BiometricKitAccessoryC
+SDySSypGSg
+So35BiometricKitXPCExportedClientObjectCSg
+So24BiometricEnrollOperationC
+So27BiometricMatchOperationMesaC
+So32BiometricPresenceDetectOperationC
+So20BiometricKitIdentityCSg
+SDySSypG
+SSSgSg
+SDySo21BiometricKitAccessoryC
+So17OS_os_transaction_p
+So6NSLockC
+SayyycG
+Sg_ABt
+ySnySiGG
+ySo21BiometricKitAccessoryC
+ySo21BiometricKitAccessoryC
+ySSypG
+SS_ypt
+So8NSStringC
+$ss21_ObjectiveCBridgeableP
+_A15At
+Sf_S4ft
+Sg_ABt
+SS3key_
+5valuet
+Sg_ABt
+SaySfG
+Sg_ABt
+y_SSGSg
+SaySSGSg
+SSSg5label_yp5valuet
+SaySo20BiometricKitIdentityCGG
+So12NSFileHandleCSg
+ySS_yptG
+So25BiometricKitXPCServerMesaC
+_A10At
+_A63At
+3key_yp5valuet
+RawValue
+AllCases
+repeated
+sensorStatus
+provisionCmdStatus
+provisionCmdStatusMI_CONTRAST_MIN
+provisionCmdStatusBlankingBit
+patchType
+secStatus
+secStatusR0_VPIX
+secStatusR0_CMP
+secStatusStallDuration
+secStatusMI_CONTRAST_MIN
+indicator
+additionalData
+UNKNOWN
+SENSOR_IDLE
+SENSOR_BUSY
+SENSOR_DATA_READY
+SENSOR_CMD_NOT_SUPPORTED
+SENSOR_HOLD
+SENSOR_WAIT_FINGER
+SENSOR_CAP
+SENSOR_CAP_RESTARTING
+SENSOR_NEEDS_RESET
+SENSOR_WAIT_MENU
+SENSOR_CAP_RESTART_RCMD
+SENSOR_WAIT_FINGER_HVBOOST
+UNINITIALIZED
+ATE_TEST
+UNPROVISIONED
+PROVISIONED
+FAILURE
+PATCHED
+CS_CRC_ERROR
+CS_CMD_ERROR
+CS_BAD_TAG
+CS_LENGTH_ERROR
+CS_CMD_NOT_ALLOWED
+CS_CAL_FAIL_ULPO
+CS_CAL_FAIL_FREQ
+CS_CAL_NVM_WRTE_FAIL
+CS_CAL_FAIL_OFFSET
+CS_PATCHED
+CS_FAILURE
+CS_CMD_NOT_VALID
+CS_I2C_ERROR_NACK_SLAVE
+CS_I2C_ERROR_NACK_REG_ADDR
+CS_I2C_ERROR_NACK_REG_DATA
+CS_NVM_REFRESH_ERROR
+CS_NVM_NOT_MAGIC_ENOUGH
+RESERVED
+CS_Starting_FBFD
+CS_FBFD
+CS_IBFD
+CS_FD_Settling
+CS_FD_Motion
+CS_FOffInCap
+CS_Starting_IBFD
+MI_CONTRAST_MIN
+blankingSignal
+waitingApache3Bank
+siliconRevision
+FBFDNotValid30s
+FBFDNotValid5s
+reprovisioned
+requirePhysicalPresence
+physicalPresenceAsserted
+SA_NO_ERRORS
+SA_ERROR_SKE_UNWRAP_FAILURE
+SA_ERROR_AUTH_FAILURE
+SA_ERROR_SPD_AUTH_FAILURE_SECOND_TIME
+SA_ERROR_BAD_STATE
+SA_ERROR_BAD_PREVIOUS_STATE
+SA_ERROR_BAD_PARAMETERS
+SA_ERROR_IN_SEQUENCE_COUNTER
+SA_ERROR_CRC_FAILURE
+SA_ERROR_SPD_ROM_CHECKSUM_FAILURE
+SA_ERROR_NVM_FAILURE
+SA_ERROR_SKE_UNWRAP_ATTACK
+SA_ERROR_KSM_MAGIC_ACCB_FAILURE
+SA_ERROR_IN_TRNG_STATE
+SA_ERROR_BAD_PROVISIONING
+SA_ERROR_IN_CCM_LENGTH
+SA_ERROR_IN_DMA_LENGTH
+R0_VPIX
+SA_INFO_FACTORY_CLEAR_IS_ARMED
+SA_INFO_FACTORY_CLEAR_DONE
+SA_ERROR_NEVER_PROVISIONED
+StallDuration
+R0_CMP
+SA_ERROR_GET_NONCE_REQUIRED
+SA_ERROR_PHYSICAL_PRESENCE_FAILED
+dataAvailable
+resetSource
+interrupt
+calibrated
+fingerPresent
+spiError
+NoReset
+PowerOnReset
+WatchdogReset
+ESDErrorReset
+ResetCommand
+IdleCommand
+IdleNoResponse
+SelfResetAfterPatchLoad
+number
+productID
+maskRev
+patchRev
+F2_F2_THRESH1
+R1_CMP
+R2_CMP
+R3_CMP
+R4_CMP
+LAST_SUBARRAY
+R1_VPIX
+R2_VPIX
+R3_VPIX
+R4_VPIX
+IBFD_STABLE_CNT
+IBFD_REGION_FP_CNT
+IBFD_REGION_FP
+IBFD_REGION_FLAGS
+IBFD_REGION_CNT
+MI_CONTRAST_48P96
+FD_PIX_DIFF
+LAST_FDMD_MEAN
+CAP_PIX_DIFF
+FDMD_MEAN
+RCMD_REGION_CNT
+RCMD_MEAN
+RawValue
+enrollment
+fingerDetect
+RawValue
+StringLiteralType
+ExtendedGraphemeClusterLiteralType
+UnicodeScalarLiteralType
+dispatchQueue
+logger
+bytesInMegabyte
+enabled
+daysLimit
+sizeLimit
+rootURL
+logURL
+defaults
+sequenceList
+templateDataList
+classPolicy
+classPortionSum
+oldestSequenceDate
+$__lazy_storage_$_secondsInDay
+rawValue
+portion
+inconsistentRecords
+defaults
+logger
+logURL
+dispatchQueueLogging
+dispatchQueueWriting
+dispatchTimestamp
+jsonEncoder
+retention
+$__lazy_storage_$_analyticsStorePath
+sepTranferStoreCreated
+$__lazy_storage_$_sepTranferStorePath
+dataLoggingEnabled
+calibrationDataLoggingEnabled
+calibrationDataStoreURL
+templateLoggingEnabled
+templateStoreURL
+captureLoggingEnabled
+imageLoggingEnabled
+debugImageLoggingEnabled
+latencyLoggingEnabled
+logInfo
+sources
+templateListNumber
+sequenceNumber
+sequenceURL
+templateUpdateURL
+sequence
+sequenceDataSize
+sequenceTransaction
+sequenceTransactionLock
+acceptedImages
+mgNotificationToken
+requestFingerOff
+finishOnFingerOff
+deferredSequenceStarts
+captureHandlingErrorTimestamp
+captureHandlingErrorCount
+captureHandlingErrorCode
+pgmImageComment
+generic
+specific
+timestamp
+sepTimestamp
+bSensorStatus
+bProvisionCommandStatus
+bPatchType
+bSecurityAssurance
+bIndicator
+dwAdditionalData
+sepRetryTimestamp
+forExtendEnrollment
+matched
+_rawValue
+resultValid
+templateUpdated
+templateUserID
+resultCode
+templateUpdateInfo
+identity
+topologyValid
+topology
+imageMetadata
+templateUpdate
+device
+touchInfo
+timestampImageReceived
+enrollmentFinalized
+enrollmentError
+templateQuality
+validNodePlacement
+nodePlacement
+validIdentity
+templateGraphState
+imgProcessingResult
+imgDeblurringInfo
+assessment
+imageForMatching
+imageForEnrolling
+dirtOnSensor
+resDecryptImage
+errDecryptImage
+resProcessImage
+errProcessImage
+processCaptureBufferStart
+processCaptureBufferEnd
+imgDeblurringInfoSize
+timestampDevice
+timestampReceived
+RawValue
+_ObjectiveCType
+userID
+structSize
+version
+matchNode
+matchTrans
+templateTopology
+matchingScore
+matchS2SCount
+chargerOn
+homeButtonPressed
+firstImage
+lastImageEnroll
+lastImageMatch
+feedback
+purpose
+imageDiagContrast
+imageDiagBrightness
+imageDiagFeatureStrength
+imageDiagNumPxOutliers
+imageDiagProblemClass
+imageDiagClassFeatures
+imageMatched
+updatableMatch
+updateNodeOverlap
+absoluteTimeId
+captureCounter
+wakeOnMenuPinUsed
+homeButtonState
+menuPinState
+driveVoltage
+mainUpdated
+waitingRoomUpdated
+updateType
+waitingRoomCapable
+nodesAddedToMain
+nodesAddedToWaitingRoom
+nodesMovedFromWaitingRoomToMain
+nodesDeletedFromMain
+nodesDeletedFromWaitingRoom
+componentCount
+waitingRoomNodeCount
+overallTimeMs
+timestamps
+captureCount
+captureRestartCount
+sensorResetCount
+imageCount
+imageInfo
+nodeAdded
+nodeRemoved
+addedToTemplate
+removedFromTemplate
+addedToTemplateUUID
+removedFromTemplateUUID
+resampleScale100
+largestCompNodes
+largestCompArea
+totalNodes
+totalArea
+wCompCount
+wNodeCount
+wEdgeCount
+wEnrollImageCount
+wRedundantStreak
+bRedundantMatch
+filler1
+sLargestCompState
+ucTableScore
+ucTemplateQuality
+drxStrengthPctCol2Bin
+drxStrengthPctCol7Bin
+temperatureBin
+FMRBin
+BSRBin
+fitDiffBin
+carrierAttenBin
+DRXAmpMinBin
+DRXAmpMaxBin
+fitResEdge6SigmaBin
+maxFingerToProbeAttenuationBin
+maxFingerToProbeAttenuation
+drxStrengthPctCol2Raw
+drxStrengthPctCol7Raw
+temperatureRaw
+FMRRaw
+BSRRaw
+fitDiffRaw
+carrierAttenRaw
+DRXAmpMinRaw
+DRXAmpMaxRaw
+fitResEdge6SigmaRaw
+numPxOutliersPhase1
+numPxOutliersPhase2
+crackScore
+crackDetectionResult
+numPxOutliersL1
+numPxOutliersL1Phase1
+numPxOutliersL1Phase2
+HOPLineFitError
+HOPLineFitPX
+HOPLineFitPY
+badBlockCount
+wThetaM82
+fingerOn
+imageReport
+sensorData
+diagnostics
+wSeedNode
+sBoundingBox
+vhvldo
+fgrMotionCnt
+framesDiscardedRcmd
+contrast
+brightness
+featureStrength
+numPxOutliers
+capture
+captureDecrypting
+imageProcessing
+imagePostProcessing
+wMinWidth
+wMinHeight
+wMaxWidth
+wMaxHeight
+RawValue
+AllCases
+structVersion
+internalBuild
+deviceModel
+buildVersion
+bridgeOSBuildVersion
+processID
+sepLoggingSupport
+provisioningState
+TestPatch
+ProdPatch
+EngrPatch
+Unknown
+Reserved
+accessory
+connected
+authorized
+calibrationDataFilename
+sensorInfo
+connectedAccessory
+sensorType
+transport
+productID
+serialNumber
+patchType
+patchTypeDesc
+patchRev
+sensorParameters
+timestamp
+userID
+sourceUUID
+clientID
+bundleID
+processName
+connectionID
+stateValue
+deviceLocked
+passcodeLockout
+bioLockout
+unlockTokenPresent
+beforeFirstUnlock
+passcodeValidated
+identificationLockout
+catacombCorrupted
+interlock
+applePayTokenPresent
+remoteUnlocked
+unlockTokenDropped
+canSleep
+willNotSleep
+willSleep
+willPowerOn
+hasPoweredOn
+unknown
+systemPowerStateTimestamp
+systemPowerState
+buttonPressedTimestamp
+buttonReleasedTimestamp
+buttonPressed
+thermalLevelTimestamp
+thermalLevel
+backgroundFingerDetectTimestamp
+backgroundFingerDetect
+backgroundFingerDetectClient
+wakeOnMenuPinTimestamp
+autoMatchingStartedTimestamp
+fingerStateTimestamp
+fingerStateInSequenceNumber
+fingerOn
+captureCounter
+externalPowerSourceConnected
+batteryIsCharging
+displayStateTimestamp
+displayOn
+sources
+identities
+templateListFilename
+sksLockStateTimestamp
+sksLockState
+wSourceNode
+wDestNode
+cOrgTemplate
+cNuTemplate
+cDelTemplate
+cTemplateList
+bSourceExpired
+bDestExpired
+version
+nodeAdded
+nodeRemoved
+resampleScale100
+largestCompNodes
+largestCompArea
+totalNodes
+totalArea
+templateQuality
+iTemplateUpdatedMain
+iTemplateUpdatedWR
+updateInfos
+templateInfo
+addedToTemplate
+removedFromTemplate
+addedToTemplateUUID
+removedFromTemplateUUID
+matchS2SCount
+matchNode
+matchingScore
+templateTopology
+sequenceNumber
+timeZoneOffset
+client
+priority
+incomplete
+cancelTimestamp
+cancelByClient
+canceledTimestamp
+lastResultTimestamp
+lastResultIndex
+lastResult
+resultCounter
+successCounter
+touchCounter
+imageCounter
+enrollment
+fingerDetect
+messages
+forUnlock
+forExtendEnrollment
+filterUserID
+filterIdentityUUID
+forCredentialSet
+forPreArm
+noBioLockout
+stopOnSuccess
+useCase
+captureOnly
+requireFingerOff
+selectedIdentityUUIDs
+requireStrictCoverage
+common
+builtin
+assessment
+dirtOnSensor
+imageDiagProblemClass
+imageID
+feedback
+purpose
+imageDiagContrast
+imageDiagBrightness
+imageDiagFeatureStrength
+imageDiagNumPxOutliers
+imageDiagClassFeatures
+homeButtonState
+menuPinState
+imageDeblurringInfo
+crackDetectionResult
+crackScore
+numPxOutliersL1
+HOPLineFitError
+HOPLineFitPX
+HOPLineFitPY
+badBlockCount
+maxFingerToProbeAttenuation
+wCompCount
+wNodeCount
+wEdgeCount
+wEnrollImageCount
+sLargestCompState_wArea
+sLargestCompState_wNodeCount
+sLargestCompState_wEdgeCount
+auxiliary
+status
+sensorStatus
+capture
+enrollResult
+matchResult
+latency
+deviceAttitude
+source
+reasonCode
+errorCode
+accessoryImageInfo
+accessoryAdded
+accessoryConnected
+accessoryDisconnected
+accessoryRemoved
+buttonReleased
+displayOff
+backgroundFingerDetectEnabled
+backgroundFingerDetectDisabled
+sensorRecovery
+captureHandlingError
+identityRemoved
+fingerOnToImageReportDuration
+captureCount
+captureRestartCount
+sensorResetCount
+imageCount
+imageInfos
+sensorData_vhvldo
+sensorData_fgrMotionCnt
+sensorData_framesDiscardedRcmd
+diagnostics_contrast
+diagnostics_brightness
+diagnostics_featureStrength
+diagnostics_numPxOutliers
+fingerOnToCaptureDuration
+captureDuration
+captureDecryptionDuration
+imageProcessingDuration
+imagePostProcessingDuration
+imageProcessingResult
+topology
+templateGraphState
+identity
+result
+identityUUID
+details
+noMatchReason
+lockoutState
+preArm
+unlocked
+homeButtonPressed
+credentialAdded
+resultIgnored
+noMatchMatcher
+noMatchImageQuality
+lotlUserIDs
+otherKeys
+enroll
+matchForExtendEnrollment
+timestamps
+retryTimestamps
+filename
+debugImage
+logInfo
+seqData
+resultCode
+updated
+imageFilename
+matchTopology
+rawValue
+logger
+fileURL
+fileAttributes
+fileHandle
+readBlockCount
+fileHandleNotOpen
+invalidArgument
+unexpectedEndOfFile
+logger
+blockFile
+jsonEncoder
+jsonDecoder
+readBufferSizeLimit
+readBuffer
+readBufferOffset
+itemStartOffset
+itemEndOffset
+itemSeparatorEndOffset
+fileURL
+jsonArray
+fileNotOpen
+internalError
+jsonCorrupted
+unexpectedEndOfFile
+jsonItemTooLarge
+jsonItemNotFound
+logger
+xpcServer
+defaults
+userDefaults
+$__lazy_storage_$_sensorInfo
+sensorType
+provisioningState
+patchType
+patchRev
+sensorParameterCount
+sensorParameter
+mesaVersion
+version
+structSize
+rLogPath
+userID
+number
+rClass
+templateDataID
+Unknown
+Internal
+Unknown
+Uninitialized
+Unprovisioned
+MatchingFailed
+ImageCaptured
+MatchingStopped
+TaskPaused
+TaskResumed
+FingerOn
+FingerOff
+UnknownError
+BadImageIgnored
+NoCalBlobFound
+CaptureRestart
+ScanTooShort
+ESDRecovery
+MatchEvent
+MatchingTimeout
+InBioLockout
+TokenExpired
+TokenDropped
+IQ_ACCEPT
+IQ_REJECT
+IQ_FEEDBACK_OK
+Unspecified
+Stockholm
+commandStart
+fingerOn
+firstCapture
+capture
+imageProcessing
+imageApplied
+sepMatcher

@@ -1,0 +1,3518 @@
+{
+  "0x1000c0b80": {
+    "selector": "BSRBin",
+    "reference": "0x100113d98"
+  },
+  "0x1000c0ba0": {
+    "selector": "BSRRaw",
+    "reference": "0x100113da0"
+  },
+  "0x1000c0bc0": {
+    "selector": "DRXAmpMaxBin",
+    "reference": "0x100113da8"
+  },
+  "0x1000c0be0": {
+    "selector": "DRXAmpMaxRaw",
+    "reference": "0x100113db0"
+  },
+  "0x1000c0c00": {
+    "selector": "DRXAmpMinBin",
+    "reference": "0x100113db8"
+  },
+  "0x1000c0c20": {
+    "selector": "DRXAmpMinRaw",
+    "reference": "0x100113dc0"
+  },
+  "0x1000c0c40": {
+    "selector": "FMRBin",
+    "reference": "0x100113dc8"
+  },
+  "0x1000c0c60": {
+    "selector": "FMRRaw",
+    "reference": "0x100113dd0"
+  },
+  "0x1000c0c80": {
+    "selector": "URLQueryAllowedCharacterSet",
+    "reference": "0x100113dd8"
+  },
+  "0x1000c0ca0": {
+    "selector": "URLWithString:",
+    "reference": "0x100113de0"
+  },
+  "0x1000c0cc0": {
+    "selector": "UTF8String",
+    "reference": "0x100113de8"
+  },
+  "0x1000c0ce0": {
+    "selector": "UUIDString",
+    "reference": "0x100113df0"
+  },
+  "0x1000c0d00": {
+    "selector": "_setQueue:",
+    "reference": "0x100113df8"
+  },
+  "0x1000c0d20": {
+    "selector": "acceptPreviousImage",
+    "reference": "0x100113e00"
+  },
+  "0x1000c0d40": {
+    "selector": "accessories",
+    "reference": "0x100113e08"
+  },
+  "0x1000c0d60": {
+    "selector": "accessory",
+    "reference": "0x100113e10"
+  },
+  "0x1000c0d80": {
+    "selector": "accessoryColorID:",
+    "reference": "0x100113e18"
+  },
+  "0x1000c0da0": {
+    "selector": "accessoryImageInfo:",
+    "reference": "0x100113e20"
+  },
+  "0x1000c0dc0": {
+    "selector": "accessoryInfo:",
+    "reference": "0x100113e28"
+  },
+  "0x1000c0de0": {
+    "selector": "accessorySensorInfo:",
+    "reference": "0x100113e30"
+  },
+  "0x1000c0e00": {
+    "selector": "acmContext",
+    "reference": "0x100113e38"
+  },
+  "0x1000c0e20": {
+    "selector": "activeBioOpsQueue",
+    "reference": "0x100113e40"
+  },
+  "0x1000c0e40": {
+    "selector": "addBioAccessory:",
+    "reference": "0x100113e48"
+  },
+  "0x1000c0e60": {
+    "selector": "addBioDevice:",
+    "reference": "0x100113e50"
+  },
+  "0x1000c0e80": {
+    "selector": "addBioDevice:used:",
+    "reference": "0x100113e58"
+  },
+  "0x1000c0ea0": {
+    "selector": "addDailyEvent:",
+    "reference": "0x100113e60"
+  },
+  "0x1000c0ec0": {
+    "selector": "addIdentitity:",
+    "reference": "0x100113e68"
+  },
+  "0x1000c0ee0": {
+    "selector": "addIdentityObject:",
+    "reference": "0x100113e70"
+  },
+  "0x1000c0f00": {
+    "selector": "addObject:",
+    "reference": "0x100113e78"
+  },
+  "0x1000c0f20": {
+    "selector": "allClients",
+    "reference": "0x100113e80"
+  },
+  "0x1000c0f40": {
+    "selector": "allKeys",
+    "reference": "0x100113e88"
+  },
+  "0x1000c0f60": {
+    "selector": "allObjects",
+    "reference": "0x100113e90"
+  },
+  "0x1000c0f80": {
+    "selector": "analyticsOSLogNSDictionary:forEvent:toLogPath:withPrefix:",
+    "reference": "0x100113e98"
+  },
+  "0x1000c0fa0": {
+    "selector": "analyticsStorePath",
+    "reference": "0x100113ea0"
+  },
+  "0x1000c0fc0": {
+    "selector": "appendData:",
+    "reference": "0x100113ea8"
+  },
+  "0x1000c0fe0": {
+    "selector": "appendFormat:",
+    "reference": "0x100113eb0"
+  },
+  "0x1000c1000": {
+    "selector": "appendString:",
+    "reference": "0x100113eb8"
+  },
+  "0x1000c1020": {
+    "selector": "applePayEnabled",
+    "reference": "0x100113ec0"
+  },
+  "0x1000c1040": {
+    "selector": "archiveWithAllLogs:",
+    "reference": "0x100113ec8"
+  },
+  "0x1000c1060": {
+    "selector": "ariadneSignposts",
+    "reference": "0x100113ed0"
+  },
+  "0x1000c1080": {
+    "selector": "array",
+    "reference": "0x100113ed8"
+  },
+  "0x1000c10a0": {
+    "selector": "arrayByAddingObjectsFromArray:",
+    "reference": "0x100113ee0"
+  },
+  "0x1000c10c0": {
+    "selector": "arrayWithArray:",
+    "reference": "0x100113ee8"
+  },
+  "0x1000c10e0": {
+    "selector": "arrayWithCapacity:",
+    "reference": "0x100113ef0"
+  },
+  "0x1000c1100": {
+    "selector": "arrayWithObjects:count:",
+    "reference": "0x100113ef8"
+  },
+  "0x1000c1120": {
+    "selector": "artefactAnchorXAverage",
+    "reference": "0x100113f00"
+  },
+  "0x1000c1140": {
+    "selector": "artefactAnchorXCount",
+    "reference": "0x100113f08"
+  },
+  "0x1000c1160": {
+    "selector": "artefactAnchorXSum",
+    "reference": "0x100113f10"
+  },
+  "0x1000c1180": {
+    "selector": "artefactAnchorXSumSq",
+    "reference": "0x100113f18"
+  },
+  "0x1000c11a0": {
+    "selector": "artefactAnchorYAverage",
+    "reference": "0x100113f20"
+  },
+  "0x1000c11c0": {
+    "selector": "artefactAnchorYCount",
+    "reference": "0x100113f28"
+  },
+  "0x1000c11e0": {
+    "selector": "artefactAnchorYSum",
+    "reference": "0x100113f30"
+  },
+  "0x1000c1200": {
+    "selector": "artefactAnchorYSumSq",
+    "reference": "0x100113f38"
+  },
+  "0x1000c1220": {
+    "selector": "artefactMatchAttemptsFailedFingerDetected",
+    "reference": "0x100113f40"
+  },
+  "0x1000c1240": {
+    "selector": "artefactMatchAttemptsFingerDetected",
+    "reference": "0x100113f48"
+  },
+  "0x1000c1260": {
+    "selector": "artefactNonlinearityAverage",
+    "reference": "0x100113f50"
+  },
+  "0x1000c1280": {
+    "selector": "artefactNonlinearityCount",
+    "reference": "0x100113f58"
+  },
+  "0x1000c12a0": {
+    "selector": "artefactNonlinearitySum",
+    "reference": "0x100113f60"
+  },
+  "0x1000c12c0": {
+    "selector": "artefactNonlinearitySumSq",
+    "reference": "0x100113f68"
+  },
+  "0x1000c12e0": {
+    "selector": "artefactScoreCount",
+    "reference": "0x100113f70"
+  },
+  "0x1000c1300": {
+    "selector": "artefactScoreSum",
+    "reference": "0x100113f78"
+  },
+  "0x1000c1320": {
+    "selector": "artefactStrengthCount",
+    "reference": "0x100113f80"
+  },
+  "0x1000c1340": {
+    "selector": "artefactStrengthSum",
+    "reference": "0x100113f88"
+  },
+  "0x1000c1360": {
+    "selector": "assessment",
+    "reference": "0x100113f90"
+  },
+  "0x1000c1380": {
+    "selector": "attachedDeviceCount",
+    "reference": "0x100113f98"
+  },
+  "0x1000c13a0": {
+    "selector": "attachedDevicesList",
+    "reference": "0x100113fa0"
+  },
+  "0x1000c13c0": {
+    "selector": "auditToken",
+    "reference": "0x100113fa8"
+  },
+  "0x1000c13e0": {
+    "selector": "authData",
+    "reference": "0x100113fb0"
+  },
+  "0x1000c1400": {
+    "selector": "bioMatchLifespan",
+    "reference": "0x100113fb8"
+  },
+  "0x1000c1420": {
+    "selector": "bioOpsQueue",
+    "reference": "0x100113fc0"
+  },
+  "0x1000c1440": {
+    "selector": "biometricABC",
+    "reference": "0x100113fc8"
+  },
+  "0x1000c1460": {
+    "selector": "biometricABCDispatchQueue",
+    "reference": "0x100113fd0"
+  },
+  "0x1000c1480": {
+    "selector": "biometricKitIdentity",
+    "reference": "0x100113fd8"
+  },
+  "0x1000c14a0": {
+    "selector": "biometryEnabled",
+    "reference": "0x100113fe0"
+  },
+  "0x1000c14c0": {
+    "selector": "boolForKey:",
+    "reference": "0x100113fe8"
+  },
+  "0x1000c14e0": {
+    "selector": "boolValue",
+    "reference": "0x100113ff0"
+  },
+  "0x1000c1500": {
+    "selector": "builtinSensorType",
+    "reference": "0x100113ff8"
+  },
+  "0x1000c1540": {
+    "selector": "cacheAccessories",
+    "reference": "0x100114008"
+  },
+  "0x1000c1560": {
+    "selector": "cacheAccesssoryInfo:",
+    "reference": "0x100114010"
+  },
+  "0x1000c1580": {
+    "selector": "cacheCatacombInfo",
+    "reference": "0x100114018"
+  },
+  "0x1000c15a0": {
+    "selector": "cachePatch",
+    "reference": "0x100114020"
+  },
+  "0x1000c15c0": {
+    "selector": "cacheSensorInfo",
+    "reference": "0x100114028"
+  },
+  "0x1000c15e0": {
+    "selector": "cachedIdentities",
+    "reference": "0x100114030"
+  },
+  "0x1000c1600": {
+    "selector": "calculateDailyValues",
+    "reference": "0x100114038"
+  },
+  "0x1000c1620": {
+    "selector": "calculateWeeklyValues",
+    "reference": "0x100114040"
+  },
+  "0x1000c1640": {
+    "selector": "calendar",
+    "reference": "0x100114048"
+  },
+  "0x1000c1660": {
+    "selector": "cancel",
+    "reference": "0x100114050"
+  },
+  "0x1000c1680": {
+    "selector": "cancelUnlockMatchIfTokenNotPresent:",
+    "reference": "0x100114058"
+  },
+  "0x1000c16a0": {
+    "selector": "cancelWithClient:",
+    "reference": "0x100114060"
+  },
+  "0x1000c16c0": {
+    "selector": "captureHandlingErrorCode",
+    "reference": "0x100114068"
+  },
+  "0x1000c16e0": {
+    "selector": "captureHandlingErrorCount",
+    "reference": "0x100114070"
+  },
+  "0x1000c1700": {
+    "selector": "captureHandlingErrorTimestamp",
+    "reference": "0x100114078"
+  },
+  "0x1000c1720": {
+    "selector": "captureOnly",
+    "reference": "0x100114080"
+  },
+  "0x1000c1740": {
+    "selector": "captureTimeCount",
+    "reference": "0x100114088"
+  },
+  "0x1000c1760": {
+    "selector": "captureTimeSum",
+    "reference": "0x100114090"
+  },
+  "0x1000c1780": {
+    "selector": "carrierAttenBin",
+    "reference": "0x100114098"
+  },
+  "0x1000c17a0": {
+    "selector": "carrierAttenRaw",
+    "reference": "0x1001140a0"
+  },
+  "0x1000c17c0": {
+    "selector": "catacombCorrupted:",
+    "reference": "0x1001140a8"
+  },
+  "0x1000c17e0": {
+    "selector": "catacombLock",
+    "reference": "0x1001140b0"
+  },
+  "0x1000c1800": {
+    "selector": "checkCatacombForUser:",
+    "reference": "0x1001140b8"
+  },
+  "0x1000c1820": {
+    "selector": "checkDailyUpdate",
+    "reference": "0x1001140c0"
+  },
+  "0x1000c1840": {
+    "selector": "checkSensorReadiness",
+    "reference": "0x1001140c8"
+  },
+  "0x1000c1860": {
+    "selector": "clearTemplateList",
+    "reference": "0x1001140d0"
+  },
+  "0x1000c1880": {
+    "selector": "client",
+    "reference": "0x1001140d8"
+  },
+  "0x1000c18a0": {
+    "selector": "clientAppIsBackground",
+    "reference": "0x1001140e0"
+  },
+  "0x1000c18c0": {
+    "selector": "clientID",
+    "reference": "0x1001140e8"
+  },
+  "0x1000c18e0": {
+    "selector": "clientInfo",
+    "reference": "0x1001140f0"
+  },
+  "0x1000c1900": {
+    "selector": "closeAndReturnError:",
+    "reference": "0x1001140f8"
+  },
+  "0x1000c1920": {
+    "selector": "clusterCount",
+    "reference": "0x100114100"
+  },
+  "0x1000c1940": {
+    "selector": "clusterCount:",
+    "reference": "0x100114108"
+  },
+  "0x1000c1960": {
+    "selector": "cmdDispatchQueue",
+    "reference": "0x100114110"
+  },
+  "0x1000c1980": {
+    "selector": "compare:",
+    "reference": "0x100114118"
+  },
+  "0x1000c19a0": {
+    "selector": "component",
+    "reference": "0x100114120"
+  },
+  "0x1000c19c0": {
+    "selector": "components:fromDate:toDate:options:",
+    "reference": "0x100114128"
+  },
+  "0x1000c19e0": {
+    "selector": "componentsJoinedByString:",
+    "reference": "0x100114130"
+  },
+  "0x1000c1a00": {
+    "selector": "componentsSeparatedByString:",
+    "reference": "0x100114138"
+  },
+  "0x1000c1a20": {
+    "selector": "connectedAccessories",
+    "reference": "0x100114140"
+  },
+  "0x1000c1a40": {
+    "selector": "connection",
+    "reference": "0x100114148"
+  },
+  "0x1000c1a60": {
+    "selector": "containsObject:",
+    "reference": "0x100114150"
+  },
+  "0x1000c1a80": {
+    "selector": "containsString:",
+    "reference": "0x100114158"
+  },
+  "0x1000c1aa0": {
+    "selector": "contentsOfDirectoryAtPath:error:",
+    "reference": "0x100114160"
+  },
+  "0x1000c1ac0": {
+    "selector": "copy",
+    "reference": "0x100114168"
+  },
+  "0x1000c1ae0": {
+    "selector": "count",
+    "reference": "0x100114170"
+  },
+  "0x1000c1b00": {
+    "selector": "countByEnumeratingWithState:objects:count:",
+    "reference": "0x100114178"
+  },
+  "0x1000c1b20": {
+    "selector": "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+    "reference": "0x100114180"
+  },
+  "0x1000c1b40": {
+    "selector": "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
+    "reference": "0x100114188"
+  },
+  "0x1000c1b60": {
+    "selector": "createFileAtPath:contents:attributes:",
+    "reference": "0x100114190"
+  },
+  "0x1000c1b80": {
+    "selector": "createMatchEventDictionary:",
+    "reference": "0x100114198"
+  },
+  "0x1000c1ba0": {
+    "selector": "createPresenceDetectOperation",
+    "reference": "0x1001141a0"
+  },
+  "0x1000c1bc0": {
+    "selector": "createSymbolicLinkAtPath:withDestinationPath:error:",
+    "reference": "0x1001141a8"
+  },
+  "0x1000c1be0": {
+    "selector": "creationTime",
+    "reference": "0x1001141b0"
+  },
+  "0x1000c1c00": {
+    "selector": "currentCalendar",
+    "reference": "0x1001141b8"
+  },
+  "0x1000c1c20": {
+    "selector": "currentRunLoop",
+    "reference": "0x1001141c0"
+  },
+  "0x1000c1c40": {
+    "selector": "dataWithBytes:length:",
+    "reference": "0x1001141c8"
+  },
+  "0x1000c1c60": {
+    "selector": "dataWithBytesNoCopy:length:freeWhenDone:",
+    "reference": "0x1001141d0"
+  },
+  "0x1000c1c80": {
+    "selector": "dataWithContentsOfFile:",
+    "reference": "0x1001141d8"
+  },
+  "0x1000c1ca0": {
+    "selector": "dataWithData:",
+    "reference": "0x1001141e0"
+  },
+  "0x1000c1cc0": {
+    "selector": "dataWithJSONObject:options:error:",
+    "reference": "0x1001141e8"
+  },
+  "0x1000c1ce0": {
+    "selector": "dataWithLength:",
+    "reference": "0x1001141f0"
+  },
+  "0x1000c1d00": {
+    "selector": "date",
+    "reference": "0x1001141f8"
+  },
+  "0x1000c1d20": {
+    "selector": "day",
+    "reference": "0x100114200"
+  },
+  "0x1000c1d40": {
+    "selector": "deblurringInfo",
+    "reference": "0x100114208"
+  },
+  "0x1000c1d60": {
+    "selector": "decimalNumberByAdding:",
+    "reference": "0x100114210"
+  },
+  "0x1000c1d80": {
+    "selector": "decimalNumberWithDecimal:",
+    "reference": "0x100114218"
+  },
+  "0x1000c1da0": {
+    "selector": "decimalValue",
+    "reference": "0x100114220"
+  },
+  "0x1000c1dc0": {
+    "selector": "decodeCatacombDataV1:withSize:",
+    "reference": "0x100114228"
+  },
+  "0x1000c1de0": {
+    "selector": "decodeInt32ForKey:",
+    "reference": "0x100114230"
+  },
+  "0x1000c1e00": {
+    "selector": "decodeIntegerForKey:",
+    "reference": "0x100114238"
+  },
+  "0x1000c1e20": {
+    "selector": "decodeObjectOfClass:forKey:",
+    "reference": "0x100114240"
+  },
+  "0x1000c1e40": {
+    "selector": "decodeObjectOfClasses:forKey:",
+    "reference": "0x100114248"
+  },
+  "0x1000c1e60": {
+    "selector": "defaultManager",
+    "reference": "0x100114250"
+  },
+  "0x1000c1e80": {
+    "selector": "delegateRegistered",
+    "reference": "0x100114258"
+  },
+  "0x1000c1ea0": {
+    "selector": "description",
+    "reference": "0x100114260"
+  },
+  "0x1000c1ec0": {
+    "selector": "deviceAngle",
+    "reference": "0x100114268"
+  },
+  "0x1000c1ee0": {
+    "selector": "deviceAngleState",
+    "reference": "0x100114270"
+  },
+  "0x1000c1f00": {
+    "selector": "deviceAuthRequiredMessage:withTimestamp:",
+    "reference": "0x100114278"
+  },
+  "0x1000c1f20": {
+    "selector": "deviceGroup",
+    "reference": "0x100114280"
+  },
+  "0x1000c1f40": {
+    "selector": "deviceOrientation",
+    "reference": "0x100114288"
+  },
+  "0x1000c1f60": {
+    "selector": "deviceType",
+    "reference": "0x100114290"
+  },
+  "0x1000c1f80": {
+    "selector": "deviceWokeUpByHomeButton",
+    "reference": "0x100114298"
+  },
+  "0x1000c1fa0": {
+    "selector": "deviceWokeUpByLiftToWake",
+    "reference": "0x1001142a0"
+  },
+  "0x1000c1fc0": {
+    "selector": "dictionary",
+    "reference": "0x1001142a8"
+  },
+  "0x1000c1fe0": {
+    "selector": "dictionaryRepresentation",
+    "reference": "0x1001142b0"
+  },
+  "0x1000c2000": {
+    "selector": "dictionaryRepresentationArchiving:",
+    "reference": "0x1001142b8"
+  },
+  "0x1000c2020": {
+    "selector": "dictionaryWithDictionary:",
+    "reference": "0x1001142c0"
+  },
+  "0x1000c2040": {
+    "selector": "dictionaryWithObjects:forKeys:count:",
+    "reference": "0x1001142c8"
+  },
+  "0x1000c2060": {
+    "selector": "dispatchBiometricHIDEvent",
+    "reference": "0x1001142d0"
+  },
+  "0x1000c2080": {
+    "selector": "displayOn",
+    "reference": "0x1001142d8"
+  },
+  "0x1000c20a0": {
+    "selector": "displayStateChanged:",
+    "reference": "0x1001142e0"
+  },
+  "0x1000c20c0": {
+    "selector": "displayStatusChanged:",
+    "reference": "0x1001142e8"
+  },
+  "0x1000c20e0": {
+    "selector": "displayTouchIDIssueNotification",
+    "reference": "0x1001142f0"
+  },
+  "0x1000c2100": {
+    "selector": "drxStrengthPctCol2Bin",
+    "reference": "0x1001142f8"
+  },
+  "0x1000c2120": {
+    "selector": "drxStrengthPctCol2BinCount",
+    "reference": "0x100114300"
+  },
+  "0x1000c2140": {
+    "selector": "drxStrengthPctCol2BinSum",
+    "reference": "0x100114308"
+  },
+  "0x1000c2160": {
+    "selector": "drxStrengthPctCol2Raw",
+    "reference": "0x100114310"
+  },
+  "0x1000c2180": {
+    "selector": "drxStrengthPctCol2RawCount",
+    "reference": "0x100114318"
+  },
+  "0x1000c21a0": {
+    "selector": "drxStrengthPctCol2RawSum",
+    "reference": "0x100114320"
+  },
+  "0x1000c21c0": {
+    "selector": "drxStrengthPctCol7Bin",
+    "reference": "0x100114328"
+  },
+  "0x1000c21e0": {
+    "selector": "drxStrengthPctCol7BinCount",
+    "reference": "0x100114330"
+  },
+  "0x1000c2200": {
+    "selector": "drxStrengthPctCol7BinSum",
+    "reference": "0x100114338"
+  },
+  "0x1000c2220": {
+    "selector": "drxStrengthPctCol7Raw",
+    "reference": "0x100114340"
+  },
+  "0x1000c2240": {
+    "selector": "drxStrengthPctCol7RawCount",
+    "reference": "0x100114348"
+  },
+  "0x1000c2260": {
+    "selector": "drxStrengthPctCol7RawSum",
+    "reference": "0x100114350"
+  },
+  "0x1000c2280": {
+    "selector": "dumpSyslog",
+    "reference": "0x100114358"
+  },
+  "0x1000c22a0": {
+    "selector": "dumpSyslogWithDelay:",
+    "reference": "0x100114360"
+  },
+  "0x1000c22c0": {
+    "selector": "encodeInteger:forKey:",
+    "reference": "0x100114368"
+  },
+  "0x1000c22e0": {
+    "selector": "encodeObject:forKey:",
+    "reference": "0x100114370"
+  },
+  "0x1000c2300": {
+    "selector": "enrollContinue",
+    "reference": "0x100114378"
+  },
+  "0x1000c2320": {
+    "selector": "enrollEventFinished",
+    "reference": "0x100114380"
+  },
+  "0x1000c2340": {
+    "selector": "enrollProgress:",
+    "reference": "0x100114388"
+  },
+  "0x1000c2360": {
+    "selector": "enrollResult:",
+    "reference": "0x100114390"
+  },
+  "0x1000c2380": {
+    "selector": "enrollResult:withTimestamp:",
+    "reference": "0x100114398"
+  },
+  "0x1000c23a0": {
+    "selector": "enrolledIdentityCount",
+    "reference": "0x1001143a0"
+  },
+  "0x1000c23c0": {
+    "selector": "enrolledIdentityCount0",
+    "reference": "0x1001143a8"
+  },
+  "0x1000c23e0": {
+    "selector": "enrolledIdentityCount1",
+    "reference": "0x1001143b0"
+  },
+  "0x1000c2400": {
+    "selector": "enrolledIdentityCount2",
+    "reference": "0x1001143b8"
+  },
+  "0x1000c2420": {
+    "selector": "enrolledIdentityCount3",
+    "reference": "0x1001143c0"
+  },
+  "0x1000c2440": {
+    "selector": "enrolledIdentityCount4",
+    "reference": "0x1001143c8"
+  },
+  "0x1000c2460": {
+    "selector": "enrolledIdentityCount5",
+    "reference": "0x1001143d0"
+  },
+  "0x1000c2480": {
+    "selector": "enrolledTemplatesCount",
+    "reference": "0x1001143d8"
+  },
+  "0x1000c24a0": {
+    "selector": "enrolledUserCount",
+    "reference": "0x1001143e0"
+  },
+  "0x1000c24c0": {
+    "selector": "enrolledUserCount0",
+    "reference": "0x1001143e8"
+  },
+  "0x1000c24e0": {
+    "selector": "enrolledUserCount1",
+    "reference": "0x1001143f0"
+  },
+  "0x1000c2500": {
+    "selector": "enrolledUserCount2",
+    "reference": "0x1001143f8"
+  },
+  "0x1000c2520": {
+    "selector": "enrolledUserCount3",
+    "reference": "0x100114400"
+  },
+  "0x1000c2540": {
+    "selector": "enrolledUserCount4",
+    "reference": "0x100114408"
+  },
+  "0x1000c2560": {
+    "selector": "enrolledUserCount5",
+    "reference": "0x100114410"
+  },
+  "0x1000c2580": {
+    "selector": "eventFinished",
+    "reference": "0x100114418"
+  },
+  "0x1000c25a0": {
+    "selector": "exportedObject",
+    "reference": "0x100114420"
+  },
+  "0x1000c25c0": {
+    "selector": "extendEnrollmentAuthData",
+    "reference": "0x100114428"
+  },
+  "0x1000c25e0": {
+    "selector": "extendEnrollmentIdentity",
+    "reference": "0x100114430"
+  },
+  "0x1000c2600": {
+    "selector": "failQuickTapsToUnlock",
+    "reference": "0x100114438"
+  },
+  "0x1000c2620": {
+    "selector": "failTouchesToMatch",
+    "reference": "0x100114440"
+  },
+  "0x1000c2640": {
+    "selector": "failTouchesToUnlock",
+    "reference": "0x100114448"
+  },
+  "0x1000c2660": {
+    "selector": "feedback",
+    "reference": "0x100114450"
+  },
+  "0x1000c2680": {
+    "selector": "fileExistsAtPath:",
+    "reference": "0x100114458"
+  },
+  "0x1000c26a0": {
+    "selector": "fileHandleForUpdatingURL:error:",
+    "reference": "0x100114460"
+  },
+  "0x1000c26c0": {
+    "selector": "filterHomeButtonEvents",
+    "reference": "0x100114468"
+  },
+  "0x1000c26e0": {
+    "selector": "filterIdentities:withFilter:",
+    "reference": "0x100114470"
+  },
+  "0x1000c2700": {
+    "selector": "fingerDetectEndTime",
+    "reference": "0x100114478"
+  },
+  "0x1000c2720": {
+    "selector": "fingerDetected",
+    "reference": "0x100114480"
+  },
+  "0x1000c2740": {
+    "selector": "finishDecoding",
+    "reference": "0x100114488"
+  },
+  "0x1000c2760": {
+    "selector": "firstCaptureEndTime",
+    "reference": "0x100114490"
+  },
+  "0x1000c2780": {
+    "selector": "firstObject",
+    "reference": "0x100114498"
+  },
+  "0x1000c27a0": {
+    "selector": "fitDiffBin",
+    "reference": "0x1001144a0"
+  },
+  "0x1000c27c0": {
+    "selector": "fitDiffRaw",
+    "reference": "0x1001144a8"
+  },
+  "0x1000c27e0": {
+    "selector": "fitResEdge6SigmaBin",
+    "reference": "0x1001144b0"
+  },
+  "0x1000c2800": {
+    "selector": "fitResEdge6SigmaRaw",
+    "reference": "0x1001144b8"
+  },
+  "0x1000c2820": {
+    "selector": "flags",
+    "reference": "0x1001144c0"
+  },
+  "0x1000c2840": {
+    "selector": "floatValue",
+    "reference": "0x1001144c8"
+  },
+  "0x1000c2860": {
+    "selector": "forCredentialSet",
+    "reference": "0x1001144d0"
+  },
+  "0x1000c2880": {
+    "selector": "forExtendEnrollment",
+    "reference": "0x1001144d8"
+  },
+  "0x1000c28a0": {
+    "selector": "forPreArm",
+    "reference": "0x1001144e0"
+  },
+  "0x1000c28c0": {
+    "selector": "forUnlock",
+    "reference": "0x1001144e8"
+  },
+  "0x1000c28e0": {
+    "selector": "getAccessoryObject:",
+    "reference": "0x1001144f0"
+  },
+  "0x1000c2900": {
+    "selector": "getBioLockoutState:forUser:withClient:",
+    "reference": "0x1001144f8"
+  },
+  "0x1000c2920": {
+    "selector": "getBytes:length:",
+    "reference": "0x100114500"
+  },
+  "0x1000c2940": {
+    "selector": "getCalibrationDataInfoWithClient:",
+    "reference": "0x100114508"
+  },
+  "0x1000c2960": {
+    "selector": "getCalibrationDataState",
+    "reference": "0x100114510"
+  },
+  "0x1000c2980": {
+    "selector": "getCommProtocolVersion",
+    "reference": "0x100114518"
+  },
+  "0x1000c29a0": {
+    "selector": "getDataFromDriverCommand:value:data:size:",
+    "reference": "0x100114520"
+  },
+  "0x1000c29c0": {
+    "selector": "getDaysSinceEnrollment",
+    "reference": "0x100114528"
+  },
+  "0x1000c29e0": {
+    "selector": "getDaysSinceFirstEnrollment",
+    "reference": "0x100114530"
+  },
+  "0x1000c2a00": {
+    "selector": "getDaysSinceLastEnrollment",
+    "reference": "0x100114538"
+  },
+  "0x1000c2a20": {
+    "selector": "getEEPROMCalibrationData",
+    "reference": "0x100114540"
+  },
+  "0x1000c2a40": {
+    "selector": "getEnabledForUnlock",
+    "reference": "0x100114548"
+  },
+  "0x1000c2a60": {
+    "selector": "getEnrolledIdentitiesCountForAccessory:",
+    "reference": "0x100114550"
+  },
+  "0x1000c2a80": {
+    "selector": "getEnrolledIdentitiesCountForUser:",
+    "reference": "0x100114558"
+  },
+  "0x1000c2aa0": {
+    "selector": "getEnrolledIdentitiesCountTotal",
+    "reference": "0x100114560"
+  },
+  "0x1000c2ac0": {
+    "selector": "getEnrolledUserIDs",
+    "reference": "0x100114568"
+  },
+  "0x1000c2ae0": {
+    "selector": "getEnrolledUserIDsForAccessory:",
+    "reference": "0x100114570"
+  },
+  "0x1000c2b00": {
+    "selector": "getEnrolledUsersCount",
+    "reference": "0x100114578"
+  },
+  "0x1000c2b20": {
+    "selector": "getEnrollmentCount",
+    "reference": "0x100114580"
+  },
+  "0x1000c2b40": {
+    "selector": "getFDR3CalibrationData",
+    "reference": "0x100114588"
+  },
+  "0x1000c2b60": {
+    "selector": "getFDRCalibrationData",
+    "reference": "0x100114590"
+  },
+  "0x1000c2b80": {
+    "selector": "getFDRDataForClass:",
+    "reference": "0x100114598"
+  },
+  "0x1000c2ba0": {
+    "selector": "getFDRMSRkData",
+    "reference": "0x1001145a0"
+  },
+  "0x1000c2bc0": {
+    "selector": "getIdentityObjectByUserID:UUID:",
+    "reference": "0x1001145a8"
+  },
+  "0x1000c2be0": {
+    "selector": "getLastWakeFromHibernationTime",
+    "reference": "0x1001145b0"
+  },
+  "0x1000c2c00": {
+    "selector": "getModulationRatio",
+    "reference": "0x1001145b8"
+  },
+  "0x1000c2c20": {
+    "selector": "getModuleSerialNumber",
+    "reference": "0x1001145c0"
+  },
+  "0x1000c2c40": {
+    "selector": "getNodeTopologyForIdentity:withClient:",
+    "reference": "0x1001145c8"
+  },
+  "0x1000c2c60": {
+    "selector": "getProtectedConfigurationForUser:withClient:",
+    "reference": "0x1001145d0"
+  },
+  "0x1000c2c80": {
+    "selector": "getProtectedConfigurationMergedForAllUsers",
+    "reference": "0x1001145d8"
+  },
+  "0x1000c2ca0": {
+    "selector": "getProvisioningStateWithClient:",
+    "reference": "0x1001145e0"
+  },
+  "0x1000c2cc0": {
+    "selector": "getSBIOInfo:",
+    "reference": "0x1001145e8"
+  },
+  "0x1000c2ce0": {
+    "selector": "getSensorType",
+    "reference": "0x1001145f0"
+  },
+  "0x1000c2d00": {
+    "selector": "getSyslog",
+    "reference": "0x1001145f8"
+  },
+  "0x1000c2d20": {
+    "selector": "getSyslogArray",
+    "reference": "0x100114600"
+  },
+  "0x1000c2d40": {
+    "selector": "getUUIDBytes:",
+    "reference": "0x100114608"
+  },
+  "0x1000c2d60": {
+    "selector": "getWakeReason",
+    "reference": "0x100114610"
+  },
+  "0x1000c2d80": {
+    "selector": "group",
+    "reference": "0x100114618"
+  },
+  "0x1000c2da0": {
+    "selector": "handleSensorOperationStatusMessage:",
+    "reference": "0x100114620"
+  },
+  "0x1000c2dc0": {
+    "selector": "handleStatusMessage:forOperation:",
+    "reference": "0x100114628"
+  },
+  "0x1000c2de0": {
+    "selector": "handleStatusMessage:forOperation:displayOn:",
+    "reference": "0x100114630"
+  },
+  "0x1000c2e00": {
+    "selector": "handleStatusMessage:withData:",
+    "reference": "0x100114638"
+  },
+  "0x1000c2e20": {
+    "selector": "hasSuffix:",
+    "reference": "0x100114640"
+  },
+  "0x1000c2e40": {
+    "selector": "homeButtonPressed",
+    "reference": "0x100114648"
+  },
+  "0x1000c2e60": {
+    "selector": "homeButtonStateChanged:",
+    "reference": "0x100114650"
+  },
+  "0x1000c2e80": {
+    "selector": "identificationEnabled",
+    "reference": "0x100114658"
+  },
+  "0x1000c2ea0": {
+    "selector": "identities",
+    "reference": "0x100114660"
+  },
+  "0x1000c2ec0": {
+    "selector": "identitiesCount",
+    "reference": "0x100114668"
+  },
+  "0x1000c2ee0": {
+    "selector": "identitiesOfUser:",
+    "reference": "0x100114670"
+  },
+  "0x1000c2f00": {
+    "selector": "imageAbsoluteTimeId",
+    "reference": "0x100114678"
+  },
+  "0x1000c2f20": {
+    "selector": "imageBadBlocks",
+    "reference": "0x100114680"
+  },
+  "0x1000c2f40": {
+    "selector": "imageBrightness",
+    "reference": "0x100114688"
+  },
+  "0x1000c2f60": {
+    "selector": "imageBrightnessNorm",
+    "reference": "0x100114690"
+  },
+  "0x1000c2f80": {
+    "selector": "imageContrast",
+    "reference": "0x100114698"
+  },
+  "0x1000c2fa0": {
+    "selector": "imageContrastNorm",
+    "reference": "0x1001146a0"
+  },
+  "0x1000c2fc0": {
+    "selector": "imageFeatureStrength",
+    "reference": "0x1001146a8"
+  },
+  "0x1000c2fe0": {
+    "selector": "imageFeatureStrengthNorm",
+    "reference": "0x1001146b0"
+  },
+  "0x1000c3000": {
+    "selector": "imageInfoFromAccessoryImageInfo:souceBioDevice:",
+    "reference": "0x1001146b8"
+  },
+  "0x1000c3020": {
+    "selector": "imageInfoFromImageProcessingResult:",
+    "reference": "0x1001146c0"
+  },
+  "0x1000c3040": {
+    "selector": "imagePixelOutlierCount",
+    "reference": "0x1001146c8"
+  },
+  "0x1000c3060": {
+    "selector": "imagePixelOutlierCountCount",
+    "reference": "0x1001146d0"
+  },
+  "0x1000c3080": {
+    "selector": "imagePixelOutlierCountSum",
+    "reference": "0x1001146d8"
+  },
+  "0x1000c30a0": {
+    "selector": "imageProblemClass",
+    "reference": "0x1001146e0"
+  },
+  "0x1000c30c0": {
+    "selector": "imageProcessingEndTime",
+    "reference": "0x1001146e8"
+  },
+  "0x1000c30e0": {
+    "selector": "incrementCountField:",
+    "reference": "0x1001146f0"
+  },
+  "0x1000c3100": {
+    "selector": "init",
+    "reference": "0x1001146f8"
+  },
+  "0x1000c3120": {
+    "selector": "initBrightnessControlClient:notifyQueue:notificationBlock:",
+    "reference": "0x100114700"
+  },
+  "0x1000c3140": {
+    "selector": "initDisplayService",
+    "reference": "0x100114708"
+  },
+  "0x1000c3160": {
+    "selector": "initForReadingFromData:error:",
+    "reference": "0x100114710"
+  },
+  "0x1000c3180": {
+    "selector": "initSensor",
+    "reference": "0x100114718"
+  },
+  "0x1000c31a0": {
+    "selector": "initWithBytes:length:encoding:",
+    "reference": "0x100114720"
+  },
+  "0x1000c31c0": {
+    "selector": "initWithBytesNoCopy:length:deallocator:",
+    "reference": "0x100114728"
+  },
+  "0x1000c31e0": {
+    "selector": "initWithCalendarIdentifier:",
+    "reference": "0x100114730"
+  },
+  "0x1000c3200": {
+    "selector": "initWithDictionary:",
+    "reference": "0x100114738"
+  },
+  "0x1000c3220": {
+    "selector": "initWithDictionary:copyItems:",
+    "reference": "0x100114740"
+  },
+  "0x1000c3240": {
+    "selector": "initWithDomain:process:dispatchQueue:",
+    "reference": "0x100114748"
+  },
+  "0x1000c3260": {
+    "selector": "initWithInteger:",
+    "reference": "0x100114750"
+  },
+  "0x1000c3280": {
+    "selector": "initWithMachServiceName:",
+    "reference": "0x100114758"
+  },
+  "0x1000c32a0": {
+    "selector": "initWithName:",
+    "reference": "0x100114760"
+  },
+  "0x1000c32c0": {
+    "selector": "initWithName:dictionary:",
+    "reference": "0x100114768"
+  },
+  "0x1000c32e0": {
+    "selector": "initWithPersistedDataWithName:",
+    "reference": "0x100114770"
+  },
+  "0x1000c3300": {
+    "selector": "initWithUUIDBytes:",
+    "reference": "0x100114778"
+  },
+  "0x1000c3320": {
+    "selector": "intValue",
+    "reference": "0x100114780"
+  },
+  "0x1000c3340": {
+    "selector": "integerForKey:",
+    "reference": "0x100114788"
+  },
+  "0x1000c3360": {
+    "selector": "integerValue",
+    "reference": "0x100114790"
+  },
+  "0x1000c3380": {
+    "selector": "isBadDay",
+    "reference": "0x100114798"
+  },
+  "0x1000c33a0": {
+    "selector": "isBaseSystem",
+    "reference": "0x1001147a0"
+  },
+  "0x1000c33c0": {
+    "selector": "isClassCFileAccessible",
+    "reference": "0x1001147a8"
+  },
+  "0x1000c33e0": {
+    "selector": "isDateInToday:",
+    "reference": "0x1001147b0"
+  },
+  "0x1000c3400": {
+    "selector": "isDisplayOn",
+    "reference": "0x1001147b8"
+  },
+  "0x1000c3420": {
+    "selector": "isEqualToAccessoryGroup:",
+    "reference": "0x1001147c0"
+  },
+  "0x1000c3440": {
+    "selector": "isEqualToDate:",
+    "reference": "0x1001147c8"
+  },
+  "0x1000c3460": {
+    "selector": "isEqualToNumber:",
+    "reference": "0x1001147d0"
+  },
+  "0x1000c3480": {
+    "selector": "isEqualToString:",
+    "reference": "0x1001147d8"
+  },
+  "0x1000c34a0": {
+    "selector": "isMasterComponent",
+    "reference": "0x1001147e0"
+  },
+  "0x1000c34c0": {
+    "selector": "isMesaEnabled",
+    "reference": "0x1001147e8"
+  },
+  "0x1000c34e0": {
+    "selector": "isPasscodeNeeded",
+    "reference": "0x1001147f0"
+  },
+  "0x1000c3500": {
+    "selector": "isUserComponent",
+    "reference": "0x1001147f8"
+  },
+  "0x1000c3520": {
+    "selector": "isValidJSONObject:",
+    "reference": "0x100114800"
+  },
+  "0x1000c3540": {
+    "selector": "isWaitingForFinish",
+    "reference": "0x100114808"
+  },
+  "0x1000c3560": {
+    "selector": "keyEnumerator",
+    "reference": "0x100114810"
+  },
+  "0x1000c3580": {
+    "selector": "keysSortedByValueUsingComparator:",
+    "reference": "0x100114818"
+  },
+  "0x1000c35a0": {
+    "selector": "largestComponentArea",
+    "reference": "0x100114820"
+  },
+  "0x1000c35c0": {
+    "selector": "largestComponentNodeCount",
+    "reference": "0x100114828"
+  },
+  "0x1000c35e0": {
+    "selector": "lastBioDevice",
+    "reference": "0x100114830"
+  },
+  "0x1000c3600": {
+    "selector": "lastDisplayState",
+    "reference": "0x100114838"
+  },
+  "0x1000c3620": {
+    "selector": "lastEnrollmentDeviceOrientation",
+    "reference": "0x100114840"
+  },
+  "0x1000c3640": {
+    "selector": "lastEnrollmentScanCount",
+    "reference": "0x100114848"
+  },
+  "0x1000c3660": {
+    "selector": "lastEnrollmentScanGroupCount",
+    "reference": "0x100114850"
+  },
+  "0x1000c3680": {
+    "selector": "lastEnrollmentTouchesCount",
+    "reference": "0x100114858"
+  },
+  "0x1000c36a0": {
+    "selector": "lastImageIsProcessed",
+    "reference": "0x100114860"
+  },
+  "0x1000c36c0": {
+    "selector": "lastMatchUseCase",
+    "reference": "0x100114868"
+  },
+  "0x1000c36e0": {
+    "selector": "lastStartedMatch",
+    "reference": "0x100114870"
+  },
+  "0x1000c3700": {
+    "selector": "laterDate:",
+    "reference": "0x100114878"
+  },
+  "0x1000c3720": {
+    "selector": "launchAndReturnError:",
+    "reference": "0x100114880"
+  },
+  "0x1000c3740": {
+    "selector": "length",
+    "reference": "0x100114888"
+  },
+  "0x1000c3760": {
+    "selector": "loadANENet",
+    "reference": "0x100114890"
+  },
+  "0x1000c3780": {
+    "selector": "loadBioLockoutRecord",
+    "reference": "0x100114898"
+  },
+  "0x1000c37a0": {
+    "selector": "loadCalibrationData",
+    "reference": "0x1001148a0"
+  },
+  "0x1000c37c0": {
+    "selector": "loadCatacomb",
+    "reference": "0x1001148a8"
+  },
+  "0x1000c37e0": {
+    "selector": "loadMSRkData",
+    "reference": "0x1001148b0"
+  },
+  "0x1000c3800": {
+    "selector": "localAuthMatchAttemptsFailedFingerDetected",
+    "reference": "0x1001148b8"
+  },
+  "0x1000c3820": {
+    "selector": "localAuthMatchAttemptsFingerDetected",
+    "reference": "0x1001148c0"
+  },
+  "0x1000c3840": {
+    "selector": "localizedDescription",
+    "reference": "0x1001148c8"
+  },
+  "0x1000c3860": {
+    "selector": "lock",
+    "reference": "0x1001148d0"
+  },
+  "0x1000c3880": {
+    "selector": "lockStateUpdated:forUser:",
+    "reference": "0x1001148d8"
+  },
+  "0x1000c38a0": {
+    "selector": "logAccessoryAdded:",
+    "reference": "0x1001148e0"
+  },
+  "0x1000c38c0": {
+    "selector": "logAccessoryImageInfo:timestamp:",
+    "reference": "0x1001148e8"
+  },
+  "0x1000c38e0": {
+    "selector": "logAccessoryRemoved:",
+    "reference": "0x1001148f0"
+  },
+  "0x1000c3900": {
+    "selector": "logAccessoryUpdated:info:",
+    "reference": "0x1001148f8"
+  },
+  "0x1000c3920": {
+    "selector": "logBackgroundFingerDetectState:client:",
+    "reference": "0x100114900"
+  },
+  "0x1000c3940": {
+    "selector": "logButtonState:timestamp:",
+    "reference": "0x100114908"
+  },
+  "0x1000c3960": {
+    "selector": "logCancelWithClient:",
+    "reference": "0x100114910"
+  },
+  "0x1000c3980": {
+    "selector": "logCaptureHandlingError:timestamp:",
+    "reference": "0x100114918"
+  },
+  "0x1000c39a0": {
+    "selector": "logCaptureWithData:id:captureCounter:timestamp:",
+    "reference": "0x100114920"
+  },
+  "0x1000c39c0": {
+    "selector": "logCatacombInfo:data:",
+    "reference": "0x100114928"
+  },
+  "0x1000c39e0": {
+    "selector": "logDebugImageWithData:id:captureCounter:label:fileExtension:timestamp:sourceUUID:",
+    "reference": "0x100114930"
+  },
+  "0x1000c3a00": {
+    "selector": "logDisplayState:",
+    "reference": "0x100114938"
+  },
+  "0x1000c3a20": {
+    "selector": "logEnrollLatency:",
+    "reference": "0x100114940"
+  },
+  "0x1000c3a40": {
+    "selector": "logEnrollLatency:timestamp:",
+    "reference": "0x100114948"
+  },
+  "0x1000c3a60": {
+    "selector": "logEnrollResultWithIdentity:timestamp:",
+    "reference": "0x100114950"
+  },
+  "0x1000c3a80": {
+    "selector": "logEnrollWithOperation:",
+    "reference": "0x100114958"
+  },
+  "0x1000c3aa0": {
+    "selector": "logFingerDetectWithOperation:",
+    "reference": "0x100114960"
+  },
+  "0x1000c3ac0": {
+    "selector": "logFingerOff",
+    "reference": "0x100114968"
+  },
+  "0x1000c3ae0": {
+    "selector": "logImageWithData:width:height:id:captureCounter:timestamp:sourceUUID:",
+    "reference": "0x100114970"
+  },
+  "0x1000c3b00": {
+    "selector": "logMatchLatency:",
+    "reference": "0x100114978"
+  },
+  "0x1000c3b20": {
+    "selector": "logMatchLatency:timestamp:",
+    "reference": "0x100114980"
+  },
+  "0x1000c3b40": {
+    "selector": "logMatchResultWithIdentity:details:timestamp:",
+    "reference": "0x100114988"
+  },
+  "0x1000c3b60": {
+    "selector": "logMatchWithOperation:",
+    "reference": "0x100114990"
+  },
+  "0x1000c3b80": {
+    "selector": "logRemoveAllIdentitiesWithUserID:client:",
+    "reference": "0x100114998"
+  },
+  "0x1000c3ba0": {
+    "selector": "logRemoveIdentity:client:",
+    "reference": "0x1001149a0"
+  },
+  "0x1000c3bc0": {
+    "selector": "logSEPTransferData:",
+    "reference": "0x1001149a8"
+  },
+  "0x1000c3be0": {
+    "selector": "logSKSLockState:userID:timestamp:",
+    "reference": "0x1001149b0"
+  },
+  "0x1000c3c00": {
+    "selector": "logSensorRecoveryReason:timestamp:",
+    "reference": "0x1001149b8"
+  },
+  "0x1000c3c20": {
+    "selector": "logSensorStatus:",
+    "reference": "0x1001149c0"
+  },
+  "0x1000c3c40": {
+    "selector": "logStatusMessage:data:timestamp:",
+    "reference": "0x1001149c8"
+  },
+  "0x1000c3c60": {
+    "selector": "logSystemPowerWithMessage:",
+    "reference": "0x1001149d0"
+  },
+  "0x1000c3c80": {
+    "selector": "logSystemPowerWithState:timestamp:",
+    "reference": "0x1001149d8"
+  },
+  "0x1000c3ca0": {
+    "selector": "logUnlockedStateWithIdentities:",
+    "reference": "0x1001149e0"
+  },
+  "0x1000c3cc0": {
+    "selector": "loggingMessage:",
+    "reference": "0x1001149e8"
+  },
+  "0x1000c3ce0": {
+    "selector": "loginEnabled",
+    "reference": "0x1001149f0"
+  },
+  "0x1000c3d00": {
+    "selector": "matchAttemptFinished:",
+    "reference": "0x1001149f8"
+  },
+  "0x1000c3d20": {
+    "selector": "matchCount",
+    "reference": "0x100114a00"
+  },
+  "0x1000c3d40": {
+    "selector": "matchCountContinuous",
+    "reference": "0x100114a08"
+  },
+  "0x1000c3d60": {
+    "selector": "matchEventFinished",
+    "reference": "0x100114a10"
+  },
+  "0x1000c3d80": {
+    "selector": "matchEventMessage:",
+    "reference": "0x100114a18"
+  },
+  "0x1000c3da0": {
+    "selector": "matchIdentityCount",
+    "reference": "0x100114a20"
+  },
+  "0x1000c3dc0": {
+    "selector": "matchMode",
+    "reference": "0x100114a28"
+  },
+  "0x1000c3de0": {
+    "selector": "matchOperation",
+    "reference": "0x100114a30"
+  },
+  "0x1000c3e00": {
+    "selector": "matchOperationFinished:",
+    "reference": "0x100114a38"
+  },
+  "0x1000c3e20": {
+    "selector": "matchOperationStarted",
+    "reference": "0x100114a40"
+  },
+  "0x1000c3e40": {
+    "selector": "matchResult:details:",
+    "reference": "0x100114a48"
+  },
+  "0x1000c3e60": {
+    "selector": "matchResult:timestamp:",
+    "reference": "0x100114a50"
+  },
+  "0x1000c3e80": {
+    "selector": "matchResult:withDictionary:",
+    "reference": "0x100114a58"
+  },
+  "0x1000c3ea0": {
+    "selector": "matchType",
+    "reference": "0x100114a60"
+  },
+  "0x1000c3ec0": {
+    "selector": "matchUseCase",
+    "reference": "0x100114a68"
+  },
+  "0x1000c3ee0": {
+    "selector": "matcherTime",
+    "reference": "0x100114a70"
+  },
+  "0x1000c3f00": {
+    "selector": "matcherTimeCount",
+    "reference": "0x100114a78"
+  },
+  "0x1000c3f20": {
+    "selector": "matcherTimeMatchCount",
+    "reference": "0x100114a80"
+  },
+  "0x1000c3f40": {
+    "selector": "matcherTimeMatchSum",
+    "reference": "0x100114a88"
+  },
+  "0x1000c3f60": {
+    "selector": "matcherTimeNoMatchCount",
+    "reference": "0x100114a90"
+  },
+  "0x1000c3f80": {
+    "selector": "matcherTimeNoMatchSum",
+    "reference": "0x100114a98"
+  },
+  "0x1000c3fa0": {
+    "selector": "matcherTimeSum",
+    "reference": "0x100114aa0"
+  },
+  "0x1000c3fc0": {
+    "selector": "maxFingerToProbeAttenuationCount",
+    "reference": "0x100114aa8"
+  },
+  "0x1000c3fe0": {
+    "selector": "maxFingerToProbeAttenuationSum",
+    "reference": "0x100114ab0"
+  },
+  "0x1000c4000": {
+    "selector": "mesaCaDeviceTypeFromBioDeviceType:",
+    "reference": "0x100114ab8"
+  },
+  "0x1000c4020": {
+    "selector": "modulationRatio",
+    "reference": "0x100114ac0"
+  },
+  "0x1000c4040": {
+    "selector": "moveItemAtPath:toPath:error:",
+    "reference": "0x100114ac8"
+  },
+  "0x1000c4060": {
+    "selector": "moveItemAtURL:toURL:error:",
+    "reference": "0x100114ad0"
+  },
+  "0x1000c4080": {
+    "selector": "mutableBytes",
+    "reference": "0x100114ad8"
+  },
+  "0x1000c40a0": {
+    "selector": "name",
+    "reference": "0x100114ae0"
+  },
+  "0x1000c40c0": {
+    "selector": "noBioLockout",
+    "reference": "0x100114ae8"
+  },
+  "0x1000c40e0": {
+    "selector": "noBioLockoutAuthData",
+    "reference": "0x100114af0"
+  },
+  "0x1000c4100": {
+    "selector": "noBioLockoutUserID",
+    "reference": "0x100114af8"
+  },
+  "0x1000c4120": {
+    "selector": "nonArtefactMatchAttemptsFailedFingerDetected",
+    "reference": "0x100114b00"
+  },
+  "0x1000c4140": {
+    "selector": "nonArtefactMatchAttemptsFingerDetected",
+    "reference": "0x100114b08"
+  },
+  "0x1000c4160": {
+    "selector": "now",
+    "reference": "0x100114b10"
+  },
+  "0x1000c4180": {
+    "selector": "null",
+    "reference": "0x100114b18"
+  },
+  "0x1000c41a0": {
+    "selector": "numPxOutliersPhase1Count",
+    "reference": "0x100114b20"
+  },
+  "0x1000c41c0": {
+    "selector": "numPxOutliersPhase1Sum",
+    "reference": "0x100114b28"
+  },
+  "0x1000c41e0": {
+    "selector": "numPxOutliersPhase2Count",
+    "reference": "0x100114b30"
+  },
+  "0x1000c4200": {
+    "selector": "numPxOutliersPhase2Sum",
+    "reference": "0x100114b38"
+  },
+  "0x1000c4220": {
+    "selector": "numberWithBool:",
+    "reference": "0x100114b40"
+  },
+  "0x1000c4240": {
+    "selector": "numberWithDouble:",
+    "reference": "0x100114b48"
+  },
+  "0x1000c4260": {
+    "selector": "numberWithFloat:",
+    "reference": "0x100114b50"
+  },
+  "0x1000c4280": {
+    "selector": "numberWithInt:",
+    "reference": "0x100114b58"
+  },
+  "0x1000c42a0": {
+    "selector": "numberWithInteger:",
+    "reference": "0x100114b60"
+  },
+  "0x1000c42c0": {
+    "selector": "numberWithLongLong:",
+    "reference": "0x100114b68"
+  },
+  "0x1000c42e0": {
+    "selector": "numberWithShort:",
+    "reference": "0x100114b70"
+  },
+  "0x1000c4300": {
+    "selector": "numberWithUnsignedChar:",
+    "reference": "0x100114b78"
+  },
+  "0x1000c4320": {
+    "selector": "numberWithUnsignedInt:",
+    "reference": "0x100114b80"
+  },
+  "0x1000c4340": {
+    "selector": "numberWithUnsignedInteger:",
+    "reference": "0x100114b88"
+  },
+  "0x1000c4360": {
+    "selector": "numberWithUnsignedLongLong:",
+    "reference": "0x100114b90"
+  },
+  "0x1000c4380": {
+    "selector": "numberWithUnsignedShort:",
+    "reference": "0x100114b98"
+  },
+  "0x1000c43a0": {
+    "selector": "objectAtIndex:",
+    "reference": "0x100114ba0"
+  },
+  "0x1000c43c0": {
+    "selector": "objectAtIndexedSubscript:",
+    "reference": "0x100114ba8"
+  },
+  "0x1000c43e0": {
+    "selector": "objectEnumerator",
+    "reference": "0x100114bb0"
+  },
+  "0x1000c4400": {
+    "selector": "objectForKey:",
+    "reference": "0x100114bb8"
+  },
+  "0x1000c4420": {
+    "selector": "objectForKeyedSubscript:",
+    "reference": "0x100114bc0"
+  },
+  "0x1000c4440": {
+    "selector": "openURL:",
+    "reference": "0x100114bc8"
+  },
+  "0x1000c4460": {
+    "selector": "operationCount",
+    "reference": "0x100114bd0"
+  },
+  "0x1000c4480": {
+    "selector": "operationTimeSum",
+    "reference": "0x100114bd8"
+  },
+  "0x1000c44a0": {
+    "selector": "osLogImageInfoMessage:",
+    "reference": "0x100114be0"
+  },
+  "0x1000c44c0": {
+    "selector": "overallResult",
+    "reference": "0x100114be8"
+  },
+  "0x1000c44e0": {
+    "selector": "overallTime",
+    "reference": "0x100114bf0"
+  },
+  "0x1000c4500": {
+    "selector": "pairedAccessories",
+    "reference": "0x100114bf8"
+  },
+  "0x1000c4520": {
+    "selector": "pairedDevicesList",
+    "reference": "0x100114c00"
+  },
+  "0x1000c4540": {
+    "selector": "parseAuthDict:toAuthData:",
+    "reference": "0x100114c08"
+  },
+  "0x1000c4560": {
+    "selector": "passcodeInputLifespan",
+    "reference": "0x100114c10"
+  },
+  "0x1000c4580": {
+    "selector": "passcodeNedded:",
+    "reference": "0x100114c18"
+  },
+  "0x1000c45a0": {
+    "selector": "performCancelCommand",
+    "reference": "0x100114c20"
+  },
+  "0x1000c45c0": {
+    "selector": "performCommand:inValue:inData:inSize:outData:outSize:",
+    "reference": "0x100114c28"
+  },
+  "0x1000c45e0": {
+    "selector": "performCommand:version:inValue:inData:inSize:outData:outSize:",
+    "reference": "0x100114c30"
+  },
+  "0x1000c4600": {
+    "selector": "performGetBiometrickitdInfoCommand:",
+    "reference": "0x100114c38"
+  },
+  "0x1000c4620": {
+    "selector": "performGetFreeIdentityCountCommand:outCount:",
+    "reference": "0x100114c40"
+  },
+  "0x1000c4640": {
+    "selector": "performGetSKSLockStateCommand:outState:",
+    "reference": "0x100114c48"
+  },
+  "0x1000c4660": {
+    "selector": "postDailyAndWeeklyUpdates",
+    "reference": "0x100114c50"
+  },
+  "0x1000c4680": {
+    "selector": "postEvent",
+    "reference": "0x100114c58"
+  },
+  "0x1000c46a0": {
+    "selector": "postEventAndUpdateDailyValues:enrolledIdentities:",
+    "reference": "0x100114c60"
+  },
+  "0x1000c46c0": {
+    "selector": "postEventExtendedBy:",
+    "reference": "0x100114c68"
+  },
+  "0x1000c46e0": {
+    "selector": "postGeneralLockoutStateNotification",
+    "reference": "0x100114c70"
+  },
+  "0x1000c4700": {
+    "selector": "preArmMatchAttemptsFailedFingerDetected",
+    "reference": "0x100114c78"
+  },
+  "0x1000c4720": {
+    "selector": "preArmMatchAttemptsFingerDetected",
+    "reference": "0x100114c80"
+  },
+  "0x1000c4740": {
+    "selector": "preArmedMatch",
+    "reference": "0x100114c88"
+  },
+  "0x1000c4760": {
+    "selector": "pressureMitigationUsed",
+    "reference": "0x100114c90"
+  },
+  "0x1000c4780": {
+    "selector": "priority",
+    "reference": "0x100114c98"
+  },
+  "0x1000c47a0": {
+    "selector": "processBioOperation:",
+    "reference": "0x100114ca0"
+  },
+  "0x1000c47c0": {
+    "selector": "processIdentifier",
+    "reference": "0x100114ca8"
+  },
+  "0x1000c47e0": {
+    "selector": "processInfo",
+    "reference": "0x100114cb0"
+  },
+  "0x1000c4800": {
+    "selector": "processedFlags",
+    "reference": "0x100114cb8"
+  },
+  "0x1000c4820": {
+    "selector": "provisioningState",
+    "reference": "0x100114cc0"
+  },
+  "0x1000c4840": {
+    "selector": "rangeOfString:",
+    "reference": "0x100114cc8"
+  },
+  "0x1000c4860": {
+    "selector": "receiveImage:",
+    "reference": "0x100114cd0"
+  },
+  "0x1000c4880": {
+    "selector": "registerDefaults:",
+    "reference": "0x100114cd8"
+  },
+  "0x1000c48a0": {
+    "selector": "registerUpdateNotification:",
+    "reference": "0x100114ce0"
+  },
+  "0x1000c48c0": {
+    "selector": "removeAllIdentities",
+    "reference": "0x100114ce8"
+  },
+  "0x1000c48e0": {
+    "selector": "removeAllObjects",
+    "reference": "0x100114cf0"
+  },
+  "0x1000c4900": {
+    "selector": "removeIdentity:",
+    "reference": "0x100114cf8"
+  },
+  "0x1000c4920": {
+    "selector": "removeItemAtPath:error:",
+    "reference": "0x100114d00"
+  },
+  "0x1000c4940": {
+    "selector": "removeItemAtURL:error:",
+    "reference": "0x100114d08"
+  },
+  "0x1000c4960": {
+    "selector": "removeObject:",
+    "reference": "0x100114d10"
+  },
+  "0x1000c4980": {
+    "selector": "removeObjectForKey:",
+    "reference": "0x100114d18"
+  },
+  "0x1000c49a0": {
+    "selector": "replaceBytesInRange:withBytes:",
+    "reference": "0x100114d20"
+  },
+  "0x1000c49c0": {
+    "selector": "reportMesaHardwarePass:",
+    "reference": "0x100114d28"
+  },
+  "0x1000c49e0": {
+    "selector": "requestFingerOff",
+    "reference": "0x100114d30"
+  },
+  "0x1000c4a00": {
+    "selector": "requireFingerOff",
+    "reference": "0x100114d38"
+  },
+  "0x1000c4a20": {
+    "selector": "requireStrictCoverage",
+    "reference": "0x100114d40"
+  },
+  "0x1000c4a40": {
+    "selector": "reset",
+    "reference": "0x100114d48"
+  },
+  "0x1000c4a60": {
+    "selector": "resetContinuousCounters",
+    "reference": "0x100114d50"
+  },
+  "0x1000c4a80": {
+    "selector": "resetMatchCounts",
+    "reference": "0x100114d58"
+  },
+  "0x1000c4aa0": {
+    "selector": "resetSensor",
+    "reference": "0x100114d60"
+  },
+  "0x1000c4ac0": {
+    "selector": "restoreAndSyncTemplates",
+    "reference": "0x100114d68"
+  },
+  "0x1000c4ae0": {
+    "selector": "restoreTemplateListSU",
+    "reference": "0x100114d70"
+  },
+  "0x1000c4b00": {
+    "selector": "resume",
+    "reference": "0x100114d78"
+  },
+  "0x1000c4b20": {
+    "selector": "run",
+    "reference": "0x100114d80"
+  },
+  "0x1000c4b40": {
+    "selector": "runningBioOp",
+    "reference": "0x100114d88"
+  },
+  "0x1000c4b60": {
+    "selector": "saveBioLockoutRecord",
+    "reference": "0x100114d90"
+  },
+  "0x1000c4b80": {
+    "selector": "saveCatacomb",
+    "reference": "0x100114d98"
+  },
+  "0x1000c4ba0": {
+    "selector": "saveCatacombIfDirtyWithInterval:andDelay:",
+    "reference": "0x100114da0"
+  },
+  "0x1000c4bc0": {
+    "selector": "scanCount",
+    "reference": "0x100114da8"
+  },
+  "0x1000c4be0": {
+    "selector": "scanGroupCount",
+    "reference": "0x100114db0"
+  },
+  "0x1000c4c00": {
+    "selector": "seekToOffset:error:",
+    "reference": "0x100114db8"
+  },
+  "0x1000c4c20": {
+    "selector": "selectedIdentities",
+    "reference": "0x100114dc0"
+  },
+  "0x1000c4c40": {
+    "selector": "selectedIdentitiesBlob",
+    "reference": "0x100114dc8"
+  },
+  "0x1000c4c60": {
+    "selector": "sendAutoBugCaptureEvent:",
+    "reference": "0x100114dd0"
+  },
+  "0x1000c4c80": {
+    "selector": "sensorReady",
+    "reference": "0x100114dd8"
+  },
+  "0x1000c4ca0": {
+    "selector": "sepTranferStorePath",
+    "reference": "0x100114de0"
+  },
+  "0x1000c4cc0": {
+    "selector": "server",
+    "reference": "0x100114de8"
+  },
+  "0x1000c4ce0": {
+    "selector": "serviceMatch",
+    "reference": "0x100114df0"
+  },
+  "0x1000c4d00": {
+    "selector": "serviceMatchCommon",
+    "reference": "0x100114df8"
+  },
+  "0x1000c4d20": {
+    "selector": "serviceMatchCommonFinale",
+    "reference": "0x100114e00"
+  },
+  "0x1000c4d40": {
+    "selector": "serviceMatchWithIterator:context:",
+    "reference": "0x100114e08"
+  },
+  "0x1000c4d60": {
+    "selector": "serviceMatchWithServer:",
+    "reference": "0x100114e10"
+  },
+  "0x1000c4d80": {
+    "selector": "serviceStatus:type:inValue:",
+    "reference": "0x100114e18"
+  },
+  "0x1000c4da0": {
+    "selector": "set",
+    "reference": "0x100114e20"
+  },
+  "0x1000c4dc0": {
+    "selector": "setAccessory:",
+    "reference": "0x100114e28"
+  },
+  "0x1000c4de0": {
+    "selector": "setAccessoryInfo:",
+    "reference": "0x100114e30"
+  },
+  "0x1000c4e00": {
+    "selector": "setAccessoryTemplateStatsToEvent:forAccessories:",
+    "reference": "0x100114e38"
+  },
+  "0x1000c4e20": {
+    "selector": "setActiveUsersCount:",
+    "reference": "0x100114e40"
+  },
+  "0x1000c4e40": {
+    "selector": "setAllowedUnits:",
+    "reference": "0x100114e48"
+  },
+  "0x1000c4e60": {
+    "selector": "setAneNet:",
+    "reference": "0x100114e50"
+  },
+  "0x1000c4e80": {
+    "selector": "setApplePayEnabled:",
+    "reference": "0x100114e58"
+  },
+  "0x1000c4ea0": {
+    "selector": "setArguments:",
+    "reference": "0x100114e60"
+  },
+  "0x1000c4ec0": {
+    "selector": "setAriadneSignposts:",
+    "reference": "0x100114e68"
+  },
+  "0x1000c4ee0": {
+    "selector": "setArray:",
+    "reference": "0x100114e70"
+  },
+  "0x1000c4f00": {
+    "selector": "setArtefactAnchorX:",
+    "reference": "0x100114e78"
+  },
+  "0x1000c4f20": {
+    "selector": "setArtefactAnchorXAverage:",
+    "reference": "0x100114e80"
+  },
+  "0x1000c4f40": {
+    "selector": "setArtefactAnchorXSTD:",
+    "reference": "0x100114e88"
+  },
+  "0x1000c4f60": {
+    "selector": "setArtefactAnchorY:",
+    "reference": "0x100114e90"
+  },
+  "0x1000c4f80": {
+    "selector": "setArtefactAnchorYAverage:",
+    "reference": "0x100114e98"
+  },
+  "0x1000c4fa0": {
+    "selector": "setArtefactAnchorYSTD:",
+    "reference": "0x100114ea0"
+  },
+  "0x1000c4fc0": {
+    "selector": "setArtefactFRR:",
+    "reference": "0x100114ea8"
+  },
+  "0x1000c4fe0": {
+    "selector": "setArtefactNonlinearity:",
+    "reference": "0x100114eb0"
+  },
+  "0x1000c5000": {
+    "selector": "setArtefactNonlinearityAverage:",
+    "reference": "0x100114eb8"
+  },
+  "0x1000c5020": {
+    "selector": "setArtefactNonlinearitySTD:",
+    "reference": "0x100114ec0"
+  },
+  "0x1000c5040": {
+    "selector": "setArtefactPrevalence:",
+    "reference": "0x100114ec8"
+  },
+  "0x1000c5060": {
+    "selector": "setArtefactScore:",
+    "reference": "0x100114ed0"
+  },
+  "0x1000c5080": {
+    "selector": "setArtefactScoreAverage:",
+    "reference": "0x100114ed8"
+  },
+  "0x1000c50a0": {
+    "selector": "setArtefactStrength:",
+    "reference": "0x100114ee0"
+  },
+  "0x1000c50c0": {
+    "selector": "setArtefactStrengthAverage:",
+    "reference": "0x100114ee8"
+  },
+  "0x1000c50e0": {
+    "selector": "setAssessment:",
+    "reference": "0x100114ef0"
+  },
+  "0x1000c5100": {
+    "selector": "setAttachedDeviceCount:",
+    "reference": "0x100114ef8"
+  },
+  "0x1000c5120": {
+    "selector": "setAttribute:",
+    "reference": "0x100114f00"
+  },
+  "0x1000c5140": {
+    "selector": "setBSRBin:",
+    "reference": "0x100114f08"
+  },
+  "0x1000c5160": {
+    "selector": "setBSRRaw:",
+    "reference": "0x100114f10"
+  },
+  "0x1000c5180": {
+    "selector": "setBadDay:",
+    "reference": "0x100114f18"
+  },
+  "0x1000c51a0": {
+    "selector": "setBadDayFRR:",
+    "reference": "0x100114f20"
+  },
+  "0x1000c51c0": {
+    "selector": "setBioMatchLifespan:",
+    "reference": "0x100114f28"
+  },
+  "0x1000c51e0": {
+    "selector": "setBiometricABC:",
+    "reference": "0x100114f30"
+  },
+  "0x1000c5200": {
+    "selector": "setBiometryEnabled:",
+    "reference": "0x100114f38"
+  },
+  "0x1000c5220": {
+    "selector": "setBool:forKey:",
+    "reference": "0x100114f40"
+  },
+  "0x1000c5240": {
+    "selector": "setBuiltinSensorType:",
+    "reference": "0x100114f48"
+  },
+  "0x1000c5260": {
+    "selector": "setCalendar:",
+    "reference": "0x100114f50"
+  },
+  "0x1000c5280": {
+    "selector": "setCalibrationData:source:",
+    "reference": "0x100114f58"
+  },
+  "0x1000c52a0": {
+    "selector": "setCanceledByNewCommand:",
+    "reference": "0x100114f60"
+  },
+  "0x1000c52c0": {
+    "selector": "setCaptureOnly:",
+    "reference": "0x100114f68"
+  },
+  "0x1000c52e0": {
+    "selector": "setCaptureTime:",
+    "reference": "0x100114f70"
+  },
+  "0x1000c5300": {
+    "selector": "setCaptureTimeAverage:",
+    "reference": "0x100114f78"
+  },
+  "0x1000c5320": {
+    "selector": "setCarrierAttenBin:",
+    "reference": "0x100114f80"
+  },
+  "0x1000c5340": {
+    "selector": "setCarrierAttenRaw:",
+    "reference": "0x100114f88"
+  },
+  "0x1000c5360": {
+    "selector": "setCatacombFileAccessed:",
+    "reference": "0x100114f90"
+  },
+  "0x1000c5380": {
+    "selector": "setCatacombRestored:",
+    "reference": "0x100114f98"
+  },
+  "0x1000c53a0": {
+    "selector": "setClient:",
+    "reference": "0x100114fa0"
+  },
+  "0x1000c53c0": {
+    "selector": "setClusterCount:",
+    "reference": "0x100114fa8"
+  },
+  "0x1000c53e0": {
+    "selector": "setCreationTime:",
+    "reference": "0x100114fb0"
+  },
+  "0x1000c5400": {
+    "selector": "setCurrentDirectoryURL:",
+    "reference": "0x100114fb8"
+  },
+  "0x1000c5420": {
+    "selector": "setDRXAmpMaxBin:",
+    "reference": "0x100114fc0"
+  },
+  "0x1000c5440": {
+    "selector": "setDRXAmpMaxRaw:",
+    "reference": "0x100114fc8"
+  },
+  "0x1000c5460": {
+    "selector": "setDRXAmpMinBin:",
+    "reference": "0x100114fd0"
+  },
+  "0x1000c5480": {
+    "selector": "setDRXAmpMinRaw:",
+    "reference": "0x100114fd8"
+  },
+  "0x1000c54a0": {
+    "selector": "setData:",
+    "reference": "0x100114fe0"
+  },
+  "0x1000c54c0": {
+    "selector": "setDateFormat:",
+    "reference": "0x100114fe8"
+  },
+  "0x1000c54e0": {
+    "selector": "setDeblurringInfo:",
+    "reference": "0x100114ff0"
+  },
+  "0x1000c5500": {
+    "selector": "setDecodingFailurePolicy:",
+    "reference": "0x100114ff8"
+  },
+  "0x1000c5540": {
+    "selector": "setDeviceAngle:",
+    "reference": "0x100115008"
+  },
+  "0x1000c5560": {
+    "selector": "setDeviceAngleState:",
+    "reference": "0x100115010"
+  },
+  "0x1000c5580": {
+    "selector": "setDeviceGroupType:",
+    "reference": "0x100115018"
+  },
+  "0x1000c55a0": {
+    "selector": "setDeviceOrientation:",
+    "reference": "0x100115020"
+  },
+  "0x1000c55c0": {
+    "selector": "setDeviceType:",
+    "reference": "0x100115028"
+  },
+  "0x1000c55e0": {
+    "selector": "setDeviceWakeReason:",
+    "reference": "0x100115030"
+  },
+  "0x1000c5600": {
+    "selector": "setDisplayOn:",
+    "reference": "0x100115038"
+  },
+  "0x1000c5620": {
+    "selector": "setDrxStrengthPctCol2:rawValue:",
+    "reference": "0x100115040"
+  },
+  "0x1000c5640": {
+    "selector": "setDrxStrengthPctCol2Bin:",
+    "reference": "0x100115048"
+  },
+  "0x1000c5660": {
+    "selector": "setDrxStrengthPctCol2BinAverage:",
+    "reference": "0x100115050"
+  },
+  "0x1000c5680": {
+    "selector": "setDrxStrengthPctCol2Raw:",
+    "reference": "0x100115058"
+  },
+  "0x1000c56a0": {
+    "selector": "setDrxStrengthPctCol2RawAverage:",
+    "reference": "0x100115060"
+  },
+  "0x1000c56c0": {
+    "selector": "setDrxStrengthPctCol7:rawValue:",
+    "reference": "0x100115068"
+  },
+  "0x1000c56e0": {
+    "selector": "setDrxStrengthPctCol7Bin:",
+    "reference": "0x100115070"
+  },
+  "0x1000c5700": {
+    "selector": "setDrxStrengthPctCol7BinAverage:",
+    "reference": "0x100115078"
+  },
+  "0x1000c5720": {
+    "selector": "setDrxStrengthPctCol7Raw:",
+    "reference": "0x100115080"
+  },
+  "0x1000c5740": {
+    "selector": "setDrxStrengthPctCol7RawAverage:",
+    "reference": "0x100115088"
+  },
+  "0x1000c5760": {
+    "selector": "setEnrolledIdentityCount0:",
+    "reference": "0x100115090"
+  },
+  "0x1000c5780": {
+    "selector": "setEnrolledIdentityCount1:",
+    "reference": "0x100115098"
+  },
+  "0x1000c57a0": {
+    "selector": "setEnrolledIdentityCount2:",
+    "reference": "0x1001150a0"
+  },
+  "0x1000c57c0": {
+    "selector": "setEnrolledIdentityCount3:",
+    "reference": "0x1001150a8"
+  },
+  "0x1000c57e0": {
+    "selector": "setEnrolledIdentityCount4:",
+    "reference": "0x1001150b0"
+  },
+  "0x1000c5800": {
+    "selector": "setEnrolledIdentityCount5:",
+    "reference": "0x1001150b8"
+  },
+  "0x1000c5820": {
+    "selector": "setEnrolledIdentityCount:",
+    "reference": "0x1001150c0"
+  },
+  "0x1000c5840": {
+    "selector": "setEnrolledIdentityTotalCount:",
+    "reference": "0x1001150c8"
+  },
+  "0x1000c5860": {
+    "selector": "setEnrolledIdentityUserCount:",
+    "reference": "0x1001150d0"
+  },
+  "0x1000c5880": {
+    "selector": "setEnrolledUserCount0:",
+    "reference": "0x1001150d8"
+  },
+  "0x1000c58a0": {
+    "selector": "setEnrolledUserCount1:",
+    "reference": "0x1001150e0"
+  },
+  "0x1000c58c0": {
+    "selector": "setEnrolledUserCount2:",
+    "reference": "0x1001150e8"
+  },
+  "0x1000c58e0": {
+    "selector": "setEnrolledUserCount3:",
+    "reference": "0x1001150f0"
+  },
+  "0x1000c5900": {
+    "selector": "setEnrolledUserCount4:",
+    "reference": "0x1001150f8"
+  },
+  "0x1000c5920": {
+    "selector": "setEnrolledUserCount5:",
+    "reference": "0x100115100"
+  },
+  "0x1000c5940": {
+    "selector": "setEnrolledUserCount:",
+    "reference": "0x100115108"
+  },
+  "0x1000c5960": {
+    "selector": "setEnrolledUsersCount:",
+    "reference": "0x100115110"
+  },
+  "0x1000c5980": {
+    "selector": "setEntity:",
+    "reference": "0x100115118"
+  },
+  "0x1000c59a0": {
+    "selector": "setEventCanceled:",
+    "reference": "0x100115120"
+  },
+  "0x1000c59c0": {
+    "selector": "setExecutableURL:",
+    "reference": "0x100115128"
+  },
+  "0x1000c59e0": {
+    "selector": "setFMRBin:",
+    "reference": "0x100115130"
+  },
+  "0x1000c5a00": {
+    "selector": "setFMRRaw:",
+    "reference": "0x100115138"
+  },
+  "0x1000c5a20": {
+    "selector": "setFailedMatchAttempts:",
+    "reference": "0x100115140"
+  },
+  "0x1000c5a40": {
+    "selector": "setFailedUnlockAttempts:",
+    "reference": "0x100115148"
+  },
+  "0x1000c5a60": {
+    "selector": "setFeedback:",
+    "reference": "0x100115150"
+  },
+  "0x1000c5a80": {
+    "selector": "setFilterHomeButtonEvents:",
+    "reference": "0x100115158"
+  },
+  "0x1000c5aa0": {
+    "selector": "setFingerDetectEndTime:",
+    "reference": "0x100115160"
+  },
+  "0x1000c5ac0": {
+    "selector": "setFingerDetected:",
+    "reference": "0x100115168"
+  },
+  "0x1000c5ae0": {
+    "selector": "setFirstCaptureEndTime:",
+    "reference": "0x100115170"
+  },
+  "0x1000c5b00": {
+    "selector": "setFitDiffBin:",
+    "reference": "0x100115178"
+  },
+  "0x1000c5b20": {
+    "selector": "setFitDiffRaw:",
+    "reference": "0x100115180"
+  },
+  "0x1000c5b40": {
+    "selector": "setFitResEdge6SigmaBin:",
+    "reference": "0x100115188"
+  },
+  "0x1000c5b60": {
+    "selector": "setFitResEdge6SigmaRaw:",
+    "reference": "0x100115190"
+  },
+  "0x1000c5b80": {
+    "selector": "setForExtendEnrollment:",
+    "reference": "0x100115198"
+  },
+  "0x1000c5ba0": {
+    "selector": "setIdentificationEnabled:",
+    "reference": "0x1001151a0"
+  },
+  "0x1000c5bc0": {
+    "selector": "setImageBadBlocks:",
+    "reference": "0x1001151a8"
+  },
+  "0x1000c5be0": {
+    "selector": "setImageBrightness:",
+    "reference": "0x1001151b0"
+  },
+  "0x1000c5c00": {
+    "selector": "setImageBrightnessNorm:",
+    "reference": "0x1001151b8"
+  },
+  "0x1000c5c20": {
+    "selector": "setImageContrast:",
+    "reference": "0x1001151c0"
+  },
+  "0x1000c5c40": {
+    "selector": "setImageContrastNorm:",
+    "reference": "0x1001151c8"
+  },
+  "0x1000c5c60": {
+    "selector": "setImageFeatureStrength:",
+    "reference": "0x1001151d0"
+  },
+  "0x1000c5c80": {
+    "selector": "setImageFeatureStrengthNorm:",
+    "reference": "0x1001151d8"
+  },
+  "0x1000c5ca0": {
+    "selector": "setImagePixelOutlierCount:",
+    "reference": "0x1001151e0"
+  },
+  "0x1000c5cc0": {
+    "selector": "setImagePixelOutlierCountAverage:",
+    "reference": "0x1001151e8"
+  },
+  "0x1000c5ce0": {
+    "selector": "setImageProblemClass:",
+    "reference": "0x1001151f0"
+  },
+  "0x1000c5d00": {
+    "selector": "setImageProcessingEndTime:",
+    "reference": "0x1001151f8"
+  },
+  "0x1000c5d20": {
+    "selector": "setImageProcessingTime:",
+    "reference": "0x100115200"
+  },
+  "0x1000c5d40": {
+    "selector": "setInternalSensorType:",
+    "reference": "0x100115208"
+  },
+  "0x1000c5d60": {
+    "selector": "setLargestComponentArea:",
+    "reference": "0x100115210"
+  },
+  "0x1000c5d80": {
+    "selector": "setLargestComponentNodeCount:",
+    "reference": "0x100115218"
+  },
+  "0x1000c5da0": {
+    "selector": "setLastEnrollmentDeviceOrientation:",
+    "reference": "0x100115220"
+  },
+  "0x1000c5dc0": {
+    "selector": "setLastEnrollmentScanCount:",
+    "reference": "0x100115228"
+  },
+  "0x1000c5de0": {
+    "selector": "setLastEnrollmentScanGroupCount:",
+    "reference": "0x100115230"
+  },
+  "0x1000c5e00": {
+    "selector": "setLastEnrollmentTouchesCount:",
+    "reference": "0x100115238"
+  },
+  "0x1000c5e20": {
+    "selector": "setLength:",
+    "reference": "0x100115240"
+  },
+  "0x1000c5e40": {
+    "selector": "setLocalAuthFRR:",
+    "reference": "0x100115248"
+  },
+  "0x1000c5e60": {
+    "selector": "setLoginEnabled:",
+    "reference": "0x100115250"
+  },
+  "0x1000c5e80": {
+    "selector": "setMSRkData:",
+    "reference": "0x100115258"
+  },
+  "0x1000c5ea0": {
+    "selector": "setMatchCount:",
+    "reference": "0x100115260"
+  },
+  "0x1000c5ec0": {
+    "selector": "setMatchCountContinuous:",
+    "reference": "0x100115268"
+  },
+  "0x1000c5ee0": {
+    "selector": "setMatchCounts:totalMatchCount:",
+    "reference": "0x100115270"
+  },
+  "0x1000c5f00": {
+    "selector": "setMatchCountsContinuous:totalMatchCount:",
+    "reference": "0x100115278"
+  },
+  "0x1000c5f20": {
+    "selector": "setMatchCountsFromIdentityList:",
+    "reference": "0x100115280"
+  },
+  "0x1000c5f40": {
+    "selector": "setMatchIdentityCount:",
+    "reference": "0x100115288"
+  },
+  "0x1000c5f60": {
+    "selector": "setMatchMode:",
+    "reference": "0x100115290"
+  },
+  "0x1000c5f80": {
+    "selector": "setMatchModeWith:",
+    "reference": "0x100115298"
+  },
+  "0x1000c5fa0": {
+    "selector": "setMatchOperation:",
+    "reference": "0x1001152a0"
+  },
+  "0x1000c5fc0": {
+    "selector": "setMatchResult:withDetails:",
+    "reference": "0x1001152a8"
+  },
+  "0x1000c5fe0": {
+    "selector": "setMatchType:",
+    "reference": "0x1001152b0"
+  },
+  "0x1000c6000": {
+    "selector": "setMatchTypeWith:",
+    "reference": "0x1001152b8"
+  },
+  "0x1000c6020": {
+    "selector": "setMatchUseCase:",
+    "reference": "0x1001152c0"
+  },
+  "0x1000c6040": {
+    "selector": "setMatcherEndTime:",
+    "reference": "0x1001152c8"
+  },
+  "0x1000c6060": {
+    "selector": "setMatcherEndTimeWithRetry:",
+    "reference": "0x1001152d0"
+  },
+  "0x1000c6080": {
+    "selector": "setMatcherTime:",
+    "reference": "0x1001152d8"
+  },
+  "0x1000c60a0": {
+    "selector": "setMatcherTimeAverage:",
+    "reference": "0x1001152e0"
+  },
+  "0x1000c60c0": {
+    "selector": "setMatcherTimeMatch:",
+    "reference": "0x1001152e8"
+  },
+  "0x1000c60e0": {
+    "selector": "setMatcherTimeMatchAverage:",
+    "reference": "0x1001152f0"
+  },
+  "0x1000c6100": {
+    "selector": "setMatcherTimeNoMatch:",
+    "reference": "0x1001152f8"
+  },
+  "0x1000c6120": {
+    "selector": "setMatcherTimeNoMatchAverage:",
+    "reference": "0x100115300"
+  },
+  "0x1000c6140": {
+    "selector": "setMatcherTimeWithRetry:",
+    "reference": "0x100115308"
+  },
+  "0x1000c6160": {
+    "selector": "setMaxFingerToProbeAttenuation:calculateAvg:",
+    "reference": "0x100115310"
+  },
+  "0x1000c6180": {
+    "selector": "setMaxFingerToProbeAttenuationAverage:",
+    "reference": "0x100115318"
+  },
+  "0x1000c61a0": {
+    "selector": "setNodesAddedToMain:",
+    "reference": "0x100115320"
+  },
+  "0x1000c61c0": {
+    "selector": "setNodesAddedToWaitingRoom:",
+    "reference": "0x100115328"
+  },
+  "0x1000c61e0": {
+    "selector": "setNodesCountTotal:",
+    "reference": "0x100115330"
+  },
+  "0x1000c6200": {
+    "selector": "setNodesDeletedFromMain:",
+    "reference": "0x100115338"
+  },
+  "0x1000c6220": {
+    "selector": "setNodesDeletedFromWaitingRoom:",
+    "reference": "0x100115340"
+  },
+  "0x1000c6240": {
+    "selector": "setNodesMovedFromWaitingRoomToMain:",
+    "reference": "0x100115348"
+  },
+  "0x1000c6260": {
+    "selector": "setNonArtefactFRR:",
+    "reference": "0x100115350"
+  },
+  "0x1000c6280": {
+    "selector": "setNumPxOutliersPhase1:",
+    "reference": "0x100115358"
+  },
+  "0x1000c62a0": {
+    "selector": "setNumPxOutliersPhase1Average:",
+    "reference": "0x100115360"
+  },
+  "0x1000c62c0": {
+    "selector": "setNumPxOutliersPhase2:",
+    "reference": "0x100115368"
+  },
+  "0x1000c62e0": {
+    "selector": "setNumPxOutliersPhase2Average:",
+    "reference": "0x100115370"
+  },
+  "0x1000c6300": {
+    "selector": "setObject:atIndexedSubscript:",
+    "reference": "0x100115378"
+  },
+  "0x1000c6320": {
+    "selector": "setObject:forKey:",
+    "reference": "0x100115380"
+  },
+  "0x1000c6340": {
+    "selector": "setObject:forKeyedSubscript:",
+    "reference": "0x100115388"
+  },
+  "0x1000c6360": {
+    "selector": "setOperationTime:",
+    "reference": "0x100115390"
+  },
+  "0x1000c6380": {
+    "selector": "setOperationTimeAverage:",
+    "reference": "0x100115398"
+  },
+  "0x1000c63a0": {
+    "selector": "setOverallTime:",
+    "reference": "0x1001153a0"
+  },
+  "0x1000c63c0": {
+    "selector": "setOverallTimeFingerOn:",
+    "reference": "0x1001153a8"
+  },
+  "0x1000c63e0": {
+    "selector": "setPairedDeviceCount:",
+    "reference": "0x1001153b0"
+  },
+  "0x1000c6400": {
+    "selector": "setPasscodeInputLifespan:",
+    "reference": "0x1001153b8"
+  },
+  "0x1000c6420": {
+    "selector": "setPreArmedMatch:",
+    "reference": "0x1001153c0"
+  },
+  "0x1000c6440": {
+    "selector": "setPrearmFRR:",
+    "reference": "0x1001153c8"
+  },
+  "0x1000c6460": {
+    "selector": "setPressureMitigationUsed:",
+    "reference": "0x1001153d0"
+  },
+  "0x1000c6480": {
+    "selector": "setPriority:",
+    "reference": "0x1001153d8"
+  },
+  "0x1000c64a0": {
+    "selector": "setProcessedFlags:",
+    "reference": "0x1001153e0"
+  },
+  "0x1000c64c0": {
+    "selector": "setQuickTapsCount:",
+    "reference": "0x1001153e8"
+  },
+  "0x1000c64e0": {
+    "selector": "setRequestFingerOffEndTime:",
+    "reference": "0x1001153f0"
+  },
+  "0x1000c6500": {
+    "selector": "setRequireFingerOff:",
+    "reference": "0x1001153f8"
+  },
+  "0x1000c6520": {
+    "selector": "setRequireStrictCoverage:",
+    "reference": "0x100115400"
+  },
+  "0x1000c6540": {
+    "selector": "setScanCount:",
+    "reference": "0x100115408"
+  },
+  "0x1000c6560": {
+    "selector": "setScanGroupCount:",
+    "reference": "0x100115410"
+  },
+  "0x1000c6580": {
+    "selector": "setSensorModulationRatioWith:",
+    "reference": "0x100115418"
+  },
+  "0x1000c65a0": {
+    "selector": "setSensorRecoveryReason:",
+    "reference": "0x100115420"
+  },
+  "0x1000c65c0": {
+    "selector": "setServer:",
+    "reference": "0x100115428"
+  },
+  "0x1000c65e0": {
+    "selector": "setSource:",
+    "reference": "0x100115430"
+  },
+  "0x1000c6600": {
+    "selector": "setSubsetFRR:",
+    "reference": "0x100115438"
+  },
+  "0x1000c6620": {
+    "selector": "setSubsetMatchFRR:",
+    "reference": "0x100115440"
+  },
+  "0x1000c6640": {
+    "selector": "setSubsetTargetFRR:",
+    "reference": "0x100115448"
+  },
+  "0x1000c6660": {
+    "selector": "setSuppressHapticFeedback:",
+    "reference": "0x100115450"
+  },
+  "0x1000c6680": {
+    "selector": "setTargetTemplates:",
+    "reference": "0x100115458"
+  },
+  "0x1000c66a0": {
+    "selector": "setTemperatureBin:",
+    "reference": "0x100115460"
+  },
+  "0x1000c66c0": {
+    "selector": "setTemperatureRaw:",
+    "reference": "0x100115468"
+  },
+  "0x1000c66e0": {
+    "selector": "setTemplate1Usage:",
+    "reference": "0x100115470"
+  },
+  "0x1000c6700": {
+    "selector": "setTemplate2Usage:",
+    "reference": "0x100115478"
+  },
+  "0x1000c6720": {
+    "selector": "setTemplate3Usage:",
+    "reference": "0x100115480"
+  },
+  "0x1000c6740": {
+    "selector": "setTemplate4Usage:",
+    "reference": "0x100115488"
+  },
+  "0x1000c6760": {
+    "selector": "setTemplate5Usage:",
+    "reference": "0x100115490"
+  },
+  "0x1000c6780": {
+    "selector": "setTemplateEnrollmentsCount:",
+    "reference": "0x100115498"
+  },
+  "0x1000c67a0": {
+    "selector": "setTemplateUpdated:",
+    "reference": "0x1001154a0"
+  },
+  "0x1000c67c0": {
+    "selector": "setTemplatesAtBoot:",
+    "reference": "0x1001154a8"
+  },
+  "0x1000c67e0": {
+    "selector": "setTidButtonState:",
+    "reference": "0x1001154b0"
+  },
+  "0x1000c6800": {
+    "selector": "setTidButtonStateWith:",
+    "reference": "0x1001154b8"
+  },
+  "0x1000c6820": {
+    "selector": "setTimeSinceFirstEnrollment:",
+    "reference": "0x1001154c0"
+  },
+  "0x1000c6840": {
+    "selector": "setTimeSinceIdentityEnrollment:",
+    "reference": "0x1001154c8"
+  },
+  "0x1000c6860": {
+    "selector": "setTimeSinceLastEnrollment:",
+    "reference": "0x1001154d0"
+  },
+  "0x1000c6880": {
+    "selector": "setTimeSinceSecondLastEnrollment:",
+    "reference": "0x1001154d8"
+  },
+  "0x1000c68a0": {
+    "selector": "setTotalArea:",
+    "reference": "0x1001154e0"
+  },
+  "0x1000c68c0": {
+    "selector": "setTotalFRR:",
+    "reference": "0x1001154e8"
+  },
+  "0x1000c68e0": {
+    "selector": "setTotalNodeCount:",
+    "reference": "0x1001154f0"
+  },
+  "0x1000c6900": {
+    "selector": "setTotalScanCount:",
+    "reference": "0x1001154f8"
+  },
+  "0x1000c6920": {
+    "selector": "setTotalScanGroupCount:",
+    "reference": "0x100115500"
+  },
+  "0x1000c6940": {
+    "selector": "setTouchesToUnlock:",
+    "reference": "0x100115508"
+  },
+  "0x1000c6960": {
+    "selector": "setType:",
+    "reference": "0x100115510"
+  },
+  "0x1000c6980": {
+    "selector": "setUnitsStyle:",
+    "reference": "0x100115518"
+  },
+  "0x1000c69a0": {
+    "selector": "setUnlockEnabled:",
+    "reference": "0x100115520"
+  },
+  "0x1000c69c0": {
+    "selector": "setUnlockFRR:",
+    "reference": "0x100115528"
+  },
+  "0x1000c69e0": {
+    "selector": "setUnlockResult:",
+    "reference": "0x100115530"
+  },
+  "0x1000c6a00": {
+    "selector": "setUnlockTokenMaxLifetime:",
+    "reference": "0x100115538"
+  },
+  "0x1000c6a20": {
+    "selector": "setUnlocked:",
+    "reference": "0x100115540"
+  },
+  "0x1000c6a40": {
+    "selector": "setUpdateCount:",
+    "reference": "0x100115548"
+  },
+  "0x1000c6a60": {
+    "selector": "setUpdateType:",
+    "reference": "0x100115550"
+  },
+  "0x1000c6a80": {
+    "selector": "setUsedDeviceCount:",
+    "reference": "0x100115558"
+  },
+  "0x1000c6aa0": {
+    "selector": "setUserID:",
+    "reference": "0x100115560"
+  },
+  "0x1000c6ac0": {
+    "selector": "setUuid:",
+    "reference": "0x100115568"
+  },
+  "0x1000c6ae0": {
+    "selector": "setValue:forKey:",
+    "reference": "0x100115570"
+  },
+  "0x1000c6b00": {
+    "selector": "setWaitingRoomNodesCount:",
+    "reference": "0x100115578"
+  },
+  "0x1000c6b20": {
+    "selector": "setWaitingRoomUpdated:",
+    "reference": "0x100115580"
+  },
+  "0x1000c6b40": {
+    "selector": "setWakeOnMenuPinUsed:",
+    "reference": "0x100115588"
+  },
+  "0x1000c6b60": {
+    "selector": "setWithArray:",
+    "reference": "0x100115590"
+  },
+  "0x1000c6b80": {
+    "selector": "setWithObjects:",
+    "reference": "0x100115598"
+  },
+  "0x1000c6ba0": {
+    "selector": "setupDailyUpdateTimer",
+    "reference": "0x1001155a0"
+  },
+  "0x1000c6bc0": {
+    "selector": "sharedInstance",
+    "reference": "0x1001155a8"
+  },
+  "0x1000c6be0": {
+    "selector": "sharedWorkspace",
+    "reference": "0x1001155b0"
+  },
+  "0x1000c6c00": {
+    "selector": "shouldFilterStatusForSB:",
+    "reference": "0x1001155b8"
+  },
+  "0x1000c6c20": {
+    "selector": "sizeOfLegacyCatacomb",
+    "reference": "0x1001155c0"
+  },
+  "0x1000c6c40": {
+    "selector": "sortDescriptorWithKey:ascending:",
+    "reference": "0x1001155c8"
+  },
+  "0x1000c6c60": {
+    "selector": "sortedArrayUsingDescriptors:",
+    "reference": "0x1001155d0"
+  },
+  "0x1000c6c80": {
+    "selector": "source",
+    "reference": "0x1001155d8"
+  },
+  "0x1000c6ca0": {
+    "selector": "startBioOperation:",
+    "reference": "0x1001155e0"
+  },
+  "0x1000c6cc0": {
+    "selector": "startEnrollOperation:",
+    "reference": "0x1001155e8"
+  },
+  "0x1000c6ce0": {
+    "selector": "startMatchAttempt:",
+    "reference": "0x1001155f0"
+  },
+  "0x1000c6d00": {
+    "selector": "startMatchOperation:",
+    "reference": "0x1001155f8"
+  },
+  "0x1000c6d20": {
+    "selector": "statisticsMessage:",
+    "reference": "0x100115600"
+  },
+  "0x1000c6d40": {
+    "selector": "status",
+    "reference": "0x100115608"
+  },
+  "0x1000c6d60": {
+    "selector": "statusMessage:",
+    "reference": "0x100115610"
+  },
+  "0x1000c6d80": {
+    "selector": "statusMessage:details:",
+    "reference": "0x100115618"
+  },
+  "0x1000c6da0": {
+    "selector": "statusMessage:withData:",
+    "reference": "0x100115620"
+  },
+  "0x1000c6dc0": {
+    "selector": "statusMessage:withData:timestamp:",
+    "reference": "0x100115628"
+  },
+  "0x1000c6de0": {
+    "selector": "stopBioOperation",
+    "reference": "0x100115630"
+  },
+  "0x1000c6e00": {
+    "selector": "stopOnSuccess",
+    "reference": "0x100115638"
+  },
+  "0x1000c6e20": {
+    "selector": "string",
+    "reference": "0x100115640"
+  },
+  "0x1000c6e40": {
+    "selector": "stringByAddingPercentEncodingWithAllowedCharacters:",
+    "reference": "0x100115648"
+  },
+  "0x1000c6e60": {
+    "selector": "stringByAppendingPathExtension:",
+    "reference": "0x100115650"
+  },
+  "0x1000c6e80": {
+    "selector": "stringFromDate:",
+    "reference": "0x100115658"
+  },
+  "0x1000c6ea0": {
+    "selector": "stringFromTimeInterval:",
+    "reference": "0x100115660"
+  },
+  "0x1000c6ec0": {
+    "selector": "stringWithCString:encoding:",
+    "reference": "0x100115668"
+  },
+  "0x1000c6ee0": {
+    "selector": "stringWithCapacity:",
+    "reference": "0x100115670"
+  },
+  "0x1000c6f00": {
+    "selector": "stringWithFormat:",
+    "reference": "0x100115678"
+  },
+  "0x1000c6f20": {
+    "selector": "stringWithString:",
+    "reference": "0x100115680"
+  },
+  "0x1000c6f40": {
+    "selector": "stringWithUTF8String:",
+    "reference": "0x100115688"
+  },
+  "0x1000c6f60": {
+    "selector": "subsetMatchAttemptsFailedFingerDetected",
+    "reference": "0x100115690"
+  },
+  "0x1000c6f80": {
+    "selector": "subsetMatchAttemptsFailedTarget",
+    "reference": "0x100115698"
+  },
+  "0x1000c6fa0": {
+    "selector": "subsetMatchAttemptsFingerDetected",
+    "reference": "0x1001156a0"
+  },
+  "0x1000c6fc0": {
+    "selector": "suspendAllConnections:",
+    "reference": "0x1001156a8"
+  },
+  "0x1000c6fe0": {
+    "selector": "switchToNextBioOperation:",
+    "reference": "0x1001156b0"
+  },
+  "0x1000c7000": {
+    "selector": "syncTemplateListForUser:",
+    "reference": "0x1001156b8"
+  },
+  "0x1000c7020": {
+    "selector": "systemSleepStateChanged:",
+    "reference": "0x1001156c0"
+  },
+  "0x1000c7040": {
+    "selector": "systemUptime",
+    "reference": "0x1001156c8"
+  },
+  "0x1000c7060": {
+    "selector": "temperatureBin",
+    "reference": "0x1001156d0"
+  },
+  "0x1000c7080": {
+    "selector": "temperatureRaw",
+    "reference": "0x1001156d8"
+  },
+  "0x1000c70a0": {
+    "selector": "template1MatchCount",
+    "reference": "0x1001156e0"
+  },
+  "0x1000c70c0": {
+    "selector": "template2MatchCount",
+    "reference": "0x1001156e8"
+  },
+  "0x1000c70e0": {
+    "selector": "template3MatchCount",
+    "reference": "0x1001156f0"
+  },
+  "0x1000c7100": {
+    "selector": "template4MatchCount",
+    "reference": "0x1001156f8"
+  },
+  "0x1000c7120": {
+    "selector": "template5MatchCount",
+    "reference": "0x100115700"
+  },
+  "0x1000c7140": {
+    "selector": "templateEnrollmentsCount",
+    "reference": "0x100115708"
+  },
+  "0x1000c7160": {
+    "selector": "templateStats",
+    "reference": "0x100115710"
+  },
+  "0x1000c7180": {
+    "selector": "templateUpdate:details:",
+    "reference": "0x100115718"
+  },
+  "0x1000c71a0": {
+    "selector": "templateUpdate:withDictionary:",
+    "reference": "0x100115720"
+  },
+  "0x1000c71c0": {
+    "selector": "templateUpdate:withDictionary:update:",
+    "reference": "0x100115728"
+  },
+  "0x1000c71e0": {
+    "selector": "templateUpdateMessage:",
+    "reference": "0x100115730"
+  },
+  "0x1000c7200": {
+    "selector": "templatesAtBoot",
+    "reference": "0x100115738"
+  },
+  "0x1000c7220": {
+    "selector": "templatesExistAtBoot",
+    "reference": "0x100115740"
+  },
+  "0x1000c7240": {
+    "selector": "temporaryDirectory",
+    "reference": "0x100115748"
+  },
+  "0x1000c7260": {
+    "selector": "terminateConnection:",
+    "reference": "0x100115750"
+  },
+  "0x1000c7280": {
+    "selector": "terminationStatus",
+    "reference": "0x100115758"
+  },
+  "0x1000c72a0": {
+    "selector": "tidButtonState",
+    "reference": "0x100115760"
+  },
+  "0x1000c72c0": {
+    "selector": "timeIntervalSinceDate:",
+    "reference": "0x100115768"
+  },
+  "0x1000c72e0": {
+    "selector": "timeIntervalSinceNow",
+    "reference": "0x100115770"
+  },
+  "0x1000c7300": {
+    "selector": "timeSinceLastEnrollment",
+    "reference": "0x100115778"
+  },
+  "0x1000c7320": {
+    "selector": "timeSinceSecondLastEnrollment",
+    "reference": "0x100115780"
+  },
+  "0x1000c7340": {
+    "selector": "timestampEvent:absoluteTime:",
+    "reference": "0x100115788"
+  },
+  "0x1000c7360": {
+    "selector": "totalArea",
+    "reference": "0x100115790"
+  },
+  "0x1000c7380": {
+    "selector": "totalMatchAttemptsFailedFingerDetected",
+    "reference": "0x100115798"
+  },
+  "0x1000c73a0": {
+    "selector": "totalMatchAttemptsFingerDetected",
+    "reference": "0x1001157a0"
+  },
+  "0x1000c73c0": {
+    "selector": "totalMatchOperationsFailedRetry",
+    "reference": "0x1001157a8"
+  },
+  "0x1000c73e0": {
+    "selector": "totalMatchOperationsFingerDetected",
+    "reference": "0x1001157b0"
+  },
+  "0x1000c7400": {
+    "selector": "totalNodeCount",
+    "reference": "0x1001157b8"
+  },
+  "0x1000c7420": {
+    "selector": "totalScanCount",
+    "reference": "0x1001157c0"
+  },
+  "0x1000c7440": {
+    "selector": "totalScanGroupCount",
+    "reference": "0x1001157c8"
+  },
+  "0x1000c7460": {
+    "selector": "totalTemplateMatchCount",
+    "reference": "0x1001157d0"
+  },
+  "0x1000c7480": {
+    "selector": "totalTemplateMatchCountContinuous",
+    "reference": "0x1001157d8"
+  },
+  "0x1000c74a0": {
+    "selector": "touchIDButtonPressed:",
+    "reference": "0x1001157e0"
+  },
+  "0x1000c74c0": {
+    "selector": "touchesCount",
+    "reference": "0x1001157e8"
+  },
+  "0x1000c74e0": {
+    "selector": "truncateAtOffset:error:",
+    "reference": "0x1001157f0"
+  },
+  "0x1000c7500": {
+    "selector": "type",
+    "reference": "0x1001157f8"
+  },
+  "0x1000c7520": {
+    "selector": "unionSet:",
+    "reference": "0x100115800"
+  },
+  "0x1000c7540": {
+    "selector": "unlock",
+    "reference": "0x100115808"
+  },
+  "0x1000c7560": {
+    "selector": "unlockAttemptCanceled:",
+    "reference": "0x100115810"
+  },
+  "0x1000c7580": {
+    "selector": "unlockAttemptFinished",
+    "reference": "0x100115818"
+  },
+  "0x1000c75a0": {
+    "selector": "unlockAttemptStarted:",
+    "reference": "0x100115820"
+  },
+  "0x1000c75c0": {
+    "selector": "unlockEnabled",
+    "reference": "0x100115828"
+  },
+  "0x1000c75e0": {
+    "selector": "unlockEventFinished",
+    "reference": "0x100115830"
+  },
+  "0x1000c7600": {
+    "selector": "unlockMatchAttemptsFailed",
+    "reference": "0x100115838"
+  },
+  "0x1000c7620": {
+    "selector": "unlockMatchAttemptsFailedFingerDetected",
+    "reference": "0x100115840"
+  },
+  "0x1000c7640": {
+    "selector": "unlockMatchAttemptsFingerDetected",
+    "reference": "0x100115848"
+  },
+  "0x1000c7660": {
+    "selector": "unlockResult",
+    "reference": "0x100115850"
+  },
+  "0x1000c7680": {
+    "selector": "unlockTokenMaxLifetime",
+    "reference": "0x100115858"
+  },
+  "0x1000c76a0": {
+    "selector": "unlockedByMesa",
+    "reference": "0x100115860"
+  },
+  "0x1000c76c0": {
+    "selector": "unlockedByPasscode",
+    "reference": "0x100115868"
+  },
+  "0x1000c76e0": {
+    "selector": "unlockedByRemote",
+    "reference": "0x100115870"
+  },
+  "0x1000c7700": {
+    "selector": "unsignedIntValue",
+    "reference": "0x100115878"
+  },
+  "0x1000c7720": {
+    "selector": "unsignedIntegerValue",
+    "reference": "0x100115880"
+  },
+  "0x1000c7740": {
+    "selector": "unsignedLongLongValue",
+    "reference": "0x100115888"
+  },
+  "0x1000c7760": {
+    "selector": "updateActiveOperationNotification",
+    "reference": "0x100115890"
+  },
+  "0x1000c7780": {
+    "selector": "updateActiveOperationNotificationWithOverride:",
+    "reference": "0x100115898"
+  },
+  "0x1000c77a0": {
+    "selector": "updateBoundedFieldValue",
+    "reference": "0x1001158a0"
+  },
+  "0x1000c77c0": {
+    "selector": "updateCount",
+    "reference": "0x1001158a8"
+  },
+  "0x1000c77e0": {
+    "selector": "updateDailyValuesAfterMatch:",
+    "reference": "0x1001158b0"
+  },
+  "0x1000c7800": {
+    "selector": "updateEnrollmentChangedNotification:",
+    "reference": "0x1001158b8"
+  },
+  "0x1000c7820": {
+    "selector": "useCase",
+    "reference": "0x1001158c0"
+  },
+  "0x1000c7840": {
+    "selector": "usedDevicesList",
+    "reference": "0x1001158c8"
+  },
+  "0x1000c7860": {
+    "selector": "userID",
+    "reference": "0x1001158d0"
+  },
+  "0x1000c7880": {
+    "selector": "uuid",
+    "reference": "0x1001158d8"
+  },
+  "0x1000c78a0": {
+    "selector": "validateAllUsers",
+    "reference": "0x1001158e0"
+  },
+  "0x1000c78c0": {
+    "selector": "valueForKey:",
+    "reference": "0x1001158e8"
+  },
+  "0x1000c78e0": {
+    "selector": "waitUntilExit",
+    "reference": "0x1001158f0"
+  },
+  "0x1000c7900": {
+    "selector": "wakeOnMenuPinUsed",
+    "reference": "0x1001158f8"
+  },
+  "0x1000c7920": {
+    "selector": "weeklyUsedDeviceCount",
+    "reference": "0x100115900"
+  },
+  "0x1000c7940": {
+    "selector": "writeAuditRecordWithToken:sucess:",
+    "reference": "0x100115908"
+  },
+  "0x1000c7960": {
+    "selector": "writeStringToPersistentLog:",
+    "reference": "0x100115910"
+  },
+  "0x1000c7980": {
+    "selector": "y",
+    "reference": "0x100115918"
+  }
+}

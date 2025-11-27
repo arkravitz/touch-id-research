@@ -1,0 +1,497 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-19 13:26:46.566 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListener has accepted a new connection: <NSXPCConnection: 0x7ae2c41c20> connection from pid 70822 on mach service named com.apple.CoreAuthentication.agent hash:e2c41c20
+2026-10-19 13:26:46.566 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] connectToExistingContext:0, client:<private>, flags:0
+2026-10-19 13:26:46.566 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Loading module:1
+2026-10-19 13:26:46.567 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Context[22244:23404] created
+2026-10-19 13:26:46.567 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Will try to register Context[22244:23404] in system daemon
+2026-10-19 13:26:46.567 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Server] AgentProxy for coreauthd[1094] (agent for user 501) has registered uuid e76deff => RemoteContext registration for Context[22244:23404] in coreauthd[1094] (agent for user 501)
+2026-10-19 13:26:46.567 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Did register Context[22244:23404] in system daemon
+2026-10-19 13:26:46.567 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Context] Tracking <ContextPluginACM: 0x7ae2c9db00>[23404]
+2026-10-19 13:26:46.567 Df coreauthd[1094:268c65c] [com.apple.LocalAuthentication:Analytics] <private>
+2026-10-19 13:26:46.567 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ACM] Updated: <LACACMPoolsInfo; disposable: <LACACMPoolInfo; size: 255, used: 3, free: 252, freeForLA: 142, reservedForLA: 145>, non-disposable: <LACACMPoolInfo; size: 192, used: 1, free: 191, freeForLA: 108, reservedForLA: 109>>
+2026-10-19 13:26:46.567 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:229:22244:23404] created for Context[22244:23404] uid:501
+2026-10-19 13:26:46.567 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] returning ContextProxy[70822:229:22244:23404] on client: <private>
+2026-10-19 13:26:46.570 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] evaluatePolicy:4 options:{
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[70822:229:22244:23404] rid:22711
+2026-10-19 13:26:46.573 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22711 by <private>
+2026-10-19 13:26:46.573 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6d30> not available in this platform
+2026-10-19 13:26:46.573 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22711 by <private>
+2026-10-19 13:26:46.573 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22711 by <private>
+2026-10-19 13:26:46.573 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ACM] ACM requirement for policy DeviceOwnerAuthenticationWithBiometricsOrWatch (satisfied: 0): ACMRequirement: {
+  "flags" : "0",
+  "state" : "1",
+  "type" : "7",
+  "subrequirements" : [
+    {
+      "type" : "3",
+      "state" : "1",
+      "flags" : "0"
+    },
+    {
+      "type" : "15",
+      "state" : "1",
+      "flags" : "0"
+    }
+  ],
+  "kofn" : "1"
+}
+2026-10-19 13:26:46.576 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Environment] deviceHasPearl returned 0
+2026-10-19 13:26:46.577 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] ACMRequirement of type:3, state:1, flags:0 -> MechanismTouchId[21298]
+2026-10-19 13:26:46.582 Df biometrickitd[3227:268a83a] [com.apple.BiometricKit:Daemon-Common] getBioLockoutState:forUser:withClient: -, 501, <private> -> err:0x0, state:552
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:26:46.582 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Gestalt] Lid is closed
+2026-10-19 13:26:46.583 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] ACMRequirement of type:15, state:1, flags:0 -> MechanismWatch[21299]
+2026-10-19 13:26:46.584 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:MechanismWatch] isAvailable -> Error Domain=com.apple.LocalAuthentication Code=-11 "No AppleWatch was discovered." UserInfo={NSDebugDescription=No AppleWatch was discovered., NSLocalizedDescription=No companion device was discovered.}
+2026-10-19 13:26:46.584 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] ACMRequirement of type:7, state:1, flags:0 -> Error Domain=com.apple.LocalAuthentication Code=-4 "Touch ID is not available in closed clamshell mode." UserInfo={Subcode=10, NSDebugDescription=Touch ID is not available in closed clamshell mode., NSLocalizedDescription=Authentication canceled.}
+2026-10-19 13:26:46.584 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] nonUiMechanism: (null)
+2026-10-19 13:26:46.584 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6d30> not available in this platform
+2026-10-19 13:26:46.584 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Biometry] evaluatePolicy rid:22711 returned Error Domain=com.apple.LocalAuthentication Code=-4 "Touch ID is not available in closed clamshell mode." UserInfo={BiometryType=1, Subcode=10, NSDebugDescription=Touch ID is not available in closed clamshell mode., NSLocalizedDescription=Authentication canceled.}
+2026-10-19 13:26:46.585 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListner connection invalidated: <NSXPCConnection: 0x7ae2c41c20> connection from pid 70822 on mach service named com.apple.CoreAuthentication.agent hash: e2c41c20
+2026-10-19 13:26:46.585 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:229:22244:23404] deallocated
+2026-10-19 13:26:46.585 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Context] Untracking proxy:ContextProxy[70822:229:22244:23404] from plugin:<ContextPluginACM: 0x7ae2c9db00>[23404] (ContextProxy[70822:229:22244:23404] deallocated)
+2026-10-19 13:26:46.585 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Context[22244:23404] deallocated
+2026-10-19 13:26:46.585 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:229:22244:23404] interrupted
+2026-10-19 13:26:46.585 I  coreauthd[1094:268c65c] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListener has accepted a new connection: <NSXPCConnection: 0x7ae2c42440> connection from pid 70822 on mach service named com.apple.CoreAuthentication.agent hash:e2c42440
+2026-10-19 13:26:46.585 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ConcurrentEvaluations] Canceling requests with UUID <redacted-uuid>
+2026-10-19 13:26:46.585 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Context] RemoteContext registration for Context[22244:23404] in coreauthd[1094] (agent for user 501) deallocated
+2026-10-19 13:26:46.585 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] connectToExistingContext:0, client:<private>, flags:0
+2026-10-19 13:26:46.585 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Loading module:1
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Context[22245:23405] created
+2026-10-19 13:26:46.586 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Will try to register Context[22245:23405] in system daemon
+2026-10-19 13:26:46.586 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Server] AgentProxy for coreauthd[1094] (agent for user 501) has registered uuid 79e79f => RemoteContext registration for Context[22245:23405] in coreauthd[1094] (agent for user 501)
+2026-10-19 13:26:46.586 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Did register Context[22245:23405] in system daemon
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Context] Tracking <ContextPluginACM: 0x7ae2c9dd40>[23405]
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c65c] [com.apple.LocalAuthentication:Analytics] <private>
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ACM] Updated: <LACACMPoolsInfo; disposable: <LACACMPoolInfo; size: 255, used: 4, free: 251, freeForLA: 141, reservedForLA: 145>, non-disposable: <LACACMPoolInfo; size: 192, used: 1, free: 191, freeForLA: 108, reservedForLA: 109>>
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:230:22245:23405] created for Context[22245:23405] uid:501
+2026-10-19 13:26:46.586 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] returning ContextProxy[70822:230:22245:23405] on client: <private>
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Context] Untracking <ContextPluginACM: 0x7ae2c9db00>[23404] (released gracefully), was present: 0
+2026-10-19 13:26:46.586 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,ACM] Deleting ACMContext:23404 gracefully, destroy:1
+2026-10-19 13:26:46.586 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] evaluatePolicy:2 options:{
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[70822:230:22245:23405] rid:22712
+2026-10-19 13:26:46.587 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22712 by <private>
+2026-10-19 13:26:46.587 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a5f80> not available in this platform
+2026-10-19 13:26:46.587 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22712 by <private>
+2026-10-19 13:26:46.587 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22712 by <private>
+2026-10-19 13:26:46.587 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ACM] ACM requirement for policy DeviceOwnerAuthentication (satisfied: 0): ACMRequirement: {
+  "flags" : "0",
+  "state" : "1",
+  "type" : "7",
+  "subrequirements" : [
+    {
+      "type" : "1",
+      "state" : "1",
+      "flags" : "32"
+    },
+    {
+      "type" : "3",
+      "state" : "1",
+      "flags" : "0"
+    },
+    {
+      "type" : "15",
+      "state" : "1",
+      "flags" : "0"
+    }
+  ],
+  "kofn" : "1"
+}
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:PSSO] platformSSOEnabled -> NO
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] ACMRequirement of type:1, state:1, flags:20 -> MechanismPasscode[21300]
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:26:46.589 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,Environment] deviceHasPearl returned 0
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] ACMRequirement of type:3, state:1, flags:0 -> MechanismTouchId[21301]
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Gestalt] Lid is closed
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] ACMRequirement of type:15, state:1, flags:0 -> MechanismWatch[21302]
+2026-10-19 13:26:46.589 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:MechanismWatch] isAvailable -> Error Domain=com.apple.LocalAuthentication Code=-11 "No AppleWatch was discovered." UserInfo={NSDebugDescription=No AppleWatch was discovered., NSLocalizedDescription=No companion device was discovered.}
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:MechanismKofN] +[MechanismKofN mechanismWithK:ofSubmechanisms:serial:request:preserveStandaloneReorganizers:] 1, (
+    "MechanismPasscode[21300]"
+), 1 on MechanismKofN
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] ACMRequirement of type:7, state:1, flags:0 -> MechanismPasscode[21300]
+2026-10-19 13:26:46.590 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] nonUiMechanism: MechanismPasscode[21300]
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] uiMechanism: MechanismUI[21304] nonUiMechanism: MechanismPasscode[21300](par:21304)
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a5f80> not available in this platform
+2026-10-19 13:26:46.590 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server] evaluatePolicy rid:22712 returned Error Domain=com.apple.LocalAuthentication Code=-1004 "User interaction is required." UserInfo={MechanismTree=(2), BiometryType=1, BiometryDatabaseHash=<redacted>, NSDebugDescription=User interaction is required., AvailableMechanisms=(
+    2
+), NSLocalizedDescription=User interaction required.}
+2026-10-19 13:26:46.590 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListner connection invalidated: <NSXPCConnection: 0x7ae2c42440> connection from pid 70822 on mach service named com.apple.CoreAuthentication.agent hash: e2c42440
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:230:22245:23405] deallocated
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Context] Untracking proxy:ContextProxy[70822:230:22245:23405] from plugin:<ContextPluginACM: 0x7ae2c9dd40>[23405] (ContextProxy[70822:230:22245:23405] deallocated)
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] Context[22245:23405] deallocated
+2026-10-19 13:26:46.590 I  coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[70822:230:22245:23405] interrupted
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c2ee] [com.apple.LocalAuthentication:ConcurrentEvaluations] Canceling requests with UUID <redacted-uuid>
+2026-10-19 13:26:46.590 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Context] RemoteContext registration for Context[22245:23405] in coreauthd[1094] (agent for user 501) deallocated
+2026-10-19 13:26:46.590 Df coreauthd[1094:268c65c] [com.apple.LocalAuthentication:Context] Untracking <ContextPluginACM: 0x7ae2c9dd40>[23405] (released gracefully), was present: 0
+2026-10-19 13:26:46.590 I  coreauthd[1094:268c65c] [com.apple.LocalAuthentication:Server,ACM] Deleting ACMContext:23405 gracefully, destroy:1
+    1000 = 1;
+    1096 = 1;
+} to {
+    1 = "";
+    1000 = 1;
+    1096 = 1;
+}
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[34308:1:22246:23406] rid:22714
+  "type" : "3",
+  "state" : "1",
+  "flags" : "0"
+}
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[19643:1705:22247:23407] rid:22715
+  "type" : "15",
+  "state" : "1",
+  "flags" : "0"
+}
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[19643:1706:22248:23408] rid:22716
+  "type" : "3",
+  "state" : "1",
+  "flags" : "0"
+}
+    1
+), NSLocalizedDescription=User interaction required.}
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[19643:1707:22249:23409] rid:22717
+  "type" : "3",
+  "state" : "1",
+  "flags" : "0"
+}
+    1
+), NSLocalizedDescription=User interaction required.}
+2026-10-19 13:27:47.119 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListner connection invalidated: <NSXPCConnection: 0x7ae2c42300> connection from pid 78397 on mach service named com.apple.CoreAuthentication.agent hash: e2c42300
+2026-10-19 13:27:47.119 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[78397:1308:22250:23410] deallocated
+2026-10-19 13:27:47.119 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Context] Untracking proxy:ContextProxy[78397:1308:22250:23410] from plugin:<ContextPluginACM: 0x7ae2c9dd40>[23410] (ContextProxy[78397:1308:22250:23410] deallocated)
+2026-10-19 13:27:47.119 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] Context[22250:23410] deallocated
+2026-10-19 13:27:47.119 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[78397:1308:22250:23410] interrupted
+2026-10-19 13:27:47.119 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] Canceling requests with UUID <redacted-uuid>
+2026-10-19 13:27:47.119 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Context] RemoteContext registration for Context[22250:23410] in coreauthd[1094] (agent for user 501) deallocated
+2026-10-19 13:27:47.120 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Context] Untracking <ContextPluginACM: 0x7ae2c9dd40>[23410] (released gracefully), was present: 0
+2026-10-19 13:27:47.120 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,ACM] Deleting ACMContext:23410 gracefully, destroy:1
+2026-10-19 13:27:47.557 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListener has accepted a new connection: <NSXPCConnection: 0x7ae2c43de0> connection from pid 34586 on mach service named com.apple.CoreAuthentication.agent hash:e2c43de0
+2026-10-19 13:27:47.557 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] connectToExistingContext:0, client:<private>, flags:0
+2026-10-19 13:27:47.557 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] Loading module:1
+2026-10-19 13:27:47.557 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] Context[22251:23411] created
+2026-10-19 13:27:47.557 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] Will try to register Context[22251:23411] in system daemon
+2026-10-19 13:27:47.557 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Server] AgentProxy for coreauthd[1094] (agent for user 501) has registered uuid ec1652d => RemoteContext registration for Context[22251:23411] in coreauthd[1094] (agent for user 501)
+2026-10-19 13:27:47.557 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] Did register Context[22251:23411] in system daemon
+2026-10-19 13:27:47.557 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Context] Tracking <ContextPluginACM: 0x7ae2c9dd40>[23411]
+2026-10-19 13:27:47.557 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Analytics] <private>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ACM] Updated: <LACACMPoolsInfo; disposable: <LACACMPoolInfo; size: 255, used: 3, free: 252, freeForLA: 142, reservedForLA: 145>, non-disposable: <LACACMPoolInfo; size: 192, used: 1, free: 191, freeForLA: 108, reservedForLA: 109>>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[34586:1:22251:23411] created for Context[22251:23411] uid:501
+2026-10-19 13:27:47.558 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] returning ContextProxy[34586:1:22251:23411] on client: <private>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server] setServerPropertyForOption:1 value: on ContextProxy[34586:1:22251:23411] rid:22719
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] setting option 1 on Context[22251:23411] to
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server] setServerPropertyForOption rid:22719 returned success
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] Updated options from {
+    1000 = 1;
+    1096 = 1;
+} to {
+    1 = "";
+    1000 = 1;
+    1096 = 1;
+}
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Biometry] evaluatePolicy:1 options:{
+    1000 = 1;
+    1096 = 1;
+}, uiDelegate:0 on ContextProxy[34586:1:22251:23411] rid:22720
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22720 by <private>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6550> not available in this platform
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22720 by <private>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22720 by <private>
+2026-10-19 13:27:47.558 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,ACM] Will use ACM parameter: <private>
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ACM] ACM requirement for policy DeviceOwnerAuthenticationWithBiometrics (satisfied: 0): ACMRequirement: {
+  "type" : "3",
+  "state" : "1",
+  "flags" : "0"
+}
+2026-10-19 13:27:47.559 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Environment] deviceHasPearl returned 0
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Biometry] ACMRequirement of type:3, state:1, flags:0 -> MechanismTouchId[21311]
+2026-10-19 13:27:47.559 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Biometry] nonUiMechanism: MechanismTouchId[21311]
+2026-10-19 13:27:47.559 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] getBioLockoutState:forUser:withClient: -, 501, <private> -> err:0x0, state:552
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:27:47.559 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] Lid is open
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:27:47.559 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] Lid is open
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Biometry] uiMechanism: MechanismUI[21312] nonUiMechanism: MechanismTouchId[21311](par:21312)
+2026-10-19 13:27:47.559 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6550> not available in this platform
+2026-10-19 13:27:47.559 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Biometry] evaluatePolicy rid:22720 returned Error Domain=com.apple.LocalAuthentication Code=-1004 "User interaction is required." UserInfo={MechanismTree=(1), BiometryType=1, BiometryDatabaseHash=<redacted>, NSDebugDescription=User interaction is required., AvailableMechanisms=(
+    1
+), NSLocalizedDescription=User interaction required.}
+2026-10-19 13:27:47.570 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] Updated options from {
+    1096 = 1;
+    2 = "Observe one Touch ID authentication for your sensor research";
+} to {
+    1 = "";
+    1096 = 1;
+    2 = "Observe one Touch ID authentication for your sensor research";
+}
+2026-10-19 13:27:47.570 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] evaluatePolicy:1 options:{
+    1096 = 1;
+    2 = "Observe one Touch ID authentication for your sensor research";
+}, uiDelegate:0 on ContextProxy[34586:1:22251:23411] rid:22721
+2026-10-19 13:27:47.572 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.573 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.578 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined localized name for path /private/tmp/touchid-auth-probe: `touchid-auth-probe`
+2026-10-19 13:27:47.579 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.579 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] <LACConcurrentEvaluationController: 0x7ae31a7060> setting disableConcurrentEvaluation to false
+2026-10-19 13:27:47.579 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] <private> vending a new listener <private>
+2026-10-19 13:27:47.580 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] Registering request LACConcurrentEvaluationManagedRequest rid: 22721 sessionID: 34586 with sessionID: 34586
+2026-10-19 13:27:47.580 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6730> not available in this platform
+2026-10-19 13:27:47.580 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22721 by <private>
+2026-10-19 13:27:47.580 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Default] Skipping processing of request rid: 22721 by <private>
+2026-10-19 13:27:47.583 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,ACM] Will use ACM parameter: <private>
+2026-10-19 13:27:47.583 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ACM] ACM requirement for policy DeviceOwnerAuthenticationWithBiometrics (satisfied: 0): ACMRequirement: {
+  "type" : "3",
+  "state" : "1",
+  "flags" : "0"
+}
+2026-10-19 13:27:47.584 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.584 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.585 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined localized name for path /private/tmp/touchid-auth-probe: `touchid-auth-probe`
+2026-10-19 13:27:47.585 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Environment] Determined path for PID 34586: /private/tmp/touchid-auth-probe
+2026-10-19 13:27:47.585 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Environment] Determined name touchid-auth-probe and bundle ID (null) for pid 34586
+2026-10-19 13:27:47.586 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Environment] deviceHasPearl returned 0
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] ACMRequirement of type:3, state:1, flags:0 -> MechanismTouchId[21313]
+2026-10-19 13:27:47.586 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] nonUiMechanism: MechanismTouchId[21313]
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:27:47.586 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] Lid is open
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Re-fetching state
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Update keybag state. Current one: Unlocked
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state updated. New one: Unlocked
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Keybag state Unlocked is equal to new state Unlocked. Ignoring...
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Keybag] Returning new state: Unlocked
+2026-10-19 13:27:47.586 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] Lid is open
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] uiMechanism: MechanismUI[21314] nonUiMechanism: MechanismTouchId[21313](par:21314)
+2026-10-19 13:27:47.586 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] Active requests count: 1
+2026-10-19 13:27:47.586 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:ConcurrentEvaluations] Actively served requests count: 1
+2026-10-19 13:27:47.586 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] -[AuthenticationManager remoteAuthenticationInProgressWithPriority:pid:reply:]  on <private>
+2026-10-19 13:27:47.587 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Server] Created <AuthenticationInProgressToken 0x7b7d057000 [priority:Default(1), pid:1094, started:2026-10-19 20:27:47 +0000]>
+2026-10-19 13:27:47.588 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:AuthenticationManager] Acquired remote authentication ownership: e306cc30
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:AuthenticationManager] Started: <AuthenticationInProgress: 0x7ae2c209c0; pid:34586, AHP: (null), priority: Default(1)>, replaced: (null)
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314] starting
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314](run) runWithHints eventsDelegate=(null) stored=(null)
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314](run) _eventWithParams DROPPED: eventId=0 isRunning=1 (params={
+    "0 (Active)" = 1;
+})
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:MechanismUI] -[MechanismUI _showUI] _nonUiMechanisms: MechanismTouchId[21313](par:21314) on <private>
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:MechanismUI] _backgroundMechanism: MechanismTouchId[21313](par:21314), _continueMechanisms: (
+), _fallbackMechanism: (null)
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Sessions] Session is on-console
+2026-10-19 13:27:47.588 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive] showing UI: <LACRemoteUIParams ID:22721-21314-0, SU: 0, Siri: 0, uid: 501, pid: 34586, lsai: 0>
+2026-10-19 13:27:47.588 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive] MechanismUI[21314](run) is waiting to connect with the remote UI
+2026-10-19 13:27:47.589 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,LAContext] RemoteUIListener vended listener:<NSXPCListener: 0x7ae31ad200> service: (null) for identifier: 22721-21314-0
+2026-10-19 13:27:47.589 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:UI] Activator registered interface: <private> for rid: 22721
+2026-10-19 13:27:47.589 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:UI] <private> Activated
+2026-10-19 13:27:47.590 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive] Setting up activation watchdog with 5.00 seconds timeout
+2026-10-19 13:27:47.590 I  coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Server,Interactive] Setting block to nil
+2026-10-19 13:27:47.632 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] RemoteUIListener has accepted a new connection <NSXPCConnection: 0x7ae2d80140> connection from pid 34588 on anonymousListener or serviceListener hash:e2d80140
+2026-10-19 13:27:47.633 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] connecting MechanismUI[21314](run) with <_NSXPCDistantObject: 0x7ae306e580>: success
+2026-10-19 13:27:47.633 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] showUI result: success
+2026-10-19 13:27:47.767 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:UI] Did show UI with error: (null)
+2026-10-19 13:27:48.069 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:MechanismUI] MechanismUI[21314](run) has received UI event 0 (DidAppear)
+2026-10-19 13:27:48.071 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Environment] Will acquire TouchID assertion
+2026-10-19 13:27:48.071 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](par:21314) starting
+2026-10-19 13:27:48.078 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] <MechanismAssertionLoginWindowShield on MechanismTouchId[21313](par:21314)> confirmed (successful acquisition for mechanism starting)
+2026-10-19 13:27:48.078 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) runWithHints eventsDelegate=(null) stored=(null)
+2026-10-19 13:27:48.078 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "0 (Active)" = 1;
+})
+2026-10-19 13:27:48.078 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Gestalt] DFRGetStatus updated DFR status: 1
+2026-10-19 13:27:48.078 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Gestalt] deviceHasAtLeastSimulatedDFR returned 1
+2026-10-19 13:27:48.078 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] StatusChangeCallback updated DFR status: 1
+2026-10-19 13:27:48.079 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:LADFR] New XPC connection to LA UI agent (DFR)
+2026-10-19 13:27:48.079 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) will start matching user 501
+2026-10-19 13:27:48.081 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Gestalt] deviceSupportsSecureDoubleClick returned 0
+2026-10-19 13:27:48.086 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] registerDelegate:withClient: 1, <private> -> void
+2026-10-19 13:27:48.086 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] registerDelegate:withClient: 0, <private> -> void
+2026-10-19 13:27:48.090 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] match:withOptions:withClient: <private>, <private>, <private>
+2026-10-19 13:27:48.095 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 90, NSData(length:0), 1792441668120160
+2026-10-19 13:27:48.101 Df coreauthd[1094:268cdf5] [com.apple.LocalAuthentication:Gestalt] StatusChangeCallback updated DFR status: 1
+2026-10-19 13:27:48.101 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] updateActiveOperationNotificationWithOverride: BKActiveOperationNotification: 2
+2026-10-19 13:27:48.101 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Environment] Did acquire TouchID assertion
+2026-10-19 13:27:48.101 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] BKActiveOperationNotification token: 22
+2026-10-19 13:27:48.102 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:MechanismUI] MechanismUI[21314](run) has received UI event 4 (GotFocus)
+2026-10-19 13:27:48.103 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] Will not run idle blocks now, remote authentications in progress: (
+    "<AuthenticationInProgressToken 0x7b7d057000 [priority:Default(1), pid:1094, started:2026-10-19 20:27:47 +0000]>"
+)
+2026-10-19 13:27:48.110 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) state has changed to 2 on <BKMatchTouchIDOperation: 0x7ae2c4b880>
+2026-10-19 13:27:48.110 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "6 (TouchIDSimpleStatus)" = "11 (SensorActive))";
+})
+2026-10-19 13:27:48.182 Df coreauthd[1094:268d0e6] [com.apple.LocalAuthentication:Server,Interactive,Biometry] DFR update result: success
+2026-10-19 13:27:49.661 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 63, NSData(length:36), 1792441669689155
+2026-10-19 13:27:49.661 I  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Latency] [TALt] BKDM::Accy: kBiometricKitStatusFinger(1): transportInterval:0(us)
+2026-10-19 13:27:49.661 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) has received finger-on from <BKMatchTouchIDOperation: 0x7ae2c4b880>
+2026-10-19 13:27:49.661 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "6 (TouchIDSimpleStatus)" = "0 (FingerOn))";
+})
+2026-10-19 13:27:49.774 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 55, NSData(length:36), 1792441669803271
+2026-10-19 13:27:49.775 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 72, NSData(length:36), 1792441669803368
+2026-10-19 13:27:49.794 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 95, NSData(length:238), 1792441669822879
+2026-10-19 13:27:49.794 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] MesaCoreAnalyticsEnrollEvent info: <private>
+2026-10-19 13:27:49.795 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 70, NSData(length:36), 1792441669823037
+2026-10-19 13:27:49.795 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 53, NSData(length:0), 1792441669823190
+2026-10-19 13:27:49.857 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 55, NSData(length:36), 1792441669885420
+2026-10-19 13:27:49.857 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 72, NSData(length:36), 1792441669885562
+2026-10-19 13:27:49.875 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 95, NSData(length:238), 1792441669904034
+2026-10-19 13:27:49.875 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] MesaCoreAnalyticsEnrollEvent info: <private>
+2026-10-19 13:27:49.955 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 91, NSData(length:0), 1792441669984224
+2026-10-19 13:27:50.069 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 64, NSData(length:36), 1792441670097939
+2026-10-19 13:27:50.069 I  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Latency] [TALt] BKDM::Accy: kBiometricKitStatusFinger(0): transportInterval:0(us)
+2026-10-19 13:27:50.070 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) has received finger-off from <BKMatchTouchIDOperation: 0x7ae2c4b880>
+2026-10-19 13:27:50.070 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "6 (TouchIDSimpleStatus)" = "1 (FingerOff))";
+})
+2026-10-19 13:27:50.071 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.fingerTouchTime) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.071 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.fingerTouchTime) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.073 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 90, NSData(length:0), 1792441670098621
+2026-10-19 13:27:50.095 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] matchResult:timestamp: MATCH 501: <redacted-uuid>
+2026-10-19 13:27:50.096 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) has matched by <private> (unlocked:0, credential:1, resultIgnored:0)
+2026-10-19 13:27:50.097 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.matchAttempt) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.097 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "6 (TouchIDSimpleStatus)" = "2 (Match))";
+})
+2026-10-19 13:27:50.097 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Gestalt] deviceHasDFR returned 1
+2026-10-19 13:27:50.097 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) will stop biometric operation: <BKMatchTouchIDOperation: 0x7ae2c4b880>
+2026-10-19 13:27:50.097 Df biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] cancelWithClient: <private>
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) event:params:reply DROPPED: eventsDelegate is nil (event=1 TouchID, params={
+    "0 (Active)" = 0;
+})
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) clearing eventsDelegate (was (null))
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] <MechanismAssertionLoginWindowShield on MechanismTouchId[21313](run)(par:21314)> dropped (mechanism finished)
+2026-10-19 13:27:50.098 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Environment] Will remove TouchID assertion
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:MechanismUI] -[MechanismUI willFinish]  on <private>
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314](run) _eventWithParams DROPPED: eventId=0 isRunning=1 (params={
+    "0 (Active)" = 0;
+})
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314](run) clearing eventsDelegate (was (null))
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,ACM] Will use ACM parameter: <private>
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:ACM] ACM requirement for policy DeviceOwnerAuthenticationWithBiometrics (satisfied: 1): ACMRequirement: {
+  "type" : "3",
+  "state" : "2",
+  "flags" : "4"
+}
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:SharedMode] <LACSharedModeProcessor: 0x7ae31a6730> not available in this platform
+2026-10-19 13:27:50.098 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:ConcurrentEvaluations] Unregistering request LACConcurrentEvaluationManagedRequest rid: 22721 sessionID: 34586
+2026-10-19 13:27:50.099 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] evaluatePolicy rid:22721 returned {
+    14 = 1;
+    7 = {length = 32, bytes = 0xd9496cd2 b0b2342e 40c8ce9c a735437d ... a50cbb39 5f0cfcf7 };
+    1 = 1;
+    8 = 501;
+}
+2026-10-19 13:27:50.099 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismUI[21314](run) has finished with {
+    14 = 1;
+    7 = {length = 32, bytes = 0xd9496cd2 b0b2342e 40c8ce9c a735437d ... a50cbb39 5f0cfcf7 };
+    1 = 1;
+    8 = 501;
+}
+2026-10-19 13:27:50.099 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive,Biometry] MechanismTouchId[21313](run)(par:21314) has finished with {
+    14 = 1;
+    7 = {length = 32, bytes = 0xd9496cd2 b0b2342e 40c8ce9c a735437d ... a50cbb39 5f0cfcf7 };
+    1 = 1;
+    8 = 501;
+}
+2026-10-19 13:27:50.102 Df coreauthd[1094:268d0e6] [com.apple.LocalAuthentication:Analytics] Skipping biome donation because D&U flag is disabled
+2026-10-19 13:27:50.102 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:BackoffCounter] <private>  on <private>
+2026-10-19 13:27:50.102 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] Dismissing <_NSXPCDistantObject: 0x7ae306e580> that belongs to MechanismUI[21314], index:17
+2026-10-19 13:27:50.102 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:ConcurrentEvaluations] Active requests count: 0
+2026-10-19 13:27:50.102 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:ConcurrentEvaluations] No stashed request
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7ae2c209c0; pid:34586, started: 10/19/26, 1:27:47 PM PDT, AHP: (null), priority: Default(1)>
+2026-10-19 13:27:50.103 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:AuthenticationManager] Released remote authentication ownership: e306cc30
+2026-10-19 13:27:50.103 I  coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Server] Deallocated <AuthenticationInProgressToken 0x7b7d057000 [priority:Default(1), pid:1094, started:2026-10-19 20:27:47 +0000]>
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:LADFR] XPC error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service with pid 34588 named com.apple.LocalAuthentication.DFR was invalidated from this process." UserInfo={NSDebugDescription=The connection to service with pid 34588 named com.apple.LocalAuthentication.DFR was invalidated from this process.}
+2026-10-19 13:27:50.103 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Environment] Did remove TouchID assertion
+2026-10-19 13:27:50.103 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] MainServiceListner connection invalidated: <NSXPCConnection: 0x7ae2c43de0> connection from pid 34586 on mach service named com.apple.CoreAuthentication.agent hash: e2c43de0
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[34586:1:22251:23411] deallocated
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Context] Untracking proxy:ContextProxy[34586:1:22251:23411] from plugin:<ContextPluginACM: 0x7ae2c9dd40>[23411] (ContextProxy[34586:1:22251:23411] deallocated)
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] Context[22251:23411] deallocated
+2026-10-19 13:27:50.103 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] -[AuthenticationManager _bkIsBusy] -> 1 on <private>
+2026-10-19 13:27:50.103 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] Will not run idle blocks now, BK operation in progress.
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Environment] Assertions XPC connection was invalidated.
+2026-10-19 13:27:50.103 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] ContextProxy[34586:1:22251:23411] interrupted
+2026-10-19 13:27:50.103 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:Context] RemoteContext registration for Context[22251:23411] in coreauthd[1094] (agent for user 501) deallocated
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:ConcurrentEvaluations] Canceling requests with UUID <redacted-uuid>
+2026-10-19 13:27:50.103 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Context] Untracking <ContextPluginACM: 0x7ae2c9dd40>[23411] (released gracefully), was present: 0
+2026-10-19 13:27:50.103 I  coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,ACM] Deleting ACMContext:23411 gracefully, destroy:1
+2026-10-19 13:27:50.104 E  biometrickitd[3227:268d15b] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.104 E  biometrickitd[3227:268d15b] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.109 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.templateMatchCounts) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.109 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.templateMatchCounts) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.110 E  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Mesa] AssertMacros: _currentEvent == _matchEvent (value = 0x0),  file: /AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/MesaCoreAnalytics/MesaCoreAnalytics.m, line: 503
+2026-10-19 13:27:50.111 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.111 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.112 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.118 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.118 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.120 E  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.120 E  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.dailyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.125 E  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.125 E  biometrickitd[3227:268c8d7] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.weeklyUpdate) valueForUndefinedKey: timeSinceIdentityEnrollmentBinned
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:UI] <private> UI dismissed with error: (null)
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:UI] <private> finishing with error: (null)
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:UI] RemoteUI completed rid: 22721
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] UI dismissed - index:17 reason:reply from <_NSXPCDistantObject: 0x7ae306e580>
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] Activator did successfully finish request identifier: 22721-21314-0 but waiting for UI to be dismissed
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,LAContext] RemoteUIListener invalidated connection: <NSXPCConnection: 0x7ae2d80140> connection from pid 34588 on anonymousListener or serviceListener(hash:e2d80140) listener:<NSXPCListener: 0x7ae31ad200> service: (null) identifier: 22721-21314-0
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] connectionToRemoteUIInvalidatedForIdentifier: <private>
+2026-10-19 13:27:50.127 Df coreauthd[1094:268d07c] [com.apple.LocalAuthentication:Server,Interactive] Current request identifier: (null) is different from the connection identifier: <private>
+2026-10-19 13:27:50.315 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] matchEventMessage: 0x76e70c06c0(.result:1, .timestamp:39452943988015)
+2026-10-19 13:27:50.315 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 53, NSData(length:0), 1792441670122613
+2026-10-19 13:27:50.315 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 58, NSData(length:0), 1792441670122707
+2026-10-19 13:27:50.316 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] updateActiveOperationNotificationWithOverride: BKActiveOperationNotification: 0
+2026-10-19 13:27:50.316 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 89, NSData(length:0), 1792441670143075
+2026-10-19 13:27:50.316 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] BKActiveOperationNotification token: 22
+2026-10-19 13:27:50.316 Df coreauthd[1013:26843c1] [com.apple.LocalAuthentication:AuthenticationManager] -[AuthenticationManager _bkIsBusy] -> 0 on <private>
+2026-10-19 13:27:50.316 Df biometrickitd[3227:268d15b] [com.apple.BiometricKit:Daemon-Common] cancelWithClient: <private>
+2026-10-19 13:27:50.316 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] statusMessage:withData:timestamp: 73, NSData(length:3225), 1792441670332573
+2026-10-19 13:27:50.316 Df biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Mesa] kBiometricKitStatusTemplateListUpdated
+2026-10-19 13:27:50.316 E  biometrickitd[3227:268d08e] [com.apple.BiometricKit:Daemon-Common] BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.mesa.templateUpdate) valueForUndefinedKey: quickTapsCount
+2026-10-19 13:27:50.318 E  biometrickitd[3227:268d15b] [com.apple.BiometricKit:Daemon-Mesa] AssertMacros: _currentEvent == _matchEvent (value = 0x0),  file: /AppleInternal/Library/BuildRoots/4~CXeIugAf7eUm_t92wQJlwA8aZgIRpJMFlEliS6k/Library/Caches/com.apple.xbs/TemporaryDirectory.oE6o9G/Sources/Mesa_NonUI/AppleBiometricServices/MesaCoreAnalytics/MesaCoreAnalytics.m, line: 503

@@ -1,0 +1,328 @@
+$ file /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit bundle x86_64] [arm64e:Mach-O 64-bit bundle arm64e] [arm64e.x1:Mach-O 64-bit bundle arm64e.x1]
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture x86_64):	Mach-O 64-bit bundle x86_64
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture arm64e):	Mach-O 64-bit bundle arm64e
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture arm64e.x1):	Mach-O 64-bit bundle arm64e.x1
+
+$ otool -L /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId:
+	/usr/lib/libDiagnosticMessagesClient.dylib (compatibility version 1.0.0, current version 113.0.0)
+	/System/Library/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/Versions/A/LocalAuthenticationCore (compatibility version 1.0.0, current version 2319.0.63)
+	/System/Library/Frameworks/LocalAuthentication.framework/Support/DaemonUtils.framework/Versions/A/DaemonUtils (compatibility version 1.0.0, current version 2319.0.63)
+	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5027.0.69)
+	/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismBase.framework/Versions/A/MechanismBase (compatibility version 1.0.0, current version 2319.0.63)
+	/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/Versions/A/SharedUtils (compatibility version 1.0.0, current version 2319.0.63)
+	/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.0.0)
+	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5027.0.69)
+
+$ codesign -d --entitlements :- /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+Executable=/private/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+warning: Specifying ':' in the path is deprecated and will not work in a future release
+
+$ nm -gU /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture x86_64):
+
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture arm64e):
+
+/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId (for architecture arm64e.x1):
+
+$ strings -a -n 6 /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/MechTouchId
+@(#)PROGRAM:MechTouchId  PROJECT:CoreAuthentication-2319.0.63
+AcmContextRecord
+EvaluationMode
+UserId
+Touch ID is not available in closed clamshell mode.
+v24@?0@"NSDictionary"8@"NSError"16
+v16@?0q8
+Options
+LoginWindow
+FastUserSwitching
+SecurityAuth
+SecurityAuthSheet
+ApplePay
+com.apple.
+CallerId
+com.apple.fingerprint.unlock.location
+com.apple.message.signature
+com.apple.message.summarize
+Result
+v12@?0B8
+Application retry limit exceeded.
+Biometric operation failed
+Preempted by another biometric operation.
+user %d
+any user
+match failed
+detect failed
+resume
+UI lost focus.
+AuthType
+ProcessId
+success
+v20@?0B8@"NSError"12
+CBUserAuthentication
+_matchOperation
+deviceSupportsSecureDoubleClick
+T@"NSString",R,C
+eventIdentifier
+UTF8String
+isProxy
+_clearDFR
+numberWithBool:
+_detectOperation
+purpose
+_exceededFailureLimit
+request
+_expectingEndOfMatching
+touchIdInstance
+_fingerOffCounter
+.cxx_destruct
+credentialAdded
+T@"NSString",?,R,C
+errorWithCode:debugDescription:
+internalOptions
+_cancelOperation:
+_containsAHPModeFUS:
+operation:presenceStateChanged:
+release
+_expectingEndOfDetection
+startWithError:
+_fingerDetectTimeout
+useCase
+_finishFingerDetectPhase
+_hasDoublePressPrecondition
+_matchOperation:matchedWithResult:
+_operation:finishedWithReason:
+_operation:presenceStateChanged:
+_operation:stateChanged:
+_runWithHints:eventHandler:
+_setCoreBrightnessState:
+_setFingerDetectTimeout
+_shouldFailForUnboundMatches
+_shouldShowUIBeforeFailure
+_startBiometry
+_startBiometryMain
+_startBiometryWithDFR
+_startFingerDetectPhase
+_startMatching
+_startOsloBiometryWithoutDFR
+_state
+_stopBiometry:
+_touchIdDevice
+_trace_touchid
+_updateDFR:
+acmContext
+actionSuccess
+addAssertion:
+additionalControllerInternalInfoForPolicy:
+analytics
+analyticsData
+authenticationAttempt:event:
+authenticationAttemptFailedForEvent:
+autorelease
+backgroundMechanismForEventProcessing:
+backoffCounter
+biometryDatabaseHashForUser:error:
+biometryLostErrorForUser:request:
+boolValue
+canRecoverFromError:
+cancel
+cancelAuthentication
+checkLockoutState:isEffectiveLockoutForMatchWithPurpose:
+clearDFR:
+conformsToProtocol:
+createMatchOperationWithError:
+createPresenceDetectOperationWithError:
+currentMatchingOperationUserId
+daemonQueue
+debugDescription
+description
+device
+deviceHasAtLeastSimulatedDFR
+deviceHasDFR
+dictionaryWithDictionary:
+dictionaryWithObject:forKey:
+dictionaryWithObjects:forKeys:count:
+dispatchAsyncOnServerQueueIfRunning:
+doubleValue
+error:hasCode:subcode:
+errorWithCode:subcode:debugDescription:
+errorWithCode:subcode:underlyingError:debugDescription:
+errorWithCode:underlyingError:debugDescription:
+evaluationMode
+eventDFR:eventHints:
+externalizedContext
+failAuthenticationWithError:
+failureLimit
+failures
+failuresInfoDictionaryWithError:
+failuresInfoDictionaryWithError:unboundMatch:
+featureFlagPresentationContextEnabled
+fenceReplyWithTouchIdAssertions:
+fingerprintCaptureOperation:encounteredCaptureError:
+handleBiometricStatusEventWithValue:completion:
+handleEvaluationEvent:value:
+handleUIEvent:params:
+hasPrefix:
+identity
+identityUUIDs
+initWithACMContext:
+initWithEventIdentifier:remoteViewController:acmContextRecord:request:evaluationMode:userId:
+initWithMechanism:
+initWithParams:request:
+initWithXpcQueue:
+intValue
+integerValue
+isAnyUserEnrolledWithAdminRole:error:
+isAvailableForPurpose:error:
+isBiometryRequiredForPolicy
+isCredentialOfTypeSet:error:
+isEnrolled:error:
+isEqual:
+isEventPaused:
+isFallbackVisible
+isKindOfClass:
+isLidClosed
+isLockedOutForUser:request:error:
+isMemberOfClass:
+isNotLockedOutForAnyUserWithAdminRole:request:error:
+isPairedDeviceConnectedWithError:
+isPasscodeSetForUser:error:
+isPurposeApplePay
+isPurposeInAppPayment
+isRunning
+length
+lockoutErrorForState:userId:
+lockoutState
+matchOperation:failedWithReason:
+matchOperation:matchedWithResult:
+matchOperation:presenceDetectedInLockout:
+mechanismEvent:reply:
+mechanismEvent:value:reply:
+mergeResult:withUpdateOfIdentityUUID:
+noResponseEventWithParams:
+numberWithInteger:
+numberWithUnsignedInt:
+objectForKey:
+objectForKeyedSubscript:
+operation:finishedWithReason:
+operation:stateChanged:
+parent
+pause:forEvent:error:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+policy
+policyOptions
+postNotification:error:
+preCompanion
+remoteUiDelegate
+respondsToSelector:
+restartWithEventIdentifier:lastAttempt:
+resultIgnored
+retain
+retainCount
+runWithHints:eventHandler:activationCompletion:reply:
+runWithHints:eventsDelegate:reply:
+setBiolockout:
+setCredentialSet:
+setDelegate:
+setFailureLimit:
+setFailures:
+setHandler:forInput:
+setLockoutError:
+setMatchingStatus:
+setObject:forKey:
+setPayload:
+setPriority:
+setProperty:forKey:
+setPurpose:
+setRemoteUiDelegate:
+setRequireFingerOff:
+setSelectedIdentities:
+setStopOnSuccess:
+setUseCase:
+setUserID:
+sharedInstance
+showScene:error:
+stringWithFormat:
+subMechanismRequestsRestart:reconnectRemoteUI:
+substringWithRange:
+succeedAuthenticationWithResult:
+superclass
+unEnrolledWithError:
+unlocked
+unsignedIntValue
+unsignedIntegerValue
+updateDFR:options:delegate:reply:
+userID
+userId
+willFinish
+Will not activate %@ at this moment, event is paused
+%{public}@ has matched by %@ (unlocked:%d, credential:%d, resultIgnored:%d)
+%{public}@ has received no-match from %@ (lockout state:%d)
+failed to get hash for matched user %u: %{public}@
+%{public}@ has been finished by %{public}@, reason:%d
+%{public}@ state has changed to %d on %{public}@
+%{public}@ has received finger-%{public}@ from %{public}@
+%{public}@ will start matching %{public}@
+%{public}@ failed to query push button credential: %{public}@
+%{public}@ is starting finger detect phase
+%{public}@ will finish finger detect phase
+%{public}@ will stop biometric operation: %{public}@
+%{public}@ will %s the biometric operation
+DFR update result: %{public}@
+Clear DFR result: %{public}@
+DFR event: %d hints: %@
+MechanismTouchId
+LADFRDelegate
+LACBiometryDelegate
+NSObject
+BKMatchTouchIDOperationDelegate
+BKMatchOperationDelegate
+BKOperationDelegate
+BKFingerprintCaptureOperationDelegate
+v32@0:8q16@24
+v32@0:8q16@"NSDictionary"24
+B24@0:8@16
+#16@0:8
+@16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v24@0:8@16
+@"NSNumber"16@0:8
+v24@0:8@"NSError"16
+v32@0:8@16q24
+v28@0:8@16B24
+v32@0:8@"BKOperation"16q24
+v28@0:8@"BKOperation"16B24
+v32@0:8@16@24
+v32@0:8@"BKMatchOperation"16@"BKMatchResultInfo"24
+v32@0:8@"BKMatchOperation"16q24
+@32@0:8@16@24
+B32@0:8q16^@24
+v40@0:8@16@24@?32
+v48@0:8@16@24@?32@?40
+v16@0:8
+v20@0:8B16
+B36@0:8B16q20^@28
+@24@0:8@16
+v28@0:8q16B24
+@24@0:8q16
+@"BKDeviceTouchID"
+@"BKMatchTouchIDOperation"
+@"BKPresenceDetectOperation"
+@"NSNumber"
+@"LADFR"
