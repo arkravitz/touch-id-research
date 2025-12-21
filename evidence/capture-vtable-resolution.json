@@ -1,0 +1,93 @@
+[
+  {
+    "vtable": "0xfffffe0007eb48d8",
+    "slot": "0x160",
+    "encoded": "0x8011bb9b052acb94",
+    "target": "0xfffffe000c2b0b94",
+    "symbol": "__ZNK6OSData9getLengthEv"
+  },
+  {
+    "vtable": "0xfffffe0007eb48d8",
+    "slot": "0x188",
+    "encoded": "0x80114284052ac968",
+    "target": "0xfffffe000c2b0968",
+    "symbol": "__ZN6OSData11appendBytesEPKvj"
+  },
+  {
+    "vtable": "0xfffffe0007eb48d8",
+    "slot": "0x190",
+    "encoded": "0x8011731b052ac908",
+    "target": "0xfffffe000c2b0908",
+    "symbol": "__ZN6OSData11appendBytesEPKS_"
+  },
+  {
+    "vtable": "0xfffffe0007eb48d8",
+    "slot": "0x198",
+    "encoded": "0x8011d240052ac8c8",
+    "target": "0xfffffe000c2b08c8",
+    "symbol": "__ZNK6OSData14getBytesNoCopyEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x138",
+    "encoded": "0x8011ca720298ae54",
+    "target": "0xfffffe000998ee54",
+    "symbol": "__ZNK26IOMesaCaptureDataAccessory13getSourceTypeEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x140",
+    "encoded": "0x801196a90298ae60",
+    "target": "0xfffffe000998ee60",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory9getSourceEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x148",
+    "encoded": "0x80110c100298ae6c",
+    "target": "0xfffffe000998ee6c",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory17getCaptureCounterEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x150",
+    "encoded": "0x8011f4140298a798",
+    "target": "0xfffffe000998e798",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory14getButtonStateEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x158",
+    "encoded": "0x8011f7000298ae84",
+    "target": "0xfffffe000998ee84",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory20getWakeOnMenuPinUsedEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x160",
+    "encoded": "0x8011cba70298ae94",
+    "target": "0xfffffe000998ee94",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory15getDriveVoltageEv"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x168",
+    "encoded": "0x8011ebfb02989340",
+    "target": "0xfffffe000998d340",
+    "symbol": "__ZN17IOMesaCaptureData4initE11OSSharedPtrIK8OSObjectE"
+  },
+  {
+    "vtable": "0xfffffe00081e39e8",
+    "slot": "0x170",
+    "encoded": "0x8041922c0298a290",
+    "target": "0xfffffe000998e290",
+    "symbol": "__ZN26IOMesaCaptureDataAccessory4initE11OSSharedPtrI18AppleMesaAccessoryEP17ma_image_metadataP6OSDataS6_"
+  },
+  {
+    "vtable": "0xfffffe00081e41c8",
+    "slot": "0x9b8",
+    "encoded": "0x80113d75029af074",
+    "target": "0xfffffe00099b3074",
+    "symbol": "__ZN18AppleMesaSEPDriver11sepTransactEjPKvmPPvPmbj"
+  }
+]

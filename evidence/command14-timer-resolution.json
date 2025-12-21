@@ -1,0 +1,16 @@
+[
+  {
+    "vtable": "0xfffffe0007ec4048",
+    "slot": "0x1f0",
+    "encoded": "0x8011246e053882e4",
+    "target": "0xfffffe000c38c2e4",
+    "symbol": "__ZN18IOTimerEventSource12setTimeoutMSEj"
+  },
+  {
+    "vtable": "0xfffffe0007ec4048",
+    "slot": "0x170",
+    "encoded": "0x80119b1605388970",
+    "target": "0xfffffe000c38c970",
+    "symbol": "__ZN18IOTimerEventSource6enableEv"
+  }
+]

@@ -1,0 +1,1590 @@
+{
+  "__ZN30AppleTrustedAccessoryInterface9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a085550"
+  },
+  "__ZN30AppleTrustedAccessoryInterface9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a08559c"
+  },
+  "__ZN30AppleTrustedAccessoryInterfaceC2EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a0855a4"
+  },
+  "__ZN30AppleTrustedAccessoryInterfaceD2Ev": {
+    "lines": 3,
+    "address": "fffffe000a0855dc"
+  },
+  "__ZNK30AppleTrustedAccessoryInterface12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0855e4"
+  },
+  "__ZN30AppleTrustedAccessoryInterface9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0855f4"
+  },
+  "__ZNK30AppleTrustedAccessoryInterface9MetaClass5allocEv": {
+    "lines": 4,
+    "address": "fffffe000a085640"
+  },
+  "__ZN30AppleTrustedAccessoryInterfacenwEm": {
+    "lines": 6,
+    "address": "fffffe000a08564c"
+  },
+  "__ZN30AppleTrustedAccessoryInterfacedlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a085660"
+  },
+  "__ZN13TAAsyncReport9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a085678"
+  },
+  "__ZN13TAAsyncReport9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0856c4"
+  },
+  "__ZN13TAAsyncReportC2EPK11OSMetaClass": {
+    "lines": 17,
+    "address": "fffffe000a0856cc"
+  },
+  "__ZN13TAAsyncReportC1EPK11OSMetaClass": {
+    "lines": 17,
+    "address": "fffffe000a08570c"
+  },
+  "__ZN13TAAsyncReportD2Ev": {
+    "lines": 42,
+    "address": "fffffe000a08574c"
+  },
+  "__ZN13TAAsyncReportD1Ev": {
+    "lines": 42,
+    "address": "fffffe000a0857f0"
+  },
+  "__ZN13TAAsyncReportD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a085894"
+  },
+  "__ZN13TAAsyncReportdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a0858dc"
+  },
+  "__ZNK13TAAsyncReport12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0858f4"
+  },
+  "__ZN13TAAsyncReport9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a085904"
+  },
+  "__ZNK13TAAsyncReport9MetaClass5allocEv": {
+    "lines": 30,
+    "address": "fffffe000a085950"
+  },
+  "__ZN13TAAsyncReportnwEm": {
+    "lines": 6,
+    "address": "fffffe000a0859c4"
+  },
+  "__ZN13TAAsyncReportC1Ev": {
+    "lines": 26,
+    "address": "fffffe000a0859d8"
+  },
+  "__ZN13TAAsyncReportC2Ev": {
+    "lines": 26,
+    "address": "fffffe000a085a3c"
+  },
+  "__ZN13TAAsyncReport26withAccessoryAndParametersEP30AppleTrustedAccessoryInterface17TAAsyncReportTypeP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE": {
+    "lines": 61,
+    "address": "fffffe000a085aa0"
+  },
+  "__ZN13TAAsyncReport30initWithAccessoryAndParametersEP30AppleTrustedAccessoryInterface17TAAsyncReportTypeP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE": {
+    "lines": 124,
+    "address": "fffffe000a085b90"
+  },
+  "__ZN7libkern20intrusive_shared_ptrI18IOMemoryDescriptor27intrusive_osobject_retainerE5resetEPS1_NS_8retain_tE": {
+    "lines": 31,
+    "address": "fffffe000a085d7c"
+  },
+  "__ZN13TAAsyncReport4freeEv": {
+    "lines": 43,
+    "address": "fffffe000a085df4"
+  },
+  "__ZN13TAAsyncReport12getAccessoryEv": {
+    "lines": 4,
+    "address": "fffffe000a085e9c"
+  },
+  "__ZN13TAAsyncReport7getTypeEv": {
+    "lines": 4,
+    "address": "fffffe000a085ea8"
+  },
+  "__ZN13TAAsyncReport9getReportEv": {
+    "lines": 4,
+    "address": "fffffe000a085eb4"
+  },
+  "__ZN13TAAsyncReport13getReportTypeEv": {
+    "lines": 4,
+    "address": "fffffe000a085ec0"
+  },
+  "__ZN13TAAsyncReport11getReportIDEv": {
+    "lines": 4,
+    "address": "fffffe000a085ecc"
+  },
+  "__ZN13TAAsyncReport10getOptionsEv": {
+    "lines": 4,
+    "address": "fffffe000a085ed8"
+  },
+  "__ZN13TAAsyncReport18getCompletionBlockEv": {
+    "lines": 4,
+    "address": "fffffe000a085ee4"
+  },
+  "__ZN21AppleTrustedAccessory9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a085ef0"
+  },
+  "__ZN21AppleTrustedAccessory9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a085f3c"
+  },
+  "__ZN21AppleTrustedAccessoryC2EPK11OSMetaClass": {
+    "lines": 21,
+    "address": "fffffe000a085f44"
+  },
+  "__ZN21AppleTrustedAccessoryC1EPK11OSMetaClass": {
+    "lines": 21,
+    "address": "fffffe000a085f94"
+  },
+  "__ZN21AppleTrustedAccessoryD2Ev": {
+    "lines": 92,
+    "address": "fffffe000a085fe4"
+  },
+  "__ZN21AppleTrustedAccessoryD1Ev": {
+    "lines": 92,
+    "address": "fffffe000a086150"
+  },
+  "__ZN21AppleTrustedAccessoryD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a0862bc"
+  },
+  "__ZN21AppleTrustedAccessorydlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a086304"
+  },
+  "__ZNK21AppleTrustedAccessory12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a08631c"
+  },
+  "__ZN21AppleTrustedAccessory9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a08632c"
+  },
+  "__ZNK21AppleTrustedAccessory9MetaClass5allocEv": {
+    "lines": 15,
+    "address": "fffffe000a086378"
+  },
+  "__ZN21AppleTrustedAccessorynwEm": {
+    "lines": 6,
+    "address": "fffffe000a0863b0"
+  },
+  "__ZN21AppleTrustedAccessoryC1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0863c4"
+  },
+  "__ZN21AppleTrustedAccessoryC2Ev": {
+    "lines": 30,
+    "address": "fffffe000a0863cc"
+  },
+  "__ZN21AppleTrustedAccessory10setManagerEP37AppleTrustedAccessoryManagerInterface": {
+    "lines": 86,
+    "address": "fffffe000a086440"
+  },
+  "__ZN21AppleTrustedAccessory15setManagerGatedEP37AppleTrustedAccessoryManagerInterface": {
+    "lines": 80,
+    "address": "fffffe000a086594"
+  },
+  "__ZN21AppleTrustedAccessory13setAuthorizedEb": {
+    "lines": 86,
+    "address": "fffffe000a0866d0"
+  },
+  "__ZN21AppleTrustedAccessory18setAuthorizedGatedEb": {
+    "lines": 44,
+    "address": "fffffe000a086824"
+  },
+  "__ZN21AppleTrustedAccessory37establishCommunicationProtocolVersionEv": {
+    "lines": 275,
+    "address": "fffffe000a0868d0"
+  },
+  "__ZN21AppleTrustedAccessory31getCommunicationProtocolVersionEv": {
+    "lines": 79,
+    "address": "fffffe000a086d18"
+  },
+  "____ZN21AppleTrustedAccessory31getCommunicationProtocolVersionEv_block_invoke": {
+    "lines": 64,
+    "address": "fffffe000a086e50"
+  },
+  "___copy_helper_block_8_32r": {
+    "lines": 6,
+    "address": "fffffe000a086f4c"
+  },
+  "___destroy_helper_block_8_32r": {
+    "lines": 5,
+    "address": "fffffe000a086f60"
+  },
+  "__ZN21AppleTrustedAccessory12getPublicKeyEv": {
+    "lines": 93,
+    "address": "fffffe000a086f70"
+  },
+  "__ZN21AppleTrustedAccessory17getPublicKeyGatedEPPKh": {
+    "lines": 389,
+    "address": "fffffe000a0870e0"
+  },
+  "__ZN21AppleTrustedAccessory10lockReportEb": {
+    "lines": 61,
+    "address": "fffffe000a0876f0"
+  },
+  "__ZN21AppleTrustedAccessory22waitForInterruptReportEjjR11OSSharedPtrI18IOMemoryDescriptorEj": {
+    "lines": 285,
+    "address": "fffffe000a0877e0"
+  },
+  "__ZN21AppleTrustedAccessory12unlockReportEv": {
+    "lines": 4,
+    "address": "fffffe000a087c50"
+  },
+  "__ZN21AppleTrustedAccessory6getUIDEv": {
+    "lines": 93,
+    "address": "fffffe000a087c5c"
+  },
+  "__ZN21AppleTrustedAccessory11getUIDGatedEPPKh": {
+    "lines": 238,
+    "address": "fffffe000a087dcc"
+  },
+  "__ZN21AppleTrustedAccessory12getUIDStringEv": {
+    "lines": 4,
+    "address": "fffffe000a088180"
+  },
+  "__ZN21AppleTrustedAccessory8getNonceEv": {
+    "lines": 107,
+    "address": "fffffe000a08818c"
+  },
+  "____ZN21AppleTrustedAccessory8getNonceEv_block_invoke": {
+    "lines": 130,
+    "address": "fffffe000a088334"
+  },
+  "__ZN21AppleTrustedAccessory18queryAuthorizationEPb": {
+    "lines": 99,
+    "address": "fffffe000a088538"
+  },
+  "__ZN21AppleTrustedAccessory23queryAuthorizationGatedEPb": {
+    "lines": 98,
+    "address": "fffffe000a0886c0"
+  },
+  "__ZN21AppleTrustedAccessory12queryPairingEPKvmPbS2_Pj": {
+    "lines": 109,
+    "address": "fffffe000a088844"
+  },
+  "____ZN21AppleTrustedAccessory12queryPairingEPKvmPbS2_Pj_block_invoke": {
+    "lines": 347,
+    "address": "fffffe000a0889f4"
+  },
+  "__ZN21AppleTrustedAccessory15generateKeyPairE13TAKeyPairTypePA65_h": {
+    "lines": 116,
+    "address": "fffffe000a088f5c"
+  },
+  "____ZN21AppleTrustedAccessory15generateKeyPairE13TAKeyPairTypePA65_h_block_invoke": {
+    "lines": 288,
+    "address": "fffffe000a089128"
+  },
+  "__ZN21AppleTrustedAccessory12transferDataE18TADataTransferTypePKvm": {
+    "lines": 167,
+    "address": "fffffe000a0895a4"
+  },
+  "__ZN21AppleTrustedAccessory4pairEPKvmPKhS1_mS1_mPPvPmS5_S6_": {
+    "lines": 279,
+    "address": "fffffe000a08983c"
+  },
+  "____ZN21AppleTrustedAccessory4pairEPKvmPKhS1_mS1_mPPvPmS5_S6__block_invoke": {
+    "lines": 685,
+    "address": "fffffe000a089c94"
+  },
+  "___copy_helper_block_8_32r40r48r56r": {
+    "lines": 30,
+    "address": "fffffe000a08a744"
+  },
+  "___destroy_helper_block_8_32r40r48r56r": {
+    "lines": 25,
+    "address": "fffffe000a08a7b8"
+  },
+  "__ZN21AppleTrustedAccessory6unpairEv": {
+    "lines": 83,
+    "address": "fffffe000a08a818"
+  },
+  "__ZN21AppleTrustedAccessory11unpairGatedEv": {
+    "lines": 207,
+    "address": "fffffe000a08a960"
+  },
+  "__ZN21AppleTrustedAccessory16publishReadinessEbj": {
+    "lines": 236,
+    "address": "fffffe000a08ac98"
+  },
+  "__ZN21AppleTrustedAccessory11getManifestEPPvPm": {
+    "lines": 87,
+    "address": "fffffe000a08b044"
+  },
+  "__ZN21AppleTrustedAccessory16getManifestGatedEPPvPm": {
+    "lines": 219,
+    "address": "fffffe000a08b19c"
+  },
+  "__ZN21AppleTrustedAccessory17computeSessionKeyEPKhPKvmPPvPm": {
+    "lines": 150,
+    "address": "fffffe000a08b504"
+  },
+  "____ZN21AppleTrustedAccessory17computeSessionKeyEPKhPKvmPPvPm_block_invoke": {
+    "lines": 372,
+    "address": "fffffe000a08b758"
+  },
+  "__ZN21AppleTrustedAccessory15getPropertyDataE25atam_accessory_property_tPvPm": {
+    "lines": 145,
+    "address": "fffffe000a08bd24"
+  },
+  "____ZN21AppleTrustedAccessory15getPropertyDataE25atam_accessory_property_tPvPm_block_invoke": {
+    "lines": 370,
+    "address": "fffffe000a08bf64"
+  },
+  "__ZN21AppleTrustedAccessory17matchesToPropertyE25atam_accessory_property_tPKvm": {
+    "lines": 160,
+    "address": "fffffe000a08c528"
+  },
+  "____ZN21AppleTrustedAccessory17matchesToPropertyE25atam_accessory_property_tPKvm_block_invoke": {
+    "lines": 65,
+    "address": "fffffe000a08c7a4"
+  },
+  "__ZN21AppleTrustedAccessory20issueCryptoChallengeEPP18crypto_challenge_t": {
+    "lines": 86,
+    "address": "fffffe000a08c8a4"
+  },
+  "__ZN21AppleTrustedAccessory25issueCryptoChallengeGatedEPP18crypto_challenge_t": {
+    "lines": 193,
+    "address": "fffffe000a08c9f8"
+  },
+  "__ZN21AppleTrustedAccessory21verifyCryptoChallengeEPK18crypto_challenge_t": {
+    "lines": 86,
+    "address": "fffffe000a08ccf8"
+  },
+  "__ZN21AppleTrustedAccessory26verifyCryptoChallengeGatedEPK18crypto_challenge_t": {
+    "lines": 311,
+    "address": "fffffe000a08ce4c"
+  },
+  "__ZN21AppleTrustedAccessory11injectInputE19TAInjectedInputType": {
+    "lines": 121,
+    "address": "fffffe000a08d324"
+  },
+  "__ZN21AppleTrustedAccessory17startSecureIntentEv": {
+    "lines": 83,
+    "address": "fffffe000a08d504"
+  },
+  "__ZN21AppleTrustedAccessory22startSecureIntentGatedEv": {
+    "lines": 341,
+    "address": "fffffe000a08d64c"
+  },
+  "__ZN21AppleTrustedAccessory20setSecureIntentNonceEPK15secure_intent_t": {
+    "lines": 86,
+    "address": "fffffe000a08db9c"
+  },
+  "__ZN21AppleTrustedAccessory25setSecureIntentNonceGatedEPK15secure_intent_t": {
+    "lines": 142,
+    "address": "fffffe000a08dcf0"
+  },
+  "__ZN21AppleTrustedAccessory6cancelEv": {
+    "lines": 83,
+    "address": "fffffe000a08df24"
+  },
+  "__ZN21AppleTrustedAccessory11cancelGatedEv": {
+    "lines": 318,
+    "address": "fffffe000a08e06c"
+  },
+  "__ZN21AppleTrustedAccessory7isReadyEv": {
+    "lines": 52,
+    "address": "fffffe000a08e560"
+  },
+  "__ZN21AppleTrustedAccessory17resetKeyRollTimerEj": {
+    "lines": 103,
+    "address": "fffffe000a08e62c"
+  },
+  "__ZN21AppleTrustedAccessory18getNextKeyRollTimeEv": {
+    "lines": 4,
+    "address": "fffffe000a08e7c4"
+  },
+  "__ZN21AppleTrustedAccessory12getTransportEv": {
+    "lines": 93,
+    "address": "fffffe000a08e7d0"
+  },
+  "____ZN21AppleTrustedAccessory12getTransportEv_block_invoke": {
+    "lines": 86,
+    "address": "fffffe000a08e940"
+  },
+  "__ZN21AppleTrustedAccessory4openEP9IOServicejPFvP8OSObjectyP18IOMemoryDescriptor15IOHIDReportTypejPvES7_": {
+    "lines": 101,
+    "address": "fffffe000a08ea94"
+  },
+  "__ZN21AppleTrustedAccessory9openGatedEP9IOServicejPvS2_": {
+    "lines": 193,
+    "address": "fffffe000a08ec24"
+  },
+  "__ZN21AppleTrustedAccessory5closeEP9IOServicej": {
+    "lines": 84,
+    "address": "fffffe000a08ef24"
+  },
+  "__ZN21AppleTrustedAccessory10closeGatedEP9IOServicej": {
+    "lines": 85,
+    "address": "fffffe000a08f070"
+  },
+  "__ZN21AppleTrustedAccessory9getReportEP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE": {
+    "lines": 138,
+    "address": "fffffe000a08f1c0"
+  },
+  "__ZN21AppleTrustedAccessory18enqueueAsyncReportEP13TAAsyncReport": {
+    "lines": 90,
+    "address": "fffffe000a08f3e4"
+  },
+  "__ZN21AppleTrustedAccessory14getReportGatedEP18IOMemoryDescriptor15IOHIDReportTypejj": {
+    "lines": 140,
+    "address": "fffffe000a08f548"
+  },
+  "__ZN21AppleTrustedAccessory9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE": {
+    "lines": 138,
+    "address": "fffffe000a08f774"
+  },
+  "__ZN21AppleTrustedAccessory14setReportGatedEP18IOMemoryDescriptor15IOHIDReportTypejj": {
+    "lines": 144,
+    "address": "fffffe000a08f998"
+  },
+  "__ZN21AppleTrustedAccessory13ensureSessionEij": {
+    "lines": 196,
+    "address": "fffffe000a08fbd4"
+  },
+  "__ZN21AppleTrustedAccessory22interruptReportHandlerEyP18IOMemoryDescriptor15IOHIDReportTypej": {
+    "lines": 91,
+    "address": "fffffe000a08fee0"
+  },
+  "__ZN21AppleTrustedAccessory27interruptReportHandlerGatedEyP18IOMemoryDescriptor15IOHIDReportTypej": {
+    "lines": 255,
+    "address": "fffffe000a090048"
+  },
+  "__ZN21AppleTrustedAccessory18processAsyncReportEP13TAAsyncReport": {
+    "lines": 132,
+    "address": "fffffe000a090440"
+  },
+  "__ZN21AppleTrustedAccessory23processAsyncReportQueueEv": {
+    "lines": 182,
+    "address": "fffffe000a09064c"
+  },
+  "__ZN21AppleTrustedAccessory14keyRollHandlerEP18IOTimerEventSource": {
+    "lines": 92,
+    "address": "fffffe000a090920"
+  },
+  "__ZN21AppleTrustedAccessory11initWithUIDEPh": {
+    "lines": 49,
+    "address": "fffffe000a090a8c"
+  },
+  "__ZN21AppleTrustedAccessory5startEP9IOService": {
+    "lines": 560,
+    "address": "fffffe000a090b4c"
+  },
+  "__ZL18asyncReportHandlerPvS_": {
+    "lines": 46,
+    "address": "fffffe000a091408"
+  },
+  "__ZN21AppleTrustedAccessory25powerOffCompletionHandlerEP18IOTimerEventSource": {
+    "lines": 78,
+    "address": "fffffe000a0914bc"
+  },
+  "__ZN21AppleTrustedAccessory13willTerminateEP9IOServicej": {
+    "lines": 88,
+    "address": "fffffe000a0915f0"
+  },
+  "____ZN21AppleTrustedAccessory13willTerminateEP9IOServicej_block_invoke": {
+    "lines": 11,
+    "address": "fffffe000a09174c"
+  },
+  "__ZN21AppleTrustedAccessory12didTerminateEP9IOServicejPb": {
+    "lines": 113,
+    "address": "fffffe000a091774"
+  },
+  "__ZN21AppleTrustedAccessory17didTerminateGatedEP9IOServicejPb": {
+    "lines": 6,
+    "address": "fffffe000a091934"
+  },
+  "__ZN21AppleTrustedAccessory4stopEP9IOService": {
+    "lines": 176,
+    "address": "fffffe000a091948"
+  },
+  "__ZN21AppleTrustedAccessory4freeEv": {
+    "lines": 61,
+    "address": "fffffe000a091c04"
+  },
+  "__ZN21AppleTrustedAccessory13setPowerStateEmP9IOService": {
+    "lines": 96,
+    "address": "fffffe000a091cf4"
+  },
+  "__ZN21AppleTrustedAccessory18setPowerStateGatedEPm": {
+    "lines": 202,
+    "address": "fffffe000a091e70"
+  },
+  "__ZNK21AppleTrustedAccessory11getWorkLoopEv": {
+    "lines": 4,
+    "address": "fffffe000a092194"
+  },
+  "__ZN21AppleTrustedAccessory12waitForEventEPvj": {
+    "lines": 74,
+    "address": "fffffe000a0921a0"
+  },
+  "__ZN30AppleTrustedAccessoryInterface9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0922c4"
+  },
+  "__ZN13TAAsyncReport9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0922cc"
+  },
+  "__ZN21AppleTrustedAccessory9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0922d4"
+  },
+  "__GLOBAL__sub_I_AppleTrustedAccessory.cpp": {
+    "lines": 54,
+    "address": "fffffe000a0922dc"
+  },
+  "__GLOBAL__D_a": {
+    "lines": 37,
+    "address": "fffffe000a0923b0"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterface9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a092438"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterface9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a092484"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfaceC2EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a09248c"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfaceD2Ev": {
+    "lines": 3,
+    "address": "fffffe000a0924c4"
+  },
+  "__ZNK37AppleTrustedAccessoryManagerInterface12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0924cc"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterface9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0924dc"
+  },
+  "__ZNK37AppleTrustedAccessoryManagerInterface9MetaClass5allocEv": {
+    "lines": 4,
+    "address": "fffffe000a092528"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfacenwEm": {
+    "lines": 6,
+    "address": "fffffe000a092534"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfacedlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a092548"
+  },
+  "__ZN19TADetachedAccessory9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a092560"
+  },
+  "__ZN19TADetachedAccessory9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0925ac"
+  },
+  "__ZN19TADetachedAccessoryC2EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a0925b4"
+  },
+  "__ZN19TADetachedAccessoryC1EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a0925ec"
+  },
+  "__ZN19TADetachedAccessoryD2Ev": {
+    "lines": 3,
+    "address": "fffffe000a092624"
+  },
+  "__ZN19TADetachedAccessoryD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a09262c"
+  },
+  "__ZN19TADetachedAccessoryD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a092634"
+  },
+  "__ZN19TADetachedAccessorydlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a09267c"
+  },
+  "__ZNK19TADetachedAccessory12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a092694"
+  },
+  "__ZN19TADetachedAccessory9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0926a4"
+  },
+  "__ZNK19TADetachedAccessory9MetaClass5allocEv": {
+    "lines": 28,
+    "address": "fffffe000a0926f0"
+  },
+  "__ZN19TADetachedAccessorynwEm": {
+    "lines": 6,
+    "address": "fffffe000a09275c"
+  },
+  "__ZN19TADetachedAccessoryC1Ev": {
+    "lines": 24,
+    "address": "fffffe000a092770"
+  },
+  "__ZN19TADetachedAccessoryC2Ev": {
+    "lines": 24,
+    "address": "fffffe000a0927cc"
+  },
+  "__ZN19TADetachedAccessory13withAccessoryEP21AppleTrustedAccessory": {
+    "lines": 62,
+    "address": "fffffe000a092828"
+  },
+  "__ZN19TADetachedAccessory17initWithAccessoryEP21AppleTrustedAccessory": {
+    "lines": 102,
+    "address": "fffffe000a09291c"
+  },
+  "__ZN19TADetachedAccessory6getUIDEv": {
+    "lines": 4,
+    "address": "fffffe000a092ab0"
+  },
+  "__ZN19TADetachedAccessory8getNonceEv": {
+    "lines": 4,
+    "address": "fffffe000a092abc"
+  },
+  "__ZN19TADetachedAccessory7isReadyEv": {
+    "lines": 5,
+    "address": "fffffe000a092ac8"
+  },
+  "__ZN19TADetachedAccessory18getDetachTimestampEv": {
+    "lines": 4,
+    "address": "fffffe000a092ad8"
+  },
+  "__ZN19TADetachedAccessory19getKeyRollTimestampEv": {
+    "lines": 4,
+    "address": "fffffe000a092ae4"
+  },
+  "__ZN19TADetachedAccessory12getTransportEv": {
+    "lines": 4,
+    "address": "fffffe000a092af0"
+  },
+  "__ZN16TAAccessoryEvent9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a092afc"
+  },
+  "__ZN16TAAccessoryEvent9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a092b48"
+  },
+  "__ZN16TAAccessoryEventC2EPK11OSMetaClass": {
+    "lines": 17,
+    "address": "fffffe000a092b50"
+  },
+  "__ZN16TAAccessoryEventC1EPK11OSMetaClass": {
+    "lines": 17,
+    "address": "fffffe000a092b90"
+  },
+  "__ZN16TAAccessoryEventD2Ev": {
+    "lines": 42,
+    "address": "fffffe000a092bd0"
+  },
+  "__ZN16TAAccessoryEventD1Ev": {
+    "lines": 42,
+    "address": "fffffe000a092c74"
+  },
+  "__ZN16TAAccessoryEventD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a092d18"
+  },
+  "__ZN16TAAccessoryEventdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a092d60"
+  },
+  "__ZNK16TAAccessoryEvent12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a092d78"
+  },
+  "__ZN16TAAccessoryEvent9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a092d88"
+  },
+  "__ZNK16TAAccessoryEvent9MetaClass5allocEv": {
+    "lines": 30,
+    "address": "fffffe000a092dd4"
+  },
+  "__ZN16TAAccessoryEventnwEm": {
+    "lines": 6,
+    "address": "fffffe000a092e48"
+  },
+  "__ZN16TAAccessoryEventC1Ev": {
+    "lines": 26,
+    "address": "fffffe000a092e5c"
+  },
+  "__ZN16TAAccessoryEventC2Ev": {
+    "lines": 26,
+    "address": "fffffe000a092ec0"
+  },
+  "__ZN16TAAccessoryEvent20withAccessoryAndTypeEP21AppleTrustedAccessory20TAAccessoryEventType": {
+    "lines": 4,
+    "address": "fffffe000a092f24"
+  },
+  "__ZN16TAAccessoryEvent26withAccessoryTypeAndObjectEP21AppleTrustedAccessory20TAAccessoryEventTypeP8OSObject": {
+    "lines": 68,
+    "address": "fffffe000a092f30"
+  },
+  "__ZN16TAAccessoryEvent30initWithAccessoryTypeAndObjectEP21AppleTrustedAccessory20TAAccessoryEventTypeP8OSObject": {
+    "lines": 95,
+    "address": "fffffe000a09303c"
+  },
+  "__ZN16TAAccessoryEvent4freeEv": {
+    "lines": 40,
+    "address": "fffffe000a0931b4"
+  },
+  "__ZN16TAAccessoryEvent12getAccessoryEv": {
+    "lines": 4,
+    "address": "fffffe000a093250"
+  },
+  "__ZN16TAAccessoryEvent7getTypeEv": {
+    "lines": 4,
+    "address": "fffffe000a09325c"
+  },
+  "__ZN16TAAccessoryEvent9getObjectEv": {
+    "lines": 4,
+    "address": "fffffe000a093268"
+  },
+  "__ZN16TAAccessoryEvent19getTriggerTimestampEv": {
+    "lines": 4,
+    "address": "fffffe000a093274"
+  },
+  "__ZN16TAAccessoryEvent10getRetryNoEv": {
+    "lines": 4,
+    "address": "fffffe000a093280"
+  },
+  "__ZN16TAAccessoryEvent19setTriggerTimestampEy": {
+    "lines": 5,
+    "address": "fffffe000a09328c"
+  },
+  "__ZN16TAAccessoryEvent15increaseRetryNoEv": {
+    "lines": 8,
+    "address": "fffffe000a09329c"
+  },
+  "__ZN16TAAccessoryEvent12resetRetryNoEv": {
+    "lines": 6,
+    "address": "fffffe000a0932b8"
+  },
+  "__ZN10TAGateLock9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a0932cc"
+  },
+  "__ZN10TAGateLock9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a093318"
+  },
+  "__ZN10TAGateLockC2EPK11OSMetaClass": {
+    "lines": 20,
+    "address": "fffffe000a093320"
+  },
+  "__ZN10TAGateLockC1EPK11OSMetaClass": {
+    "lines": 20,
+    "address": "fffffe000a09336c"
+  },
+  "__ZN10TAGateLockD2Ev": {
+    "lines": 32,
+    "address": "fffffe000a0933b8"
+  },
+  "__ZN10TAGateLockD1Ev": {
+    "lines": 32,
+    "address": "fffffe000a093434"
+  },
+  "__ZN10TAGateLockD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a0934b0"
+  },
+  "__ZN10TAGateLockdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a0934f8"
+  },
+  "__ZNK10TAGateLock12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a093510"
+  },
+  "__ZN10TAGateLock9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a093520"
+  },
+  "__ZNK10TAGateLock9MetaClass5allocEv": {
+    "lines": 15,
+    "address": "fffffe000a09356c"
+  },
+  "__ZN10TAGateLocknwEm": {
+    "lines": 6,
+    "address": "fffffe000a0935a4"
+  },
+  "__ZN10TAGateLockC1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0935b8"
+  },
+  "__ZN10TAGateLockC2Ev": {
+    "lines": 29,
+    "address": "fffffe000a0935c0"
+  },
+  "__ZN10TAGateLock8withGateEP8OSObjectP13IOCommandGate": {
+    "lines": 69,
+    "address": "fffffe000a093630"
+  },
+  "__ZN10TAGateLock4lockEj": {
+    "lines": 272,
+    "address": "fffffe000a093740"
+  },
+  "__ZN10TAGateLock6unlockEv": {
+    "lines": 131,
+    "address": "fffffe000a093b7c"
+  },
+  "__ZN10TAGateLock20drainSleepingThreadsEv": {
+    "lines": 181,
+    "address": "fffffe000a093d84"
+  },
+  "__ZN10TAGateLock4freeEv": {
+    "lines": 47,
+    "address": "fffffe000a094054"
+  },
+  "__ZN28AppleTrustedAccessoryManager9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a09410c"
+  },
+  "__ZN28AppleTrustedAccessoryManager9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a094158"
+  },
+  "__ZN28AppleTrustedAccessoryManagerC2EPK11OSMetaClass": {
+    "lines": 24,
+    "address": "fffffe000a094160"
+  },
+  "__ZN28AppleTrustedAccessoryManagerC1EPK11OSMetaClass": {
+    "lines": 3,
+    "address": "fffffe000a0941bc"
+  },
+  "__ZN28AppleTrustedAccessoryManagerD2Ev": {
+    "lines": 182,
+    "address": "fffffe000a0941c4"
+  },
+  "__ZN28AppleTrustedAccessoryManagerD1Ev": {
+    "lines": 182,
+    "address": "fffffe000a094498"
+  },
+  "__ZN28AppleTrustedAccessoryManagerD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a09476c"
+  },
+  "__ZN28AppleTrustedAccessoryManagerdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a0947b4"
+  },
+  "__ZNK28AppleTrustedAccessoryManager12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0947cc"
+  },
+  "__ZN28AppleTrustedAccessoryManager9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0947dc"
+  },
+  "__ZNK28AppleTrustedAccessoryManager9MetaClass5allocEv": {
+    "lines": 15,
+    "address": "fffffe000a094828"
+  },
+  "__ZN28AppleTrustedAccessoryManagernwEm": {
+    "lines": 6,
+    "address": "fffffe000a094860"
+  },
+  "__ZN28AppleTrustedAccessoryManagerC1Ev": {
+    "lines": 3,
+    "address": "fffffe000a094874"
+  },
+  "__ZN28AppleTrustedAccessoryManagerC2Ev": {
+    "lines": 33,
+    "address": "fffffe000a09487c"
+  },
+  "__ZN28AppleTrustedAccessoryManager17sepMessageHandlerEPvS0_": {
+    "lines": 6,
+    "address": "fffffe000a0948fc"
+  },
+  "____ZN28AppleTrustedAccessoryManager17sepMessageHandlerEPvS0__block_invoke": {
+    "lines": 4,
+    "address": "fffffe000a094910"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performRequestEP9IOServicejP11IOMemoryMapP18IOMemoryDescriptorPj": {
+    "lines": 49,
+    "address": "fffffe000a09491c"
+  },
+  "____ZN28AppleTrustedAccessoryManager14performRequestEP9IOServicejP11IOMemoryMapP18IOMemoryDescriptorPj_block_invoke": {
+    "lines": 8,
+    "address": "fffffe000a0949dc"
+  },
+  "__ZN28AppleTrustedAccessoryManager19performRequestGatedEP9IOServicejP11IOMemoryMapP18IOMemoryDescriptorPj": {
+    "lines": 236,
+    "address": "fffffe000a0949f8"
+  },
+  "__ZN28AppleTrustedAccessoryManager25cacheDirectAttestationKeyEb": {
+    "lines": 144,
+    "address": "fffffe000a094da4"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj": {
+    "lines": 1079,
+    "address": "fffffe000a094fe0"
+  },
+  "__ZN28AppleTrustedAccessoryManager16performOperationEP9IOServicebPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj": {
+    "lines": 165,
+    "address": "fffffe000a0960b8"
+  },
+  "__ZN28AppleTrustedAccessoryManager13pairAccessoryEPKhPKvm": {
+    "lines": 649,
+    "address": "fffffe000a096348"
+  },
+  "__ZN28AppleTrustedAccessoryManager15unpairAccessoryEPKh": {
+    "lines": 170,
+    "address": "fffffe000a096d68"
+  },
+  "__ZN28AppleTrustedAccessoryManager20unpairAllAccessoriesEv": {
+    "lines": 200,
+    "address": "fffffe000a09700c"
+  },
+  "__ZN28AppleTrustedAccessoryManager18authorizeAccessoryEjPKhPKvmS3_m": {
+    "lines": 406,
+    "address": "fffffe000a097328"
+  },
+  "__ZN28AppleTrustedAccessoryManager19getAccessoryWithUIDEPKh": {
+    "lines": 143,
+    "address": "fffffe000a09797c"
+  },
+  "__ZN28AppleTrustedAccessoryManager19lockOperationAccessEbj": {
+    "lines": 61,
+    "address": "fffffe000a097bb4"
+  },
+  "__ZN28AppleTrustedAccessoryManager30testSecureSessionWithAccessoryEP21AppleTrustedAccessory": {
+    "lines": 245,
+    "address": "fffffe000a097ca4"
+  },
+  "__ZN28AppleTrustedAccessoryManager21unlockOperationAccessEv": {
+    "lines": 4,
+    "address": "fffffe000a098074"
+  },
+  "__ZN28AppleTrustedAccessoryManager17startSecureIntentEP9IOServicePK41cmd_start_secure_intent_operation_in_v1_t": {
+    "lines": 463,
+    "address": "fffffe000a098080"
+  },
+  "__ZN28AppleTrustedAccessoryManager6cancelEP9IOService18atam_status_code_t": {
+    "lines": 73,
+    "address": "fffffe000a0987b8"
+  },
+  "__ZN28AppleTrustedAccessoryManager27getDetachedAccessoryWithUIDEPKh": {
+    "lines": 103,
+    "address": "fffffe000a0988d8"
+  },
+  "__ZN28AppleTrustedAccessoryManager26sendAccessoryManifestToSEPEP21AppleTrustedAccessoryb": {
+    "lines": 221,
+    "address": "fffffe000a098a70"
+  },
+  "__ZN28AppleTrustedAccessoryManager29establishSessionWithAccessoryEP21AppleTrustedAccessoryPb": {
+    "lines": 344,
+    "address": "fffffe000a098de0"
+  },
+  "__ZN28AppleTrustedAccessoryManager43generateSecureIntentNonceAndSendToAccessoryEP21AppleTrustedAccessory": {
+    "lines": 173,
+    "address": "fffffe000a09933c"
+  },
+  "__ZN28AppleTrustedAccessoryManager11cancelGatedEP9IOService18atam_status_code_t": {
+    "lines": 317,
+    "address": "fffffe000a0995ec"
+  },
+  "__ZN28AppleTrustedAccessoryManager20secureIntentDetectedEP9IOServicePK15secure_intent_t": {
+    "lines": 130,
+    "address": "fffffe000a099adc"
+  },
+  "__ZN28AppleTrustedAccessoryManager17addAccessoryEventEP9IOService20TAAccessoryEventTypeyP8OSObject": {
+    "lines": 138,
+    "address": "fffffe000a099ce0"
+  },
+  "__ZN28AppleTrustedAccessoryManager23operationTimeoutHandlerEP18IOTimerEventSource": {
+    "lines": 85,
+    "address": "fffffe000a099f04"
+  },
+  "__ZN28AppleTrustedAccessoryManager26operationDisconnectHandlerEP18IOTimerEventSource": {
+    "lines": 173,
+    "address": "fffffe000a09a054"
+  },
+  "__ZN28AppleTrustedAccessoryManager14keyRollRequestEP9IOService": {
+    "lines": 77,
+    "address": "fffffe000a09a304"
+  },
+  "__ZN28AppleTrustedAccessoryManager33accessoryEventNotificationHandlerEPvP9IOServiceP10IONotifier": {
+    "lines": 143,
+    "address": "fffffe000a09a434"
+  },
+  "__ZN28AppleTrustedAccessoryManager22scheduleAccessoryEventEP16TAAccessoryEventb": {
+    "lines": 216,
+    "address": "fffffe000a09a66c"
+  },
+  "__ZN28AppleTrustedAccessoryManager28removeAccessoryEventWithTypeEP21AppleTrustedAccessory20TAAccessoryEventType": {
+    "lines": 159,
+    "address": "fffffe000a09a9c8"
+  },
+  "__ZN28AppleTrustedAccessoryManager19retryAccessoryEventEP16TAAccessoryEvent": {
+    "lines": 132,
+    "address": "fffffe000a09ac40"
+  },
+  "__ZN28AppleTrustedAccessoryManager18processAttachEventEP16TAAccessoryEvent": {
+    "lines": 872,
+    "address": "fffffe000a09ae4c"
+  },
+  "__ZN28AppleTrustedAccessoryManager18processDetachEventEP16TAAccessoryEvent": {
+    "lines": 500,
+    "address": "fffffe000a09bbe8"
+  },
+  "__ZN28AppleTrustedAccessoryManager21accessoryEventHandlerEP18IOTimerEventSource": {
+    "lines": 678,
+    "address": "fffffe000a09c3b4"
+  },
+  "__ZN28AppleTrustedAccessoryManager22detachedCleanupHandlerEP18IOTimerEventSource": {
+    "lines": 260,
+    "address": "fffffe000a09ce48"
+  },
+  "__ZN28AppleTrustedAccessoryManager5startEP9IOService": {
+    "lines": 935,
+    "address": "fffffe000a09d254"
+  },
+  "__ZN28AppleTrustedAccessoryManager25powerOffCompletionHandlerEP18IOTimerEventSource": {
+    "lines": 119,
+    "address": "fffffe000a09e0ec"
+  },
+  "__ZN28AppleTrustedAccessoryManager27analyticsDailyUpdateHandlerEP18IOTimerEventSource": {
+    "lines": 143,
+    "address": "fffffe000a09e2c4"
+  },
+  "__ZN28AppleTrustedAccessoryManager30analyticsResetDailyUpdateTimerEj": {
+    "lines": 96,
+    "address": "fffffe000a09e4fc"
+  },
+  "__ZN28AppleTrustedAccessoryManager31analyticsUpdateDailyDataHandlerEP18IOTimerEventSource": {
+    "lines": 140,
+    "address": "fffffe000a09e678"
+  },
+  "__ZN28AppleTrustedAccessoryManager35analyticsAttachCoreAnalyticsServiceEPvP9IOServiceP10IONotifier": {
+    "lines": 81,
+    "address": "fffffe000a09e8a4"
+  },
+  "__ZN28AppleTrustedAccessoryManager4stopEP9IOService": {
+    "lines": 239,
+    "address": "fffffe000a09e9e4"
+  },
+  "__ZN28AppleTrustedAccessoryManager20freeTimerEventSourceER11OSSharedPtrI18IOTimerEventSourceE": {
+    "lines": 89,
+    "address": "fffffe000a09ed9c"
+  },
+  "__ZN28AppleTrustedAccessoryManager4freeEv": {
+    "lines": 43,
+    "address": "fffffe000a09eefc"
+  },
+  "__ZN28AppleTrustedAccessoryManager13setPowerStateEmP9IOService": {
+    "lines": 96,
+    "address": "fffffe000a09efa4"
+  },
+  "__ZN28AppleTrustedAccessoryManager18setPowerStateGatedEPm": {
+    "lines": 271,
+    "address": "fffffe000a09f120"
+  },
+  "__ZN28AppleTrustedAccessoryManager24analyticsUpdateDailyDataEv": {
+    "lines": 89,
+    "address": "fffffe000a09f558"
+  },
+  "__ZN28AppleTrustedAccessoryManager17getHibernateStateEv": {
+    "lines": 98,
+    "address": "fffffe000a09f6b8"
+  },
+  "__ZN28AppleTrustedAccessoryManager25handleWakeFromHibernationEv": {
+    "lines": 142,
+    "address": "fffffe000a09f83c"
+  },
+  "__ZNK28AppleTrustedAccessoryManager11getWorkLoopEv": {
+    "lines": 4,
+    "address": "fffffe000a09fa70"
+  },
+  "__ZN28AppleTrustedAccessoryManager12waitForEventEPvj": {
+    "lines": 55,
+    "address": "fffffe000a09fa7c"
+  },
+  "__ZN28AppleTrustedAccessoryManager24setSecureSessionRecoveryEb": {
+    "lines": 30,
+    "address": "fffffe000a09fb54"
+  },
+  "__ZN28AppleTrustedAccessoryManager40analyticsAttachCoreAnalyticsServiceGatedEP9IOService": {
+    "lines": 81,
+    "address": "fffffe000a09fbc8"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterface9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a09fd08"
+  },
+  "__ZN19TADetachedAccessory9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a09fd10"
+  },
+  "__ZN16TAAccessoryEvent9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a09fd18"
+  },
+  "__ZN10TAGateLock9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a09fd20"
+  },
+  "__ZN28AppleTrustedAccessoryManager9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a09fd28"
+  },
+  "__GLOBAL__sub_I_AppleTrustedAccessoryManager.cpp": {
+    "lines": 83,
+    "address": "fffffe000a09fd30"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a09ff10"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a09ff5c"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientC2EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a09ff64"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientC1EPK11OSMetaClass": {
+    "lines": 15,
+    "address": "fffffe000a09ff9c"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientD2Ev": {
+    "lines": 3,
+    "address": "fffffe000a09ffd4"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a09ffdc"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a09ffe4"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a0a002c"
+  },
+  "__ZNK38AppleTrustedAccessoryManagerUserClient12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0a0044"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0a0054"
+  },
+  "__ZNK38AppleTrustedAccessoryManagerUserClient9MetaClass5allocEv": {
+    "lines": 28,
+    "address": "fffffe000a0a00a0"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientnwEm": {
+    "lines": 6,
+    "address": "fffffe000a0a010c"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientC1Ev": {
+    "lines": 24,
+    "address": "fffffe000a0a0120"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClientC2Ev": {
+    "lines": 24,
+    "address": "fffffe000a0a017c"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient12initWithTaskEP4taskPvjP12OSDictionary": {
+    "lines": 140,
+    "address": "fffffe000a0a01d8"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient11clientCloseEv": {
+    "lines": 71,
+    "address": "fffffe000a0a0404"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient5startEP9IOService": {
+    "lines": 67,
+    "address": "fffffe000a0a051c"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient4stopEP9IOService": {
+    "lines": 103,
+    "address": "fffffe000a0a0624"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient7messageEjP9IOServicePv": {
+    "lines": 151,
+    "address": "fffffe000a0a07bc"
+  },
+  "____ZN38AppleTrustedAccessoryManagerUserClient7messageEjP9IOServicePv_block_invoke": {
+    "lines": 30,
+    "address": "fffffe000a0a0a14"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient24registerNotificationPortEP8ipc_portjj": {
+    "lines": 44,
+    "address": "fffffe000a0a0a88"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv": {
+    "lines": 132,
+    "address": "fffffe000a0a0b34"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient15dispatchCommandEjP25IOExternalMethodArguments": {
+    "lines": 403,
+    "address": "fffffe000a0a0d40"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a1388"
+  },
+  "__GLOBAL__sub_I_AppleTrustedAccessoryManagerUserClient.cpp": {
+    "lines": 22,
+    "address": "fffffe000a0a1390"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics9MetaClassC1Ev": {
+    "lines": 20,
+    "address": "fffffe000a0a13f4"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics9MetaClassD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a1440"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsC2EPK11OSMetaClass": {
+    "lines": 18,
+    "address": "fffffe000a0a1448"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsC1EPK11OSMetaClass": {
+    "lines": 18,
+    "address": "fffffe000a0a148c"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsD2Ev": {
+    "lines": 102,
+    "address": "fffffe000a0a14d0"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsD1Ev": {
+    "lines": 102,
+    "address": "fffffe000a0a1664"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsD0Ev": {
+    "lines": 19,
+    "address": "fffffe000a0a17f8"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsdlEPvm": {
+    "lines": 7,
+    "address": "fffffe000a0a1840"
+  },
+  "__ZNK30AppleTrustedAccessoryAnalytics12getMetaClassEv": {
+    "lines": 5,
+    "address": "fffffe000a0a1858"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics9MetaClassC2Ev": {
+    "lines": 20,
+    "address": "fffffe000a0a1868"
+  },
+  "__ZNK30AppleTrustedAccessoryAnalytics9MetaClass5allocEv": {
+    "lines": 15,
+    "address": "fffffe000a0a18b4"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsnwEm": {
+    "lines": 6,
+    "address": "fffffe000a0a18ec"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsC1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a1900"
+  },
+  "__ZN30AppleTrustedAccessoryAnalyticsC2Ev": {
+    "lines": 27,
+    "address": "fffffe000a0a1908"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics6createEP9IOService": {
+    "lines": 92,
+    "address": "fffffe000a0a1970"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics4initEP9IOService": {
+    "lines": 295,
+    "address": "fffffe000a0a1adc"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics23setCoreAnalyticsServiceEP9IOService": {
+    "lines": 99,
+    "address": "fffffe000a0a1f74"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics14clearDailyDataEv": {
+    "lines": 49,
+    "address": "fffffe000a0a20fc"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics4freeEv": {
+    "lines": 154,
+    "address": "fffffe000a0a21bc"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics23setCoreAnalyticsServiceEP9IOService_block_invoke": {
+    "lines": 84,
+    "address": "fffffe000a0a2420"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics18setPairedAccessoryEPKh": {
+    "lines": 83,
+    "address": "fffffe000a0a256c"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics18setPairedAccessoryEPKh_block_invoke": {
+    "lines": 131,
+    "address": "fffffe000a0a26b4"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics13taUIDToStringEPKh": {
+    "lines": 92,
+    "address": "fffffe000a0a28bc"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics20setAttachedAccessoryEPKh": {
+    "lines": 83,
+    "address": "fffffe000a0a2a28"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics20setAttachedAccessoryEPKh_block_invoke": {
+    "lines": 118,
+    "address": "fffffe000a0a2b70"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics20setAttachedAccessoryEP21AppleTrustedAccessory11TATransport": {
+    "lines": 98,
+    "address": "fffffe000a0a2d44"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics20setAttachedAccessoryEP21AppleTrustedAccessory11TATransport_block_invoke": {
+    "lines": 131,
+    "address": "fffffe000a0a2ec8"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics23setReconnectedAccessoryE11TATransportS0_": {
+    "lines": 85,
+    "address": "fffffe000a0a30d0"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics23setReconnectedAccessoryE11TATransportS0__block_invoke": {
+    "lines": 38,
+    "address": "fffffe000a0a3220"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics24setSecureSessionRecoveryEb": {
+    "lines": 83,
+    "address": "fffffe000a0a32b4"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics24setSecureSessionRecoveryEb_block_invoke": {
+    "lines": 10,
+    "address": "fffffe000a0a33fc"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics15detachAccessoryE11TATransportb": {
+    "lines": 86,
+    "address": "fffffe000a0a3420"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics15detachAccessoryE11TATransportb_block_invoke": {
+    "lines": 33,
+    "address": "fffffe000a0a3574"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics15detachedCleanupE11TATransport": {
+    "lines": 83,
+    "address": "fffffe000a0a35f4"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics15detachedCleanupE11TATransport_block_invoke": {
+    "lines": 20,
+    "address": "fffffe000a0a373c"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics18setActiveAccessoryEPKh": {
+    "lines": 96,
+    "address": "fffffe000a0a3788"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics18setActiveAccessoryEPKh_block_invoke": {
+    "lines": 104,
+    "address": "fffffe000a0a3904"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics20setPairedAccessoriesEPK19accessory_list_v1_t": {
+    "lines": 95,
+    "address": "fffffe000a0a3aa0"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics20setPairedAccessoriesEPK19accessory_list_v1_t_block_invoke": {
+    "lines": 52,
+    "address": "fffffe000a0a3c18"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics22setAttachedAccessoriesEPK7OSArray": {
+    "lines": 95,
+    "address": "fffffe000a0a3ce4"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics22setAttachedAccessoriesEPK7OSArray_block_invoke": {
+    "lines": 128,
+    "address": "fffffe000a0a3e5c"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics18postPairingAttemptEP21AppleTrustedAccessoryiy": {
+    "lines": 100,
+    "address": "fffffe000a0a4058"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics18postPairingAttemptEP21AppleTrustedAccessoryiy_block_invoke": {
+    "lines": 302,
+    "address": "fffffe000a0a41e4"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics19elapsedMillisecondsEyy": {
+    "lines": 31,
+    "address": "fffffe000a0a4698"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics23postAnalyticsEventAsyncEPK8OSStringPK12OSDictionary": {
+    "lines": 351,
+    "address": "fffffe000a0a4710"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics15postDailyUpdateEv": {
+    "lines": 91,
+    "address": "fffffe000a0a4c88"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics15postDailyUpdateEv_block_invoke": {
+    "lines": 1903,
+    "address": "fffffe000a0a4df0"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics24postSecureSessionAttemptEP21AppleTrustedAccessoryiy": {
+    "lines": 100,
+    "address": "fffffe000a0a6ba8"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics24postSecureSessionAttemptEP21AppleTrustedAccessoryiy_block_invoke": {
+    "lines": 342,
+    "address": "fffffe000a0a6d34"
+  },
+  "___Block_byref_object_copy_": {
+    "lines": 6,
+    "address": "fffffe000a0a7288"
+  },
+  "___Block_byref_object_dispose_": {
+    "lines": 20,
+    "address": "fffffe000a0a729c"
+  },
+  "___Block_byref_object_copy_.115": {
+    "lines": 6,
+    "address": "fffffe000a0a72e8"
+  },
+  "___Block_byref_object_dispose_.116": {
+    "lines": 20,
+    "address": "fffffe000a0a72fc"
+  },
+  "____ZN30AppleTrustedAccessoryAnalytics23postAnalyticsEventAsyncEPK8OSStringPK12OSDictionary_block_invoke": {
+    "lines": 149,
+    "address": "fffffe000a0a7348"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics22logAnalyticsDictionaryEPK8OSStringPK12OSDictionary": {
+    "lines": 364,
+    "address": "fffffe000a0a7598"
+  },
+  "___copy_helper_block_8_32r40r": {
+    "lines": 22,
+    "address": "fffffe000a0a7b44"
+  },
+  "___destroy_helper_block_8_32r40r": {
+    "lines": 19,
+    "address": "fffffe000a0a7b98"
+  },
+  "__ZNK7libkern17bounded_array_refIcN9os_detail21panic_trapping_policyEE5sliceEmm": {
+    "lines": 25,
+    "address": "fffffe000a0a7be0"
+  },
+  "__ZN30AppleTrustedAccessoryAnalytics9MetaClassD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a7c40"
+  },
+  "__GLOBAL__sub_I_AppleTrustedAccessoryAnalytics.cpp": {
+    "lines": 22,
+    "address": "fffffe000a0a7c48"
+  },
+  "__start": {
+    "lines": 10,
+    "address": "fffffe000a0a7cac"
+  },
+  "__stop": {
+    "lines": 10,
+    "address": "fffffe000a0a7cd0"
+  },
+  "__ZN30AppleTrustedAccessoryInterfaceD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a7cf4"
+  },
+  "__ZN30AppleTrustedAccessoryInterfaceD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a7cfc"
+  },
+  "__ZN9os_detail21panic_trapping_policy4trapEPKc": {
+    "lines": 14,
+    "address": "fffffe000a0a7d04"
+  },
+  "__ZN21AppleTrustedAccessory12transferDataE18TADataTransferTypePKvm.cold.1": {
+    "lines": 8,
+    "address": "fffffe000a0a7d38"
+  },
+  "__ZN21AppleTrustedAccessory16publishReadinessEbj.cold.1": {
+    "lines": 32,
+    "address": "fffffe000a0a7d54"
+  },
+  "__ZN21AppleTrustedAccessory9getReportEP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE.cold.1": {
+    "lines": 33,
+    "address": "fffffe000a0a7dd0"
+  },
+  "__ZN21AppleTrustedAccessory9setReportEP18IOMemoryDescriptor15IOHIDReportTypejjU13block_pointerFviE.cold.1": {
+    "lines": 33,
+    "address": "fffffe000a0a7e50"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfaceD1Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a7ed0"
+  },
+  "__ZN37AppleTrustedAccessoryManagerInterfaceD0Ev": {
+    "lines": 3,
+    "address": "fffffe000a0a7ed8"
+  },
+  "__ZN10TAGateLock12initWithGateEP8OSObjectP13IOCommandGate": {
+    "lines": 87,
+    "address": "fffffe000a0a7ee0"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj.cold.1": {
+    "lines": 8,
+    "address": "fffffe000a0a8038"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj.cold.2": {
+    "lines": 8,
+    "address": "fffffe000a0a8054"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj.cold.3": {
+    "lines": 8,
+    "address": "fffffe000a0a8070"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj.cold.4": {
+    "lines": 8,
+    "address": "fffffe000a0a808c"
+  },
+  "__ZN28AppleTrustedAccessoryManager14performCommandEPK8ta_cmd_tPKvmP18IOMemoryDescriptorPj.cold.5": {
+    "lines": 8,
+    "address": "fffffe000a0a80a8"
+  },
+  "__ZN28AppleTrustedAccessoryManager6cancelEP9IOService18atam_status_code_t.cold.1": {
+    "lines": 41,
+    "address": "fffffe000a0a80c4"
+  },
+  "__ZN28AppleTrustedAccessoryManager22scheduleAccessoryEventEP16TAAccessoryEventb.cold.1": {
+    "lines": 33,
+    "address": "fffffe000a0a8164"
+  },
+  "__ZN28AppleTrustedAccessoryManager21accessoryEventHandlerEP18IOTimerEventSource.cold.1": {
+    "lines": 36,
+    "address": "fffffe000a0a81e4"
+  },
+  "__ZN28AppleTrustedAccessoryManager40analyticsAttachCoreAnalyticsServiceGatedEP9IOService.cold.1": {
+    "lines": 29,
+    "address": "fffffe000a0a8270"
+  },
+  "__ZN38AppleTrustedAccessoryManagerUserClient5startEP9IOService.cold.1": {
+    "lines": 38,
+    "address": "fffffe000a0a82e0"
+  },
+  "__ZNK7libkern17bounded_array_refIcN9os_detail21panic_trapping_policyEE5sliceEmm.cold.3": {
+    "lines": 9,
+    "address": "fffffe000a0a8374"
+  }
+}

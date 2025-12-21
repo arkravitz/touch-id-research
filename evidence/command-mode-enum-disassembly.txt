@@ -1,0 +1,3 @@
+(lldb) target create /var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T//re/touchid-26A434/IOBiometricFamily.macho
+Current executable set to '/var/folders/0s/223w96mj0bbcb3rqgr66skb00000gn/T/re/touchid-26A434/IOBiometricFamily.macho' (arm64e).
+(lldb) disassemble --name __ZN18IOBiometricService23enumCommandModeToStringE14command_mode_t
