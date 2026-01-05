@@ -1,0 +1,102 @@
+[
+  {
+    "symbol": "__ZN18AppleMesaAccessory9MetaClassC1Ev",
+    "candidates": [
+      {
+        "address": "fffffe00099b498c",
+        "value": "0x108",
+        "following": [
+          "fffffe00099b4990:\t08 2e 00 94\tbl\t0xfffffe00099c01b0 ; symbol stub for: __ZN11OSMetaClassC2EPKcPKS_j",
+          "fffffe00099b4994:\t90 41 ff d0\tadrp\tx16, -6094 ; 0xfffffe00081e6000",
+          "fffffe00099b4998:\t10 02 1a 91\tadd\tx16, x16, #0x680",
+          "fffffe00099b499c:\t10 42 00 91\tadd\tx16, x16, #0x10"
+        ]
+      }
+    ]
+  },
+  {
+    "symbol": "__ZN18AppleMesaAccessory9MetaClassC2Ev",
+    "candidates": [
+      {
+        "address": "fffffe00099b4d18",
+        "value": "0x108",
+        "following": [
+          "fffffe00099b4d1c:\t25 2d 00 94\tbl\t0xfffffe00099c01b0 ; symbol stub for: __ZN11OSMetaClassC2EPKcPKS_j",
+          "fffffe00099b4d20:\t90 41 ff d0\tadrp\tx16, -6094 ; 0xfffffe00081e6000",
+          "fffffe00099b4d24:\t10 02 1a 91\tadd\tx16, x16, #0x680",
+          "fffffe00099b4d28:\t10 42 00 91\tadd\tx16, x16, #0x10"
+        ]
+      }
+    ]
+  },
+  {
+    "symbol": "__ZN18AppleMesaAccessory13getDeviceInfoEP25ma_get_report_sensor_info",
+    "candidates": [
+      {
+        "address": "fffffe00099b7590",
+        "value": "0xa0",
+        "following": [
+          "fffffe00099b7594:\t04 00 80 52\tmov\tw4, #0x0",
+          "fffffe00099b7598:\t05 00 80 d2\tmov\tx5, #0x0",
+          "fffffe00099b759c:\tb0 f4 ff f2\tmovk\tx16, #0xffa5, lsl #48",
+          "fffffe00099b75a0:\t10 09 3f d7\tblraa\tx8, x16"
+        ]
+      }
+    ]
+  },
+  {
+    "symbol": "__ZN18AppleMesaAccessory18getCalibrationDataEP18IOMemoryDescriptorPj",
+    "candidates": [
+      {
+        "address": "fffffe00099b7f80",
+        "value": "0xab",
+        "following": [
+          "fffffe00099b7f84:\t04 00 80 52\tmov\tw4, #0x0",
+          "fffffe00099b7f88:\t05 00 80 d2\tmov\tx5, #0x0",
+          "fffffe00099b7f8c:\tb0 f4 ff f2\tmovk\tx16, #0xffa5, lsl #48",
+          "fffffe00099b7f90:\t10 09 3f d7\tblraa\tx8, x16"
+        ]
+      },
+      {
+        "address": "fffffe00099b7ff8",
+        "value": "0xac",
+        "following": [
+          "fffffe00099b7ffc:\t04 00 80 52\tmov\tw4, #0x0",
+          "fffffe00099b8000:\t05 00 80 d2\tmov\tx5, #0x0",
+          "fffffe00099b8004:\tb0 f4 ff f2\tmovk\tx16, #0xffa5, lsl #48",
+          "fffffe00099b8008:\t10 09 3f d7\tblraa\tx8, x16"
+        ]
+      }
+    ]
+  },
+  {
+    "symbol": "____ZN18AppleMesaAccessory15readFingerStateEU13block_pointerFvibE_block_invoke",
+    "candidates": [
+      {
+        "address": "fffffe00099b8568",
+        "value": "0xa1",
+        "following": [
+          "fffffe00099b856c:\t04 00 80 52\tmov\tw4, #0x0",
+          "fffffe00099b8570:\tf1 03 08 aa\tmov\tx17, x8",
+          "fffffe00099b8574:\tb1 f4 ff f2\tmovk\tx17, #0xffa5, lsl #48",
+          "fffffe00099b8578:\t31 09 3f d7\tblraa\tx9, x17"
+        ]
+      }
+    ]
+  },
+  {
+    "symbol": "__GLOBAL__sub_I_AppleMesaAccessory.cpp",
+    "candidates": [
+      {
+        "address": "fffffe00099b8e7c",
+        "value": "0x108",
+        "following": [
+          "fffffe00099b8e80:\tcc 1c 00 94\tbl\t0xfffffe00099c01b0 ; symbol stub for: __ZN11OSMetaClassC2EPKcPKS_j",
+          "fffffe00099b8e84:\t70 41 ff d0\tadrp\tx16, -6098 ; 0xfffffe00081e6000",
+          "fffffe00099b8e88:\t10 02 1a 91\tadd\tx16, x16, #0x680",
+          "fffffe00099b8e8c:\t10 42 00 91\tadd\tx16, x16, #0x10"
+        ]
+      }
+    ]
+  }
+]

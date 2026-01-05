@@ -1,0 +1,389 @@
+__ZN10MesaPlugIn4OpenEj:
+0000000000001120	mov	x4, sp
+0000000000001124	mov	w2, #0x1
+0000000000001128	mov	w5, #0x20
+000000000000112c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001130	mov	w8, w20
+0000000000001134	str	x8, [sp, #0x20]
+0000000000001138	ldr	w0, [x19, #0x18]
+000000000000113c	add	x2, sp, #0x20
+0000000000001140	mov	w1, #0x3
+0000000000001144	mov	w3, #0x1
+0000000000001148	mov	x4, #0x0
+000000000000114c	mov	x5, #0x0
+0000000000001150	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn5CloseEj:
+000000000000127c	mov	x4, sp
+0000000000001280	mov	w2, #0x1
+0000000000001284	mov	w5, #0x20
+0000000000001288	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000128c	mov	w8, w20
+0000000000001290	str	x8, [sp, #0x20]
+0000000000001294	ldr	w0, [x19, #0x18]
+0000000000001298	add	x2, sp, #0x20
+000000000000129c	mov	w1, #0x4
+00000000000012a0	mov	w3, #0x1
+00000000000012a4	mov	x4, #0x0
+00000000000012a8	mov	x5, #0x0
+00000000000012ac	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn5ResetE10eResetTypePhm:
+0000000000001404	stur	x8, [x29, #-0x40]
+0000000000001408	str	x20, [sp, #0x18]
+000000000000140c	ldr	w0, [x21, #0x18]
+0000000000001410	add	x8, sp, #0x18
+0000000000001414	stp	x19, x8, [sp]
+0000000000001418	sub	x2, x29, #0x40
+000000000000141c	mov	w1, #0x5
+0000000000001420	mov	w3, #0x1
+0000000000001424	mov	x4, #0x0
+0000000000001428	mov	x5, #0x0
+000000000000142c	mov	x6, #0x0
+0000000000001430	mov	x7, #0x0
+0000000000001434	bl	0x32fc ; symbol stub for: _IOConnectCallMethod
+
+__ZN10MesaPlugIn4IdleEPhm:
+000000000000155c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001560	add	x4, sp, #0x10
+0000000000001564	mov	w2, #0x1
+0000000000001568	mov	w5, #0x20
+000000000000156c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001570	str	x20, [sp, #0x8]
+0000000000001574	ldr	w0, [x21, #0x18]
+0000000000001578	add	x5, sp, #0x8
+000000000000157c	mov	w1, #0x17
+0000000000001580	mov	x2, #0x0
+0000000000001584	mov	x3, #0x0
+0000000000001588	mov	x4, x19
+000000000000158c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn12StartCaptureEPhm:
+0000000000001694	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001698	add	x4, sp, #0x10
+000000000000169c	mov	w2, #0x1
+00000000000016a0	mov	w5, #0x20
+00000000000016a4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000016a8	str	x20, [sp, #0x8]
+00000000000016ac	ldr	w0, [x21, #0x18]
+00000000000016b0	add	x5, sp, #0x8
+00000000000016b4	mov	w1, #0x6
+00000000000016b8	mov	x2, #0x0
+00000000000016bc	mov	x3, #0x0
+00000000000016c0	mov	x4, x19
+00000000000016c4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn11StopCaptureEPhm:
+00000000000017cc	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000017d0	add	x4, sp, #0x10
+00000000000017d4	mov	w2, #0x1
+00000000000017d8	mov	w5, #0x20
+00000000000017dc	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000017e0	str	x20, [sp, #0x8]
+00000000000017e4	ldr	w0, [x21, #0x18]
+00000000000017e8	add	x5, sp, #0x8
+00000000000017ec	mov	w1, #0x7
+00000000000017f0	mov	x2, #0x0
+00000000000017f4	mov	x3, #0x0
+00000000000017f8	mov	x4, x19
+00000000000017fc	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn12PauseCaptureEPhm:
+0000000000001904	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001908	add	x4, sp, #0x10
+000000000000190c	mov	w2, #0x1
+0000000000001910	mov	w5, #0x20
+0000000000001914	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001918	str	x20, [sp, #0x8]
+000000000000191c	ldr	w0, [x21, #0x18]
+0000000000001920	add	x5, sp, #0x8
+0000000000001924	mov	w1, #0x8
+0000000000001928	mov	x2, #0x0
+000000000000192c	mov	x3, #0x0
+0000000000001930	mov	x4, x19
+0000000000001934	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn9GetStatusEPhm:
+0000000000001a3c	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001a40	add	x4, sp, #0x10
+0000000000001a44	mov	w2, #0x1
+0000000000001a48	mov	w5, #0x20
+0000000000001a4c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001a50	str	x20, [sp, #0x8]
+0000000000001a54	ldr	w0, [x21, #0x18]
+0000000000001a58	add	x5, sp, #0x8
+0000000000001a5c	mov	w1, #0x9
+0000000000001a60	mov	x2, #0x0
+0000000000001a64	mov	x3, #0x0
+0000000000001a68	mov	x4, x19
+0000000000001a6c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn15GetSerialNumberEPhm:
+0000000000001b70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001b74	mov	x4, sp
+0000000000001b78	mov	w2, #0x1
+0000000000001b7c	mov	w5, #0x20
+0000000000001b80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001b84	stur	x20, [x29, #-0x28]
+0000000000001b88	ldr	w0, [x21, #0x18]
+0000000000001b8c	sub	x5, x29, #0x28
+0000000000001b90	mov	w1, #0xa
+0000000000001b94	mov	x2, #0x0
+0000000000001b98	mov	x3, #0x0
+0000000000001b9c	mov	x4, x19
+0000000000001ba0	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn21GetModuleSerialNumberEPhm:
+0000000000001cb4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001cb8	mov	x4, sp
+0000000000001cbc	mov	w2, #0x1
+0000000000001cc0	mov	w5, #0x20
+0000000000001cc4	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001cc8	stur	x20, [x29, #-0x28]
+0000000000001ccc	ldr	w0, [x21, #0x18]
+0000000000001cd0	sub	x5, x29, #0x28
+0000000000001cd4	mov	w1, #0xb
+0000000000001cd8	mov	x2, #0x0
+0000000000001cdc	mov	x3, #0x0
+0000000000001ce0	mov	x4, x19
+0000000000001ce4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPhPm:
+0000000000001e18	stur	x8, [x29, #-0x38]
+0000000000001e1c	stur	w23, [x29, #-0x3c]
+0000000000001e20	ldr	w0, [x21, #0x18]
+0000000000001e24	sub	x8, x29, #0x38
+0000000000001e28	stp	x20, x8, [sp]
+0000000000001e2c	sub	x7, x29, #0x3c
+0000000000001e30	mov	w1, #0xc
+0000000000001e34	mov	x2, #0x0
+0000000000001e38	mov	w3, #0x0
+0000000000001e3c	mov	x4, #0x0
+0000000000001e40	mov	x5, #0x0
+0000000000001e44	mov	x6, x19
+0000000000001e48	bl	0x32fc ; symbol stub for: _IOConnectCallMethod
+
+__ZN10MesaPlugIn18GoToProductionModeEPhm:
+0000000000001f70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000001f74	add	x4, sp, #0x10
+0000000000001f78	mov	w2, #0x1
+0000000000001f7c	mov	w5, #0x20
+0000000000001f80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000001f84	str	x20, [sp, #0x8]
+0000000000001f88	ldr	w0, [x21, #0x18]
+0000000000001f8c	add	x5, sp, #0x8
+0000000000001f90	mov	w1, #0xd
+0000000000001f94	mov	x2, #0x0
+0000000000001f98	mov	x3, #0x0
+0000000000001f9c	mov	x4, x19
+0000000000001fa0	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn9LoadPatchEPvm:
+00000000000020a8	adrp	x3, 1 ; 0x3000
+00000000000020ac	add	x3, x3, #0x49a ; literal pool for: "%s: %s: %p %zx"
+00000000000020b0	mov	x4, sp
+00000000000020b4	mov	w2, #0x1
+00000000000020b8	mov	w5, #0x2a
+00000000000020bc	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000020c0	ldr	w0, [x21, #0x18]
+00000000000020c4	mov	w1, #0xe
+00000000000020c8	mov	x2, x20
+00000000000020cc	mov	x3, x19
+00000000000020d0	mov	x4, #0x0
+00000000000020d4	mov	x5, #0x0
+00000000000020d8	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn9ProvisionEPhS0_m:
+00000000000021e4	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+00000000000021e8	add	x4, sp, #0x10
+00000000000021ec	mov	w2, #0x1
+00000000000021f0	mov	w5, #0x20
+00000000000021f4	bl	0x33cc ; symbol stub for: __os_log_impl
+00000000000021f8	str	x21, [sp, #0x8]
+00000000000021fc	ldr	w0, [x22, #0x18]
+0000000000002200	add	x5, sp, #0x8
+0000000000002204	mov	w1, #0xf
+0000000000002208	mov	x2, x20
+000000000000220c	mov	w3, #0x20
+0000000000002210	mov	x4, x19
+0000000000002214	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn21interruptAsyncCalloutEiPv:
+00000000000024dc	ldr	x0, [x19, #0x20]
+00000000000024e0	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+00000000000024e4	mov	x2, x0
+00000000000024e8	add	x8, sp, #0xc
+00000000000024ec	str	x8, [sp]
+00000000000024f0	add	x3, sp, #0x20
+00000000000024f4	add	x5, sp, #0x10
+00000000000024f8	mov	x0, x20
+00000000000024fc	mov	w1, #0x16
+0000000000002500	mov	w4, #0x3
+0000000000002504	mov	w6, #0x2
+0000000000002508	mov	x7, #0x0
+000000000000250c	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+
+__ZN10MesaPlugIn20SetInterruptCallbackEPFvmPhmEm:
+0000000000002610	ldr	w22, [x20, #0x18]
+0000000000002614	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+0000000000002618	mov	x2, x0
+000000000000261c	add	x8, sp, #0xc
+0000000000002620	str	x8, [sp]
+0000000000002624	add	x3, sp, #0x20
+0000000000002628	add	x5, sp, #0x10
+000000000000262c	mov	x0, x22
+0000000000002630	mov	w1, #0x16
+0000000000002634	mov	w4, #0x3
+0000000000002638	mov	w6, #0x2
+000000000000263c	mov	x7, #0x0
+0000000000002640	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+
+__ZN10MesaPlugIn24ReadCaptureAsyncCallbackEiPv:
+00000000000026f0	ldr	x0, [x19, #0x20]
+00000000000026f4	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+00000000000026f8	mov	x2, x0
+00000000000026fc	add	x8, sp, #0xc
+0000000000002700	str	x8, [sp]
+0000000000002704	add	x3, sp, #0x20
+0000000000002708	add	x5, sp, #0x10
+000000000000270c	mov	x0, x20
+0000000000002710	mov	w1, #0x1
+0000000000002714	mov	w4, #0x3
+0000000000002718	mov	w6, #0x2
+000000000000271c	mov	x7, #0x0
+0000000000002720	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+
+__ZN10MesaPlugIn18SetCaptureCallbackEPFvmEmPvm:
+000000000000282c	str	wzr, [sp, #0xc]
+0000000000002830	bl	0x334c ; symbol stub for: _IONotificationPortGetMachPort
+0000000000002834	mov	x2, x0
+0000000000002838	add	x8, sp, #0xc
+000000000000283c	str	x8, [sp]
+0000000000002840	add	x3, sp, #0x20
+0000000000002844	add	x5, sp, #0x10
+0000000000002848	mov	x0, x20
+000000000000284c	mov	w1, #0x1
+0000000000002850	mov	w4, #0x3
+0000000000002854	mov	w6, #0x2
+0000000000002858	mov	x7, #0x0
+000000000000285c	bl	0x32ec ; symbol stub for: _IOConnectCallAsyncScalarMethod
+
+__ZN10MesaPlugIn8SetPowerEj:
+0000000000002920	mov	x4, sp
+0000000000002924	mov	w2, #0x1
+0000000000002928	mov	w5, #0x20
+000000000000292c	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002930	mov	w8, w20
+0000000000002934	str	x8, [sp, #0x20]
+0000000000002938	ldr	w0, [x19, #0x18]
+000000000000293c	add	x2, sp, #0x20
+0000000000002940	mov	w1, #0x10
+0000000000002944	mov	w3, #0x1
+0000000000002948	mov	x4, #0x0
+000000000000294c	mov	x5, #0x0
+0000000000002950	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn13SetParametersEPhm:
+0000000000002a6c	adrp	x3, 1 ; 0x3000
+0000000000002a70	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002a74	mov	x4, sp
+0000000000002a78	mov	w2, #0x1
+0000000000002a7c	mov	w5, #0x20
+0000000000002a80	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002a84	ldr	w0, [x21, #0x18]
+0000000000002a88	mov	w1, #0x11
+0000000000002a8c	mov	x2, x20
+0000000000002a90	mov	x3, x19
+0000000000002a94	mov	x4, #0x0
+0000000000002a98	mov	x5, #0x0
+0000000000002a9c	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn10TriggerESDEv:
+0000000000002b94	adrp	x3, 1 ; 0x3000
+0000000000002b98	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002b9c	mov	x4, sp
+0000000000002ba0	mov	w2, #0x1
+0000000000002ba4	mov	w5, #0x20
+0000000000002ba8	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002bac	ldr	w0, [x19, #0x18]
+0000000000002bb0	mov	w1, #0x12
+0000000000002bb4	mov	x2, #0x0
+0000000000002bb8	mov	w3, #0x0
+0000000000002bbc	mov	x4, #0x0
+0000000000002bc0	mov	x5, #0x0
+0000000000002bc4	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn15TriggerSPIErrorEv:
+0000000000002cb8	adrp	x3, 1 ; 0x3000
+0000000000002cbc	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002cc0	mov	x4, sp
+0000000000002cc4	mov	w2, #0x1
+0000000000002cc8	mov	w5, #0x20
+0000000000002ccc	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002cd0	ldr	w0, [x19, #0x18]
+0000000000002cd4	mov	w1, #0x18
+0000000000002cd8	mov	x2, #0x0
+0000000000002cdc	mov	w3, #0x0
+0000000000002ce0	mov	x4, #0x0
+0000000000002ce4	mov	x5, #0x0
+0000000000002ce8	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn18ClearPatchOverrideEv:
+0000000000002ddc	adrp	x3, 1 ; 0x3000
+0000000000002de0	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002de4	mov	x4, sp
+0000000000002de8	mov	w2, #0x1
+0000000000002dec	mov	w5, #0x20
+0000000000002df0	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002df4	ldr	w0, [x19, #0x18]
+0000000000002df8	mov	w1, #0x13
+0000000000002dfc	mov	x2, #0x0
+0000000000002e00	mov	w3, #0x0
+0000000000002e04	mov	x4, #0x0
+0000000000002e08	mov	x5, #0x0
+0000000000002e0c	bl	0x330c ; symbol stub for: _IOConnectCallScalarMethod
+
+__ZN10MesaPlugIn17StartFingerDetectEPhm:
+0000000000002f10	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000002f14	add	x4, sp, #0x10
+0000000000002f18	mov	w2, #0x1
+0000000000002f1c	mov	w5, #0x20
+0000000000002f20	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000002f24	str	x20, [sp, #0x8]
+0000000000002f28	ldr	w0, [x21, #0x18]
+0000000000002f2c	add	x5, sp, #0x8
+0000000000002f30	mov	w1, #0x19
+0000000000002f34	mov	x2, #0x0
+0000000000002f38	mov	x3, #0x0
+0000000000002f3c	mov	x4, x19
+0000000000002f40	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn11StartBurnInEPhm:
+0000000000003048	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+000000000000304c	add	x4, sp, #0x10
+0000000000003050	mov	w2, #0x1
+0000000000003054	mov	w5, #0x20
+0000000000003058	bl	0x33cc ; symbol stub for: __os_log_impl
+000000000000305c	str	x20, [sp, #0x8]
+0000000000003060	ldr	w0, [x21, #0x18]
+0000000000003064	add	x5, sp, #0x8
+0000000000003068	mov	w1, #0x1a
+000000000000306c	mov	x2, #0x0
+0000000000003070	mov	x3, #0x0
+0000000000003074	mov	x4, x19
+0000000000003078	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
+
+__ZN10MesaPlugIn10StopSSHBHBEhPhm:
+0000000000003184	add	x3, x3, #0x43d ; literal pool for: "%s: %s: %p"
+0000000000003188	add	x4, sp, #0x10
+000000000000318c	mov	w2, #0x1
+0000000000003190	mov	w5, #0x20
+0000000000003194	bl	0x33cc ; symbol stub for: __os_log_impl
+0000000000003198	str	x20, [sp, #0x8]
+000000000000319c	ldr	w0, [x21, #0x18]
+00000000000031a0	sub	x2, x29, #0x31
+00000000000031a4	add	x5, sp, #0x8
+00000000000031a8	mov	w1, #0x1b
+00000000000031ac	mov	w3, #0x1
+00000000000031b0	mov	x4, x19
+00000000000031b4	bl	0x331c ; symbol stub for: _IOConnectCallStructMethod
