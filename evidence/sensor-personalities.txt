@@ -1,0 +1,83 @@
+{
+  "BuildMachineOSBuild" => "23A344017"
+  "CFBundleDevelopmentRegion" => "English"
+  "CFBundleExecutable" => "AppleBiometricSensor"
+  "CFBundleIdentifier" => "com.apple.driver.AppleBiometricSensor"
+  "CFBundleInfoDictionaryVersion" => "6.0"
+  "CFBundleName" => "AppleBiometricSensor"
+  "CFBundlePackageType" => "KEXT"
+  "CFBundleShortVersionString" => "1.0.0"
+  "CFBundleSignature" => "????"
+  "CFBundleSupportedPlatforms" => [
+    0 => "MacOSX"
+  ]
+  "CFBundleVersion" => "2"
+  "DTCompiler" => "com.apple.compilers.llvm.clang.1_0"
+  "DTPlatformBuild" => "26A425"
+  "DTPlatformName" => "macosx"
+  "DTPlatformVersion" => "27.0"
+  "DTSDKBuild" => "26A425"
+  "DTSDKName" => "macosx27.0.internal"
+  "DTXcode" => "2700"
+  "DTXcodeBuild" => "27A200c"
+  "IOKitPersonalities" => {
+    "AppleMesa" => {
+      "IOCFPlugInTypes" => {
+        "3F3B04CC-A07A-46A5-9DDF-78768C966771" => "AppleBiometricSensor.kext/Contents/PlugIns/AppleMesaLib.plugin"
+      }
+      "IOClass" => "AppleMesa"
+      "IONameMatch" => [
+        0 => "biosensor,mesa"
+      ]
+      "IOProviderClass" => "AppleARMSPIDevice"
+      "IOUserClientClass" => "AppleMesaUserClient"
+    }
+    "AppleMesaResources" => {
+      "IOClass" => "AppleMesaResources"
+      "IOMatchCategory" => "AppleMesaResources"
+      "IOProviderClass" => "IOResources"
+    }
+    "AppleMesaShim" => {
+      "DeviceUsagePairs" => [
+        0 => {
+          "DeviceUsage" => 11
+          "DeviceUsagePage" => 65280
+        }
+        1 => {
+          "DeviceUsage" => 16
+          "DeviceUsagePage" => 32
+        }
+      ]
+      "IOClass" => "AppleMesaShim"
+      "IOProviderClass" => "AppleMesa"
+    }
+    "AppleSandDollar" => {
+      "IOCFPlugInTypes" => {
+        "3F3B04CC-A07A-46A5-9DDF-78768C966771" => "AppleBiometricSensor.kext/Contents/PlugIns/AppleMesaLib.plugin"
+      }
+      "IOClass" => "AppleSandDollar"
+      "IONameMatch" => [
+        0 => "biosensor,mesa"
+      ]
+      "IOProviderClass" => "AppleARMSPIDevice"
+      "IOUserClientClass" => "AppleMesaUserClient"
+    }
+  }
+  "LSMinimumSystemVersion" => "27.0"
+  "NSHumanReadableCopyright" => "Copyright © 2021 Apple Inc. All rights reserved."
+  "OSBundleCompatibleVersion" => "1.0.0"
+  "OSBundleLibraries" => {
+    "com.apple.driver.AppleARMPlatform" => "1.0.0"
+    "com.apple.iokit.CoreAnalyticsFamily" => "1.0"
+    "com.apple.iokit.IOBiometricFamily" => "1.0"
+    "com.apple.iokit.IOHIDFamily" => "1.4"
+    "com.apple.iokit.IOReportFamily" => "1.0"
+    "com.apple.kpi.bsd" => "8.0"
+    "com.apple.kpi.iokit" => "8.0"
+    "com.apple.kpi.libkern" => "8.0"
+    "com.apple.kpi.mach" => "8.0"
+    "com.apple.kpi.private" => "8.0"
+    "com.apple.kpi.unsupported" => "8.0"
+  }
+  "OSBundleRequired" => "Root"
+}

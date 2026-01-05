@@ -1,0 +1,313 @@
+[
+  {
+    "name": "protocol_info",
+    "method": "get",
+    "request_report_id": 75,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 8,
+    "symbol": "__ZN21AppleTrustedAccessory37establishCommunicationProtocolVersionEv",
+    "symbol_address": "fffffe000a0868d0",
+    "report_id_instruction_addresses": [
+      "fffffe000a08697c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity"
+  },
+  {
+    "name": "select_protocol",
+    "method": "set",
+    "request_report_id": 104,
+    "reply_report_id": null,
+    "request_size": 8,
+    "reply_size_reference": null,
+    "symbol": "__ZN21AppleTrustedAccessory37establishCommunicationProtocolVersionEv",
+    "symbol_address": "fffffe000a0868d0",
+    "report_id_instruction_addresses": [
+      "fffffe000a086a64"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": null
+  },
+  {
+    "name": "uid",
+    "method": "get",
+    "request_report_id": 65,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 16,
+    "symbol": "__ZN21AppleTrustedAccessory11getUIDGatedEPPKh",
+    "symbol_address": "fffffe000a087dcc",
+    "report_id_instruction_addresses": [
+      "fffffe000a087ea0"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity"
+  },
+  {
+    "name": "nonce",
+    "method": "get",
+    "request_report_id": 76,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 16,
+    "symbol": "____ZN21AppleTrustedAccessory8getNonceEv_block_invoke",
+    "symbol_address": "fffffe000a088334",
+    "report_id_instruction_addresses": [
+      "fffffe000a0883c4"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity"
+  },
+  {
+    "name": "public_key",
+    "method": "set",
+    "request_report_id": 103,
+    "reply_report_id": 64,
+    "request_size": 4,
+    "reply_size_reference": 74,
+    "symbol": "__ZN21AppleTrustedAccessory17getPublicKeyGatedEPPKh",
+    "symbol_address": "fffffe000a0870e0",
+    "report_id_instruction_addresses": [
+      "fffffe000a0871f4"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "query_pairing",
+    "method": "set",
+    "request_report_id": 96,
+    "reply_report_id": 66,
+    "request_size": 137,
+    "reply_size_reference": 8,
+    "symbol": "____ZN21AppleTrustedAccessory12queryPairingEPKvmPbS2_Pj_block_invoke",
+    "symbol_address": "fffffe000a0889f4",
+    "report_id_instruction_addresses": [
+      "fffffe000a088b0c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "generate_key",
+    "method": "set",
+    "request_report_id": 102,
+    "reply_report_id": 71,
+    "request_size": 8,
+    "reply_size_reference": 74,
+    "symbol": "____ZN21AppleTrustedAccessory15generateKeyPairE13TAKeyPairTypePA65_h_block_invoke",
+    "symbol_address": "fffffe000a089128",
+    "report_id_instruction_addresses": [
+      "fffffe000a0891e4"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "transfer",
+    "method": "set",
+    "request_report_id": 106,
+    "reply_report_id": null,
+    "request_size": 532,
+    "reply_size_reference": null,
+    "symbol": "__ZN21AppleTrustedAccessory12transferDataE18TADataTransferTypePKvm",
+    "symbol_address": "fffffe000a0895a4",
+    "report_id_instruction_addresses": [
+      "fffffe000a0896b8"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": null
+  },
+  {
+    "name": "pair_prepare",
+    "method": "set",
+    "request_report_id": 107,
+    "reply_report_id": 73,
+    "request_size": 137,
+    "reply_size_reference": 9,
+    "symbol": "____ZN21AppleTrustedAccessory4pairEPKvmPKhS1_mS1_mPPvPmS5_S6__block_invoke",
+    "symbol_address": "fffffe000a089c94",
+    "report_id_instruction_addresses": [
+      "fffffe000a089dbc"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "pair",
+    "method": "set",
+    "request_report_id": 97,
+    "reply_report_id": 67,
+    "request_size": 202,
+    "reply_size_reference": 3601,
+    "symbol": "____ZN21AppleTrustedAccessory4pairEPKvmPKhS1_mS1_mPPvPmS5_S6__block_invoke",
+    "symbol_address": "fffffe000a089c94",
+    "report_id_instruction_addresses": [
+      "fffffe000a089f8c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "exact"
+  },
+  {
+    "name": "unpair",
+    "method": "get",
+    "request_report_id": 68,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 4,
+    "symbol": "__ZN21AppleTrustedAccessory11unpairGatedEv",
+    "symbol_address": "fffffe000a08a960",
+    "report_id_instruction_addresses": [
+      "fffffe000a08aa18"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity",
+    "layout_evidence": [
+      "fffffe000a08a9dc",
+      "fffffe000a08aa5c"
+    ]
+  },
+  {
+    "name": "manifest",
+    "method": "get",
+    "request_report_id": 69,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 2564,
+    "symbol": "__ZN21AppleTrustedAccessory16getManifestGatedEPPvPm",
+    "symbol_address": "fffffe000a08b19c",
+    "report_id_instruction_addresses": [
+      "fffffe000a08b25c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity",
+    "size_note": "2564 is allocated capacity; uint32 length prefix bounds blob to 2560 bytes"
+  },
+  {
+    "name": "compute_session",
+    "method": "set",
+    "request_report_id": 98,
+    "reply_report_id": 70,
+    "request_size": 329,
+    "reply_size_reference": 1549,
+    "symbol": "____ZN21AppleTrustedAccessory17computeSessionKeyEPKhPKvmPPvPm_block_invoke",
+    "symbol_address": "fffffe000a08b758",
+    "report_id_instruction_addresses": [
+      "fffffe000a08b868"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "issue_challenge",
+    "method": "get",
+    "request_report_id": 72,
+    "reply_report_id": null,
+    "request_size": null,
+    "reply_size_reference": 60,
+    "symbol": "__ZN21AppleTrustedAccessory25issueCryptoChallengeGatedEPP18crypto_challenge_t",
+    "symbol_address": "fffffe000a08c9f8",
+    "report_id_instruction_addresses": [
+      "fffffe000a08caac"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "descriptor_capacity"
+  },
+  {
+    "name": "verify_challenge",
+    "method": "set",
+    "request_report_id": 99,
+    "reply_report_id": 73,
+    "request_size": 64,
+    "reply_size_reference": 9,
+    "symbol": "__ZN21AppleTrustedAccessory26verifyCryptoChallengeGatedEPK18crypto_challenge_t",
+    "symbol_address": "fffffe000a08ce4c",
+    "report_id_instruction_addresses": [
+      "fffffe000a08cf68"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "start_intent",
+    "method": "set",
+    "request_report_id": 100,
+    "reply_report_id": 73,
+    "request_size": 12,
+    "reply_size_reference": 9,
+    "symbol": "__ZN21AppleTrustedAccessory22startSecureIntentGatedEv",
+    "symbol_address": "fffffe000a08d64c",
+    "report_id_instruction_addresses": [
+      "fffffe000a08d78c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  },
+  {
+    "name": "secure_intent_nonce",
+    "method": "set",
+    "request_report_id": 101,
+    "reply_report_id": null,
+    "request_size": 48,
+    "reply_size_reference": null,
+    "symbol": "__ZN21AppleTrustedAccessory25setSecureIntentNonceGatedEPK15secure_intent_t",
+    "symbol_address": "fffffe000a08dcf0",
+    "report_id_instruction_addresses": [
+      "fffffe000a08ddcc"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": null
+  },
+  {
+    "name": "cancel",
+    "method": "set",
+    "request_report_id": 100,
+    "reply_report_id": 73,
+    "request_size": 12,
+    "reply_size_reference": 9,
+    "symbol": "__ZN21AppleTrustedAccessory11cancelGatedEv",
+    "symbol_address": "fffffe000a08e06c",
+    "report_id_instruction_addresses": [
+      "fffffe000a08e19c"
+    ],
+    "source": "evidence/AppleTrustedAccessory-kernel-disassembly.txt",
+    "codec_status": "implemented",
+    "provenance": "static; no Bluetooth capture",
+    "reply_size_kind": "minimum"
+  }
+]

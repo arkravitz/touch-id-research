@@ -1,0 +1,254 @@
+[
+  {
+    "command": "0x54",
+    "encoded": "0x1000000066e03b",
+    "address": "0xfffffe000767203b",
+    "name": "GetTopologyOfTemplate"
+  },
+  {
+    "command": "0x55",
+    "encoded": "0x1000000066e051",
+    "address": "0xfffffe0007672051",
+    "name": "ReadCatacombDataSU"
+  },
+  {
+    "command": "0x56",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x57",
+    "encoded": "0x1000000066da81",
+    "address": "0xfffffe0007671a81",
+    "name": "RemoveTemplate"
+  },
+  {
+    "command": "0x58",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x59",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x5a",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x5b",
+    "encoded": "0x1000000066dbb2",
+    "address": "0xfffffe0007671bb2",
+    "name": "SetCalibrationData"
+  },
+  {
+    "command": "0x5c",
+    "encoded": "0x1000000066e064",
+    "address": "0xfffffe0007672064",
+    "name": "GetOperationParams"
+  },
+  {
+    "command": "0x5d",
+    "encoded": "0x1000000066e077",
+    "address": "0xfffffe0007672077",
+    "name": "GetCoverageParams"
+  },
+  {
+    "command": "0x5e",
+    "encoded": "0x1000000066e089",
+    "address": "0xfffffe0007672089",
+    "name": "SetPatch"
+  },
+  {
+    "command": "0x5f",
+    "encoded": "0x1000000066e092",
+    "address": "0xfffffe0007672092",
+    "name": "GetPatch"
+  },
+  {
+    "command": "0x60",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x61",
+    "encoded": "0x1000000066e09b",
+    "address": "0xfffffe000767209b",
+    "name": "SetModulationRatio"
+  },
+  {
+    "command": "0x62",
+    "encoded": "0x1000000066db1f",
+    "address": "0xfffffe0007671b1f",
+    "name": "GetSignedCalibrationData"
+  },
+  {
+    "command": "0x63",
+    "encoded": "0x1000000066db38",
+    "address": "0xfffffe0007671b38",
+    "name": "GetCalibrationDataInfo"
+  },
+  {
+    "command": "0x64",
+    "encoded": "0x1000000066db4f",
+    "address": "0xfffffe0007671b4f",
+    "name": "GetSerialisedTemplates"
+  },
+  {
+    "command": "0x65",
+    "encoded": "0x1000000066e0ae",
+    "address": "0xfffffe00076720ae",
+    "name": "SetCaptureBuffer"
+  },
+  {
+    "command": "0x66",
+    "encoded": "0x1000000066e0bf",
+    "address": "0xfffffe00076720bf",
+    "name": "GetCalibrationData"
+  },
+  {
+    "command": "0x67",
+    "encoded": "0x1000000066e0d2",
+    "address": "0xfffffe00076720d2",
+    "name": "GetCalibrateFDETCommand"
+  },
+  {
+    "command": "0x68",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x69",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x6a",
+    "encoded": "0x1000000066e0ea",
+    "address": "0xfffffe00076720ea",
+    "name": "GetTranspChannelData"
+  },
+  {
+    "command": "0x6b",
+    "encoded": "0x1000000066dd57",
+    "address": "0xfffffe0007671d57",
+    "name": "GetCatacombState"
+  },
+  {
+    "command": "0x6c",
+    "encoded": "0x1000000066e0ff",
+    "address": "0xfffffe00076720ff",
+    "name": "SaveCatacombData"
+  },
+  {
+    "command": "0x6d",
+    "encoded": "0x1000000066e110",
+    "address": "0xfffffe0007672110",
+    "name": "LoadCatacombData"
+  },
+  {
+    "command": "0x6e",
+    "encoded": "0x1000000066ddc7",
+    "address": "0xfffffe0007671dc7",
+    "name": "GetIdentitiesList"
+  },
+  {
+    "command": "0x6f",
+    "encoded": "0x1000000066e121",
+    "address": "0xfffffe0007672121",
+    "name": "GetIBFD42CalibrationData"
+  },
+  {
+    "command": "0x70",
+    "encoded": "0x1000000066de54",
+    "address": "0xfffffe0007671e54",
+    "name": "SaveBioLockoutRecord"
+  },
+  {
+    "command": "0x71",
+    "encoded": "0x1000000066de69",
+    "address": "0xfffffe0007671e69",
+    "name": "LoadBioLockoutRecord"
+  },
+  {
+    "command": "0x72",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x73",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x74",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x75",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x76",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x77",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x78",
+    "encoded": "0x1000000066d4d1",
+    "address": "0xfffffe00076714d1",
+    "name": "Unknown"
+  },
+  {
+    "command": "0x79",
+    "encoded": "0x1000000066ded2",
+    "address": "0xfffffe0007671ed2",
+    "name": "GetCatacombGroupState"
+  },
+  {
+    "command": "0x7a",
+    "encoded": "0x1000000066dee8",
+    "address": "0xfffffe0007671ee8",
+    "name": "GetIdentityRecords"
+  },
+  {
+    "command": "0x7b",
+    "encoded": "0x1000000066e13a",
+    "address": "0xfffffe000767213a",
+    "name": "UpdateBioDeviceList"
+  },
+  {
+    "command": "0x7c",
+    "encoded": "0x1000000066defb",
+    "address": "0xfffffe0007671efb",
+    "name": "GetBioDeviceList"
+  },
+  {
+    "command": "0x7d",
+    "encoded": "0x1000000066e14e",
+    "address": "0xfffffe000767214e",
+    "name": "GetOperationDeviceList"
+  }
+]

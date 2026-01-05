@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0xfffffe0007825416",
+    "text": "VendorID"
+  },
+  {
+    "address": "0xfffffe0007825436",
+    "text": "ProductID"
+  },
+  {
+    "address": "0xfffffe0007825458",
+    "text": "Bluetooth"
+  },
+  {
+    "address": "0xfffffe0007825462",
+    "text": "SerialNumber"
+  },
+  {
+    "address": "0xfffffe00078254a6",
+    "text": "Transport"
+  },
+  {
+    "address": "0xfffffe00078254e1",
+    "text": "LocationID"
+  }
+]

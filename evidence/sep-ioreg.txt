@@ -1,0 +1,78 @@
++-o AppleMesaSEPDriver  <class AppleMesaSEPDriver, id 0x100000917, registered, matched, active, busy 0 (585 ms), retain 10>
+  | {
+  |   "IOClass" = "AppleMesaSEPDriver"
+  |   "CFBundleIdentifier" = "com.apple.driver.AppleMesaSEPDriver"
+  |   "IOProviderClass" = "AppleSEPDeviceService"
+  |   "IOPowerManagement" = {"CapabilityFlags"=2,"MaxPowerState"=1,"CurrentPowerState"=1}
+  |   "ScanningState" = 0
+  |   "IOProbeScore" = 1000
+  |   "IONameMatch" = "sep-endpoint,sbio"
+  |   "IOMatchedAtBoot" = Yes
+  |   "IOMatchCategory" = "com_apple_driver_AppleMesaSEPDriver"
+  |   "IOGeneralInterest" = "IOCommand is not serializable"
+  |   "MesaCalBlobSource" = "FDR"
+  |   "IONameMatched" = "sep-endpoint,sbio"
+  |   "IOPersonalityPublisher" = "com.apple.driver.AppleMesaSEPDriver"
+  |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleMesaSEPDriver"
+  | }
+  | 
+  +-o AppleBiometricServices  <class AppleBiometricServices, id 0x10000091a, registered, matched, active, busy 0 (583 ms), retain 6>
+    | {
+    |   "IOProbeScore" = 0
+    |   "CFBundleIdentifier" = "com.apple.driver.AppleBiometricServices"
+    |   "IOMatchCategory" = "com_apple_driver_AppleBiometricServices"
+    |   "IOClass" = "AppleBiometricServices"
+    |   "IOPersonalityPublisher" = "com.apple.driver.AppleBiometricServices"
+    |   "IOProviderClass" = "AppleMesaSEPDriver"
+    |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleBiometricServices"
+    |   "IOMatchedAtBoot" = Yes
+    |   "IOUserClientClass" = "AppleBiometricServicesUserClient"
+    |   "IOGeneralInterest" = "IOCommand is not serializable"
+    | }
+    | 
+    +-o AppleBiometricServicesUserClient  <class AppleBiometricServicesUserClient, id 0x1004714d3, !registered, !matched, active, busy 0, retain 5>
+        {
+          "IOUserClientCreator" = "pid 3227, biometrickitd"
+          "IOUserClientDefaultLocking" = Yes
+        }
+        
+
++-o AppleMesaSEPDriver  <class AppleMesaSEPDriver, id 0x100000917, registered, matched, active, busy 0 (585 ms), retain 10>
+  | {
+  |   "IOClass" = "AppleMesaSEPDriver"
+  |   "CFBundleIdentifier" = "com.apple.driver.AppleMesaSEPDriver"
+  |   "IOProviderClass" = "AppleSEPDeviceService"
+  |   "IOPowerManagement" = {"CapabilityFlags"=2,"MaxPowerState"=1,"CurrentPowerState"=1}
+  |   "ScanningState" = 0
+  |   "IOProbeScore" = 1000
+  |   "IONameMatch" = "sep-endpoint,sbio"
+  |   "IOMatchedAtBoot" = Yes
+  |   "IOMatchCategory" = "com_apple_driver_AppleMesaSEPDriver"
+  |   "IOGeneralInterest" = "IOCommand is not serializable"
+  |   "MesaCalBlobSource" = "FDR"
+  |   "IONameMatched" = "sep-endpoint,sbio"
+  |   "IOPersonalityPublisher" = "com.apple.driver.AppleMesaSEPDriver"
+  |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleMesaSEPDriver"
+  | }
+  | 
+  +-o AppleBiometricServices  <class AppleBiometricServices, id 0x10000091a, registered, matched, active, busy 0 (583 ms), retain 6>
+    | {
+    |   "IOProbeScore" = 0
+    |   "CFBundleIdentifier" = "com.apple.driver.AppleBiometricServices"
+    |   "IOMatchCategory" = "com_apple_driver_AppleBiometricServices"
+    |   "IOClass" = "AppleBiometricServices"
+    |   "IOPersonalityPublisher" = "com.apple.driver.AppleBiometricServices"
+    |   "IOProviderClass" = "AppleMesaSEPDriver"
+    |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleBiometricServices"
+    |   "IOMatchedAtBoot" = Yes
+    |   "IOUserClientClass" = "AppleBiometricServicesUserClient"
+    |   "IOGeneralInterest" = "IOCommand is not serializable"
+    | }
+    | 
+    +-o AppleBiometricServicesUserClient  <class AppleBiometricServicesUserClient, id 0x1004714d3, !registered, !matched, active, busy 0, retain 5>
+        {
+          "IOUserClientCreator" = "pid 3227, biometrickitd"
+          "IOUserClientDefaultLocking" = Yes
+        }
+        
+
