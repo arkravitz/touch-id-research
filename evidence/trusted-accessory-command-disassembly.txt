@@ -1,0 +1,1958 @@
+(lldb) target create "/tmp/touchid-framework-metadata"
+Current executable set to '/tmp/touchid-framework-metadata' (arm64).
+(lldb) breakpoint set -n metadata_done
+Breakpoint 1: where = touchid-framework-metadata`metadata_done at framework-metadata.m:6:76, address = 0x00000001000005a0
+(lldb) run
+IMAGE /System/Library/PrivateFrameworks/BiometricKit.framework/BiometricKit classes=46
+CLASS BKErrorHelper
+ + errorWithCode: @24@0:8q16 imageOffset=0x2be70
+ + errorWithOSStatus: @20@0:8i16 imageOffset=0x2be8c
+CLASS BKEnrollPearlProgressInfo
+ - .cxx_destruct v16@0:8 imageOffset=0x2bbb4
+ - enrolledPoses @16@0:8 imageOffset=0x2bbac
+ - percentageCompleted q16@0:8 imageOffset=0x2bba4
+CLASS BKFaceWUPoseEligibilityInfo
+ - isEligible B16@0:8 imageOffset=0x2baac
+CLASS BKFaceOcclusionInfo
+ - hasFaceOcclusion B16@0:8 imageOffset=0x2baa4
+CLASS BKMotionDetectStateInfo
+ - .cxx_destruct v16@0:8 imageOffset=0x2ba98
+ - motionDetectState Q16@0:8 imageOffset=0x2ba90
+ - motionMatrix @16@0:8 imageOffset=0x2ba88
+CLASS BKFaceDetectStateInfo
+ - distance @16@0:8 imageOffset=0x2b970
+ - pitch @16@0:8 imageOffset=0x2b958
+ - yaw @16@0:8 imageOffset=0x2b960
+ - orientation Q16@0:8 imageOffset=0x2b978
+ - .cxx_destruct v16@0:8 imageOffset=0x2b9f0
+ - roll @16@0:8 imageOffset=0x2b968
+ - eyeReliefStatus Q16@0:8 imageOffset=0x2b980
+ - glassesMismatch B16@0:8 imageOffset=0x2b9e8
+ - attentionScore @16@0:8 imageOffset=0x2b9a0
+ - cameraObstructionScore @16@0:8 imageOffset=0x2b990
+ - faceDetected B16@0:8 imageOffset=0x2b950
+ - faceDetectionScore @16@0:8 imageOffset=0x2b9a8
+ - flare B16@0:8 imageOffset=0x2b9c8
+ - frameNumber @16@0:8 imageOffset=0x2b998
+ - isCameraObstructed @16@0:8 imageOffset=0x2b988
+ - multipleFaces B16@0:8 imageOffset=0x2b9c0
+ - occlusion B16@0:8 imageOffset=0x2b9d0
+ - partiallyOutOfView B16@0:8 imageOffset=0x2b9d8
+ - tooCloseToCamera B16@0:8 imageOffset=0x2b9b0
+ - tooFarFromCamera B16@0:8 imageOffset=0x2b9b8
+ - unsupportedGlasses B16@0:8 imageOffset=0x2b9e0
+CLASS BKDefaults
+ + device @16@0:8 imageOffset=0x286d4
+ + numberForKey:withError: @32@0:8@16^@24 imageOffset=0x28a68
+ + removeAllPreferencesWithError: B24@0:8^@16 imageOffset=0x29600
+ + setNumber:forKey:withError: B40@0:8@16@24^@32 imageOffset=0x29180
+ + setString:forKey:withError: B40@0:8@16@24^@32 imageOffset=0x293c0
+ + setValue:forKey:withError: B40@0:8@16@24^@32 imageOffset=0x28f40
+ + stringForKey:withError: @32@0:8@16^@24 imageOffset=0x28cd4
+ + valueForKey:withError: @32@0:8@16^@24 imageOffset=0x28850
+CLASS BKSystemProtectedConfiguration
+ - description @16@0:8 imageOffset=0x2850c
+ - dictionary @16@0:8 imageOffset=0x28404
+ - .cxx_destruct v16@0:8 imageOffset=0x28648
+ - initWithDictionary: @24@0:8@16 imageOffset=0x2827c
+ - setUnlockEnabled: v24@0:8@16 imageOffset=0x285c4
+ - unlockEnabled @16@0:8 imageOffset=0x285bc
+ - biometryEnabled @16@0:8 imageOffset=0x285a8
+ - bioMatchLifespan @16@0:8 imageOffset=0x2860c
+ - identificationEnabled @16@0:8 imageOffset=0x285d0
+ - loginEnabled @16@0:8 imageOffset=0x285e4
+ - passcodeInputLifespan @16@0:8 imageOffset=0x28620
+ - periocularFaceIDMatchEnabled @16@0:8 imageOffset=0x28634
+ - setBioMatchLifespan: v24@0:8@16 imageOffset=0x28614
+ - setBiometryEnabled: v24@0:8@16 imageOffset=0x285b0
+ - setIdentificationEnabled: v24@0:8@16 imageOffset=0x285d8
+ - setLoginEnabled: v24@0:8@16 imageOffset=0x285ec
+ - setPasscodeInputLifespan: v24@0:8@16 imageOffset=0x28628
+ - setPeriocularFaceIDMatchEnabled: v24@0:8@16 imageOffset=0x2863c
+ - setUnlockTokenMaxLifetime: v24@0:8@16 imageOffset=0x28600
+ - unlockTokenMaxLifetime @16@0:8 imageOffset=0x285f8
+CLASS BKUserProtectedConfiguration
+ - description @16@0:8 imageOffset=0x280fc
+ - dictionary @16@0:8 imageOffset=0x28024
+ - setAttentionDetectionEnabled: v24@0:8@16 imageOffset=0x281e8
+ - .cxx_destruct v16@0:8 imageOffset=0x28208
+ - attentionDetectionEnabled @16@0:8 imageOffset=0x281e0
+ - setUnlockEnabled: v24@0:8@16 imageOffset=0x28198
+ - unlockEnabled @16@0:8 imageOffset=0x28190
+ - applePayEnabled @16@0:8 imageOffset=0x281cc
+ - identificationEnabled @16@0:8 imageOffset=0x281a4
+ - initWithDictionary:effective: @28@0:8@16B24 imageOffset=0x27e68
+ - loginEnabled @16@0:8 imageOffset=0x281b8
+ - periocularFaceIDMatchEnabled @16@0:8 imageOffset=0x281f4
+ - setApplePayEnabled: v24@0:8@16 imageOffset=0x281d4
+ - setIdentificationEnabled: v24@0:8@16 imageOffset=0x281ac
+ - setLoginEnabled: v24@0:8@16 imageOffset=0x281c0
+ - setPeriocularFaceIDMatchEnabled: v24@0:8@16 imageOffset=0x281fc
+CLASS BKMatchResultInfo
+ - identity @16@0:8 imageOffset=0x27e10
+ - setIdentity: v24@0:8@16 imageOffset=0x27e18
+ - .cxx_destruct v16@0:8 imageOffset=0x27e5c
+ - lockoutState q16@0:8 imageOffset=0x27e24
+ - setLockoutState: v24@0:8q16 imageOffset=0x27e2c
+ - credentialAdded B16@0:8 imageOffset=0x27e44
+ - initWithServerIdentity:details:device: @40@0:8@16@24@32 imageOffset=0x27b4c
+ - resultIgnored B16@0:8 imageOffset=0x27e54
+ - setCredentialAdded: v20@0:8B16 imageOffset=0x27e4c
+ - setUnlocked: v20@0:8B16 imageOffset=0x27e3c
+ - unlocked B16@0:8 imageOffset=0x27e34
+CLASS BKMatchPearlResultInfo
+ - feedback q16@0:8 imageOffset=0x2bab4
+ - periocularMatchState Q16@0:8 imageOffset=0x2bac8
+CLASS BKEnrollResultInfo
+ - .cxx_destruct v16@0:8 imageOffset=0x27b40
+ - enrolledIdentity @16@0:8 imageOffset=0x27b2c
+ - initWithServerIdentity:details:device: @40@0:8@16@24@32 imageOffset=0x2792c
+ - setEnrolledIdentity: v24@0:8@16 imageOffset=0x27b34
+CLASS BKEnrollPearlResultInfo
+ - glassesDetected B16@0:8 imageOffset=0x2bbc0
+CLASS BKIdentity
+ - setUserID: v20@0:8I16 imageOffset=0x277f0
+ - userID I16@0:8 imageOffset=0x277e8
+ - device @16@0:8 imageOffset=0x2782c
+ - setDevice: v24@0:8@16 imageOffset=0x27834
+ - setName: v24@0:8@16 imageOffset=0x27810
+ - hash Q16@0:8 imageOffset=0x277cc
+ - isEqualToIdentity: B24@0:8@16 imageOffset=0x276dc
+ - uuid @16@0:8 imageOffset=0x277d4
+ - name @16@0:8 imageOffset=0x27808
+ - setType: v24@0:8q16 imageOffset=0x27800
+ - type q16@0:8 imageOffset=0x277f8
+ - .cxx_destruct v16@0:8 imageOffset=0x278b8
+ - setUuid: v24@0:8@16 imageOffset=0x277dc
+ - isEqual: B24@0:8@16 imageOffset=0x27750
+ - setCreationTime: v24@0:8@16 imageOffset=0x27820
+ - creationTime @16@0:8 imageOffset=0x27818
+ - accessory @16@0:8 imageOffset=0x27840
+ - setAccessory: v24@0:8@16 imageOffset=0x27848
+ - accessoryGroup @16@0:8 imageOffset=0x27854
+ - canAddPeriocularEnrollment B16@0:8 imageOffset=0x27898
+ - hasPeriocularEnrollment B16@0:8 imageOffset=0x27878
+ - hasPeriocularEnrollmentWithGlasses B16@0:8 imageOffset=0x27888
+ - initWithServerIdentity:device: @32@0:8@16@24 imageOffset=0x27468
+ - placeholderIdentity B16@0:8 imageOffset=0x27868
+ - secondaryPeriocularEnrollments q16@0:8 imageOffset=0x278a8
+ - serverIdentity @16@0:8 imageOffset=0x27648
+ - setAccessoryGroup: v24@0:8@16 imageOffset=0x2785c
+ - setCanAddPeriocularEnrollment: v20@0:8B16 imageOffset=0x278a0
+ - setHasPeriocularEnrollment: v20@0:8B16 imageOffset=0x27880
+ - setHasPeriocularEnrollmentWithGlasses: v20@0:8B16 imageOffset=0x27890
+ - setPlaceholderIdentity: v20@0:8B16 imageOffset=0x27870
+ - setSecondaryPeriocularEnrollments: v24@0:8q16 imageOffset=0x278b0
+ + identity @16@0:8 imageOffset=0x27440
+CLASS BKOperation
+ - statusMessage:details:client: v36@0:8I16@20Q28 imageOffset=0x24d80
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x24ab0
+ - touchIDButtonPressed:client: v28@0:8B16Q20 imageOffset=0x24d8c
+ - templateUpdate:details:client: v40@0:8@16@24Q32 imageOffset=0x24d90
+ - enrollUpdate:client: v32@0:8@16Q24 imageOffset=0x24aa4
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x24aac
+ - connectionInterrupted v16@0:8 imageOffset=0x2392c
+ - initWithDevice: @24@0:8@16 imageOffset=0x233fc
+ - device @16@0:8 imageOffset=0x24dcc
+ - setDelegate: v24@0:8@16 imageOffset=0x23774
+ - startWithError: B24@0:8^@16 imageOffset=0x23f58
+ - enrollFeedback:client: v32@0:8@16Q24 imageOffset=0x24aa8
+ - cancel v16@0:8 imageOffset=0x2425c
+ - setQueue: v24@0:8@16 imageOffset=0x24e08
+ - .cxx_destruct v16@0:8 imageOffset=0x24e1c
+ - dealloc v16@0:8 imageOffset=0x23664
+ - changeState: v24@0:8q16 imageOffset=0x245e8
+ - dispatchQueue @16@0:8 imageOffset=0x238c4
+ - taskResumeStatus:client: v28@0:8i16Q20 imageOffset=0x24d94
+ - queue @16@0:8 imageOffset=0x24e00
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x24d88
+ - delegate @16@0:8 imageOffset=0x24dd4
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x24aa0
+ - state q16@0:8 imageOffset=0x24e14
+ - isDelegate B16@0:8 imageOffset=0x24d98
+ - startWithReply: v24@0:8@?16 imageOffset=0x240c4
+ - operationEndsWithReason: v24@0:8q16 imageOffset=0x24840
+ - operationInterrupted v16@0:8 imageOffset=0x2399c
+ - optionsDictionaryWithError: @24@0:8^@16 imageOffset=0x239a4
+ - startBioOperation:reply: v28@0:8B16@?20 imageOffset=0x239b0
+ - startOperation:reply: v28@0:8B16@?20 imageOffset=0x23a24
+ - userPresentWithError: @24@0:8^@16 imageOffset=0x243e4
+CLASS BKExtendEnrollTouchIDOperation
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x2a654
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x2a314
+ - identity @16@0:8 imageOffset=0x2abe8
+ - setIdentity: v24@0:8@16 imageOffset=0x2abfc
+ - .cxx_destruct v16@0:8 imageOffset=0x2ac30
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x2a96c
+ - credentialSet @16@0:8 imageOffset=0x2ac10
+ - setCredentialSet: v24@0:8@16 imageOffset=0x2ac24
+ - startBioOperation:reply: v28@0:8B16@?20 imageOffset=0x29f94
+CLASS BKPresenceDetectOperation
+ - setPriority: v24@0:8q16 imageOffset=0x27438
+ - priority q16@0:8 imageOffset=0x27430
+ - optionsDictionaryWithError: @24@0:8^@16 imageOffset=0x270e0
+ - startBioOperation:reply: v28@0:8B16@?20 imageOffset=0x27160
+CLASS BKFaceDetectOperation
+ - setHighPriority: v20@0:8B16 imageOffset=0x2bb40
+ - eyeRelief B16@0:8 imageOffset=0x2bb54
+ - setEyeRelief: v20@0:8B16 imageOffset=0x2bb68
+ - highPriority B16@0:8 imageOffset=0x2bb2c
+ - setMotionDetect: v20@0:8B16 imageOffset=0x2bb90
+ - timeout d16@0:8 imageOffset=0x2bb04
+ - setMode: v24@0:8q16 imageOffset=0x2baf0
+ - mode q16@0:8 imageOffset=0x2badc
+ - motionDetect B16@0:8 imageOffset=0x2bb7c
+ - setTimeout: v24@0:8d16 imageOffset=0x2bb18
+CLASS BKFingerDetectOperation
+CLASS BKMatchOperation
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x26d50
+ - setUserID: v24@0:8@16 imageOffset=0x27024
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x267d0
+ - initWithDevice: @24@0:8@16 imageOffset=0x25f40
+ - userID @16@0:8 imageOffset=0x2701c
+ - useCase q16@0:8 imageOffset=0x27060
+ - setPurpose: v24@0:8q16 imageOffset=0x27014
+ - purpose q16@0:8 imageOffset=0x2700c
+ - setPriority: v24@0:8q16 imageOffset=0x27048
+ - .cxx_destruct v16@0:8 imageOffset=0x27090
+ - dealloc v16@0:8 imageOffset=0x25f9c
+ - setUseCase: v24@0:8q16 imageOffset=0x27068
+ - priority q16@0:8 imageOffset=0x27040
+ - setCaptureOnly: v20@0:8B16 imageOffset=0x27088
+ - captureOnly B16@0:8 imageOffset=0x27080
+ - credentialSet @16@0:8 imageOffset=0x27050
+ - matchResultInfoWithServerIdentity:details: @32@0:8@16@24 imageOffset=0x26724
+ - operationInterrupted v16@0:8 imageOffset=0x25fec
+ - optionsDictionaryWithError: @24@0:8^@16 imageOffset=0x26038
+ - processMatchFailReason: v24@0:8q16 imageOffset=0x26b68
+ - selectedIdentities @16@0:8 imageOffset=0x27030
+ - setCredentialSet: v24@0:8@16 imageOffset=0x27058
+ - setSelectedIdentities: v24@0:8@16 imageOffset=0x27038
+ - setStopOnSuccess: v20@0:8B16 imageOffset=0x27078
+ - startBioOperation:reply: v28@0:8B16@?20 imageOffset=0x263d8
+ - stopOnSuccess B16@0:8 imageOffset=0x27070
+CLASS BKMatchPearlOperation
+ - setTrigger: v24@0:8Q16 imageOffset=0x2bd94
+ - .cxx_destruct v16@0:8 imageOffset=0x2bdd0
+ - trigger Q16@0:8 imageOffset=0x2bd80
+ - setLongTimeout: v20@0:8B16 imageOffset=0x2bccc
+ - shouldAutoRetry B16@0:8 imageOffset=0x2bce0
+ - enableAutoRetry:error: B28@0:8B16^@20 imageOffset=0x2bca8
+ - fullFaceOnly B16@0:8 imageOffset=0x2bd58
+ - longTimeout B16@0:8 imageOffset=0x2bcb8
+ - nonDelayedIndicator B16@0:8 imageOffset=0x2bda8
+ - pauseFaceDetectTimer:error: B28@0:8B16^@20 imageOffset=0x2bcb0
+ - preAugmentationCheck B16@0:8 imageOffset=0x2bd08
+ - preAugmentationCheckIdentity @16@0:8 imageOffset=0x2bd30
+ - setFullFaceOnly: v20@0:8B16 imageOffset=0x2bd6c
+ - setNonDelayedIndicator: v20@0:8B16 imageOffset=0x2bdbc
+ - setPreAugmentationCheck: v20@0:8B16 imageOffset=0x2bd1c
+ - setPreAugmentationCheckIdentity: v24@0:8@16 imageOffset=0x2bd44
+ - setShouldAutoRetry: v20@0:8B16 imageOffset=0x2bcf4
+ - startNewMatchAttemptWithError: B24@0:8^@16 imageOffset=0x2bca0
+CLASS BKMatchTouchIDOperation
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x2ac84
+ - optionsDictionaryWithError: @24@0:8^@16 imageOffset=0x2f190
+ - requireFingerOff B16@0:8 imageOffset=0x2af9c
+ - requireStrictCoverage B16@0:8 imageOffset=0x2afc4
+ - setRequireFingerOff: v20@0:8B16 imageOffset=0x2afb0
+ - setRequireStrictCoverage: v20@0:8B16 imageOffset=0x2afd8
+CLASS BKEnrollOperation
+ - statusMessage:details:client: v36@0:8I16@20Q28 imageOffset=0x2597c
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x25970
+ - setUserID: v20@0:8I16 imageOffset=0x25ed0
+ - enrollUpdate:client: v32@0:8@16Q24 imageOffset=0x25780
+ - initWithDevice: @24@0:8@16 imageOffset=0x24e74
+ - userID I16@0:8 imageOffset=0x25ec8
+ - enrollFeedback:client: v32@0:8@16Q24 imageOffset=0x25784
+ - .cxx_destruct v16@0:8 imageOffset=0x25efc
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x25374
+ - accessoryGroup @16@0:8 imageOffset=0x25ee8
+ - credentialSet @16@0:8 imageOffset=0x25ed8
+ - enrollResultInfoWithServerIdentity:details: @32@0:8@16@24 imageOffset=0x252c8
+ - operationInterrupted v16@0:8 imageOffset=0x24ec8
+ - optionsDictionaryWithError: @24@0:8^@16 imageOffset=0x24f14
+ - processEnrollFailReason: v24@0:8q16 imageOffset=0x25788
+ - setAccessoryGroup: v24@0:8@16 imageOffset=0x25ef0
+ - setCredentialSet: v24@0:8@16 imageOffset=0x25ee0
+ - startBioOperation:reply: v28@0:8B16@?20 imageOffset=0x24fa4
+CLASS BKEnrollPearlOperation
+ - completeWithError: B24@0:8^@16 imageOffset=0x2bbd4
+ - resumeWithError: B24@0:8^@16 imageOffset=0x2bbe4
+ - suspendWithError: B24@0:8^@16 imageOffset=0x2bbdc
+ - .cxx_destruct v16@0:8 imageOffset=0x2bc8c
+ - augmentedIdentity @16@0:8 imageOffset=0x2bc3c
+ - clientToComplete B16@0:8 imageOffset=0x2bc14
+ - enrollmentType q16@0:8 imageOffset=0x2bbec
+ - periocularGlassesRequirement q16@0:8 imageOffset=0x2bc64
+ - setAugmentedIdentity: v24@0:8@16 imageOffset=0x2bc50
+ - setClientToComplete: v20@0:8B16 imageOffset=0x2bc28
+ - setEnrollmentType: v24@0:8q16 imageOffset=0x2bc00
+ - setPeriocularGlassesRequirement: v24@0:8q16 imageOffset=0x2bc78
+CLASS BKEnrollTouchIDOperation
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x2987c
+ - initWithDevice: @24@0:8@16 imageOffset=0x2975c
+ - startWithError: B24@0:8^@16 imageOffset=0x2980c
+ - dealloc v16@0:8 imageOffset=0x297b8
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x29d18
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x29844
+ - createEnrollProgressInfo: @20@0:8I16 imageOffset=0x2f054
+CLASS BiometricSupportTools
+ + dateFromNanoTime:nanoseconds: @32@0:8Q16^I24 imageOffset=0x2334c
+CLASS BKDevice
+ - statusMessage:details:client: v36@0:8I16@20Q28 imageOffset=0x21ccc
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x21cc8
+ - touchIDButtonPressed:client: v28@0:8B16Q20 imageOffset=0x21f5c
+ - templateUpdate:details:client: v40@0:8@16@24Q32 imageOffset=0x21f60
+ - enrollUpdate:client: v32@0:8@16Q24 imageOffset=0x21cbc
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x21cc4
+ - descriptor @16@0:8 imageOffset=0x22164
+ - connectionInterrupted v16@0:8 imageOffset=0x1bc24
+ - setDelegate: v24@0:8@16 imageOffset=0x1ba98
+ - enrollFeedback:client: v32@0:8@16Q24 imageOffset=0x21cc0
+ - setQueue: v24@0:8@16 imageOffset=0x22158
+ - .cxx_destruct v16@0:8 imageOffset=0x22178
+ - dealloc v16@0:8 imageOffset=0x1b988
+ - dispatchQueue @16@0:8 imageOffset=0x1bbbc
+ - taskResumeStatus:client: v28@0:8i16Q20 imageOffset=0x21f64
+ - setDescriptor: v24@0:8@16 imageOffset=0x2216c
+ - queue @16@0:8 imageOffset=0x22150
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x21f58
+ - delegate @16@0:8 imageOffset=0x22124
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x21cb8
+ - isDelegate B16@0:8 imageOffset=0x21f68
+ - protectedConfigurationForUser:error: @28@0:8I16^@20 imageOffset=0x1c084
+ - accessoriesWithError: @24@0:8^@16 imageOffset=0x21068
+ - connectedAccessoriesWithError: @24@0:8^@16 imageOffset=0x21360
+ - createEnrollOperationWithError: @24@0:8^@16 imageOffset=0x1bc28
+ - expressModeState:forUser:error: B36@0:8^q16I24^@28 imageOffset=0x1db1c
+ - freeIdentityCountForUser:error: @28@0:8I16^@20 imageOffset=0x20494
+ - accessoryGroupsWithError: @24@0:8^@16 imageOffset=0x20d30
+ - bioLockoutState:forUser:error: B36@0:8^q16I24^@28 imageOffset=0x1d674
+ - biometryAvailability:forUser:error: B36@0:8^q16I24^@28 imageOffset=0x206a4
+ - createMatchOperationWithError: @24@0:8^@16 imageOffset=0x1bd9c
+ - createPresenceDetectOperationWithError: @24@0:8^@16 imageOffset=0x1bf10
+ - deviceHardwareState:error: B32@0:8^Q16^@24 imageOffset=0x20b00
+ - dropAllUnlockTokensWithError: B24@0:8^@16 imageOffset=0x1e03c
+ - effectiveProtectedConfigurationForUser:error: @28@0:8I16^@20 imageOffset=0x1c298
+ - extendedBioLockoutState:forUser:error: B36@0:8^q16I24^@28 imageOffset=0x1d8c8
+ - forceBioLockoutForAllUsersWithError: B24@0:8^@16 imageOffset=0x1e19c
+ - forceBioLockoutForUser:error: B28@0:8I16^@20 imageOffset=0x1e304
+ - forceBioLockoutIfLockedForUser:error: B28@0:8I16^@20 imageOffset=0x1e51c
+ - freeIdentityCountForUser:accessoryGroup:error: @36@0:8I16@20^@28 imageOffset=0x21a40
+ - identitiesDatabaseHashForUser:error: @28@0:8I16^@20 imageOffset=0x1dec4
+ - identitiesDatabaseUUIDForUser:error: @28@0:8I16^@20 imageOffset=0x1dd4c
+ - identitiesForUser:accessoryGroup:error: @36@0:8I16@20^@28 imageOffset=0x21674
+ - identitiesForUser:error: @28@0:8I16^@20 imageOffset=0x1ff40
+ - identitiesWithError: @24@0:8^@16 imageOffset=0x1fc04
+ - identityForUUID:error: @32@0:8@16^@24 imageOffset=0x1e738
+ - lastMatchEventWithError: @24@0:8^@16 imageOffset=0x208f4
+ - maxIdentityCountWithError: @24@0:8^@16 imageOffset=0x202a0
+ - removeAllIdentitiesForUser:async:reply: v32@0:8I16B20@?24 imageOffset=0x1f604
+ - removeAllIdentitiesForUser:error: B28@0:8I16^@20 imageOffset=0x1f908
+ - removeAllIdentitiesForUser:reply: v28@0:8I16@?20 imageOffset=0x1fa5c
+ - removeIdentity:async:reply: v36@0:8@16B24@?28 imageOffset=0x1efb0
+ - removeIdentity:error: B32@0:8@16^@24 imageOffset=0x1f2e0
+ - removeIdentity:reply: v32@0:8@16@?24 imageOffset=0x1f45c
+ - setProtectedConfiguration:forUser:credentialSet:async:reply: v48@0:8@16I24@28B36@?40 imageOffset=0x1c6a0
+ - setProtectedConfiguration:forUser:credentialSet:error: B44@0:8@16I24@28^@36 imageOffset=0x1ca94
+ - setProtectedConfiguration:forUser:credentialSet:reply: v44@0:8@16I24@28@?36 imageOffset=0x1cc54
+ - setSystemProtectedConfiguration:credentialSet:async:reply: v44@0:8@16@24B32@?36 imageOffset=0x1ce5c
+ - setSystemProtectedConfiguration:credentialSet:error: B40@0:8@16@24^@32 imageOffset=0x1d32c
+ - setSystemProtectedConfiguration:credentialSet:reply: v40@0:8@16@24@?32 imageOffset=0x1d4c4
+ - systemProtectedConfigurationWithError: @24@0:8^@16 imageOffset=0x1c4ac
+ - updateIdentity:async:reply: v36@0:8@16B24@?28 imageOffset=0x1e95c
+ - updateIdentity:error: B32@0:8@16^@24 imageOffset=0x1ec8c
+ - updateIdentity:reply: v32@0:8@16@?24 imageOffset=0x1ee08
+ + deviceWithDescriptor:error: @32@0:8@16^@24 imageOffset=0x1b6ac
+ + biometryAvailabilityInfo:fromDeviceInfo:error: B40@0:8^q16q24^@32 imageOffset=0x220c0
+ + deviceAvailableWithFailure: B24@0:8^B16 imageOffset=0x1b6a4
+ + extendedLockoutState:fromDeviceLockoutState:error: B40@0:8^q16q24^@32 imageOffset=0x22034
+ + lockoutState:fromDeviceLockoutState:error: B40@0:8^q16q24^@32 imageOffset=0x21f9c
+CLASS BKDevicePearl
+ - prewarmCamera:error: B32@0:8Q16^@24 imageOffset=0x2be54
+ - setTemplate:forIdentity:error: B40@0:8@16@24^@32 imageOffset=0x2bde4
+ - removePeriocularEnrollmentsForUser:removeAll:reply: v32@0:8I16B20@?24 imageOffset=0x2be2c
+ - queryIdentityMigrationFailureForUser:error: @28@0:8I16^@20 imageOffset=0x2be44
+ - supportsPeriocularEnrollmentWithError: @24@0:8^@16 imageOffset=0x2bdec
+ - removePeriocularEnrollmentsFromIdentity:removeAll:reply: v36@0:8@16B24@?28 imageOffset=0x2be0c
+ - removePeriocularEnrollmentsForUser:removeAll:error: B32@0:8I16B20^@24 imageOffset=0x2be24
+ - periocularMatchStateWithError: @24@0:8^@16 imageOffset=0x2bdf4
+ - pearlState q16@0:8 imageOffset=0x2be5c
+ - clearIdentityMigrationFailureForUser:error: B28@0:8I16^@20 imageOffset=0x2be4c
+ - removePeriocularEnrollmentsFromIdentity:removeAll:error: B36@0:8@16B24^@28 imageOffset=0x2be04
+ - periocularMatchStateForUser:error: @28@0:8I16^@20 imageOffset=0x2bdfc
+CLASS BKDeviceTouchID
+ - createEnrollOperationWithError: @24@0:8^@16 imageOffset=0x2b174
+ - createExtendEnrollTouchIDOperationWithError: @24@0:8^@16 imageOffset=0x2b2e8
+ - createMatchOperationWithError: @24@0:8^@16 imageOffset=0x2b45c
+ - createPresenceDetectOperationWithError: @24@0:8^@16 imageOffset=0x2b5d0
+ - enableBackgroundFingerDetection:error: B28@0:8B16^@20 imageOffset=0x2b744
+ + deviceAvailableWithFailure: B24@0:8^B16 imageOffset=0x2afec
+CLASS BioUserDefaults
+ - synchronize B16@0:8 imageOffset=0x1b620
+ - stateDictionary @16@0:8 imageOffset=0x1b480
+ - registerUpdateNotification: v24@0:8@?16 imageOffset=0x1ab84
+ - objectForKey: @24@0:8@16 imageOffset=0x1ada4
+ - integerForKey: q24@0:8@16 imageOffset=0x1afd4
+ - objectOfClass:forKey: @32@0:8#16@24 imageOffset=0x1ae80
+ - setBool:forKey: B28@0:8B16@20 imageOffset=0x1b2ac
+ - setObject:forKey: B32@0:8@16@24 imageOffset=0x1b238
+ - .cxx_destruct v16@0:8 imageOffset=0x1b660
+ - intForKey: i24@0:8@16 imageOffset=0x1af58
+ - registerDefaults: v24@0:8@16 imageOffset=0x1a824
+ - unsignedIntForKey: I24@0:8@16 imageOffset=0x1b050
+ - unregisterUpdateNotification: v24@0:8@?16 imageOffset=0x1aca8
+ - boolForKey: B24@0:8@16 imageOffset=0x1aedc
+ - updateNotification v16@0:8 imageOffset=0x1a960
+ - unsignedIntegerForKey: Q24@0:8@16 imageOffset=0x1b0cc
+ - stringForKey: @24@0:8@16 imageOffset=0x1b1c0
+ - numberForKey: @24@0:8@16 imageOffset=0x1b148
+ + sharedInstance @16@0:8 imageOffset=0x1a748
+ + initialize v16@0:8 imageOffset=0x1a6c0
+ + removeAllPreferences v16@0:8 imageOffset=0x1b328
+ + preferenceObjectForKey: @24@0:8@16 imageOffset=0x1b3c0
+ + removeLegacyPreferences v16@0:8 imageOffset=0x1b3bc
+CLASS BKMatchEvent
+ - result B16@0:8 imageOffset=0x1a680
+ - setResult: v20@0:8B16 imageOffset=0x1a688
+ - .cxx_destruct v16@0:8 imageOffset=0x1a6b4
+ - setTimeStamp: v24@0:8Q16 imageOffset=0x1a698
+ - timeStamp Q16@0:8 imageOffset=0x1a690
+ - matchedIdentity @16@0:8 imageOffset=0x1a6a0
+ - setMatchedIdentity: v24@0:8@16 imageOffset=0x1a6a8
+ + matchEventWithDictionary:device:error: @40@0:8@16@24^@32 imageOffset=0x1a4dc
+CLASS BKDeviceManager
+ + availableDevices @16@0:8 imageOffset=0x1a230
+ + initialize v16@0:8 imageOffset=0x1a204
+ + availableDevicesWithFailure: @24@0:8^B16 imageOffset=0x1a240
+CLASS BKDeviceDescriptor
+ - setType: v24@0:8q16 imageOffset=0x1a1fc
+ - type q16@0:8 imageOffset=0x1a1f4
+ + initialize v16@0:8 imageOffset=0x1a184
+ + deviceDescriptorForType: @24@0:8q16 imageOffset=0x1a1b0
+CLASS BiometricKitEnrollProgressMergedComponent
+ - init @16@0:8 imageOffset=0x19eb4
+ - .cxx_destruct v16@0:8 imageOffset=0x19f7c
+ - dealloc v16@0:8 imageOffset=0x19f0c
+ - setComponentID: v24@0:8q16 imageOffset=0x19f60
+ - componentID q16@0:8 imageOffset=0x19f58
+ - setTransformationCoordinates: v24@0:8@16 imageOffset=0x19f70
+ - transformationCoordinates @16@0:8 imageOffset=0x19f68
+CLASS BiometricKitEnrollProgressCoordinates
+ - setAngle: v24@0:8d16 imageOffset=0x19eac
+ - y d16@0:8 imageOffset=0x19e94
+ - x d16@0:8 imageOffset=0x19e84
+ - angle d16@0:8 imageOffset=0x19ea4
+ - setY: v24@0:8d16 imageOffset=0x19e9c
+ - setX: v24@0:8d16 imageOffset=0x19e8c
+CLASS BiometricKitEnrollProgressInfo
+ - setProgress: v24@0:8q16 imageOffset=0x19dd0
+ - setMessage: v20@0:8i16 imageOffset=0x19e18
+ - message i16@0:8 imageOffset=0x19e10
+ - progress q16@0:8 imageOffset=0x19dc8
+ - init @16@0:8 imageOffset=0x19cf4
+ - .cxx_destruct v16@0:8 imageOffset=0x19e34
+ - dealloc v16@0:8 imageOffset=0x19d64
+ - renderedImage @16@0:8 imageOffset=0x19dfc
+ - captureImage @16@0:8 imageOffset=0x19de8
+ - currentPrimaryComponentID q16@0:8 imageOffset=0x19dd8
+ - messageDetails @16@0:8 imageOffset=0x19e20
+ - setCaptureImage: v24@0:8@16 imageOffset=0x19df0
+ - setCurrentPrimaryComponentID: v24@0:8q16 imageOffset=0x19de0
+ - setMessageDetails: v24@0:8@16 imageOffset=0x19e28
+ - setRenderedImage: v24@0:8@16 imageOffset=0x19e04
+CLASS BiometricKitMatchInfo
+ - details @16@0:8 imageOffset=0x19c9c
+ - setDetails: v24@0:8@16 imageOffset=0x19ca4
+ - init @16@0:8 imageOffset=0x19bcc
+ - .cxx_destruct v16@0:8 imageOffset=0x19cb0
+ - dealloc v16@0:8 imageOffset=0x19c30
+ - topology @16@0:8 imageOffset=0x19c88
+ - setTopology: v24@0:8@16 imageOffset=0x19c90
+CLASS BiometricKitIdentity
+ - setUserID: v20@0:8I16 imageOffset=0x19ac0
+ - setEntity: v20@0:8i16 imageOffset=0x19af0
+ - userID I16@0:8 imageOffset=0x19ab8
+ - description @16@0:8 imageOffset=0x199f0
+ - entity i16@0:8 imageOffset=0x19ae8
+ - setFlags: v20@0:8I16 imageOffset=0x19b54
+ - flags I16@0:8 imageOffset=0x19b4c
+ - attribute i16@0:8 imageOffset=0x19ad8
+ - setName: v24@0:8@16 imageOffset=0x19b00
+ - hash Q16@0:8 imageOffset=0x199e8
+ - isEqualToIdentity: B24@0:8@16 imageOffset=0x198f8
+ - initWithCoder: @24@0:8@16 imageOffset=0x193a0
+ - uuid @16@0:8 imageOffset=0x19aa4
+ - name @16@0:8 imageOffset=0x19af8
+ - setType: v20@0:8i16 imageOffset=0x19ad0
+ - type i16@0:8 imageOffset=0x19ac8
+ - init @16@0:8 imageOffset=0x1935c
+ - .cxx_destruct v16@0:8 imageOffset=0x19b70
+ - setUuid: v24@0:8@16 imageOffset=0x19aac
+ - isEqual: B24@0:8@16 imageOffset=0x1996c
+ - setCreationTime: v24@0:8@16 imageOffset=0x19b10
+ - updateCount q16@0:8 imageOffset=0x19b3c
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x1975c
+ - encodeWithCoder: v24@0:8@16 imageOffset=0x195dc
+ - creationTime @16@0:8 imageOffset=0x19b08
+ - setAttribute: v20@0:8i16 imageOffset=0x19ae0
+ - accessory @16@0:8 imageOffset=0x19b5c
+ - setAccessory: v24@0:8@16 imageOffset=0x19b64
+ - setUpdateCount: v24@0:8q16 imageOffset=0x19b44
+ - matchCount q16@0:8 imageOffset=0x19b1c
+ - matchCountContinuous q16@0:8 imageOffset=0x19b2c
+ - setMatchCount: v24@0:8q16 imageOffset=0x19b24
+ - setMatchCountContinuous: v24@0:8q16 imageOffset=0x19b34
+ + supportsSecureCoding B16@0:8 imageOffset=0x19754
+ + biometricKitIdentity @16@0:8 imageOffset=0x1932c
+CLASS BiometricKit
+ - statusMessage:details:client: v36@0:8I16@20Q28 imageOffset=0x18a94
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x18a0c
+ - touchIDButtonPressed:client: v28@0:8B16Q20 imageOffset=0x18c90
+ - getSensorInfo @16@0:8 imageOffset=0x17f54
+ - isFingerOn B16@0:8 imageOffset=0x17b7c
+ - logEventOrCode: v24@0:8Q16 imageOffset=0x19224
+ - templateUpdate:details:client: v40@0:8@16@24Q32 imageOffset=0x18f04
+ - enrollUpdate:client: v32@0:8@16Q24 imageOffset=0x18218
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x185b8
+ - match: i24@0:8@16 imageOffset=0x11b1c
+ - dropUnlockToken i16@0:8 imageOffset=0x1754c
+ - connectionInterrupted v16@0:8 imageOffset=0x17ff4
+ - removeIdentity: i24@0:8@16 imageOffset=0x14b50
+ - isTouchIDCapable B16@0:8 imageOffset=0x1d0c
+ - _statusMessage: v20@0:8I16 imageOffset=0x186dc
+ - setDelegate: v24@0:8@16 imageOffset=0x11354
+ - registerStoreToken: i24@0:8@16 imageOffset=0x16c04
+ - forceBioLockout i16@0:8 imageOffset=0x1766c
+ - setProtectedConfiguration:withAuthToken: i32@0:8@16@24 imageOffset=0x12888
+ - getProtectedConfiguration @16@0:8 imageOffset=0x1232c
+ - resetAppleConnectCounter i16@0:8 imageOffset=0x1742c
+ - pullDebugImage:rotated: @24@0:8B16B20 imageOffset=0x2dea8
+ - enrollFeedback:client: v32@0:8@16Q24 imageOffset=0x1821c
+ - _homeButtonPressed v16@0:8 imageOffset=0x18a9c
+ - cancel v16@0:8 imageOffset=0x1410c
+ - getIdentitiesDatabaseHashForUser: @20@0:8I16 imageOffset=0x17a5c
+ - getModulationRatio f16@0:8 imageOffset=0x2dd60
+ - enrollProgressMessage: v20@0:8I16 imageOffset=0x2df20
+ - setProtectedConfiguration:forUser:withOptions: i36@0:8@16I24@28 imageOffset=0x12cb8
+ - getIdentityFromUUID: @24@0:8@16 imageOffset=0x15b60
+ - imageDictFromRawImageData: @24@0:8^{?=@II}16 imageOffset=0x2ddac
+ - appWillEnterForeground: v24@0:8@16 imageOffset=0x19200
+ - getFreeIdentityCount:forUser: q24@0:8i16I20 imageOffset=0x1622c
+ - pullDebugImageData:rotated:target: v32@0:8B16B20^{?=@II}24 imageOffset=0x17f78
+ - registerDSID:withOptions: i32@0:8Q16@24 imageOffset=0x16a40
+ - timestampEvent: v24@0:8Q16 imageOffset=0x17090
+ - createMatchInfo:withTopology:withMatchImage: @40@0:8@16r^{?=sss{?=sss}{?=sssssss[16C][16C]s(?=[300{?={?=sss}ss}]{?=ii[50{?=ssccccBB}]})ssssss}ii}24^{?=@II}32 imageOffset=0x164e0
+ - getProvisioningState q16@0:8 imageOffset=0x17f3c
+ - _taskResumeStatus: v20@0:8i16 imageOffset=0x18fec
+ - setUserDSID:withOptions: i32@0:8Q16@24 imageOffset=0x17268
+ - setDebugImages: v20@0:8B16 imageOffset=0x17f5c
+ - setEnrollProgressConfigRenderMode: v20@0:8i16 imageOffset=0x19260
+ - init @16@0:8 imageOffset=0x1298
+ - getIdentitiesDatabaseUUIDForUser: @20@0:8I16 imageOffset=0x178b8
+ - getCalibrationDataState q16@0:8 imageOffset=0x2dd14
+ - appDidBecomeActive: v24@0:8@16 imageOffset=0x19218
+ - _templateUpdate:withDictionary: v32@0:8@16@24 imageOffset=0x18d18
+ - setSystemProtectedConfiguration:withOptions:withReply: v40@0:8@16@24@?32 imageOffset=0x13964
+ - detectPresenceWithOptions: i24@0:8@16 imageOffset=0x13c88
+ - .cxx_destruct v16@0:8 imageOffset=0x19268
+ - _enrollResult: v24@0:8@16 imageOffset=0x17ff8
+ - removeIdentity:withOptions:withReply: v40@0:8@16@24@?32 imageOffset=0x14fd0
+ - setSystemProtectedConfiguration:withOptions: i32@0:8@16@24 imageOffset=0x135c4
+ - dealloc v16@0:8 imageOffset=0x11300
+ - updateIdentity:withOptions: i32@0:8@16@24 imageOffset=0x14424
+ - setUserDSID:withAuthToken: i32@0:8Q16@24 imageOffset=0x170d4
+ - taskResumeStatus:client: v28@0:8i16Q20 imageOffset=0x19110
+ - registerDSID:withAuthToken: i32@0:8Q16@24 imageOffset=0x168ac
+ - enrollProgressConfigRenderMode i16@0:8 imageOffset=0x19258
+ - fileRadarWithLogs:withDescription: B32@0:8@16@24 imageOffset=0x17fe8
+ - getBioLockoutStateForUser: q20@0:8I16 imageOffset=0x1bc0
+ - getSensorCalibrationStatus q16@0:8 imageOffset=0x17f44
+ - detectFingerWithOptions: i24@0:8@16 imageOffset=0x13d2c
+ - pullCalibrationData @16@0:8 imageOffset=0x17f68
+ - enroll:withOptions: i28@0:8i16@20 imageOffset=0x11590
+ - inUse B16@0:8 imageOffset=0x19234
+ - updateIdentity:withOptions:withReply: v40@0:8@16@24@?32 imageOffset=0x147f4
+ - getIdentitiesDatabaseUUID @16@0:8 imageOffset=0x17824
+ - removeAllIdentitiesForUser:withOptions: i28@0:8I16@20 imageOffset=0x1532c
+ - pullCaptureBuffer @16@0:8 imageOffset=0x17f70
+ - _matchResult:withDictionary: v32@0:8@16@24 imageOffset=0x18220
+ - setProtectedConfiguration:forUser:withOptions:withReply: v44@0:8@16I24@28@?36 imageOffset=0x131e8
+ - setProtectedConfiguration:withOptions: i32@0:8@16@24 imageOffset=0x12bf4
+ - setInUse: v20@0:8B16 imageOffset=0x19248
+ - _touchIDButtonPressed: v20@0:8B16 imageOffset=0x18c34
+ - enroll:forUser:withOptions: i32@0:8i16I20@24 imageOffset=0x11640
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x18bb8
+ - match:withOptions: i32@0:8@16@24 imageOffset=0x11bc4
+ - removeIdentity:withOptions: i32@0:8@16@24 imageOffset=0x14bf8
+ - getCalBlobVersion q16@0:8 imageOffset=0x2dcc8
+ - delegate @16@0:8 imageOffset=0x1922c
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x112fc
+ - getMatchPolicyInfo @16@0:8 imageOffset=0x2d7a4
+ - getCountersignedStoreToken: i24@0:8^@16 imageOffset=0x16d64
+ - identities: @24@0:8@16 imageOffset=0x15e40
+ - getIdentitiesDatabaseHash @16@0:8 imageOffset=0x179c8
+ - getLogs:withDetails: @28@0:8B16^@20 imageOffset=0x17fe0
+ - getSystemProtectedConfiguration @16@0:8 imageOffset=0x1267c
+ - isTouchIDAvailableWithInfo: B24@0:8^q16 imageOffset=0x11460
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x1816c
+ - getBioLockoutState q16@0:8 imageOffset=0x1b40
+ - getTemplateInfo: @24@0:8@16 imageOffset=0x2d9ac
+ - getMaxIdentityCount: q20@0:8i16 imageOffset=0x15f8c
+ - appWillResignActive: v24@0:8@16 imageOffset=0x1920c
+ - diagnostics:withOptions:passed:withDetails: i44@0:8i16@20^B28^@36 imageOffset=0x16f10
+ - getProtectedConfigurationForUser: @20@0:8I16 imageOffset=0x123c0
+ - setProtectedConfiguration:withOptions:withReply: v40@0:8@16@24@?32 imageOffset=0x13108
+ - forceBioLockoutForUser: i20@0:8I16 imageOffset=0x176ec
+ - appDidEnterBackground: v24@0:8@16 imageOffset=0x191a8
+ - getCalibrationDataInfo @16@0:8 imageOffset=0x17f4c
+ - updateIdentity: i24@0:8@16 imageOffset=0x1437c
+ - removeAllIdentitiesForUser:withOptions:withReply: v36@0:8I16@20@?28 imageOffset=0x15820
+ - enableBackgroundFdet: i20@0:8B16 imageOffset=0x17e08
+ - isDelegate B16@0:8 imageOffset=0x19198
+ + allocWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x112e0
+ + manager @16@0:8 imageOffset=0x11a0
+ + getSensorPatchVersion q16@0:8 imageOffset=0x17ff0
+CLASS BiometricKitTemplateInfo
+ - details @16@0:8 imageOffset=0x11288
+ - setDetails: v24@0:8@16 imageOffset=0x11290
+ - init @16@0:8 imageOffset=0x111b8
+ - .cxx_destruct v16@0:8 imageOffset=0x1129c
+ - dealloc v16@0:8 imageOffset=0x1121c
+ - topology @16@0:8 imageOffset=0x11274
+ - setTopology: v24@0:8@16 imageOffset=0x1127c
+CLASS BiometricKitXPCClient
+ - getSensorInfo @16@0:8 imageOffset=0xd4fc
+ - isFingerOn B16@0:8 imageOffset=0xe07c
+ - logEventOrCode: v24@0:8Q16 imageOffset=0xf990
+ - dropUnlockToken i16@0:8 imageOffset=0xbd48
+ - connect i16@0:8 imageOffset=0x8304
+ - disconnect v16@0:8 imageOffset=0x8858
+ - getBioLockoutState:forUser: i28@0:8^q16I24 imageOffset=0xb838
+ - removePeriocularTemplatesWithOptions:async:withReply: v36@0:8@16B24@?28 imageOffset=0xf444
+ - invalidateConnection v16@0:8 imageOffset=0x1a50
+ - setDelegate: v24@0:8@16 imageOffset=0x10f24
+ - registerStoreToken: i24@0:8@16 imageOffset=0xc4a0
+ - setTemplate:forIdentity: i32@0:8@16@24 imageOffset=0xee7c
+ - pullMatchPolicyInfoData @16@0:8 imageOffset=0xaad8
+ - getLastMatchEvent: i24@0:8^@16 imageOffset=0xfdd0
+ - interruptConnection v16@0:8 imageOffset=0x8090
+ - enrollContinue i16@0:8 imageOffset=0xa794
+ - registerDelegateCall: v20@0:8B16 imageOffset=0x88f4
+ - clientID Q16@0:8 imageOffset=0x8080
+ - resetAppleConnectCounter i16@0:8 imageOffset=0xc2e0
+ - getBiometryAvailability:forUser: i28@0:8^q16I24 imageOffset=0xe910
+ - initWithDeviceType:clientType: @32@0:8q16q24 imageOffset=0x168c
+ - updateIdentity:withOptions:async:withReply: v44@0:8@16@24B32@?36 imageOffset=0x9718
+ - forceBioLockoutForUser:withOptions: i28@0:8I16@20 imageOffset=0xbf08
+ - cancel v16@0:8 imageOffset=0x9664
+ - notifyAppIsBackground: v20@0:8B16 imageOffset=0x8aac
+ - getIdentitiesDatabaseHashForUser: @20@0:8I16 imageOffset=0xca64
+ - getIdentityFromUUID: @24@0:8@16 imageOffset=0xa19c
+ - getFreeIdentityCount:forUser: q24@0:8i16I20 imageOffset=0xa63c
+ - getDeviceHardwareState: i24@0:8^I16 imageOffset=0x10028
+ - pauseFaceDetectTimer: i20@0:8B16 imageOffset=0xfc00
+ - registerDSID:withOptions: i32@0:8Q16@24 imageOffset=0xc0f4
+ - removeAllPreferences i16@0:8 imageOffset=0x10b68
+ - enableMatchAutoRetry: i20@0:8B16 imageOffset=0xfa30
+ - registerDelegate: v20@0:8B16 imageOffset=0x89a0
+ - pullAlignmentData @16@0:8 imageOffset=0xa954
+ - getProvisioningState q16@0:8 imageOffset=0xbc08
+ - completeEnrollment i16@0:8 imageOffset=0xeaec
+ - initializeConnection i16@0:8 imageOffset=0x8244
+ - setPreferencesValue:forKey: i32@0:8@16@24 imageOffset=0x10968
+ - setUserDSID:withOptions: i32@0:8Q16@24 imageOffset=0xd048
+ - removeIdentity:withOptions:async:withReply: v44@0:8@16@24B32@?36 imageOffset=0x9aa0
+ - suspendEnrollment: i20@0:8B16 imageOffset=0xecac
+ - setDebugImages: v20@0:8B16 imageOffset=0xdbb0
+ - init @16@0:8 imageOffset=0x1574
+ - getIdentitiesDatabaseUUIDForUser: @20@0:8I16 imageOffset=0xc8d0
+ - getNodeTopologyForIdentity: @24@0:8@16 imageOffset=0xac5c
+ - prewarmCamera: i24@0:8Q16 imageOffset=0x10d28
+ - getPeriocularMatchState:state: i28@0:8I16^q20 imageOffset=0xf25c
+ - connectionId Q16@0:8 imageOffset=0x8088
+ - .cxx_destruct v16@0:8 imageOffset=0x1b04
+ - dealloc v16@0:8 imageOffset=0x1994
+ - match:withOptions:async:withReply: v44@0:8@16@24B32@?36 imageOffset=0x8f7c
+ - fileRadarWithLogs:withDescription: B32@0:8@16@24 imageOffset=0xdefc
+ - getSensorCalibrationStatus q16@0:8 imageOffset=0xd234
+ - pullDebugImageData:rotated:imageWidth:imageHeight: @40@0:8B16B20^I24^I32 imageOffset=0xd988
+ - pullCalibrationData @16@0:8 imageOffset=0xd680
+ - pullCaptureBuffer @16@0:8 imageOffset=0xd804
+ - setSystemProtectedConfiguration:withOptions:async:withReply: v44@0:8@16@24B32@?36 imageOffset=0xb4b0
+ - getPreferencesValue:forKey: i32@0:8^@16@24 imageOffset=0x106ec
+ - getDeviceState q16@0:8 imageOffset=0xe60c
+ - notifyAppIsInactive: v20@0:8B16 imageOffset=0x8b4c
+ - detectPresenceWithOptions:async:withReply: v36@0:8@16B24@?28 imageOffset=0x9304
+ - isXARTAvailable B16@0:8 imageOffset=0xe4cc
+ - setProtectedConfiguration:forUser:withOptions:async:withReply: v48@0:8@16I24@28B36@?40 imageOffset=0xb11c
+ - delegate @16@0:8 imageOffset=0x10ef8
+ - enroll:forUser:withOptions:async:withReply: v44@0:8i16I20@24B32@?36 imageOffset=0x8bec
+ - getCountersignedStoreToken: i24@0:8^@16 imageOffset=0xc684
+ - identities: @24@0:8@16 imageOffset=0xa344
+ - queryIdentityMigrationFailureForUser:failed:clear: i32@0:8I16^B20B28 imageOffset=0xf7a4
+ - isAriadneSignpostsEnabled B16@0:8 imageOffset=0xe38c
+ - getLogs:withDetails: @28@0:8B16^@20 imageOffset=0xdc78
+ - getSystemProtectedConfiguration @16@0:8 imageOffset=0xaf98
+ - getMaxIdentityCount: q20@0:8i16 imageOffset=0xa4ec
+ - listAccessories: i24@0:8^@16 imageOffset=0x10248
+ - diagnostics:withOptions:passed:withDetails: i44@0:8i16@20^B28^@36 imageOffset=0xcbf8
+ - getProtectedConfigurationForUser: @20@0:8I16 imageOffset=0xae04
+ - removeAllIdentitiesForUser:withOptions:async:withReply: v40@0:8I16@20B28@?32 imageOffset=0x9e28
+ - isPeriocularEnrollmentSupported: i24@0:8^B16 imageOffset=0xf07c
+ - getExpressModeState:forUser: i28@0:8^q16I24 imageOffset=0xba20
+ - getCalibrationDataInfo @16@0:8 imageOffset=0xd378
+ - enableBackgroundFdet: i20@0:8B16 imageOffset=0xe1bc
+ - getFreeIdentityCount:forUser:accessoryGroup: i36@0:8^Q16I24@28 imageOffset=0x104a0
+ - startNewMatchAttempt i16@0:8 imageOffset=0xe750
+ - timestampEvent:absoluteTime: v32@0:8Q16Q24 imageOffset=0xcf78
+ + clientUUID @16@0:8 imageOffset=0x2d52c
+ + initialize v16@0:8 imageOffset=0x14fc
+CLASS BiometricKitXPCClientConnection
+ - statusMessage:details:client: v36@0:8I16@20Q28 imageOffset=0x7b04
+ - statusMessage:client: v28@0:8I16Q20 imageOffset=0x7a0c
+ - touchIDButtonPressed:client: v28@0:8B16Q20 imageOffset=0x7d0c
+ - removeClient: B24@0:8@16 imageOffset=0x7298
+ - templateUpdate:details:client: v40@0:8@16@24Q32 imageOffset=0x7df4
+ - enrollUpdate:client: v32@0:8@16Q24 imageOffset=0x7618
+ - matchResult:details:client: v40@0:8@16@24Q32 imageOffset=0x78c0
+ - addClient: B24@0:8@16 imageOffset=0x718c
+ - xpcConnection @16@0:8 imageOffset=0x6378
+ - client: @24@0:8Q16 imageOffset=0x73a0
+ - enrollFeedback:client: v32@0:8@16Q24 imageOffset=0x77ac
+ - .cxx_destruct v16@0:8 imageOffset=0x8030
+ - dealloc v16@0:8 imageOffset=0x6328
+ - taskResumeStatus:client: v28@0:8i16Q20 imageOffset=0x7f40
+ - queue @16@0:8 imageOffset=0x8028
+ - homeButtonPressed: v24@0:8Q16 imageOffset=0x7c2c
+ - enrollResult:details:client: v40@0:8@16@24Q32 imageOffset=0x7444
+ - initWithDeviceType: @24@0:8q16 imageOffset=0x62d0
+ + connectionWithDeviceType: @24@0:8q16 imageOffset=0x185c
+CLASS BiometricKitAccessoryGroup
+ - description @16@0:8 imageOffset=0x60d0
+ - setName: v24@0:8@16 imageOffset=0x61a4
+ - hash Q16@0:8 imageOffset=0x60c8
+ - initWithCoder: @24@0:8@16 imageOffset=0x5d64
+ - uuid @16@0:8 imageOffset=0x6188
+ - name @16@0:8 imageOffset=0x619c
+ - setType: v20@0:8I16 imageOffset=0x6180
+ - type I16@0:8 imageOffset=0x6178
+ - .cxx_destruct v16@0:8 imageOffset=0x61ac
+ - setUuid: v24@0:8@16 imageOffset=0x6190
+ - isEqual: B24@0:8@16 imageOffset=0x604c
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x5f40
+ - encodeWithCoder: v24@0:8@16 imageOffset=0x5e7c
+ - isEqualToAccessoryGroup: B24@0:8@16 imageOffset=0x5fe8
+ + supportsSecureCoding B16@0:8 imageOffset=0x5d5c
+CLASS BiometricKitAccessory
+ - setGroup: v24@0:8@16 imageOffset=0x5cf0
+ - description @16@0:8 imageOffset=0x5b48
+ - group @16@0:8 imageOffset=0x5ce8
+ - setFlags: v20@0:8I16 imageOffset=0x5d04
+ - flags I16@0:8 imageOffset=0x5cfc
+ - setName: v24@0:8@16 imageOffset=0x5ce0
+ - hash Q16@0:8 imageOffset=0x5b40
+ - initWithCoder: @24@0:8@16 imageOffset=0x5724
+ - uuid @16@0:8 imageOffset=0x5cc4
+ - name @16@0:8 imageOffset=0x5cd8
+ - setType: v20@0:8I16 imageOffset=0x5cbc
+ - type I16@0:8 imageOffset=0x5cb4
+ - .cxx_destruct v16@0:8 imageOffset=0x5d0c
+ - setUuid: v24@0:8@16 imageOffset=0x5ccc
+ - isEqual: B24@0:8@16 imageOffset=0x5ac4
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x5970
+ - encodeWithCoder: v24@0:8@16 imageOffset=0x5884
+ - isEqualToAccessory: B24@0:8@16 imageOffset=0x5a60
+ + supportsSecureCoding B16@0:8 imageOffset=0x571c
+CLASS BKAccessory
+ - device @16@0:8 imageOffset=0x56b8
+ - uid @16@0:8 imageOffset=0x4e18
+ - hash Q16@0:8 imageOffset=0x5018
+ - name @16@0:8 imageOffset=0x56a8
+ - .cxx_destruct v16@0:8 imageOffset=0x56c0
+ - isEqual: B24@0:8@16 imageOffset=0x4f9c
+ - isRemovable B16@0:8 imageOffset=0x4e0c
+ - isAuthorized:error: B32@0:8^B16^@24 imageOffset=0x5364
+ - initWithServerAccessory:device: @32@0:8@16@24 imageOffset=0x4cd8
+ - serverAccessory @16@0:8 imageOffset=0x4d78
+ - accessoryGroup @16@0:8 imageOffset=0x56b0
+ - isConnected:error: B32@0:8^B16^@24 imageOffset=0x5020
+ - isEqualToAccessory: B24@0:8@16 imageOffset=0x4f38
+ - isEqualToServerAccessory: B24@0:8@16 imageOffset=0x4eac
+CLASS BKAccessoryGroup
+ - device @16@0:8 imageOffset=0x4c80
+ - hash Q16@0:8 imageOffset=0x4c70
+ - name @16@0:8 imageOffset=0x4c78
+ - .cxx_destruct v16@0:8 imageOffset=0x4c88
+ - isEqual: B24@0:8@16 imageOffset=0x4bf4
+ - accessoriesWithError: @24@0:8^@16 imageOffset=0x4450
+ - connectedAccessoriesWithError: @24@0:8^@16 imageOffset=0x47a4
+ - initWithServerAccessoryGroup:device: @32@0:8@16@24 imageOffset=0x434c
+ - isEqualToAccessoryGroup: B24@0:8@16 imageOffset=0x4b90
+ - isEqualToServerAccessoryGroup: B24@0:8@16 imageOffset=0x4b04
+ - serverAccessoryGroup @16@0:8 imageOffset=0x43ec
+IMAGE /System/Library/PrivateFrameworks/BiometricSupport.framework/BiometricSupport classes=29
+CLASS WatchdogTimer
+ - initWithName:timeout: @28@0:8r*16I24 imageOffset=0x22240
+ - cancel v16@0:8 imageOffset=0x22704
+ - .cxx_destruct v16@0:8 imageOffset=0x227e8
+ - dealloc v16@0:8 imageOffset=0x226bc
+ + watchdogWithName: @24@0:8r*16 imageOffset=0x221ac
+ + watchdogWithName:timeout: @28@0:8r*16I24 imageOffset=0x221f4
+CLASS WatchdogTimerItem
+ - setEndTime: v24@0:8Q16 imageOffset=0x22198
+ - setName: v24@0:8@16 imageOffset=0x22178
+ - name @16@0:8 imageOffset=0x22170
+ - endTime Q16@0:8 imageOffset=0x22190
+ - setStartTime: v24@0:8Q16 imageOffset=0x22188
+ - .cxx_destruct v16@0:8 imageOffset=0x221a0
+ - startTime Q16@0:8 imageOffset=0x22180
+CLASS BiometricKitEventLogger
+ - logEventOrCode: v24@0:8Q16 imageOffset=0x20f78
+ - init @16@0:8 imageOffset=0x20cc4
+ - .cxx_destruct v16@0:8 imageOffset=0x214b4
+ - appendEvent: v24@0:8@16 imageOffset=0x20e80
+ - flushEvents v16@0:8 imageOffset=0x21260
+ - appendEventValue:isMetadata: v24@0:8I16B20 imageOffset=0x20dd0
+ - logDeviceMetadata v16@0:8 imageOffset=0x210fc
+ - logSmartKeyboardStatus v16@0:8 imageOffset=0x21250
+ + logger @16@0:8 imageOffset=0x20b64
+CLASS BKEvent
+ - event I16@0:8 imageOffset=0x20b14
+ - description @16@0:8 imageOffset=0x20998
+ - isStart B16@0:8 imageOffset=0x20b1c
+ - cls C16@0:8 imageOffset=0x20b0c
+ - isTerminal B16@0:8 imageOffset=0x20b28
+ - isHigh B16@0:8 imageOffset=0x20b4c
+ - isLow B16@0:8 imageOffset=0x20b58
+ - isSmartKeyboard B16@0:8 imageOffset=0x20b40
+ - encodeEventValue:secondValue: v32@0:8^I16^I24 imageOffset=0x20ac4
+ - initWithEncodedEventOrCode: @20@0:8I16 imageOffset=0x20884
+ - initWithEventOrCode: @24@0:8Q16 imageOffset=0x20820
+ - isMetadata B16@0:8 imageOffset=0x20b34
+ - setProperties v16@0:8 imageOffset=0x208fc
+CLASS BiometricKitXPCServer
+ - removeUser: i20@0:8I16 imageOffset=0x153c8
+ - listener:shouldAcceptNewConnection: B32@0:8@16@24 imageOffset=0xf210
+ - accessories @16@0:8 imageOffset=0x202c4
+ - pullMatchPolicyInfoData @16@0:8 imageOffset=0x1fef8
+ - enrollContinue i16@0:8 imageOffset=0x1fee8
+ - connectedAccessories @16@0:8 imageOffset=0x1c4f4
+ - identities @16@0:8 imageOffset=0x17304
+ - isDisplayOn B16@0:8 imageOffset=0x13dc0
+ - pullAlignmentData @16@0:8 imageOffset=0x1fef0
+ - init @16@0:8 imageOffset=0xe6ac
+ - .cxx_destruct v16@0:8 imageOffset=0x202e0
+ - dealloc v16@0:8 imageOffset=0xf134
+ - fileRadarWithLogs:withDescription: B32@0:8@16@24 imageOffset=0x1ffd0
+ - pairedAccessories @16@0:8 imageOffset=0x1c480
+ - getLogs:withDetails: @28@0:8B16^@20 imageOffset=0x1ffc8
+ - allClients @16@0:8 imageOffset=0x1429c
+ - timestampEvent:absoluteTime: v32@0:8Q16Q24 imageOffset=0x1fed4
+ - reporter @16@0:8 imageOffset=0x202cc
+ - setReporter: v24@0:8@16 imageOffset=0x202d4
+ - accessoryAdded: v24@0:8@16 imageOffset=0x1c46c
+ - catacombVersion I16@0:8 imageOffset=0x19050
+ - getIdentityObjectByUserID:UUID: @28@0:8I16@20 imageOffset=0x16f28
+ - getProvisioningStateWithClient: q24@0:8@16 imageOffset=0x1ff18
+ - identitiesCount Q16@0:8 imageOffset=0x17384
+ - osStateHandler: ^{os_state_data_s=I(?=b32I){os_state_data_decoder_s=[64c][64c]}[64c][0C]}24@0:8^{os_state_hints_s=I*II}16 imageOffset=0xff8c
+ - performGetCatacombStateCommand: i24@0:8@16 imageOffset=0x1fa04
+ - removeAllPreferencesWithClient: v24@0:8@16 imageOffset=0x1cc34
+ - startNewMatchAttemptWithClient: i24@0:8@16 imageOffset=0x1ff38
+ - stopBioOperationsAfterReconnect v16@0:8 imageOffset=0x11b64
+ - templatesAtBoot B16@0:8 imageOffset=0x20264
+ - getIdentityFromUUID:withClient: @32@0:8@16@24 imageOffset=0x1dc68
+ - getMaxIdentityCount:withClient: q28@0:8i16@20 imageOffset=0x1e160
+ - notifyAppIsInactive:withClient: v28@0:8B16@20 imageOffset=0x10c20
+ - performGetBioDeviceListCommand: i24@0:8@16 imageOffset=0x1faec
+ - accessoryConnected: v24@0:8@16 imageOffset=0x1c474
+ - accessoryDisconnected: v24@0:8@16 imageOffset=0x1c478
+ - accessoryMayHaveChanged v16@0:8 imageOffset=0x1c47c
+ - accessoryRemoved: v24@0:8@16 imageOffset=0x1c470
+ - activeBioOpsQueue @16@0:8 imageOffset=0x2022c
+ - addIdentityObject: v24@0:8@16 imageOffset=0x18140
+ - addIdentityObjects: v24@0:8@16 imageOffset=0x18308
+ - archiveCatacombDataForComponent:toArchiver: i32@0:8@16@24 imageOffset=0x19058
+ - ariadneSignposts B16@0:8 imageOffset=0x20214
+ - bioOpsQueue @16@0:8 imageOffset=0x20224
+ - biometricABC @16@0:8 imageOffset=0x2029c
+ - biometricABCDispatchQueue @16@0:8 imageOffset=0x202b0
+ - cacheAccessories i16@0:8 imageOffset=0x1b8dc
+ - cacheCatacombInfo i16@0:8 imageOffset=0x16740
+ - cachedIdentities @16@0:8 imageOffset=0x2024c
+ - cancelWithClient: i24@0:8@16 imageOffset=0x107d0
+ - catacomb @16@0:8 imageOffset=0x2025c
+ - catacombComponentForIdentity: @24@0:8@16 imageOffset=0x179d8
+ - catacombFileAccessed B16@0:8 imageOffset=0x20274
+ - catacombFileNameForComponent: @24@0:8@16 imageOffset=0x16d38
+ - catacombLock @16@0:8 imageOffset=0x20254
+ - catacombRestored B16@0:8 imageOffset=0x20284
+ - catacombStateCache @16@0:8 imageOffset=0x20294
+ - checkCatacombForUser: i20@0:8I16 imageOffset=0x15034
+ - checkTemplatesValidityForUser: i20@0:8I16 imageOffset=0x151c4
+ - clearTemplateList v16@0:8 imageOffset=0x146fc
+ - clearTemplateListForUser: v20@0:8I16 imageOffset=0x14988
+ - cmdDispatchQueue @16@0:8 imageOffset=0x2020c
+ - completeEnrollmentWithClient: i24@0:8@16 imageOffset=0x1ff40
+ - createEnrollOperation @16@0:8 imageOffset=0x1023c
+ - createMatchEventDictionary: @24@0:8^{?=QC{?=I[16C]}}16 imageOffset=0x2fab4
+ - createMatchOperation @16@0:8 imageOffset=0x10414
+ - createPresenceDetectOperation @16@0:8 imageOffset=0x1064c
+ - deleteUnusedCatacombFiles v16@0:8 imageOffset=0x18938
+ - detectPresenceWithOptions:withClient: i32@0:8@16@24 imageOffset=0x2f3d4
+ - diagnostics:withOptions:passed:withDetails:withClient: i52@0:8i16@20^B28^@36@44 imageOffset=0x1fecc
+ - disconnectingClient: v24@0:8@16 imageOffset=0x14204
+ - displayStateChanged: i20@0:8B16 imageOffset=0x13e94
+ - doSharedMemoryTransfers v16@0:8 imageOffset=0x1fb04
+ - dropUnlockTokenWithClient: i24@0:8@16 imageOffset=0x1e4b4
+ - enableBackgroundFdet:withClient: i28@0:8B16@20 imageOffset=0x1ff28
+ - enableMatchAutoRetry:withClient: i28@0:8B16@20 imageOffset=0x1ff78
+ - enroll:forUser:withOptions:withClient: i40@0:8i16I20@24@32 imageOffset=0x2e880
+ - enrollFeedback:withTimestamp: v32@0:8@16Q24 imageOffset=0x201f8
+ - enrollResult:withTimestamp: v32@0:8@16Q24 imageOffset=0x201f0
+ - enrollUpdate:withTimestamp: v32@0:8@16Q24 imageOffset=0x201f4
+ - filterIdentities:withFilter: i32@0:8@16@24 imageOffset=0x127a4
+ - forceBioLockoutForUser:withOptions:withClient: i36@0:8I16@20@28 imageOffset=0x1e5cc
+ - getAccessoryObject: @24@0:8^{?=I[16C]}16 imageOffset=0x1c23c
+ - getBioLockoutState:forUser:withClient: i36@0:8^q16I24@28 imageOffset=0x1e7a4
+ - getBiometryAvailability:forUser:withClient: i36@0:8^q16I24@28 imageOffset=0x1ecf4
+ - getCalibrationDataInfoWithClient: @24@0:8@16 imageOffset=0x1ffb8
+ - getCatacombSaveListForComponents:list: i32@0:8@16^@24 imageOffset=0x18c98
+ - getCountersignedStoreToken:withClient: i32@0:8^@16@24 imageOffset=0x1fec4
+ - getDeviceHardwareState:withClient: i32@0:8^I16@24 imageOffset=0x1f1ac
+ - getDeviceStateWithClient: q24@0:8@16 imageOffset=0x1ff30
+ - getEnabledForUnlock B16@0:8 imageOffset=0x1ff08
+ - getExpressModeState:forUser:withClient: i36@0:8^q16I24@28 imageOffset=0x1ea18
+ - getFreeIdentityCount:forUser:accessoryGroup:client: i44@0:8^Q16I24@28@36 imageOffset=0x2ff84
+ - getFreeIdentityCount:forUser:withClient: q32@0:8i16I20@24 imageOffset=0x1e2f4
+ - getIdentitiesDatabaseHashForUser:withClient: @28@0:8I16@20 imageOffset=0x30ba4
+ - getIdentitiesDatabaseUUIDForUser:withClient: @28@0:8I16@20 imageOffset=0x30a50
+ - getIdentityObject: @24@0:8^{?=I[16C]}16 imageOffset=0x171bc
+ - getLastMatchEvent:withClient: i32@0:8^@16@24 imageOffset=0x30cf8
+ - getNodeTopologyForIdentity:withClient: @32@0:8@16@24 imageOffset=0x1ff00
+ - getPeriocularMatchStateForUser:state:withClient: i36@0:8I16^q20@28 imageOffset=0x1ff60
+ - getPreferencesValue:forKey:withClient: i40@0:8^@16@24@32 imageOffset=0x1c890
+ - getProtectedConfigurationForUser:withClient: @28@0:8I16@20 imageOffset=0x1f360
+ - getSensorCalibrationStatusWithClient: q24@0:8@16 imageOffset=0x1ffb0
+ - getSensorInfoWithClient: @24@0:8@16 imageOffset=0x1ffc0
+ - getSystemProtectedConfigurationWithClient: @24@0:8@16 imageOffset=0x30e68
+ - getUserKeybagUUIDForUID: @20@0:8I16 imageOffset=0x301f4
+ - getUserUUIDForUID:userUUID: i28@0:8I16^@20 imageOffset=0x1d690
+ - getUserUUIDsForUIDs:userUUIDs: i32@0:8@16^@24 imageOffset=0x1cd18
+ - handleCatacombUnlock i16@0:8 imageOffset=0x14d54
+ - handleFirstUnlock i16@0:8 imageOffset=0x14c2c
+ - handleSharedMemoryTransfer:withHeader:data: v36@0:8I16@20@28 imageOffset=0x1fe3c
+ - hexDumpData:size: @32@0:8*16Q24 imageOffset=0x124cc
+ - identities:withClient: @32@0:8@16@24 imageOffset=0x1df68
+ - identitiesOfComponent: @24@0:8@16 imageOffset=0x17624
+ - identitiesOfUser: @20@0:8I16 imageOffset=0x173e8
+ - initAutoBugCapture i16@0:8 imageOffset=0xf0c8
+ - initEnrollOperation:biometricType:userID:options:client: i48@0:8@16i24I28@32@40 imageOffset=0x2ea74
+ - initMatchOperation:filter:options:client: i48@0:8@16@24@32@40 imageOffset=0x2edb8
+ - initPresenceDetectOperation:options:client: i40@0:8@16@24@32 imageOffset=0x2f58c
+ - isCatacombAccessible B16@0:8 imageOffset=0x12180
+ - isClassCFileAccessible B16@0:8 imageOffset=0x120a8
+ - isFingerOnWithClient: B24@0:8@16 imageOffset=0x1ff20
+ - isFingerprintModificationRestricted B16@0:8 imageOffset=0x14420
+ - isPeriocularEnrollmentSupported:withClient: i32@0:8^B16@24 imageOffset=0x1ff58
+ - isValidUser: i20@0:8I16 imageOffset=0x156a0
+ - isXARTAvailableWithClient: B24@0:8@16 imageOffset=0x1efbc
+ - lastDisplayState B16@0:8 imageOffset=0x13db0
+ - listAccessories:client: i32@0:8^@16@24 imageOffset=0x1c688
+ - loadBioLockoutRecord i16@0:8 imageOffset=0x1b3fc
+ - loadCatacomb i16@0:8 imageOffset=0x19ea0
+ - loadCatacombAfterFirstUnlock i16@0:8 imageOffset=0x14e90
+ - loadCatacombForComponent: i24@0:8@16 imageOffset=0x1a5cc
+ - loadCatacombForUser: i20@0:8I16 imageOffset=0x1a38c
+ - logCatacombHashForUser:catacombHash: v28@0:8I16@20 imageOffset=0x2f958
+ - logCatacombInfo:data: i32@0:8@16@24 imageOffset=0x2f68c
+ - logCatacombUUIDForUser:catacombUUID: v28@0:8I16@20 imageOffset=0x2f7f4
+ - logStringForOptionsDictionary: @24@0:8@16 imageOffset=0x12564
+ - match:withOptions:withClient: i40@0:8@16@24@32 imageOffset=0x2ebd0
+ - matchResult:timestamp: v32@0:8@16Q24 imageOffset=0x201fc
+ - notifyport ^{IONotificationPort=}16@0:8 imageOffset=0x20204
+ - ongoingBiometricOperation @16@0:8 imageOffset=0x20244
+ - ongoingCatacombSaveTimer @16@0:8 imageOffset=0x2023c
+ - parseAuthDict:toAuthData: i32@0:8@16^{?=II[32C]}24 imageOffset=0x13a74
+ - pauseBioOperation: i24@0:8@16 imageOffset=0x1119c
+ - pauseFaceDetectTimer:withClient: i28@0:8B16@20 imageOffset=0x1ff80
+ - performCancelCommand i16@0:8 imageOffset=0x1f9d4
+ - performCompleteSaveCatacombCommand:outBuffer: i32@0:8@16@24 imageOffset=0x1fa34
+ - performConfirmSaveCatacombCommand: i24@0:8@16 imageOffset=0x1fa3c
+ - performDisplayStatusChangedCommand: i20@0:8B16 imageOffset=0x1f9f4
+ - performDropUnlockTokenCommand i16@0:8 imageOffset=0x1fa84
+ - performEnrollCommand: i24@0:8@16 imageOffset=0x1f9dc
+ - performForceBioLockoutCommand: i20@0:8I16 imageOffset=0x1fa8c
+ - performGetBiometrickitdInfoCommand: i24@0:8^{?=IIIQCCC}16 imageOffset=0x1fa1c
+ - performGetCatacombGroupStateCommand: i24@0:8@16 imageOffset=0x1fadc
+ - performGetCatacombHashCommand:outHash: i28@0:8I16^@20 imageOffset=0x1fa7c
+ - performGetCatacombUUIDCommand:outUUID: i28@0:8I16^@20 imageOffset=0x1fa74
+ - performGetDeviceHardwareStateCommand: i24@0:8^I16 imageOffset=0x1faac
+ - performGetFreeIdentityCountCommand:group:outCount: i36@0:8I16^{?=I[16C]}20^I28 imageOffset=0x1faf4
+ - performGetFreeIdentityCountCommand:outCount: i28@0:8I16^I20 imageOffset=0x1fa6c
+ - performGetIdentitiesListCommand:outBuffer: i28@0:8I16@20 imageOffset=0x1f9fc
+ - performGetIdentityRecordsCommand: i24@0:8@16 imageOffset=0x1fae4
+ - performGetLastMatchEventCommand: i24@0:8^{?=QC{?=I[16C]}}16 imageOffset=0x1faa4
+ - performGetProtectedConfigCommand:outSetCfg:outEffectiveCfg: i36@0:8I16^@20^@28 imageOffset=0x1fab4
+ - performGetSKSLockStateCommand:outState: i28@0:8I16^I20 imageOffset=0x1fa94
+ - performGetSystemProtectedConfigCommand: i24@0:8^@16 imageOffset=0x1fabc
+ - performGetTemplatesValidityCommand:isValid: i28@0:8I16^B20 imageOffset=0x1fa0c
+ - performIsXARTAvailableCommand: i24@0:8^B16 imageOffset=0x1fa9c
+ - performLoadBioLockoutRecordCommand: i24@0:8@16 imageOffset=0x1fa5c
+ - performLoadCatacombCommand:inData: i32@0:8@16@24 imageOffset=0x1fa4c
+ - performMatchCommand: i24@0:8@16 imageOffset=0x1f9e4
+ - performNoCatacombCommand: i20@0:8I16 imageOffset=0x1fa44
+ - performPrepareSaveCatacombCommand:outDataSize: i32@0:8@16^I24 imageOffset=0x1fa2c
+ - performPresenceDetectCommand: i24@0:8@16 imageOffset=0x1f9ec
+ - performRemoveIdentityCommand: i24@0:8^{?=I[16C]}16 imageOffset=0x1fa14
+ - performRemoveUserDataCommand: i20@0:8I16 imageOffset=0x1fa24
+ - performRequestMaxIdentityCountCommand: i24@0:8^I16 imageOffset=0x1fa64
+ - performRequestMessageDataCommand:size:outData: i40@0:8Q16Q24^@32 imageOffset=0x1fad4
+ - performSaveBioLockoutRecordCommand: i24@0:8@16 imageOffset=0x1fa54
+ - performSetProtectedConfigCommand:cfg:authData: i36@0:8I16@20^{?=II[32C]}28 imageOffset=0x1fac4
+ - performSetSystemProtectedConfigCommand:authData: i32@0:8@16^{?=II[32C]}24 imageOffset=0x1facc
+ - postGeneralLockoutStateNotification v16@0:8 imageOffset=0x1405c
+ - prewarmCamera:withClient: i32@0:8Q16@24 imageOffset=0x1ff88
+ - processBioOperation: i24@0:8@16 imageOffset=0x11580
+ - pullCalibrationDataWithClient: @24@0:8@16 imageOffset=0x1ff90
+ - pullCaptureBufferWithClient: @24@0:8@16 imageOffset=0x1ff98
+ - pullDebugImageData:rotated:hasWidth:hasHeight:withClient: @48@0:8B16B20^I24^I32@40 imageOffset=0x1ffa8
+ - queryIdentityMigrationFailureForUser:failed:clear:withClient: i40@0:8I16^B20B28@32 imageOffset=0x1ff70
+ - readBioLockoutData: i24@0:8^@16 imageOffset=0x1afb4
+ - readCatacombState i16@0:8 imageOffset=0x168a4
+ - registerDSID:withOptions:withClient: i40@0:8Q16@24@32 imageOffset=0x1feb4
+ - registerDelegate:withClient: v28@0:8B16@20 imageOffset=0x10b70
+ - registerStoreToken:withClient: i32@0:8@16@24 imageOffset=0x1febc
+ - removeAllIdentitiesForUser:withOptions:withClient: i36@0:8I16@20@28 imageOffset=0x30720
+ - removeBioOperationOfClient: v24@0:8@16 imageOffset=0x10f34
+ - removeIdentity:withOptions:withClient: i40@0:8@16@24@32 imageOffset=0x304ec
+ - removeIdentityObject: v24@0:8@16 imageOffset=0x17e50
+ - removePeriocularTemplatesWithOptions:withClient: i32@0:8@16@24 imageOffset=0x1ff68
+ - resetAppleConnectCounterWithClient: i24@0:8@16 imageOffset=0x1fee0
+ - restoreAndSyncTemplates i16@0:8 imageOffset=0x14524
+ - resumeQueuedBioOperation v16@0:8 imageOffset=0x113f8
+ - runningBioOp @16@0:8 imageOffset=0x20234
+ - saveBioLockoutRecord i16@0:8 imageOffset=0x1b1fc
+ - saveCatacomb i16@0:8 imageOffset=0x19c30
+ - saveCatacombForComponents: i24@0:8@16 imageOffset=0x2fc0c
+ - saveCatacombForIdentity: i24@0:8@16 imageOffset=0x19cb8
+ - saveCatacombIfDirtyWithInterval:andDelay: i32@0:8d16d24 imageOffset=0x18578
+ - saveTemplateListAfterTemplateUpdate i16@0:8 imageOffset=0x18810
+ - sendStatusMessage:toClient: v28@0:8I16@20 imageOffset=0x11fe8
+ - serviceConnect I16@0:8 imageOffset=0x1fafc
+ - serviceStatus:type:inValue: v32@0:8I16I20^v24 imageOffset=0x1ffd8
+ - serviceStatus:version:ordinal:data:timestamp: i48@0:8I16I20Q24@32Q40 imageOffset=0x31f30
+ - setAppleMesaSEPLoggingLevel i16@0:8 imageOffset=0x1ff10
+ - setAriadneSignposts: v20@0:8B16 imageOffset=0x2021c
+ - setBiometricABC: v24@0:8@16 imageOffset=0x202a4
+ - setBiometricABCDispatchQueue: v24@0:8@16 imageOffset=0x202b8
+ - setCatacombFileAccessed: v20@0:8B16 imageOffset=0x2027c
+ - setCatacombRestored: v20@0:8B16 imageOffset=0x2028c
+ - setDebugImages:withClient: i28@0:8B16@20 imageOffset=0x1ffa0
+ - setPreferencesValue:forKey:withClient: B40@0:8@16@24@32 imageOffset=0x1ca5c
+ - setProtectedConfiguration:forUser:withOptions:withClient: i44@0:8@16I24@28@36 imageOffset=0x3117c
+ - setSystemProtectedConfiguration:withOptions:withClient: i40@0:8@16@24@32 imageOffset=0x31780
+ - setTemplate:forIdentity:withClient: i40@0:8@16@24@32 imageOffset=0x1ff50
+ - setTemplatesAtBoot: v20@0:8B16 imageOffset=0x2026c
+ - setUserDSID:withOptions:withClient: i40@0:8Q16@24@32 imageOffset=0x1fed8
+ - singleEnrolledUser I16@0:8 imageOffset=0x17c38
+ - startBioOperation: i24@0:8@16 imageOffset=0x10cd0
+ - startEnrollOperation: i24@0:8@16 imageOffset=0x1026c
+ - startMatchOperation: i24@0:8@16 imageOffset=0x10444
+ - startPresenceDetectOperation: i24@0:8@16 imageOffset=0x1067c
+ - stateDictionaryWithHints: @24@0:8^{os_state_hints_s=I*II}16 imageOffset=0x101d0
+ - statusMessage:withData:timestamp: v36@0:8I16@20Q28 imageOffset=0x20200
+ - supportsRemovableAccessories B16@0:8 imageOffset=0x1b8d4
+ - suspendAllConnections: v20@0:8B16 imageOffset=0xfd40
+ - suspendEnrollment:withClient: i28@0:8B16@20 imageOffset=0x1ff48
+ - switchToNextBioOperation: v20@0:8B16 imageOffset=0x118a4
+ - syncTemplateListForUser: i20@0:8I16 imageOffset=0x15b90
+ - templatesExistAtBoot B16@0:8 imageOffset=0x1648c
+ - unarchiveCatacombDataForComponent:fromUnarchiver:secureData:identities: i48@0:8@16@24^@32^@40 imageOffset=0x19584
+ - updateActiveOperationNotification v16@0:8 imageOffset=0x11fe0
+ - updateActiveOperationNotificationWithOverride: v20@0:8i16 imageOffset=0x11e80
+ - updateEnrollmentChangedNotification: v20@0:8B16 imageOffset=0x140e0
+ - updateIdentity:withOptions:withClient: i40@0:8@16@24@32 imageOffset=0x302b0
+ - updatePropertiesOfIdentities i16@0:8 imageOffset=0x16124
+ - validateAllUsers B16@0:8 imageOffset=0x157cc
+ - validateUsersKeybagUUIDs v16@0:8 imageOffset=0x1d914
+ - writeBioLockoutData: i24@0:8@16 imageOffset=0x1ad1c
+ - writeStringToPersistentLog: i24@0:8@16 imageOffset=0x12258
+ + initialize v16@0:8 imageOffset=0xe624
+CLASS CatacombStateCache
+ - removeUser: v20@0:8I16 imageOffset=0xdfd0
+ - reset v16@0:8 imageOffset=0xdc54
+ - init @16@0:8 imageOffset=0xdbe8
+ - .cxx_destruct v16@0:8 imageOffset=0xe618
+ - addGroupStatesFromBuffer: i24@0:8@16 imageOffset=0xe300
+ - addUserStatesFromBuffer: i24@0:8@16 imageOffset=0xdcb4
+ - cachedComponents @16@0:8 imageOffset=0xdde4
+ - cachedGroupComponentsForUser: @20@0:8I16 imageOffset=0xe478
+ - cachedUserComponents @16@0:8 imageOffset=0xde54
+ - stateOfComponent: I24@0:8@16 imageOffset=0xe128
+ - stateOfMasterComponent I16@0:8 imageOffset=0xe1c0
+ - stateOfUserComponent: I20@0:8I16 imageOffset=0xe25c
+CLASS CatacombComponent
+ - userID I16@0:8 imageOffset=0xd8c0
+ - description @16@0:8 imageOffset=0xd954
+ - group ^{?=I[16C]}16@0:8 imageOffset=0xdbbc
+ - isMasterComponent B16@0:8 imageOffset=0xd920
+ - hash Q16@0:8 imageOffset=0xdad0
+ - isUserComponent B16@0:8 imageOffset=0xd930
+ - isGroupComponent B16@0:8 imageOffset=0xdbc4
+ - component ^{?=I{?=I[16C]}}16@0:8 imageOffset=0xd8b8
+ - isEqualToComponent: B24@0:8@16 imageOffset=0xd8c8
+ - isEqual: B24@0:8@16 imageOffset=0xdad8
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0xda90
+ + masterComponent @16@0:8 imageOffset=0xd864
+ + component: @24@0:8^{?=I{?=I[16C]}}16 imageOffset=0xdb54
+ + componentForUserID: @20@0:8I16 imageOffset=0xd874
+CLASS ActivityTracker
+ - setActive: v20@0:8B16 imageOffset=0xd734
+ - .cxx_destruct v16@0:8 imageOffset=0xd814
+ - initWithDescription: @24@0:8@16 imageOffset=0xd6a0
+ - activityUpdateBlock @?16@0:8 imageOffset=0xd800
+ - setActivityUpdateBlock: v24@0:8@?16 imageOffset=0xd80c
+CLASS SystemProtectedConfig
+ - init @16@0:8 imageOffset=0xd5d8
+ - setUnlockEnabled: v20@0:8i16 imageOffset=0xd638
+ - unlockEnabled i16@0:8 imageOffset=0xd630
+ - biometryEnabled i16@0:8 imageOffset=0xd620
+ - bioMatchLifespan i16@0:8 imageOffset=0xd670
+ - identificationEnabled i16@0:8 imageOffset=0xd640
+ - loginEnabled i16@0:8 imageOffset=0xd650
+ - passcodeInputLifespan i16@0:8 imageOffset=0xd680
+ - setBioMatchLifespan: v20@0:8i16 imageOffset=0xd678
+ - setBiometryEnabled: v20@0:8i16 imageOffset=0xd628
+ - setIdentificationEnabled: v20@0:8i16 imageOffset=0xd648
+ - setLoginEnabled: v20@0:8i16 imageOffset=0xd658
+ - setPasscodeInputLifespan: v20@0:8i16 imageOffset=0xd688
+ - setUnlockTokenMaxLifetime: v20@0:8i16 imageOffset=0xd668
+ - unlockTokenMaxLifetime i16@0:8 imageOffset=0xd660
+ - periocularMatchEnabled i16@0:8 imageOffset=0xd690
+ - setPeriocularMatchEnabled: v20@0:8i16 imageOffset=0xd698
+CLASS UserProtectedConfig
+ - setAttentionDetectionEnabled: v20@0:8i16 imageOffset=0xd5c0
+ - init @16@0:8 imageOffset=0xd530
+ - attentionDetectionEnabled i16@0:8 imageOffset=0xd5b8
+ - setUnlockEnabled: v20@0:8i16 imageOffset=0xd580
+ - unlockEnabled i16@0:8 imageOffset=0xd578
+ - applePayEnabled i16@0:8 imageOffset=0xd5a8
+ - identificationEnabled i16@0:8 imageOffset=0xd588
+ - loginEnabled i16@0:8 imageOffset=0xd598
+ - setApplePayEnabled: v20@0:8i16 imageOffset=0xd5b0
+ - setIdentificationEnabled: v20@0:8i16 imageOffset=0xd590
+ - setLoginEnabled: v20@0:8i16 imageOffset=0xd5a0
+ - periocularMatchEnabled i16@0:8 imageOffset=0xd5c8
+ - setPeriocularMatchEnabled: v20@0:8i16 imageOffset=0xd5d0
+CLASS BiometricOperation
+ - description @16@0:8 imageOffset=0xd238
+ - setClient: v24@0:8@16 imageOffset=0xd300
+ - type i16@0:8 imageOffset=0xd2d8
+ - client @16@0:8 imageOffset=0xd2f8
+ - setStatus: v20@0:8i16 imageOffset=0xd314
+ - init @16@0:8 imageOffset=0xd1f8
+ - setPriority: v24@0:8q16 imageOffset=0xd324
+ - .cxx_destruct v16@0:8 imageOffset=0xd334
+ - priority q16@0:8 imageOffset=0xd31c
+ - status i16@0:8 imageOffset=0xd30c
+ - cancelledMessage I16@0:8 imageOffset=0xd32c
+ - taskPausedMessage I16@0:8 imageOffset=0xd2e0
+ - taskResumeFailedMessage I16@0:8 imageOffset=0xd2f0
+ - taskResumedMessage I16@0:8 imageOffset=0xd2e8
+CLASS BiometricPresenceDetectOperation
+ - type i16@0:8 imageOffset=0xd520
+ - cancelledMessage I16@0:8 imageOffset=0xd528
+CLASS BiometricMatchOperation
+ - setUserID: v20@0:8I16 imageOffset=0xd42c
+ - userID I16@0:8 imageOffset=0xd424
+ - useCase i16@0:8 imageOffset=0xd4ac
+ - type i16@0:8 imageOffset=0xd40c
+ - init @16@0:8 imageOffset=0xd3c4
+ - .cxx_destruct v16@0:8 imageOffset=0xd4dc
+ - setUseCase: v20@0:8i16 imageOffset=0xd4b4
+ - acmContext @16@0:8 imageOffset=0xd498
+ - setStopOnSuccess: v20@0:8B16 imageOffset=0xd480
+ - stopOnSuccess B16@0:8 imageOffset=0xd478
+ - cancelledMessage I16@0:8 imageOffset=0xd41c
+ - forCredentialSet B16@0:8 imageOffset=0xd458
+ - forPreArm B16@0:8 imageOffset=0xd468
+ - forUnlock B16@0:8 imageOffset=0xd448
+ - noBioLockout B16@0:8 imageOffset=0xd488
+ - noBioLockoutAuthData ^{?=II[32C]}16@0:8 imageOffset=0xd414
+ - noBioLockoutUserID I16@0:8 imageOffset=0xd4bc
+ - processedFlags I16@0:8 imageOffset=0xd4cc
+ - selectedIdentitiesBlob @16@0:8 imageOffset=0xd434
+ - setAcmContext: v24@0:8@16 imageOffset=0xd4a0
+ - setForCredentialSet: v20@0:8B16 imageOffset=0xd460
+ - setForPreArm: v20@0:8B16 imageOffset=0xd470
+ - setForUnlock: v20@0:8B16 imageOffset=0xd450
+ - setNoBioLockout: v20@0:8B16 imageOffset=0xd490
+ - setNoBioLockoutUserID: v20@0:8I16 imageOffset=0xd4c4
+ - setProcessedFlags: v20@0:8I16 imageOffset=0xd4d4
+ - setSelectedIdentitiesBlob: v24@0:8@16 imageOffset=0xd43c
+CLASS BiometricEnrollOperation
+ - setUserID: v20@0:8I16 imageOffset=0xd3ac
+ - userID I16@0:8 imageOffset=0xd3a4
+ - type i16@0:8 imageOffset=0xd384
+ - init @16@0:8 imageOffset=0xd340
+ - deviceGroup ^{?=I[16C]}16@0:8 imageOffset=0xd39c
+ - authData ^{?=II[32C]}16@0:8 imageOffset=0xd38c
+ - cancelledMessage I16@0:8 imageOffset=0xd394
+ - processedFlags I16@0:8 imageOffset=0xd3b4
+ - setProcessedFlags: v20@0:8I16 imageOffset=0xd3bc
+CLASS BKLocalization
+ + getLocalizedString: @24@0:8@16 imageOffset=0xc998
+ + getLocalizedString:fromFile: @32@0:8@16@24 imageOffset=0xca30
+ + getLocalizedString:fromStringTable:withBundle: @40@0:8@16@24@32 imageOffset=0xcadc
+ + getLocalizedStringOrNil:fromStringTable:withBundle: @40@0:8@16@24@32 imageOffset=0xcd40
+ + reportLocalizationABC v16@0:8 imageOffset=0x2e6fc
+CLASS BiometricSupportUserNotification
+ + displayTouchIDIssueNotification v16@0:8 imageOffset=0xc780
+ + didDisplayPearlGlassesBannerNotificationRecently: B24@0:8d16 imageOffset=0xc860
+ + displayPearlGlassesBannerNotification B16@0:8 imageOffset=0xc78c
+ + displayPearlInterlockIssueNotification: v20@0:8B16 imageOffset=0xc788
+ + displayPearlIssueNotification v16@0:8 imageOffset=0xc784
+ + displaySensorIssueNotificationWithHeader:message:button: v40@0:8@16@24@32 imageOffset=0xc94c
+ + displayStopAlertWithHeader:andMessage: v32@0:8@16@24 imageOffset=0xc950
+CLASS BiometricKitCoreAnalyticsLogger
+ - init @16@0:8 imageOffset=0x2e610
+ - analyticsOSLogNSDictionary:forEvent:toLogPath:withPrefix: v48@0:8@16@24@32@40 imageOffset=0xbfa0
+ - analyticsSaveToFile B16@0:8 imageOffset=0xc76c
+ - setAnalyticsSaveToFile: v20@0:8B16 imageOffset=0xc778
+ - updateDefaults v16@0:8 imageOffset=0xbf30
+ + sharedInstance @16@0:8 imageOffset=0xbe4c
+CLASS BiometricKitXPCExportedObject
+ - clients @16@0:8 imageOffset=0x8c24
+ - setServer: v24@0:8@16 imageOffset=0xba9c
+ - logEventOrCode: v24@0:8Q16 imageOffset=0x2dfbc
+ - identities:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0x2b89c
+ - getPeriocularMatchState:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2de0c
+ - forceBioLockoutForUser:options:client:replyBlock: v44@0:8I16@20Q28@?36 imageOffset=0x2c3fc
+ - suspendEnrollment:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2db70
+ - getSystemProtectedConfiguration:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c930
+ - server @16@0:8 imageOffset=0xba94
+ - getLastMatchEvent:replyBlock: v32@0:8Q16@?24 imageOffset=0x2e120
+ - registerStoreToken:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0x2bc0c
+ - getProtectedConfigurationForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2c85c
+ - enrollContinue:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c4ec
+ - client: @24@0:8Q16 imageOffset=0x89f8
+ - match:options:async:client:replyBlock: v52@0:8@16@24B32Q36@?44 imageOffset=0x9730
+ - terminate v16@0:8 imageOffset=0x8a9c
+ - getMaxIdentityCount:client:replyBlock: v36@0:8i16Q20@?28 imageOffset=0x2b980
+ - connection @16@0:8 imageOffset=0xbaa4
+ - completeEnrollment:replyBlock: v32@0:8Q16@?24 imageOffset=0x2daa0
+ - getBiometryAvailabilityForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2d9dc
+ - setClientEntitlement: v20@0:8i16 imageOffset=0xbac0
+ - entitlementsNeededForPermissionGroup: @20@0:8i16 imageOffset=0x7880
+ - notifyAppIsBackground:client: v28@0:8B16Q20 imageOffset=0x2b64c
+ - enableMatchAutoRetry:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0xb450
+ - clientThrottleRatio: q24@0:8@16 imageOffset=0x7990
+ - isPeriocularEnrollmentSupported:replyBlock: v32@0:8Q16@?24 imageOffset=0x2dd38
+ - pullAlignmentData:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c5bc
+ - timestampEvent:absoluteTime:client:replyBlock: v48@0:8Q16Q24Q32@?40 imageOffset=0x2bef0
+ - getNodeTopologyForIdentity:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0x2c76c
+ - getFreeIdentityCountForUser:accessoryGroup:client:replyBlock: v44@0:8I16@20Q28@?36 imageOffset=0x2e3bc
+ - getDeviceState:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d844
+ - fileRadarWithLogs:description:client:replyBlock: v48@0:8@16@24Q32@?40 imageOffset=0x2d3b8
+ - isAriadneSignpostsEnabled:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d6b4
+ - removePeriocularTemplatesWithOptions:async:client:replyBlock: v44@0:8@16B24Q28@?36 imageOffset=0xb158
+ - removeIdentity:options:async:client:replyBlock: v52@0:8@16@24B32Q36@?44 imageOffset=0xa498
+ - setConnection: v24@0:8@16 imageOffset=0xbaac
+ - prewarmCamera:client:replyBlock: v40@0:8Q16Q24@?32 imageOffset=0x2e4ac
+ - listAccessories:replyBlock: v32@0:8Q16@?24 imageOffset=0x2e2d4
+ - pullDebugImageData:rotated:client:replyBlock: v40@0:8B16B20Q24@?32 imageOffset=0x2d1cc
+ - getDeviceHardwareState:replyBlock: v32@0:8Q16@?24 imageOffset=0x2e208
+ - getIdentityFromUUID:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0x2b7b8
+ - isClient:entitled:forMethod: B36@0:8Q16i24r*28 imageOffset=0x8608
+ - dropUnlockToken:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c334
+ - getCalibrationDataInfo:replyBlock: v32@0:8Q16@?24 imageOffset=0x2cdac
+ - clientEntitlement i16@0:8 imageOffset=0xbab8
+ - getIdentitiesDatabaseUUIDForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2c18c
+ - setDebugImages:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2cf54
+ - getIdentitiesDatabaseHashForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2c260
+ - resetAppleConnectCounter:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c0c4
+ - getSensorCalibrationStatus:replyBlock: v32@0:8Q16@?24 imageOffset=0x2cce4
+ - init @16@0:8 imageOffset=0x893c
+ - getExpressModeStateForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2cc1c
+ - isXARTAvailable:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d77c
+ - setTemplate:forIdentity:client:replyBlock: v48@0:8@16@24Q32@?40 imageOffset=0x2dc40
+ - setPreferencesValue:forKey:client:replyBlock: v48@0:8@16@24Q32@?40 imageOffset=0xb80c
+ - getBioLockoutStateForUser:client:replyBlock: v36@0:8I16Q20@?28 imageOffset=0x2cacc
+ - .cxx_destruct v16@0:8 imageOffset=0xbac8
+ - detectPresenceWithOptions:async:client:replyBlock: v44@0:8@16B24Q28@?36 imageOffset=0x9b2c
+ - dealloc v16@0:8 imageOffset=0x89a8
+ - startNewMatchAttempt:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d90c
+ - connect:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0x8c94
+ - pullMatchPolicyInfoData:replyBlock: v32@0:8Q16@?24 imageOffset=0x2c698
+ - disconnect:replyBlock: v32@0:8Q16@?24 imageOffset=0x904c
+ - enroll:user:options:async:client:replyBlock: v52@0:8i16I20@24B32Q36@?44 imageOffset=0x935c
+ - getPreferencesValueForKey:client:replyBlock: v40@0:8@16Q24@?32 imageOffset=0xb690
+ - currentPlatform @16@0:8 imageOffset=0x78a4
+ - getFreeIdentityCount:user:client:replyBlock: v40@0:8i16I20Q24@?32 imageOffset=0x2ba48
+ - diagnostics:options:client:replyBlock: v44@0:8i16@20Q28@?36 imageOffset=0x2bdd8
+ - getSensorInfo:replyBlock: v32@0:8Q16@?24 imageOffset=0x2ce80
+ - registerDSID:options:client:replyBlock: v48@0:8Q16@24Q32@?40 imageOffset=0x2bb20
+ - getProvisioningState:replyBlock: v32@0:8Q16@?24 imageOffset=0x2ca04
+ - cancel:replyBlock: v32@0:8Q16@?24 imageOffset=0x9e28
+ - updateIdentity:options:async:client:replyBlock: v52@0:8@16@24B32Q36@?44 imageOffset=0xa168
+ - hashClientName: I24@0:8@16 imageOffset=0x78b0
+ - pullCaptureBuffer:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d0f8
+ - setUserDSID:options:client:replyBlock: v48@0:8Q16@24Q32@?40 imageOffset=0x2bfd8
+ - getLogs:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2d2bc
+ - isFingerOn:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d4ac
+ - getCountersignedStoreToken:replyBlock: v32@0:8Q16@?24 imageOffset=0x2bcf0
+ - removeAllIdentitiesForUser:options:async:client:replyBlock: v48@0:8I16@20B28Q32@?40 imageOffset=0xa7c8
+ - removeAllPreferencesWithClient:replyBlock: v32@0:8Q16@?24 imageOffset=0xb970
+ - setSystemProtectedConfiguration:options:async:client:replyBlock: v52@0:8@16@24B32Q36@?44 imageOffset=0xae10
+ - enableBackgroundFdet:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2d574
+ - registerDelegate:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2b55c
+ - pullCalibrationData:replyBlock: v32@0:8Q16@?24 imageOffset=0x2d024
+ - pauseFaceDetectTimer:client:replyBlock: v36@0:8B16Q20@?28 imageOffset=0x2e050
+ - notifyAppIsInactive:client: v28@0:8B16Q20 imageOffset=0x2b700
+ - queryIdentityMigrationFailureForUser:clear:client:replyBlock: v40@0:8I16B20Q24@?32 imageOffset=0x2dedc
+ - setProtectedConfiguration:user:options:async:client:replyBlock: v56@0:8@16I24@28B36Q40@?48 imageOffset=0xaad4
+CLASS BiometricKitXPCExportedClientObject
+ - description @16@0:8 imageOffset=0x6e1c
+ - clientAppIsInactive B16@0:8 imageOffset=0x7838
+ - clientAppIsBackground B16@0:8 imageOffset=0x7830
+ - enrollResult: v24@0:8@16 imageOffset=0x6f24
+ - enrollResult:details: v32@0:8@16@24 imageOffset=0x6ff0
+ - statusMessage:details: v28@0:8I16@20 imageOffset=0x7414
+ - clientID Q16@0:8 imageOffset=0x7818
+ - exportedObject @16@0:8 imageOffset=0x6ef8
+ - uuid @16@0:8 imageOffset=0x6e0c
+ - enrollFeedback: v24@0:8@16 imageOffset=0x719c
+ - name @16@0:8 imageOffset=0x6d7c
+ - initWithClientID:clientInfo:exportedObject: @40@0:8Q16@24@32 imageOffset=0x6ccc
+ - statusMessage: v20@0:8I16 imageOffset=0x7348
+ - delegateRegistered B16@0:8 imageOffset=0x7828
+ - processName @16@0:8 imageOffset=0x6dfc
+ - matchResult:details: v32@0:8@16@24 imageOffset=0x7264
+ - homeButtonPressed v16@0:8 imageOffset=0x74e4
+ - taskResumeStatus: v20@0:8i16 imageOffset=0x774c
+ - setClientAppIsInactive: v20@0:8B16 imageOffset=0x6ef0
+ - enrollUpdate: v24@0:8@16 imageOffset=0x70d4
+ - .cxx_destruct v16@0:8 imageOffset=0x7840
+ - setDelegateRegistered: v20@0:8B16 imageOffset=0x6ee0
+ - clientInfo @16@0:8 imageOffset=0x7820
+ - templateUpdate:details: v32@0:8@16@24 imageOffset=0x7668
+ - touchIDButtonPressed: v20@0:8B16 imageOffset=0x759c
+ - setClientAppIsBackground: v20@0:8B16 imageOffset=0x6ee8
+CLASS BiometricKitCoreAnalyticsEvent
+ - setDisplayOn: v24@0:8@16 imageOffset=0x57d8
+ - deviceEnclosureColor @16@0:8 imageOffset=0x57f8
+ - displayOn @16@0:8 imageOffset=0x57d0
+ - setValue:forUndefinedKey: v32@0:8@16@24 imageOffset=0x4a1c
+ - setDeviceEnclosureColor: v24@0:8@16 imageOffset=0x5800
+ - valueForUndefinedKey: @24@0:8@16 imageOffset=0x48b0
+ - initWithName: @24@0:8@16 imageOffset=0x44e0
+ - reset v16@0:8 imageOffset=0x5178
+ - .cxx_destruct v16@0:8 imageOffset=0x5850
+ - setNilValueForKey: v24@0:8@16 imageOffset=0x4968
+ - dictionaryRepresentation @16@0:8 imageOffset=0x4ee4
+ - postEvent B16@0:8 imageOffset=0x4af0
+ - updateStatus v16@0:8 imageOffset=0x5778
+ - initWithName:dictionary: @32@0:8@16@24 imageOffset=0x45ac
+ - setPasscodeSet: v24@0:8@16 imageOffset=0x57ec
+ - dictionaryRepresentationArchiving: @20@0:8B16 imageOffset=0x4eec
+ - dictionaryRepresentationForClass: @24@0:8#16 imageOffset=0x4dd8
+ - eventCanceled @16@0:8 imageOffset=0x57bc
+ - getEventDictionary @16@0:8 imageOffset=0x4dd4
+ - incrementCountField: v24@0:8@16 imageOffset=0x2b324
+ - initWithPersistedDataWithName: @24@0:8@16 imageOffset=0x4810
+ - isPasscodeSet @16@0:8 imageOffset=0x5680
+ - logAnalyticsDictionary: v24@0:8@16 imageOffset=0x5578
+ - passcodeSet @16@0:8 imageOffset=0x57e4
+ - persistData v16@0:8 imageOffset=0x5604
+ - postEventExtendedBy: B24@0:8@16 imageOffset=0x4af8
+ - previousEventDate @16@0:8 imageOffset=0x583c
+ - resetClass: v24@0:8#16 imageOffset=0x50c0
+ - setEventCanceled: v24@0:8@16 imageOffset=0x57c4
+ - setPreviousEventDate: v24@0:8@16 imageOffset=0x5844
+ - setTimeSinceLastEnrollment: v24@0:8@16 imageOffset=0x52d4
+ - setTimeSinceLastEnrollmentBinned: v24@0:8@16 imageOffset=0x581c
+ - setTimeSinceLastEvent: v24@0:8@16 imageOffset=0x5830
+ - timeSinceLastEnrollment @16@0:8 imageOffset=0x580c
+ - timeSinceLastEnrollmentBinned @16@0:8 imageOffset=0x5814
+ - timeSinceLastEvent @16@0:8 imageOffset=0x5828
+ - updateBoundedFieldValue v16@0:8 imageOffset=0x5398
+CLASS BiometricKitCoreAnalyticsLockState
+ - remoteUnlockTotal @16@0:8 imageOffset=0x6930
+ - setPasscodeUnlockTotal: v24@0:8@16 imageOffset=0x69e4
+ - isBiometryUnlockEnabledForUser: B20@0:8I16 imageOffset=0x2b4bc
+ - passcodeAuthenticatedBiometryUnavailable @16@0:8 imageOffset=0x6b38
+ - setPasscodeUnlockBiometryDisabled: v24@0:8@16 imageOffset=0x6a5c
+ - unlockTotal @16@0:8 imageOffset=0x68e0
+ - biometryUnlockTotal @16@0:8 imageOffset=0x6908
+ - setPasscodeValidatedBiometryAvailable: v24@0:8@16 imageOffset=0x6aac
+ - setBiometryUnlockTotal: v24@0:8@16 imageOffset=0x691c
+ - setUnlockTotal: v24@0:8@16 imageOffset=0x68f4
+ - setPasscodeAuthenticatedBiometryAvailable: v24@0:8@16 imageOffset=0x6b24
+ - initWithName: @24@0:8@16 imageOffset=0x590c
+ - remoteUnlockBiometryAvailable @16@0:8 imageOffset=0x6958
+ - setPasscodeUnlockBiometryUnavailable: v24@0:8@16 imageOffset=0x6a34
+ - serviceMatchWithServer: v24@0:8@16 imageOffset=0x2b3dc
+ - lockStateUpdated:forUser: C24@0:8I16I20 imageOffset=0x5ee8
+ - setRemoteUnlockTotal: v24@0:8@16 imageOffset=0x6944
+ - setPasscodeValidatedBiometryUnavailable: v24@0:8@16 imageOffset=0x6ad4
+ - reset v16@0:8 imageOffset=0x5a90
+ - passcodeUnlockBiometryAvailable @16@0:8 imageOffset=0x69f8
+ - passcodeValidatedTotal @16@0:8 imageOffset=0x6a70
+ - remoteUnlockBiometryDisabled @16@0:8 imageOffset=0x69a8
+ - init @16@0:8 imageOffset=0x5900
+ - passcodeAuthenticatedBiometryAvailable @16@0:8 imageOffset=0x6b10
+ - passcodeNedded: B20@0:8I16 imageOffset=0x68c8
+ - passcodeValidatedBiometryUnavailable @16@0:8 imageOffset=0x6ac0
+ - setRemoteUnlockBiometryDisabled: v24@0:8@16 imageOffset=0x69bc
+ - setPasscodeValidatedTotal: v24@0:8@16 imageOffset=0x6a84
+ - .cxx_destruct v16@0:8 imageOffset=0x6b60
+ - wasPasscodeNeededForUser: B20@0:8I16 imageOffset=0x6848
+ - setPasscodeAuthenticatedTotal: v24@0:8@16 imageOffset=0x6afc
+ - remoteUnlockBiometryUnavailable @16@0:8 imageOffset=0x6980
+ - isPasscodeNeededForUser: B20@0:8I16 imageOffset=0x67c8
+ - passcodeValidatedBiometryAvailable @16@0:8 imageOffset=0x6a98
+ - passcodeUnlockBiometryDisabled @16@0:8 imageOffset=0x6a48
+ - passcodeAuthenticatedTotal @16@0:8 imageOffset=0x6ae8
+ - setRemoteUnlockBiometryAvailable: v24@0:8@16 imageOffset=0x696c
+ - setPasscodeAuthenticatedBiometryUnavailable: v24@0:8@16 imageOffset=0x6b4c
+ - passcodeUnlockBiometryUnavailable @16@0:8 imageOffset=0x6a20
+ - setRemoteUnlockBiometryUnavailable: v24@0:8@16 imageOffset=0x6994
+ - postEvent B16@0:8 imageOffset=0x5ee0
+ - passcodeUnlockTotal @16@0:8 imageOffset=0x69d0
+ - setPasscodeUnlockBiometryAvailable: v24@0:8@16 imageOffset=0x6a0c
+CLASS BKCatacomb
+ - content @16@0:8 imageOffset=0x42b8
+ - deleteAll i16@0:8 imageOffset=0x4210
+ - init @16@0:8 imageOffset=0x3e14
+ - .cxx_destruct v16@0:8 imageOffset=0x4330
+ - recover i16@0:8 imageOffset=0x2afe0
+ - writeData:toFile: i32@0:8@16@24 imageOffset=0x3f1c
+ - deleteFile: i24@0:8@16 imageOffset=0x2ae7c
+ - catacombCommitDir @16@0:8 imageOffset=0x3f0c
+ - catacombDir @16@0:8 imageOffset=0x4328
+ - catacombPrepareDir @16@0:8 imageOffset=0x3efc
+ - commitWrite i16@0:8 imageOffset=0x2a83c
+ - readData:fromFile: i32@0:8^@16@24 imageOffset=0x4208
+ - readData:fromFile:logString: i40@0:8^@16@24^@32 imageOffset=0x2ab7c
+ - syncDir: i24@0:8@16 imageOffset=0x2a7b8
+ + catacombWithDir: @24@0:8@16 imageOffset=0x3e80
+CLASS BiometricAutoBugCapture
+ - setProcess: v24@0:8@16 imageOffset=0x3d9c
+ - setDomain: v24@0:8@16 imageOffset=0x3d88
+ - .cxx_destruct v16@0:8 imageOffset=0x3db8
+ - domain @16@0:8 imageOffset=0x3d80
+ - dispatchQueue @16@0:8 imageOffset=0x3d78
+ - process @16@0:8 imageOffset=0x3d94
+ - reporter @16@0:8 imageOffset=0x3da8
+ - getSignatureForReason: @24@0:8Q16 imageOffset=0x2a634
+ - getSignatureWithType:subtype: @32@0:8@16@24 imageOffset=0x3628
+ - getSubtypeForReason: @24@0:8Q16 imageOffset=0x35fc
+ - getTypeForReason: @24@0:8Q16 imageOffset=0x35d0
+ - initWithDomain:process:dispatchQueue: @40@0:8@16@24@32 imageOffset=0x3494
+ - sendAutoBugCaptureEvent: B24@0:8Q16 imageOffset=0x2a6c8
+ - sendAutoBugCaptureEvent:withContext:replyBlock: v40@0:8Q16@24@?32 imageOffset=0x3644
+ - sendSignature:withDuration: B32@0:8@16d24 imageOffset=0x3d58
+ - sendSignature:withDuration:replyBlock: v40@0:8@16d24@?32 imageOffset=0x376c
+ - serialLogEnabled B16@0:8 imageOffset=0x3db0
+CLASS EntitlementABCIssueReporter
+ - setTimer: v24@0:8@16 imageOffset=0x343c
+ - timer @16@0:8 imageOffset=0x3434
+ - .cxx_destruct v16@0:8 imageOffset=0x3448
+ - addIssue: v24@0:8@16 imageOffset=0x2d30
+ - issues @16@0:8 imageOffset=0x3420
+ - setIssues: v24@0:8@16 imageOffset=0x3428
+ - rescheduleTimer v16@0:8 imageOffset=0x2db8
+ - biometricABC @16@0:8 imageOffset=0x33e8
+ - initWithBiometricABC: @24@0:8@16 imageOffset=0x2950
+ - issueForTag: @24@0:8@16 imageOffset=0x2cb8
+ - reportGraylistedClient:withProcessName:clientUUID:platform: v48@0:8@16@24@32@40 imageOffset=0x2ad8
+ - reportLegacyClient:withProcessName:clientUUID:platform: v48@0:8@16@24@32@40 imageOffset=0x29ec
+ - reportMissingPermission:forClientName:processName:clientUUID:platform: v52@0:8i16@20@28@36@44 imageOffset=0x2bc4
+ - rescheduleTimerMain v16@0:8 imageOffset=0x2e44
+ - setBiometricABC: v24@0:8@16 imageOffset=0x3414
+CLASS EntitlementABCIssue
+ - setProcessName: v24@0:8@16 imageOffset=0x1f74
+ - platform @16@0:8 imageOffset=0x1f94
+ - report v16@0:8 imageOffset=0x1bac
+ - clientName @16@0:8 imageOffset=0x1f58
+ - clientUUID @16@0:8 imageOffset=0x1f80
+ - context @16@0:8 imageOffset=0x1688
+ - setPlatform: v24@0:8@16 imageOffset=0x1f9c
+ - tag @16@0:8 imageOffset=0x15a0
+ - processName @16@0:8 imageOffset=0x1f6c
+ - setClientName: v24@0:8@16 imageOffset=0x1f60
+ - .cxx_destruct v16@0:8 imageOffset=0x1fb8
+ - setClientUUID: v24@0:8@16 imageOffset=0x1f88
+ - nextAction @16@0:8 imageOffset=0x1f30
+ - reporter @16@0:8 imageOffset=0x1f44
+ - setReporter: v24@0:8@16 imageOffset=0x1f4c
+ - setNextAction: v24@0:8@16 imageOffset=0x1f38
+ - abcReason Q16@0:8 imageOffset=0x1614
+ - handleABCResult: v20@0:8i16 imageOffset=0x17a8
+ - initWithClient:processName:clientUUID:platform:forReporter: @56@0:8@16@24@32@40@48 imageOffset=0x1488
+ - isFinalResult: B20@0:8i16 imageOffset=0x16fc
+ - reportCounter Q16@0:8 imageOffset=0x1fa8
+ - reportIfNeeded v16@0:8 imageOffset=0x1ee8
+ - setReportCounter: v24@0:8Q16 imageOffset=0x1fb0
+ - shouldBeReportedNow B16@0:8 imageOffset=0x1744
+CLASS MissingPermissionABCIssue
+ - setPermission: v20@0:8i16 imageOffset=0x2948
+ - permission i16@0:8 imageOffset=0x2940
+ - context @16@0:8 imageOffset=0x2864
+ - tag @16@0:8 imageOffset=0x279c
+ - abcReason Q16@0:8 imageOffset=0x285c
+ - initWithPermission:client:processName:clientUUID:platform:forReporter: @60@0:8i16@20@28@36@44@52 imageOffset=0x25d4
+ + reportPermission:client:processName:clientUUID:platform:forReporter: v60@0:8i16@20@28@36@44@52 imageOffset=0x2644
+CLASS GraylistedClientABCIssue
+ - context @16@0:8 imageOffset=0x2504
+ - tag @16@0:8 imageOffset=0x244c
+ - abcReason Q16@0:8 imageOffset=0x24fc
+ + reportClient:withProcessName:clientUUID:platform:forReporter: v56@0:8@16@24@32@40@48 imageOffset=0x2300
+CLASS LegacyEntitlementABCIssue
+ - context @16@0:8 imageOffset=0x2230
+ - tag @16@0:8 imageOffset=0x2178
+ - abcReason Q16@0:8 imageOffset=0x2228
+ + reportClient:withProcessName:clientUUID:platform:forReporter: v56@0:8@16@24@32@40@48 imageOffset=0x202c
+CLASS AWDBiometricKitEventLog
+ - addEvent: v20@0:8I16 imageOffset=0x215f4
+ - events ^I16@0:8 imageOffset=0x215d0
+ - description @16@0:8 imageOffset=0x216dc
+ - timestamp Q16@0:8 imageOffset=0x2215c
+ - hash Q16@0:8 imageOffset=0x2203c
+ - mergeFrom: v24@0:8@16 imageOffset=0x220a4
+ - setHasTimestamp: v20@0:8B16 imageOffset=0x21584
+ - readFrom: B24@0:8@16 imageOffset=0x21d68
+ - hasTimestamp B16@0:8 imageOffset=0x215a4
+ - dealloc v16@0:8 imageOffset=0x21504
+ - isEqual: B24@0:8@16 imageOffset=0x21f78
+ - copyTo: v24@0:8@16 imageOffset=0x21e24
+ - copyWithZone: @24@0:8^{_NSZone=}16 imageOffset=0x21ef0
+ - setTimestamp: v24@0:8Q16 imageOffset=0x21558
+ - dictionaryRepresentation @16@0:8 imageOffset=0x21788
+ - writeTo: v24@0:8@16 imageOffset=0x21d70
+ - clearEvents v16@0:8 imageOffset=0x215e4
+ - eventAtIndex: I24@0:8Q16 imageOffset=0x21608
+ - eventsCount Q16@0:8 imageOffset=0x215bc
+ - setEvents:count: v32@0:8^I16Q24 imageOffset=0x216c4
+IMAGE /System/Library/PrivateFrameworks/TrustedAccessory.framework/TrustedAccessory classes=8
+CLASS TAOperation
+ - started B16@0:8 imageOffset=0x6964
+ - setStarted: v20@0:8B16 imageOffset=0x696c
+ - startWithError: B24@0:8^@16 imageOffset=0x672c
+ - manager @16@0:8 imageOffset=0x695c
+ - .cxx_destruct v16@0:8 imageOffset=0x6974
+ - cancelWithError: B24@0:8^@16 imageOffset=0x6734
+ - initWithDeviceManager: @24@0:8@16 imageOffset=0x667c
+ - status:withValue: v28@0:8I16^v20 imageOffset=0x6958
+CLASS TASecureIntentOperation
+ - setDelegate: v24@0:8@16 imageOffset=0x7094
+ - startWithError: B24@0:8^@16 imageOffset=0x6980
+ - .cxx_destruct v16@0:8 imageOffset=0x70a0
+ - delegate @16@0:8 imageOffset=0x7068
+ - credentialSet @16@0:8 imageOffset=0x7048
+ - setCredentialSet: v24@0:8@16 imageOffset=0x7050
+ - notification:withData: v28@0:8I16@20 imageOffset=0x6c88
+ - setStopOnIntent: v20@0:8B16 imageOffset=0x7060
+ - stopOnIntent B16@0:8 imageOffset=0x7058
+CLASS TASecureIntentInfo
+ - initWithDevice: @24@0:8@16 imageOffset=0x65b8
+ - device @16@0:8 imageOffset=0x6668
+ - .cxx_destruct v16@0:8 imageOffset=0x6670
+CLASS TADevice
+ - vendorID @16@0:8 imageOffset=0x44cc
+ - setProductID: v24@0:8@16 imageOffset=0x6430
+ - setVendorID: v24@0:8@16 imageOffset=0x6424
+ - setSerialNumber: v24@0:8@16 imageOffset=0x6448
+ - productID @16@0:8 imageOffset=0x455c
+ - uid @16@0:8 imageOffset=0x6410
+ - serialNumber @16@0:8 imageOffset=0x45f4
+ - transport @16@0:8 imageOffset=0x45fc
+ - setUid: v24@0:8@16 imageOffset=0x6418
+ - setBluetoothAddress: v24@0:8@16 imageOffset=0x6460
+ - isEqualToDevice: B24@0:8@16 imageOffset=0x5e8c
+ - init @16@0:8 imageOffset=0x4d28
+ - .cxx_destruct v16@0:8 imageOffset=0x646c
+ - bluetoothAddress @16@0:8 imageOffset=0x4604
+ - setTransport: v24@0:8@16 imageOffset=0x6454
+ - locationID @16@0:8 imageOffset=0x45ec
+ - setLocationID: v24@0:8@16 imageOffset=0x643c
+ - authorizeWithCredentialSet:error: B32@0:8@16^@24 imageOffset=0x5654
+ - pairingState:error: B32@0:8^q16^@24 imageOffset=0x4888
+ - isConnected:error: B32@0:8^B16^@24 imageOffset=0x460c
+ - authorizeWithTicket:error: B32@0:8@16^@24 imageOffset=0x5b4c
+ - generateAuthorizationNonceWithError: @24@0:8^@16 imageOffset=0x58f8
+ - getNumberProperty: @20@0:8I16 imageOffset=0x41d4
+ - getStringProperty: @20@0:8I16 imageOffset=0x4394
+ - injectSecureIntentWithError: B24@0:8^@16 imageOffset=0x6170
+ - pairWithError: B24@0:8^@16 imageOffset=0x4de4
+ - testSecureSessionWithError: B24@0:8^@16 imageOffset=0x5ed8
+ - unpairWithError: B24@0:8^@16 imageOffset=0x53bc
+ + deviceWithUID:error: @32@0:8@16^@24 imageOffset=0x4b18
+CLASS TAErrorHelper
+ + errorWithCode: @24@0:8q16 imageOffset=0x411c
+ + errorWithOSStatus: @20@0:8i16 imageOffset=0x4138
+CLASS TAManagerProxy
+ - setDelegate: v24@0:8@16 imageOffset=0x3774
+ - init @16@0:8 imageOffset=0x32ac
+ - .cxx_destruct v16@0:8 imageOffset=0x377c
+ - delegate @16@0:8 imageOffset=0x3768
+ - cleanupCommand: v24@0:8@16 imageOffset=0x354c
+ - performCommand:inValue:inData:inSize:outData:outSize: i56@0:8S16I20r^v24Q32^v40^Q48 imageOffset=0x3698
+ - performCommand:method:inValue:inData:inSize:outData:outSize: i60@0:8S16I20S24r^v28Q36^v44^Q52 imageOffset=0x35bc
+ - performCommand:method:version:inValue:inData:inSize:outData:outSize: i64@0:8S16I20S24S28r^v32Q40^v48^Q56 imageOffset=0x35b4
+ - prepareCommand:version:inValue:inData:inSize:command: i52@0:8S16S20S24r^v28Q36^@44 imageOffset=0x3374
+ + proxy @16@0:8 imageOffset=0x3164
+ + isSupportedNonBridgePlatform B16@0:8 imageOffset=0x31b0
+CLASS TAManagerProxyDirect
+ - initializeConnection i16@0:8 imageOffset=0x3910
+ - .cxx_destruct v16@0:8 imageOffset=0x40a4
+ - dealloc v16@0:8 imageOffset=0x3c7c
+ - performCommand:method:version:inValue:inData:inSize:outData:outSize: i64@0:8S16I20S24S28r^v32Q40^v48^Q56 imageOffset=0x3d24
+ + proxy @16@0:8 imageOffset=0x37c0
+CLASS TADeviceManager
+ - pairedDevices @16@0:8 imageOffset=0x1d98
+ - init @16@0:8 imageOffset=0x12e0
+ - .cxx_destruct v16@0:8 imageOffset=0x2e88
+ - cancelOperation: i24@0:8@16 imageOffset=0x2950
+ - connectedDevices @16@0:8 imageOffset=0x13a4
+ - operationFinished: v24@0:8@16 imageOffset=0x2b38
+ - availablePairingSlotsWithError: @24@0:8^@16 imageOffset=0x2058
+ - connectedDevicesWithFilter: @24@0:8@16 imageOffset=0x14e4
+ - createSecureIntentOperationWithError: @24@0:8^@16 imageOffset=0x24f4
+ - notification:withData: v28@0:8I16@20 imageOffset=0x262c
+ - requestDailyUpdateWithError: B24@0:8^@16 imageOffset=0x2c44
+ - startOperation:withData: i32@0:8@16@24 imageOffset=0x26f8
+ - unpairAllDevicesWithError: B24@0:8^@16 imageOffset=0x22b0
+ + initialize v16@0:8 imageOffset=0x1080
+ + manager @16@0:8 imageOffset=0x10ac
+ + isSupportedPlatform B16@0:8 imageOffset=0x11fc
+Process 34984 launched: '/tmp/touchid-framework-metadata' (arm64)
+Process 34984 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+       frame #0: 0x00000001000005a0 touchid-framework-metadata`metadata_done at framework-metadata.m:6:76
+   3   	#import <dlfcn.h>
+   4   	
+   5   	// Inspect method names and addresses only; never instantiate private classes.
+-> 6   	__attribute__((noinline)) void metadata_done(void) { __asm__ volatile(""); }
+    	                                                                           ^
+   7   	
+   8   	int main(void) {
+   9   	    @autoreleasepool {
+Target 0: (touchid-framework-metadata) stopped.
+(lldb) disassemble -n "-[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:]"
+TrustedAccessory`-[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:]:
+    0x2baf59374 <+0>:   pacibsp 
+    0x2baf59378 <+4>:   sub    sp, sp, #0x70
+    0x2baf5937c <+8>:   stp    x28, x27, [sp, #0x10]
+    0x2baf59380 <+12>:  stp    x26, x25, [sp, #0x20]
+    0x2baf59384 <+16>:  stp    x24, x23, [sp, #0x30]
+    0x2baf59388 <+20>:  stp    x22, x21, [sp, #0x40]
+    0x2baf5938c <+24>:  stp    x20, x19, [sp, #0x50]
+    0x2baf59390 <+28>:  stp    x29, x30, [sp, #0x60]
+    0x2baf59394 <+32>:  add    x29, sp, #0x60
+    0x2baf59398 <+36>:  adrp   x8, 172208
+    0x2baf5939c <+40>:  ldr    x8, [x8, #0x820]
+    0x2baf593a0 <+44>:  ldr    x8, [x8]
+    0x2baf593a4 <+48>:  str    x8, [sp, #0x8]
+    0x2baf593a8 <+52>:  cmp    x5, #0x0
+    0x2baf593ac <+56>:  cset   w8, ne
+    0x2baf593b0 <+60>:  cmp    x6, #0x0
+    0x2baf593b4 <+64>:  cset   w9, ne
+    0x2baf593b8 <+68>:  csel   w28, wzr, w8, eq
+    0x2baf593bc <+72>:  cmp    w8, w9
+    0x2baf593c0 <+76>:  b.ne   0x2baf594e8               ; <+372>
+    0x2baf593c4 <+80>:  mov    x19, x7
+    0x2baf593c8 <+84>:  cbz    x7, 0x2baf594f4           ; <+384>
+    0x2baf593cc <+88>:  mov    x20, x6
+    0x2baf593d0 <+92>:  mov    x26, x0
+    0x2baf593d4 <+96>:  adds   x25, x6, #0x8
+    0x2baf593d8 <+100>: cset   w0, hs
+    0x2baf593dc <+104>: b.hs   0x2baf59500               ; <+396>
+    0x2baf593e0 <+108>: mov    x21, x5
+    0x2baf593e4 <+112>: mov    x22, x4
+    0x2baf593e8 <+116>: mov    x23, x3
+    0x2baf593ec <+120>: mov    x24, x2
+    0x2baf593f0 <+124>: ldr    x0, [x26, #0x8]
+    0x2baf593f4 <+128>: bl     0x2bceddf90
+    0x2baf593f8 <+132>: mov    x27, x0
+    0x2baf593fc <+136>: bl     0x2bcede010
+    0x2baf59400 <+140>: ldr    x0, [x26, #0x8]
+    0x2baf59404 <+144>: bl     0x2bce706c0
+    0x2baf59408 <+148>: cmp    x25, x0
+    0x2baf5940c <+152>: b.hi   0x2baf59418               ; <+164>
+    0x2baf59410 <+156>: ldrb   w8, [x26, #0x10]
+    0x2baf59414 <+160>: tbz    w8, #0x0, 0x2baf59420     ; <+172>
+    0x2baf59418 <+164>: mov    x26, #0x0                 ; =0 
+    0x2baf5941c <+168>: b      0x2baf59434               ; <+192>
+    0x2baf59420 <+172>: mov    w8, #0x1                  ; =1 
+    0x2baf59424 <+176>: strb   w8, [x26, #0x10]
+    0x2baf59428 <+180>: ldr    x0, [x26, #0x8]
+    0x2baf5942c <+184>: bl     0x2bceddf90
+    0x2baf59430 <+188>: mov    x26, x0
+    0x2baf59434 <+192>: mov    x0, x27
+    0x2baf59438 <+196>: bl     0x2bcede020
+    0x2baf5943c <+200>: mov    x0, x27
+    0x2baf59440 <+204>: bl     0x2bceddf80
+    0x2baf59444 <+208>: cbnz   x26, 0x2baf59464          ; <+240>
+    0x2baf59448 <+212>: adrp   x8, 172079
+    0x2baf5944c <+216>: ldr    x0, [x8, #0xe58]
+    0x2baf59450 <+220>: mov    x2, x25
+    0x2baf59454 <+224>: bl     0x2bce6e9f0
+    0x2baf59458 <+228>: bl     0x2bcedded0
+    0x2baf5945c <+232>: mov    x26, x0
+    0x2baf59460 <+236>: cbz    x0, 0x2baf5950c           ; <+408>
+    0x2baf59464 <+240>: mov    x0, x26
+    0x2baf59468 <+244>: bl     0x2bceddfa0
+    0x2baf5946c <+248>: bl     0x2bce70990
+    0x2baf59470 <+252>: cbz    x0, 0x2baf5951c           ; <+424>
+    0x2baf59474 <+256>: mov    w8, #0x4154               ; =16724 
+    0x2baf59478 <+260>: strh   w8, [x0]
+    0x2baf5947c <+264>: strh   w24, [x0, #0x2]
+    0x2baf59480 <+268>: strh   w23, [x0, #0x4]
+    0x2baf59484 <+272>: strh   w22, [x0, #0x6]
+    0x2baf59488 <+276>: cbz    w28, 0x2baf5949c          ; <+296>
+    0x2baf5948c <+280>: add    x0, x0, #0x8
+    0x2baf59490 <+284>: mov    x1, x21
+    0x2baf59494 <+288>: mov    x2, x20
+    0x2baf59498 <+292>: bl     0x2bcedde40
+    0x2baf5949c <+296>: mov    x0, x26
+    0x2baf594a0 <+300>: bl     0x2bceddfa0
+    0x2baf594a4 <+304>: str    x26, [x19]
+    0x2baf594a8 <+308>: bl     0x2bceddf80
+    0x2baf594ac <+312>: mov    w0, #0x0                  ; =0 
+    0x2baf594b0 <+316>: ldr    x8, [sp, #0x8]
+    0x2baf594b4 <+320>: adrp   x9, 172208
+    0x2baf594b8 <+324>: ldr    x9, [x9, #0x820]
+    0x2baf594bc <+328>: ldr    x9, [x9]
+    0x2baf594c0 <+332>: cmp    x9, x8
+    0x2baf594c4 <+336>: b.ne   0x2baf5952c               ; <+440>
+    0x2baf594c8 <+340>: ldp    x29, x30, [sp, #0x60]
+    0x2baf594cc <+344>: ldp    x20, x19, [sp, #0x50]
+    0x2baf594d0 <+348>: ldp    x22, x21, [sp, #0x40]
+    0x2baf594d4 <+352>: ldp    x24, x23, [sp, #0x30]
+    0x2baf594d8 <+356>: ldp    x26, x25, [sp, #0x20]
+    0x2baf594dc <+360>: ldp    x28, x27, [sp, #0x10]
+    0x2baf594e0 <+364>: add    sp, sp, #0x70
+    0x2baf594e4 <+368>: retab  
+    0x2baf594e8 <+372>: add    x0, sp, #0x4
+    0x2baf594ec <+376>: bl     0x2baf5e30c               ; -[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:].cold.5
+    0x2baf594f0 <+380>: b      0x2baf59514               ; <+416>
+    0x2baf594f4 <+384>: add    x0, sp, #0x4
+    0x2baf594f8 <+388>: bl     0x2baf5e29c               ; -[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:].cold.4
+    0x2baf594fc <+392>: b      0x2baf59514               ; <+416>
+    0x2baf59500 <+396>: add    x1, sp, #0x4
+    0x2baf59504 <+400>: bl     0x2baf5e22c               ; -[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:].cold.3
+    0x2baf59508 <+404>: b      0x2baf59514               ; <+416>
+    0x2baf5950c <+408>: add    x0, sp, #0x4
+    0x2baf59510 <+412>: bl     0x2baf5e1bc               ; -[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:].cold.2
+    0x2baf59514 <+416>: ldr    w0, [sp, #0x4]
+    0x2baf59518 <+420>: b      0x2baf594b0               ; <+316>
+    0x2baf5951c <+424>: mov    x0, x26
+    0x2baf59520 <+428>: bl     0x2baf5e14c               ; -[TAManagerProxy prepareCommand:version:inValue:inData:inSize:command:].cold.1
+    0x2baf59524 <+432>: mov    w0, #0x4                  ; =4 
+    0x2baf59528 <+436>: b      0x2baf594b0               ; <+316>
+    0x2baf5952c <+440>: bl     0x2bceddc50
+    0x2baf59530 <+444>: mov    x19, x0
+    0x2baf59534 <+448>: b      0x2baf59544               ; <+464>
+    0x2baf59538 <+452>: mov    x19, x0
+    0x2baf5953c <+456>: mov    x0, x27
+    0x2baf59540 <+460>: bl     0x2bcede020
+    0x2baf59544 <+464>: mov    x0, x19
+    0x2baf59548 <+468>: bl     0x2bceddc40
+(lldb) disassemble -n "__26-[TADevice pairWithError:]_block_invoke"
+TrustedAccessory`__26-[TADevice pairWithError:]_block_invoke:
+    0x2baf5b2d8 <+0>:  pacibsp 
+    0x2baf5b2dc <+4>:  stp    x20, x19, [sp, #-0x20]!
+    0x2baf5b2e0 <+8>:  stp    x29, x30, [sp, #0x10]
+    0x2baf5b2e4 <+12>: add    x29, sp, #0x10
+    0x2baf5b2e8 <+16>: mov    x19, x1
+    0x2baf5b2ec <+20>: mov    x20, x0
+    0x2baf5b2f0 <+24>: ldr    x8, [x0, #0x28]
+    0x2baf5b2f4 <+28>: ldr    x8, [x8, #0x8]
+    0x2baf5b2f8 <+32>: add    x0, x8, #0x28
+    0x2baf5b2fc <+36>: bl     0x2bceddff0
+    0x2baf5b300 <+40>: mov    x0, x19
+    0x2baf5b304 <+44>: bl     0x2bceddf90
+    0x2baf5b308 <+48>: mov    x19, x0
+    0x2baf5b30c <+52>: ldr    x0, [x20, #0x20]
+    0x2baf5b310 <+56>: bl     0x2bcee2590
+    0x2baf5b314 <+60>: mov    x0, x19
+    0x2baf5b318 <+64>: ldp    x29, x30, [sp, #0x10]
+    0x2baf5b31c <+68>: ldp    x20, x19, [sp], #0x20
+    0x2baf5b320 <+72>: autibsp 
+    0x2baf5b324 <+76>: eor    x16, x30, x30, lsl #1
+    0x2baf5b328 <+80>: tbz    x16, #0x3e, 0x2baf5b330   ; <+88>
+    0x2baf5b32c <+84>: brk    #0xc471
+    0x2baf5b330 <+88>: b      0x2bceddf80
+(lldb) disassemble -n "-[TADevice testSecureSessionWithError:]"
+TrustedAccessory`-[TADevice testSecureSessionWithError:]:
+    0x2baf5bed8 <+0>:   pacibsp 
+    0x2baf5bedc <+4>:   sub    sp, sp, #0x90
+    0x2baf5bee0 <+8>:   stp    x24, x23, [sp, #0x50]
+    0x2baf5bee4 <+12>:  stp    x22, x21, [sp, #0x60]
+    0x2baf5bee8 <+16>:  stp    x20, x19, [sp, #0x70]
+    0x2baf5beec <+20>:  stp    x29, x30, [sp, #0x80]
+    0x2baf5bef0 <+24>:  add    x29, sp, #0x80
+    0x2baf5bef4 <+28>:  mov    x19, x2
+    0x2baf5bef8 <+32>:  mov    x20, x0
+    0x2baf5befc <+36>:  adrp   x8, 172206
+    0x2baf5bf00 <+40>:  ldr    x8, [x8, #0x820]
+    0x2baf5bf04 <+44>:  ldr    x8, [x8]
+    0x2baf5bf08 <+48>:  stur   x8, [x29, #-0x38]
+    0x2baf5bf0c <+52>:  adrp   x23, 201856
+    0x2baf5bf10 <+56>:  add    x23, x23, #0x9a0          ; __osLogTrace_TrustedAccessory
+    0x2baf5bf14 <+60>:  ldr    x8, [x23]
+    0x2baf5bf18 <+64>:  adrp   x22, 172206
+    0x2baf5bf1c <+68>:  ldr    x22, [x22, #0xb48]
+    0x2baf5bf20 <+72>:  cmp    x8, #0x0
+    0x2baf5bf24 <+76>:  csel   x21, x22, x8, eq
+    0x2baf5bf28 <+80>:  mov    x0, x21
+    0x2baf5bf2c <+84>:  mov    w1, #0x0                  ; =0 
+    0x2baf5bf30 <+88>:  bl     0x2bcede050
+    0x2baf5bf34 <+92>:  cbz    w0, 0x2baf5bf60           ; <+136>
+    0x2baf5bf38 <+96>:  strh   wzr, [sp]
+    0x2baf5bf3c <+100>: adrp   x0, -5
+    0x2baf5bf40 <+104>: add    x0, x0, #0x0
+    0x2baf5bf44 <+108>: adrp   x3, 6
+    0x2baf5bf48 <+112>: add    x3, x3, #0x24d            ; "TADevice::testSecureSession\n"
+    0x2baf5bf4c <+116>: mov    x4, sp
+    0x2baf5bf50 <+120>: mov    x1, x21
+    0x2baf5bf54 <+124>: mov    w2, #0x0                  ; =0 
+    0x2baf5bf58 <+128>: mov    w5, #0x2                  ; =2 
+    0x2baf5bf5c <+132>: bl     0x2bceddca0
+    0x2baf5bf60 <+136>: mov    x0, x20
+    0x2baf5bf64 <+140>: bl     0x2bce8a950
+    0x2baf5bf68 <+144>: bl     0x2bcedded0
+    0x2baf5bf6c <+148>: mov    x21, x0
+    0x2baf5bf70 <+152>: bl     0x2bceddfa0
+    0x2baf5bf74 <+156>: bl     0x2bce6e090
+    0x2baf5bf78 <+160>: ldr    q0, [x0]
+    0x2baf5bf7c <+164>: str    q0, [sp, #0x30]
+    0x2baf5bf80 <+168>: mov    x0, x21
+    0x2baf5bf84 <+172>: bl     0x2bceddf80
+    0x2baf5bf88 <+176>: ldr    x0, [x20, #0x8]
+    0x2baf5bf8c <+180>: add    x4, sp, #0x30
+    0x2baf5bf90 <+184>: mov    w2, #0xa                  ; =10 
+    0x2baf5bf94 <+188>: mov    w3, #0x0                  ; =0 
+    0x2baf5bf98 <+192>: mov    w5, #0x10                 ; =16 
+    0x2baf5bf9c <+196>: mov    x6, #0x0                  ; =0 
+    0x2baf5bfa0 <+200>: mov    x7, #0x0                  ; =0 
+    0x2baf5bfa4 <+204>: bl     0x2bceb5190
+    0x2baf5bfa8 <+208>: sxtw   x20, w0
+    0x2baf5bfac <+212>: cbnz   w0, 0x2baf5c058           ; <+384>
+    0x2baf5bfb0 <+216>: ldr    x8, [x23]
+    0x2baf5bfb4 <+220>: cmp    x8, #0x0
+    0x2baf5bfb8 <+224>: csel   x21, x22, x8, eq
+    0x2baf5bfbc <+228>: mov    x0, x21
+    0x2baf5bfc0 <+232>: mov    w1, #0x0                  ; =0 
+    0x2baf5bfc4 <+236>: bl     0x2bcede050
+    0x2baf5bfc8 <+240>: cbz    w0, 0x2baf5c020           ; <+328>
+    0x2baf5bfcc <+244>: cbz    x19, 0x2baf5bfd8          ; <+256>
+    0x2baf5bfd0 <+248>: ldr    x8, [x19]
+    0x2baf5bfd4 <+252>: b      0x2baf5bfdc               ; <+260>
+    0x2baf5bfd8 <+256>: mov    x8, #0x0                  ; =0 
+    0x2baf5bfdc <+260>: adrp   x9, 4
+    0x2baf5bfe0 <+264>: ldr    d0, [x9, #0xea8]
+    0x2baf5bfe4 <+268>: str    s0, [sp]
+    0x2baf5bfe8 <+272>: mov    w9, #0x1                  ; =1 
+    0x2baf5bfec <+276>: str    w9, [sp, #0x4]
+    0x2baf5bff0 <+280>: mov    w9, #0x840                ; =2112 
+    0x2baf5bff4 <+284>: strh   w9, [sp, #0x8]
+    0x2baf5bff8 <+288>: stur   x8, [sp, #0xa]
+    0x2baf5bffc <+292>: adrp   x0, -5
+    0x2baf5c000 <+296>: add    x0, x0, #0x0
+    0x2baf5c004 <+300>: adrp   x3, 5
+    0x2baf5c008 <+304>: add    x3, x3, #0x26a            ; "TADevice::testSecureSession -> %d %@\n"
+    0x2baf5c00c <+308>: mov    x4, sp
+    0x2baf5c010 <+312>: mov    x1, x21
+    0x2baf5c014 <+316>: mov    w2, #0x0                  ; =0 
+    0x2baf5c018 <+320>: mov    w5, #0x12                 ; =18 
+    0x2baf5c01c <+324>: bl     0x2bceddca0
+    0x2baf5c020 <+328>: cmp    w20, #0x0
+    0x2baf5c024 <+332>: cset   w0, eq
+    0x2baf5c028 <+336>: ldur   x8, [x29, #-0x38]
+    0x2baf5c02c <+340>: adrp   x9, 172205
+    0x2baf5c030 <+344>: ldr    x9, [x9, #0x820]
+    0x2baf5c034 <+348>: ldr    x9, [x9]
+    0x2baf5c038 <+352>: cmp    x9, x8
+    0x2baf5c03c <+356>: b.ne   0x2baf5c16c               ; <+660>
+    0x2baf5c040 <+360>: ldp    x29, x30, [sp, #0x80]
+    0x2baf5c044 <+364>: ldp    x20, x19, [sp, #0x70]
+    0x2baf5c048 <+368>: ldp    x22, x21, [sp, #0x60]
+    0x2baf5c04c <+372>: ldp    x24, x23, [sp, #0x50]
+    0x2baf5c050 <+376>: add    sp, sp, #0x90
+    0x2baf5c054 <+380>: retab  
+    0x2baf5c058 <+384>: adrp   x8, 201855
+    0x2baf5c05c <+388>: add    x8, x8, #0x998            ; __osLog_TrustedAccessory
+    0x2baf5c060 <+392>: ldr    x8, [x8]
+    0x2baf5c064 <+396>: cmp    x8, #0x0
+    0x2baf5c068 <+400>: csel   x21, x22, x8, eq
+    0x2baf5c06c <+404>: mov    x0, x21
+    0x2baf5c070 <+408>: mov    w1, #0x10                 ; =16 
+    0x2baf5c074 <+412>: bl     0x2bcede050
+    0x2baf5c078 <+416>: cbz    w0, 0x2baf5c0f8           ; <+544>
+    0x2baf5c07c <+420>: adrp   x8, 3
+    0x2baf5c080 <+424>: ldr    d0, [x8, #0xeb0]
+    0x2baf5c084 <+428>: str    s0, [sp]
+    0x2baf5c088 <+432>: adrp   x8, 4
+    0x2baf5c08c <+436>: add    x8, x8, #0x209            ; "err == 0 "
+    0x2baf5c090 <+440>: stur   x8, [sp, #0x4]
+    0x2baf5c094 <+444>: mov    w8, #0x800                ; =2048 
+    0x2baf5c098 <+448>: strh   w8, [sp, #0xc]
+    0x2baf5c09c <+452>: stur   x20, [sp, #0xe]
+    0x2baf5c0a0 <+456>: mov    w8, #0x820                ; =2080 
+    0x2baf5c0a4 <+460>: strh   w8, [sp, #0x16]
+    0x2baf5c0a8 <+464>: adrp   x9, 3
+    0x2baf5c0ac <+468>: add    x9, x9, #0xefe            ; ""
+    0x2baf5c0b0 <+472>: str    x9, [sp, #0x18]
+    0x2baf5c0b4 <+476>: strh   w8, [sp, #0x20]
+    0x2baf5c0b8 <+480>: adrp   x8, 4
+    0x2baf5c0bc <+484>: add    x8, x8, #0x5b9            ; "/AppleInternal/Library/BuildRoots/4~CV2UugApGdESWwsozMbeuA2DZJmeK_YQN3as4pQ/Library/Caches/com.apple.xbs/TemporaryDirectory.m0v0vU/Sources/TrustedAccessory/TrustedAccessory/TADevice.m"
+    0x2baf5c0c0 <+488>: stur   x8, [sp, #0x22]
+    0x2baf5c0c4 <+492>: mov    w8, #0x400                ; =1024 
+    0x2baf5c0c8 <+496>: strh   w8, [sp, #0x2a]
+    0x2baf5c0cc <+500>: mov    w8, #0x20c                ; =524 
+    0x2baf5c0d0 <+504>: str    w8, [sp, #0x2c]
+    0x2baf5c0d4 <+508>: adrp   x0, -6
+    0x2baf5c0d8 <+512>: add    x0, x0, #0x0
+    0x2baf5c0dc <+516>: adrp   x3, 4
+    0x2baf5c0e0 <+520>: add    x3, x3, #0x9d1            ; "AssertMacros: %s (value = 0x%lx), %s file: %s, line: %d\n\n"
+    0x2baf5c0e4 <+524>: mov    x4, sp
+    0x2baf5c0e8 <+528>: mov    x1, x21
+    0x2baf5c0ec <+532>: mov    w2, #0x10                 ; =16 
+    0x2baf5c0f0 <+536>: mov    w5, #0x30                 ; =48 
+    0x2baf5c0f4 <+540>: bl     0x2bceddca0
+    0x2baf5c0f8 <+544>: mov    x0, x20
+    0x2baf5c0fc <+548>: mov    x1, x19
+    0x2baf5c100 <+552>: bl     0x2baf5a190               ; setErrorWithOSStatus
+    0x2baf5c104 <+556>: ldr    x8, [x23]
+    0x2baf5c108 <+560>: cmp    x8, #0x0
+    0x2baf5c10c <+564>: csel   x21, x22, x8, eq
+    0x2baf5c110 <+568>: mov    x0, x21
+    0x2baf5c114 <+572>: mov    w1, #0x10                 ; =16 
+    0x2baf5c118 <+576>: bl     0x2bcede050
+    0x2baf5c11c <+580>: cbz    w0, 0x2baf5c020           ; <+328>
+    0x2baf5c120 <+584>: cbz    x19, 0x2baf5c12c          ; <+596>
+    0x2baf5c124 <+588>: ldr    x8, [x19]
+    0x2baf5c128 <+592>: b      0x2baf5c130               ; <+600>
+    0x2baf5c12c <+596>: mov    x8, #0x0                  ; =0 
+    0x2baf5c130 <+600>: adrp   x9, 3
+    0x2baf5c134 <+604>: ldr    d0, [x9, #0xea8]
+    0x2baf5c138 <+608>: str    s0, [sp]
+    0x2baf5c13c <+612>: str    wzr, [sp, #0x4]
+    0x2baf5c140 <+616>: mov    w9, #0x840                ; =2112 
+    0x2baf5c144 <+620>: strh   w9, [sp, #0x8]
+    0x2baf5c148 <+624>: stur   x8, [sp, #0xa]
+    0x2baf5c14c <+628>: adrp   x0, -6
+    0x2baf5c150 <+632>: add    x0, x0, #0x0
+    0x2baf5c154 <+636>: adrp   x3, 5
+    0x2baf5c158 <+640>: add    x3, x3, #0x26a            ; "TADevice::testSecureSession -> %d %@\n"
+    0x2baf5c15c <+644>: mov    x4, sp
+    0x2baf5c160 <+648>: mov    x1, x21
+    0x2baf5c164 <+652>: mov    w2, #0x10                 ; =16 
+    0x2baf5c168 <+656>: b      0x2baf5c018               ; <+320>
+    0x2baf5c16c <+660>: bl     0x2bceddc50
+(lldb) image lookup -a 0x2bcf13d60

@@ -1,0 +1,232 @@
+[
+  {
+    "opcode": 1,
+    "request_shape": "empty",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a094e50"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 2,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09568c",
+      "fffffe000a096448",
+      "fffffe000a097418",
+      "fffffe000a09b214"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 3,
+    "request_shape": "pair_begin",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0964f4"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 4,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a096e20",
+      "fffffe000a09b2d8",
+      "fffffe000a09c7a0"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 5,
+    "request_shape": "manifest",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a098bc4"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 6,
+    "request_shape": "session_begin",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a098f14"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 7,
+    "request_shape": "session_completion",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a098fe8"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 8,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09cfc4"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 9,
+    "request_shape": "presence",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09b6a8",
+      "fffffe000a09c018"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 10,
+    "request_shape": "empty",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09552c"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 11,
+    "request_shape": "empty",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0950d4",
+      "fffffe000a09e37c",
+      "fffffe000a09e744"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 12,
+    "request_shape": "empty",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0970a8"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 13,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a097d90"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 14,
+    "request_shape": "challenge_validation",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a097e1c",
+      "fffffe000a097e44"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 15,
+    "request_shape": "word",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09f294"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 16,
+    "request_shape": "intent_start",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0982d8"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 17,
+    "request_shape": "empty",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0985a4",
+      "fffffe000a09988c"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 18,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09940c"
+    ],
+    "response_codec": true,
+    "native_crypto": false
+  },
+  {
+    "opcode": 19,
+    "request_shape": "intent_detected",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a09c99c"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 20,
+    "request_shape": "authorization",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a0974f0"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 21,
+    "request_shape": "pair_completion",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a096614"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  },
+  {
+    "opcode": 22,
+    "request_shape": "uid",
+    "input_codec": true,
+    "call_addresses": [
+      "fffffe000a095604"
+    ],
+    "response_codec": false,
+    "native_crypto": false
+  }
+]

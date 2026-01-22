@@ -1,0 +1,37 @@
+[
+  {
+    "service_mode": 0,
+    "string_address": "0xfffffe0007a4102c",
+    "name": "None"
+  },
+  {
+    "service_mode": 1,
+    "string_address": "0xfffffe0007a41031",
+    "name": "Idle"
+  },
+  {
+    "service_mode": 2,
+    "string_address": "0xfffffe0007a41036",
+    "name": "Match"
+  },
+  {
+    "service_mode": 3,
+    "string_address": "0xfffffe0007a4103c",
+    "name": "Enroll"
+  },
+  {
+    "service_mode": 4,
+    "string_address": "0xfffffe0007a41043",
+    "name": "PresenceDetect"
+  },
+  {
+    "service_mode": 5,
+    "string_address": "0xfffffe0007a41052",
+    "name": "BgPresenceDetect"
+  },
+  {
+    "service_mode": 6,
+    "string_address": "0xfffffe0007a41063",
+    "name": "Count"
+  }
+]

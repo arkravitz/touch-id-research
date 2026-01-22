@@ -1,0 +1,29 @@
++-o AppleTrustedAccessoryManager  <class AppleTrustedAccessoryManager, id 0x1000008b4, registered, matched, active, busy 0 (0 ms), retain 8>
+  | {
+  |   "IOClass" = "AppleTrustedAccessoryManager"
+  |   "CFBundleIdentifier" = "com.apple.driver.AppleTrustedAccessory"
+  |   "IOProviderClass" = "AppleSEPDeviceService"
+  |   "IOPowerManagement" = {"CapabilityFlags"=2,"MaxPowerState"=1,"CurrentPowerState"=1}
+  |   "IOUserClientClass" = "AppleTrustedAccessoryManagerUserClient"
+  |   "IOProbeScore" = 0
+  |   "IONameMatch" = "sep-endpoint,stac"
+  |   "IOMatchedAtBoot" = Yes
+  |   "IOMatchCategory" = "com_apple_driver_AppleTrustedAccessoryManager"
+  |   "IONameMatched" = "sep-endpoint,stac"
+  |   "IOPersonalityPublisher" = "com.apple.driver.AppleTrustedAccessory"
+  |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleTrustedAccessory"
+  | }
+  | 
+  +-o AppleTrustedAccessoryManagerUserClient  <class AppleTrustedAccessoryManagerUserClient, id 0x100001051, !registered, !matched, active, busy 0, retain 5>
+  |   {
+  |     "IOUserClientCreator" = "pid 1094, coreauthd"
+  |     "IOUserClientDefaultLocking" = Yes
+  |   }
+  |   
+  +-o AppleTrustedAccessoryManagerUserClient  <class AppleTrustedAccessoryManagerUserClient, id 0x1000085e3, !registered, !matched, active, busy 0, retain 5>
+      {
+        "IOUserClientCreator" = "pid 1013, coreauthd"
+        "IOUserClientDefaultLocking" = Yes
+      }
+      
+
