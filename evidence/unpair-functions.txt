@@ -1,0 +1,207 @@
+__ZN21AppleTrustedAccessory11unpairGatedEv:
+fffffe000a08a960:	5f 24 03 d5	hint	#0x22
+fffffe000a08a964:	7f 23 03 d5	pacibsp
+fffffe000a08a968:	ff c3 01 d1	sub	sp, sp, #0x70
+fffffe000a08a96c:	f8 5f 03 a9	stp	x24, x23, [sp, #0x30]
+fffffe000a08a970:	f6 57 04 a9	stp	x22, x21, [sp, #0x40]
+fffffe000a08a974:	f4 4f 05 a9	stp	x20, x19, [sp, #0x50]
+fffffe000a08a978:	fd 7b 06 a9	stp	x29, x30, [sp, #0x60]
+fffffe000a08a97c:	fd 83 01 91	add	x29, sp, #0x60
+fffffe000a08a980:	f4 03 00 aa	mov	x20, x0
+fffffe000a08a984:	57 55 01 d0	adrp	x23, 10922 ; 0xfffffe000cb34000
+fffffe000a08a988:	e8 f6 46 f9	ldr	x8, [x23, #0xde8]
+fffffe000a08a98c:	18 15 ff 90	adrp	x24, -7520 ; 0xfffffe000832a000
+fffffe000a08a990:	18 a3 46 f9	ldr	x24, [x24, #0xd40]
+fffffe000a08a994:	1f 01 00 f1	cmp	x8, #0x0
+fffffe000a08a998:	01 03 88 9a	csel	x1, x24, x8, eq
+fffffe000a08a99c:	d6 bc fe f0	adrp	x22, -10341 ; 0xfffffe0007825000
+fffffe000a08a9a0:	d6 f6 07 91	add	x22, x22, #0x1fd
+fffffe000a08a9a4:	f6 03 00 f9	str	x22, [sp]
+fffffe000a08a9a8:	c0 bc fe b0	adrp	x0, -10343 ; 0xfffffe0007823000
+fffffe000a08a9ac:	00 c0 3f 91	add	x0, x0, #0xff0
+fffffe000a08a9b0:	e3 bc fe d0	adrp	x3, -10338 ; 0xfffffe0007828000
+fffffe000a08a9b4:	63 e0 35 91	add	x3, x3, #0xd78
+fffffe000a08a9b8:	42 00 80 52	mov	w2, #0x2
+fffffe000a08a9bc:	81 77 00 94	bl	0xfffffe000a0a87c0 ; symbol stub for: __os_log_internal
+fffffe000a08a9c0:	88 a2 42 39	ldrb	w8, [x20, #0xa8]
+fffffe000a08a9c4:	a8 0b 00 36	tbz	w8, #0x0, 0xfffffe000a08ab38
+fffffe000a08a9c8:	88 22 47 39	ldrb	w8, [x20, #0x1c8]
+fffffe000a08a9cc:	68 09 00 36	tbz	w8, #0x0, 0xfffffe000a08aaf8
+fffffe000a08a9d0:	88 02 47 39	ldrb	w8, [x20, #0x1c0]
+fffffe000a08a9d4:	28 09 00 36	tbz	w8, #0x0, 0xfffffe000a08aaf8
+fffffe000a08a9d8:	60 00 80 52	mov	w0, #0x3
+fffffe000a08a9dc:	81 00 80 52	mov	w1, #0x4
+fffffe000a08a9e0:	22 00 80 52	mov	w2, #0x1
+fffffe000a08a9e4:	0f 77 00 94	bl	0xfffffe000a0a8620 ; symbol stub for: __ZN24IOBufferMemoryDescriptor11withOptionsEjmm
+fffffe000a08a9e8:	f3 03 00 aa	mov	x19, x0
+fffffe000a08a9ec:	60 0c 00 b4	cbz	x0, 0xfffffe000a08ab78
+fffffe000a08a9f0:	90 02 40 f9	ldr	x16, [x20]
+fffffe000a08a9f4:	f1 03 14 aa	mov	x17, x20
+fffffe000a08a9f8:	31 b4 f9 f2	movk	x17, #0xcda1, lsl #48
+fffffe000a08a9fc:	30 1a c1 da	autda	x16, x17
+fffffe000a08aa00:	11 11 81 d2	mov	x17, #0x888
+fffffe000a08aa04:	10 02 11 8b	add	x16, x16, x17
+fffffe000a08aa08:	08 02 40 f9	ldr	x8, [x16]
+fffffe000a08aa0c:	e0 03 14 aa	mov	x0, x20
+fffffe000a08aa10:	e1 03 13 aa	mov	x1, x19
+fffffe000a08aa14:	42 00 80 52	mov	w2, #0x2
+fffffe000a08aa18:	83 08 80 52	mov	w3, #0x44
+fffffe000a08aa1c:	04 00 80 52	mov	w4, #0x0
+fffffe000a08aa20:	05 00 80 d2	mov	x5, #0x0
+fffffe000a08aa24:	b0 f4 ff f2	movk	x16, #0xffa5, lsl #48
+fffffe000a08aa28:	10 09 3f d7	blraa	x8, x16
+fffffe000a08aa2c:	40 0c 00 35	cbnz	w0, 0xfffffe000a08abb4
+fffffe000a08aa30:	70 02 40 f9	ldr	x16, [x19]
+fffffe000a08aa34:	f1 03 13 aa	mov	x17, x19
+fffffe000a08aa38:	31 b4 f9 f2	movk	x17, #0xcda1, lsl #48
+fffffe000a08aa3c:	30 1a c1 da	autda	x16, x17
+fffffe000a08aa40:	11 61 80 d2	mov	x17, #0x308
+fffffe000a08aa44:	10 02 11 8b	add	x16, x16, x17
+fffffe000a08aa48:	08 02 40 f9	ldr	x8, [x16]
+fffffe000a08aa4c:	e0 03 13 aa	mov	x0, x19
+fffffe000a08aa50:	90 9e fe f2	movk	x16, #0xf4f4, lsl #48
+fffffe000a08aa54:	10 09 3f d7	blraa	x8, x16
+fffffe000a08aa58:	80 0c 00 b4	cbz	x0, 0xfffffe000a08abe8
+fffffe000a08aa5c:	15 00 40 b9	ldr	w21, [x0]
+fffffe000a08aa60:	35 0e 00 35	cbnz	w21, 0xfffffe000a08ac24
+fffffe000a08aa64:	e0 03 14 aa	mov	x0, x20
+fffffe000a08aa68:	01 00 80 52	mov	w1, #0x0
+fffffe000a08aa6c:	02 00 80 12	mov	w2, #-0x1
+fffffe000a08aa70:	8a 00 00 94	bl	__ZN21AppleTrustedAccessory16publishReadinessEbj
+fffffe000a08aa74:	60 0f 00 36	tbz	w0, #0x0, 0xfffffe000a08ac60
+fffffe000a08aa78:	15 00 80 52	mov	w21, #0x0
+fffffe000a08aa7c:	9f 82 03 79	strh	wzr, [x20, #0x1c0]
+fffffe000a08aa80:	88 c6 41 b9	ldr	w8, [x20, #0x1c4]
+fffffe000a08aa84:	08 05 00 11	add	w8, w8, #0x1
+fffffe000a08aa88:	88 c6 01 b9	str	w8, [x20, #0x1c4]
+fffffe000a08aa8c:	9f 26 07 39	strb	wzr, [x20, #0x1c9]
+fffffe000a08aa90:	e8 f6 46 f9	ldr	x8, [x23, #0xde8]
+fffffe000a08aa94:	1f 01 00 f1	cmp	x8, #0x0
+fffffe000a08aa98:	01 03 88 9a	csel	x1, x24, x8, eq
+fffffe000a08aa9c:	f6 57 00 a9	stp	x22, x21, [sp]
+fffffe000a08aaa0:	c0 bc fe b0	adrp	x0, -10343 ; 0xfffffe0007823000
+fffffe000a08aaa4:	00 c0 3f 91	add	x0, x0, #0xff0
+fffffe000a08aaa8:	e3 bc fe d0	adrp	x3, -10338 ; 0xfffffe0007828000
+fffffe000a08aaac:	63 5c 36 91	add	x3, x3, #0xd97
+fffffe000a08aab0:	42 00 80 52	mov	w2, #0x2
+fffffe000a08aab4:	43 77 00 94	bl	0xfffffe000a0a87c0 ; symbol stub for: __os_log_internal
+fffffe000a08aab8:	33 01 00 b4	cbz	x19, 0xfffffe000a08aadc
+fffffe000a08aabc:	70 02 40 f9	ldr	x16, [x19]
+fffffe000a08aac0:	f1 03 13 aa	mov	x17, x19
+fffffe000a08aac4:	31 b4 f9 f2	movk	x17, #0xcda1, lsl #48
+fffffe000a08aac8:	30 1a c1 da	autda	x16, x17
+fffffe000a08aacc:	08 8e 42 f8	ldr	x8, [x16, #0x28]!
+fffffe000a08aad0:	e0 03 13 aa	mov	x0, x19
+fffffe000a08aad4:	f0 50 e7 f2	movk	x16, #0x3a87, lsl #48
+fffffe000a08aad8:	10 09 3f d7	blraa	x8, x16
+fffffe000a08aadc:	e0 03 15 aa	mov	x0, x21
+fffffe000a08aae0:	fd 7b 46 a9	ldp	x29, x30, [sp, #0x60]
+fffffe000a08aae4:	f4 4f 45 a9	ldp	x20, x19, [sp, #0x50]
+fffffe000a08aae8:	f6 57 44 a9	ldp	x22, x21, [sp, #0x40]
+fffffe000a08aaec:	f8 5f 43 a9	ldp	x24, x23, [sp, #0x30]
+fffffe000a08aaf0:	ff c3 01 91	add	sp, sp, #0x70
+fffffe000a08aaf4:	ff 0f 5f d6	retab
+fffffe000a08aaf8:	48 7c 80 52	mov	w8, #0x3e2
+fffffe000a08aafc:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08ab00:	29 dd 25 91	add	x9, x9, #0x977
+fffffe000a08ab04:	e9 23 02 a9	stp	x9, x8, [sp, #0x20]
+fffffe000a08ab08:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ab0c:	08 d9 25 91	add	x8, x8, #0x976
+fffffe000a08ab10:	ff 23 01 a9	stp	xzr, x8, [sp, #0x10]
+fffffe000a08ab14:	c8 bc fe f0	adrp	x8, -10341 ; 0xfffffe0007825000
+fffffe000a08ab18:	08 25 08 91	add	x8, x8, #0x209
+fffffe000a08ab1c:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08ab20:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08ab24:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08ab28:	22 76 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08ab2c:	13 00 80 d2	mov	x19, #0x0
+fffffe000a08ab30:	75 01 80 52	mov	w21, #0xb
+fffffe000a08ab34:	d7 ff ff 17	b	0xfffffe000a08aa90
+fffffe000a08ab38:	28 7c 80 52	mov	w8, #0x3e1
+fffffe000a08ab3c:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08ab40:	29 dd 25 91	add	x9, x9, #0x977
+fffffe000a08ab44:	e9 23 02 a9	stp	x9, x8, [sp, #0x20]
+fffffe000a08ab48:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ab4c:	08 d9 25 91	add	x8, x8, #0x976
+fffffe000a08ab50:	ff 23 01 a9	stp	xzr, x8, [sp, #0x10]
+fffffe000a08ab54:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ab58:	08 dd 2f 91	add	x8, x8, #0xbf7
+fffffe000a08ab5c:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08ab60:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08ab64:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08ab68:	12 76 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08ab6c:	13 00 80 d2	mov	x19, #0x0
+fffffe000a08ab70:	d5 01 80 52	mov	w21, #0xe
+fffffe000a08ab74:	c7 ff ff 17	b	0xfffffe000a08aa90
+fffffe000a08ab78:	a8 7c 80 52	mov	w8, #0x3e5
+fffffe000a08ab7c:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08ab80:	29 dd 25 91	add	x9, x9, #0x977
+fffffe000a08ab84:	e9 23 02 a9	stp	x9, x8, [sp, #0x20]
+fffffe000a08ab88:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ab8c:	08 d9 25 91	add	x8, x8, #0x976
+fffffe000a08ab90:	ff 23 01 a9	stp	xzr, x8, [sp, #0x10]
+fffffe000a08ab94:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ab98:	08 21 34 91	add	x8, x8, #0xd08
+fffffe000a08ab9c:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08aba0:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08aba4:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08aba8:	02 76 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08abac:	95 00 80 52	mov	w21, #0x4
+fffffe000a08abb0:	b8 ff ff 17	b	0xfffffe000a08aa90
+fffffe000a08abb4:	f5 03 00 aa	mov	x21, x0
+fffffe000a08abb8:	a8 7e 40 93	sxtw	x8, w21
+fffffe000a08abbc:	09 7d 80 52	mov	w9, #0x3e8
+fffffe000a08abc0:	ca bc fe d0	adrp	x10, -10342 ; 0xfffffe0007824000
+fffffe000a08abc4:	4a dd 25 91	add	x10, x10, #0x977
+fffffe000a08abc8:	ea 27 02 a9	stp	x10, x9, [sp, #0x20]
+fffffe000a08abcc:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08abd0:	29 d9 25 91	add	x9, x9, #0x976
+fffffe000a08abd4:	ca bc fe d0	adrp	x10, -10342 ; 0xfffffe0007824000
+fffffe000a08abd8:	4a ad 2d 91	add	x10, x10, #0xb6b
+fffffe000a08abdc:	f6 2b 00 a9	stp	x22, x10, [sp]
+fffffe000a08abe0:	e8 27 01 a9	stp	x8, x9, [sp, #0x10]
+fffffe000a08abe4:	1b 00 00 14	b	0xfffffe000a08ac50
+fffffe000a08abe8:	68 7d 80 52	mov	w8, #0x3eb
+fffffe000a08abec:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08abf0:	29 dd 25 91	add	x9, x9, #0x977
+fffffe000a08abf4:	e9 23 02 a9	stp	x9, x8, [sp, #0x20]
+fffffe000a08abf8:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08abfc:	08 d9 25 91	add	x8, x8, #0x976
+fffffe000a08ac00:	ff 23 01 a9	stp	xzr, x8, [sp, #0x10]
+fffffe000a08ac04:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ac08:	08 29 29 91	add	x8, x8, #0xa4a
+fffffe000a08ac0c:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08ac10:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08ac14:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08ac18:	e6 75 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08ac1c:	b5 00 80 52	mov	w21, #0x5
+fffffe000a08ac20:	9c ff ff 17	b	0xfffffe000a08aa90
+fffffe000a08ac24:	a8 7e 40 93	sxtw	x8, w21
+fffffe000a08ac28:	c9 7d 80 52	mov	w9, #0x3ee
+fffffe000a08ac2c:	ca bc fe d0	adrp	x10, -10342 ; 0xfffffe0007824000
+fffffe000a08ac30:	4a dd 25 91	add	x10, x10, #0x977
+fffffe000a08ac34:	ea 27 02 a9	stp	x10, x9, [sp, #0x20]
+fffffe000a08ac38:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08ac3c:	29 d9 25 91	add	x9, x9, #0x976
+fffffe000a08ac40:	e8 27 01 a9	stp	x8, x9, [sp, #0x10]
+fffffe000a08ac44:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ac48:	08 ad 2d 91	add	x8, x8, #0xb6b
+fffffe000a08ac4c:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08ac50:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08ac54:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08ac58:	d6 75 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08ac5c:	8d ff ff 17	b	0xfffffe000a08aa90
+fffffe000a08ac60:	28 7e 80 52	mov	w8, #0x3f1
+fffffe000a08ac64:	c9 bc fe d0	adrp	x9, -10342 ; 0xfffffe0007824000
+fffffe000a08ac68:	29 dd 25 91	add	x9, x9, #0x977
+fffffe000a08ac6c:	e9 23 02 a9	stp	x9, x8, [sp, #0x20]
+fffffe000a08ac70:	c8 bc fe d0	adrp	x8, -10342 ; 0xfffffe0007824000
+fffffe000a08ac74:	08 d9 25 91	add	x8, x8, #0x976
+fffffe000a08ac78:	ff 23 01 a9	stp	xzr, x8, [sp, #0x10]
+fffffe000a08ac7c:	c8 bc fe f0	adrp	x8, -10341 ; 0xfffffe0007825000
+fffffe000a08ac80:	08 85 08 91	add	x8, x8, #0x221
+fffffe000a08ac84:	f6 23 00 a9	stp	x22, x8, [sp]
+fffffe000a08ac88:	c0 bc fe d0	adrp	x0, -10342 ; 0xfffffe0007824000
+fffffe000a08ac8c:	00 1c 2c 91	add	x0, x0, #0xb07
+fffffe000a08ac90:	c8 75 00 94	bl	0xfffffe000a0a83b0 ; symbol stub for: _IOLog
+fffffe000a08ac94:	79 ff ff 17	b	0xfffffe000a08aa78

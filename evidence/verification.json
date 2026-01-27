@@ -1,0 +1,157 @@
+{
+  "scope": "Partial source-reference audit; not a completion audit or hardware compatibility test",
+  "operation_checks": [
+    {
+      "operation": "protocol_info",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "select_protocol",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "uid",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "nonce",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "public_key",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "query_pairing",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "generate_key",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "transfer",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "pair_prepare",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "pair",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "unpair",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "manifest",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "compute_session",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "issue_challenge",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "verify_challenge",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "start_intent",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "secure_intent_nonce",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    },
+    {
+      "operation": "cancel",
+      "symbol_present": true,
+      "report_addresses_in_function": true,
+      "codec_status": "implemented"
+    }
+  ],
+  "unit_tests": {
+    "count": 65,
+    "result": "passed",
+    "evidence": "evidence/test-suite.txt"
+  },
+  "native_host_serializer": {
+    "count": 111,
+    "result": "matched",
+    "evidence": "evidence/native-serializer-comparison.json"
+  },
+  "unresolved_accessible_work": [
+    "manager property meanings",
+    "command14 downstream object type",
+    "sensor info and metadata",
+    "sensor mode/calibration semantics",
+    "opaque enclave outputs",
+    "lifecycle/state review",
+    "integrated boundary transcripts",
+    "whole-code review"
+  ],
+  "external_limits": [
+    "no Bluetooth reference capture",
+    "no enclave cryptographic acceptance evidence"
+  ],
+  "host_dispatch": {
+    "entries": 14,
+    "selector": 0,
+    "table": "evidence/host-dispatch-table.json",
+    "input_codec": "touchid_lab/manager.py",
+    "runtime_execution": false
+  },
+  "stac_session_codecs": [
+    "session_begin",
+    "session_material",
+    "session_completion",
+    "challenge_validation"
+  ],
+  "stac_coverage": {
+    "opcodes": 22,
+    "direct_call_sites": 32,
+    "index": "evidence/stac-call-sites.json",
+    "coverage": "evidence/stac-coverage.json",
+    "scope": "offline buffers; not enclave acceptance"
+  }
+}

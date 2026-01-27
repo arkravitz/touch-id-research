@@ -1,0 +1,66 @@
+{
+  "BuildMachineOSBuild" => "23A344017"
+  "CFBundleDevelopmentRegion" => "en"
+  "CFBundleExecutable" => "AppleTrustedAccessory"
+  "CFBundleIdentifier" => "com.apple.driver.AppleTrustedAccessory"
+  "CFBundleInfoDictionaryVersion" => "6.0"
+  "CFBundleName" => "AppleTrustedAccessory"
+  "CFBundlePackageType" => "KEXT"
+  "CFBundleShortVersionString" => "1.0"
+  "CFBundleSupportedPlatforms" => [
+    0 => "MacOSX"
+  ]
+  "CFBundleVersion" => "1"
+  "DTCompiler" => "com.apple.compilers.llvm.clang.1_0"
+  "DTPlatformBuild" => "26A425"
+  "DTPlatformName" => "macosx"
+  "DTPlatformVersion" => "27.0"
+  "DTSDKBuild" => "26A425"
+  "DTSDKName" => "macosx27.0.internal"
+  "DTXcode" => "2700"
+  "DTXcodeBuild" => "27A200c"
+  "IOKitPersonalities" => {
+    "AppleTrustedAccessory" => {
+      "CFBundleIdentifier" => "com.apple.driver.AppleTrustedAccessory"
+      "DeviceUsagePairs" => [
+        0 => {
+          "DeviceUsage" => 77
+          "DeviceUsagePage" => 65280
+        }
+      ]
+      "IOClass" => "AppleTrustedAccessory"
+      "IOMatchCategory" => "com_apple_driver_AppleTrustedAccessory"
+      "IOProviderClass" => "IOHIDInterface"
+      "ProductIDArray" => [
+        0 => 666
+        1 => 671
+        2 => 801
+        3 => 802
+      ]
+      "VendorID" => 1452
+    }
+    "AppleTrustedAccessoryManager" => {
+      "CFBundleIdentifier" => "com.apple.driver.AppleTrustedAccessory"
+      "IOClass" => "AppleTrustedAccessoryManager"
+      "IOMatchCategory" => "com_apple_driver_AppleTrustedAccessoryManager"
+      "IONameMatch" => "sep-endpoint,stac"
+      "IOProviderClass" => "AppleSEPDeviceService"
+      "IOUserClientClass" => "AppleTrustedAccessoryManagerUserClient"
+    }
+  }
+  "LSMinimumSystemVersion" => "27.0"
+  "NSHumanReadableCopyright" => "Copyright © 2019-2020 Apple Inc. All rights reserved."
+  "OSBundleCompatibleVersion" => "1.0.0"
+  "OSBundleLibraries" => {
+    "com.apple.driver.AppleSMC" => "1.0"
+    "com.apple.iokit.AppleSEPGenericTransfer" => "1.0.0"
+    "com.apple.iokit.CoreAnalyticsFamily" => "1.0"
+    "com.apple.iokit.IOHIDFamily" => "1.4"
+    "com.apple.kpi.bsd" => "8.0"
+    "com.apple.kpi.iokit" => "8.0"
+    "com.apple.kpi.libkern" => "8.0"
+    "com.apple.kpi.mach" => "8.0"
+    "com.apple.kpi.private" => "8.0"
+    "com.apple.kpi.unsupported" => "8.0"
+  }
+}
