@@ -1,0 +1,67 @@
+test_demo_reports_scope (test_cli.CLITests.test_demo_reports_scope) ... ok
+test_encode_and_decode_literal_request (test_cli.CLITests.test_encode_and_decode_literal_request) ... ok
+test_invalid_input_returns_error_without_traceback (test_cli.CLITests.test_invalid_input_returns_error_without_traceback) ... ok
+test_host_header_golden_bytes (test_codec.CodecTests.test_host_header_golden_bytes) ... ok
+test_host_native_buffer_padding_and_size (test_codec.CodecTests.test_host_native_buffer_padding_and_size) ... ok
+test_host_rejects_bad_magic_truncation_and_overflow (test_codec.CodecTests.test_host_rejects_bad_magic_truncation_and_overflow) ... ok
+test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) ... 
+  test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='query_pairing') ... FAIL
+  test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='pair_prepare') ... FAIL
+  test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='pair') ... FAIL
+test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) ... FAIL
+test_key_request_and_reply_have_different_framing (test_codec.CodecTests.test_key_request_and_reply_have_different_framing) ... ok
+test_manifest_maximum_and_trailing_transport_padding (test_codec.CodecTests.test_manifest_maximum_and_trailing_transport_padding) ... ok
+test_no_counter_on_secure_intent_nonce (test_codec.CodecTests.test_no_counter_on_secure_intent_nonce) ... ok
+test_pair_key_offset_is_fixed_not_length_dependent (test_codec.CodecTests.test_pair_key_offset_is_fixed_not_length_dependent) ... ok
+test_pair_reply_uses_reserved_regions_and_rejects_truncation (test_codec.CodecTests.test_pair_reply_uses_reserved_regions_and_rejects_truncation) ... ok
+test_protocol_discovery_and_unknown_version (test_codec.CodecTests.test_protocol_discovery_and_unknown_version) ... ok
+test_query_pairing_is_flags_not_status (test_codec.CodecTests.test_query_pairing_is_flags_not_status) ... ok
+test_sep_manifest_and_pair_completion_offsets (test_codec.CodecTests.test_sep_manifest_and_pair_completion_offsets) ... ok
+test_session_request_bounds_and_opaque_challenge (test_codec.CodecTests.test_session_request_bounds_and_opaque_challenge) ... ok
+test_transfer_chunk_boundaries_and_same_counter (test_codec.CodecTests.test_transfer_chunk_boundaries_and_same_counter) ... ok
+test_unknown_operation_and_wrong_reply_id_fail (test_codec.CodecTests.test_unknown_operation_and_wrong_reply_id_fail) ... ok
+test_demo_covers_recovered_phases_but_is_not_attestation (test_simulator.SimulatorTests.test_demo_covers_recovered_phases_but_is_not_attestation) ... ok
+test_literal_exchange_and_native_trust_stays_unavailable (test_simulator.SimulatorTests.test_literal_exchange_and_native_trust_stays_unavailable) ... ok
+test_stale_wrong_report_and_rejection_cannot_advance (test_simulator.SimulatorTests.test_stale_wrong_report_and_rejection_cannot_advance) ... ok
+test_wrong_request_does_not_consume_script (test_simulator.SimulatorTests.test_wrong_request_does_not_consume_script) ... ok
+
+======================================================================
+FAIL: test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='query_pairing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_codec.py", line 56, in test_identity_must_be_nonempty_and_pair_reply_exact_size
+    with self.subTest(name=name),self.assertRaises(c.ProtocolError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: ProtocolError not raised
+
+======================================================================
+FAIL: test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='pair_prepare')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_codec.py", line 56, in test_identity_must_be_nonempty_and_pair_reply_exact_size
+    with self.subTest(name=name),self.assertRaises(c.ProtocolError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: ProtocolError not raised
+
+======================================================================
+FAIL: test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size) (name='pair')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_codec.py", line 56, in test_identity_must_be_nonempty_and_pair_reply_exact_size
+    with self.subTest(name=name),self.assertRaises(c.ProtocolError):
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: ProtocolError not raised
+
+======================================================================
+FAIL: test_identity_must_be_nonempty_and_pair_reply_exact_size (test_codec.CodecTests.test_identity_must_be_nonempty_and_pair_reply_exact_size)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_codec.py", line 59, in test_identity_must_be_nonempty_and_pair_reply_exact_size
+    with self.assertRaises(c.ProtocolError):c.decode_reply('pair',data+b'\0')
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: ProtocolError not raised
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.210s
+
+FAILED (failures=4)

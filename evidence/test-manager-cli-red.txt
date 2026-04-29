@@ -1,0 +1,18 @@
+...F.
+======================================================================
+FAIL: test_manager_and_stac_wrappers_are_accessible_offline (test_cli.CLITests.test_manager_and_stac_wrappers_are_accessible_offline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 47, in test_manager_and_stac_wrappers_are_accessible_offline
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: python3.15 -m touchid_lab encode [-h]
+                                        {host,request,reply,sep,sensor}
+                                        operation value
+python3.15 -m touchid_lab encode: error: argument layer: invalid choice: 'manager' (choose from 'host', 'request', 'reply', 'sep', 'sensor')
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.392s
+
+FAILED (failures=1)

@@ -1,0 +1,15 @@
+.......F
+======================================================================
+FAIL: test_typed_image_metadata_and_device_info (test_cli.CLITests.test_typed_image_metadata_and_device_info)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 17, in test_typed_image_metadata_and_device_info
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : error: unknown sensor decoder
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.808s
+
+FAILED (failures=1)

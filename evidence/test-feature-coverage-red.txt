@@ -1,0 +1,19 @@
+...E.
+======================================================================
+ERROR: test_unpair_feature_fixture_requires_and_validates_status (test_simulator.SimulatorTests.test_unpair_feature_fixture_requires_and_validates_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_simulator.py", line 11, in test_unpair_feature_fixture_requires_and_validates_status
+    self.assertEqual(peer.exchange('unpair',b''),bytes(4))
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/touchid_lab/simulator.py", line 42, in exchange
+    decoded=c.decode_request(operation,request)
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/touchid_lab/codec.py", line 148, in decode_request
+    if name not in REQUEST_IDS:raise ProtocolError(f'unknown request {name}')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+touchid_lab.codec.ProtocolError: unknown request unpair
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (errors=1)

@@ -1,0 +1,18 @@
+..F...
+======================================================================
+FAIL: test_intent_operations_and_notification_bodies (test_cli.CLITests.test_intent_operations_and_notification_bodies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 59, in test_intent_operations_and_notification_bodies
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: python3.15 -m touchid_lab encode [-h]
+                                        {host,request,reply,sep,sensor,manager}
+                                        operation value
+python3.15 -m touchid_lab encode: error: argument layer: invalid choice: 'operation' (choose from 'host', 'request', 'reply', 'sep', 'sensor', 'manager')
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.524s
+
+FAILED (failures=1)
