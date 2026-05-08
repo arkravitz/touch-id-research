@@ -1,0 +1,23 @@
+.........E.E..
+======================================================================
+ERROR: test_image_info_record_types_and_unaligned_offsets (test_sensor.SensorTests.test_image_info_record_types_and_unaligned_offsets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_sensor.py", line 21, in test_image_info_record_types_and_unaligned_offsets
+    fields=s.decode_image_info_metadata(bytes(raw))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.sensor' has no attribute 'decode_image_info_metadata'
+
+======================================================================
+ERROR: test_metadata_count_and_fixed_sensor_info_bounds (test_sensor.SensorTests.test_metadata_count_and_fixed_sensor_info_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_sensor.py", line 36, in test_metadata_count_and_fixed_sensor_info_bounds
+    self.assertEqual(s.decode_image_info_metadata(bytes(raw))['header_bytes'][4],6)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.sensor' has no attribute 'decode_image_info_metadata'
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+FAILED (errors=2)

@@ -1,0 +1,32 @@
+.EE..E...
+======================================================================
+ERROR: test_attestation_identity_response_reserves_129_bytes (test_stac.StacTests.test_attestation_identity_response_reserves_129_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_stac.py", line 15, in test_attestation_identity_response_reserves_129_bytes
+    raw=stac.encode_attestation_identity(b'ABC')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.stac' has no attribute 'encode_attestation_identity'
+
+======================================================================
+ERROR: test_authorization_wrapper_matches_stac_offsets (test_stac.StacTests.test_authorization_wrapper_matches_stac_offsets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_stac.py", line 25, in test_authorization_wrapper_matches_stac_offsets
+    raw=stac.encode_authorization(3,b'U'*16,b'AB',b'XYZ')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.stac' has no attribute 'encode_authorization'
+
+======================================================================
+ERROR: test_pair_begin_orders_static_then_generated_accessory_keys (test_stac.StacTests.test_pair_begin_orders_static_then_generated_accessory_keys)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_stac.py", line 10, in test_pair_begin_orders_static_then_generated_accessory_keys
+    self.assertEqual(stac.encode_pair_begin(raw[:16],raw[16:81],raw[81:]),raw)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.stac' has no attribute 'encode_pair_begin'. Did you mean '.encode_session_begin' instead of '.encode_pair_begin'?
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+FAILED (errors=3)

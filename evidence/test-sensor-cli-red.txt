@@ -1,0 +1,18 @@
+...F
+======================================================================
+FAIL: test_sensor_report_and_capture_commands (test_cli.CLITests.test_sensor_report_and_capture_commands)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 36, in test_sensor_report_and_capture_commands
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: python3.15 -m touchid_lab decode [-h]
+                                        {host,request,reply,sep} operation
+                                        value
+python3.15 -m touchid_lab decode: error: argument layer: invalid choice: 'sensor' (choose from 'host', 'request', 'reply', 'sep')
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.261s
+
+FAILED (failures=1)

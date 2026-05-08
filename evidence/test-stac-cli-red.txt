@@ -1,0 +1,18 @@
+......F
+======================================================================
+FAIL: test_stac_numeric_namespace_keeps_opcode_outside_buffer (test_cli.CLITests.test_stac_numeric_namespace_keeps_opcode_outside_buffer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 73, in test_stac_numeric_namespace_keeps_opcode_outside_buffer
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: python3.15 -m touchid_lab encode [-h]
+                                        {host,request,reply,sep,sensor,manager,operation,notification,manager_result}
+                                        operation value
+python3.15 -m touchid_lab encode: error: argument layer: invalid choice: 'stac_request', maybe you meant 'request'? (choose from 'host', 'request', 'reply', 'sep', 'sensor', 'manager', 'operation', 'notification', 'manager_result')
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.692s
+
+FAILED (failures=1)

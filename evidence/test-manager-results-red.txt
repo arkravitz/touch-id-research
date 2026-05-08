@@ -1,0 +1,32 @@
+.E.E....E
+======================================================================
+ERROR: test_boolean_and_pairing_results_have_different_sizes (test_manager.ManagerTests.test_boolean_and_pairing_results_have_different_sizes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_manager.py", line 26, in test_boolean_and_pairing_results_have_different_sizes
+    self.assertEqual(m.encode_result('is_connected',connected=True),b'\1')
+                     ^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.manager' has no attribute 'encode_result'
+
+======================================================================
+ERROR: test_find_accessories_result_is_count_and_uids (test_manager.ManagerTests.test_find_accessories_result_is_count_and_uids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_manager.py", line 10, in test_find_accessories_result_is_count_and_uids
+    self.assertEqual(m.encode_result('find_accessories',uids=[bytes(range(16)),bytes(range(16,32))]),raw)
+                     ^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.manager' has no attribute 'encode_result'
+
+======================================================================
+ERROR: test_property_result_offsets_and_boundaries (test_manager.ManagerTests.test_property_result_offsets_and_boundaries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_manager.py", line 16, in test_property_result_offsets_and_boundaries
+    raw=m.encode_result('get_property',property=7,data=b'ABC')
+        ^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.manager' has no attribute 'encode_result'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+FAILED (errors=3)

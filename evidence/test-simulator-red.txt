@@ -1,0 +1,67 @@
+test_demo_reports_scope (test_cli.CLITests.test_demo_reports_scope) ... FAIL
+test_encode_and_decode_literal_request (test_cli.CLITests.test_encode_and_decode_literal_request) ... FAIL
+test_invalid_input_returns_error_without_traceback (test_cli.CLITests.test_invalid_input_returns_error_without_traceback) ... FAIL
+test_host_header_golden_bytes (test_codec.CodecTests.test_host_header_golden_bytes) ... ok
+test_host_native_buffer_padding_and_size (test_codec.CodecTests.test_host_native_buffer_padding_and_size) ... ok
+test_host_rejects_bad_magic_truncation_and_overflow (test_codec.CodecTests.test_host_rejects_bad_magic_truncation_and_overflow) ... ok
+test_key_request_and_reply_have_different_framing (test_codec.CodecTests.test_key_request_and_reply_have_different_framing) ... ok
+test_manifest_maximum_and_trailing_transport_padding (test_codec.CodecTests.test_manifest_maximum_and_trailing_transport_padding) ... ok
+test_no_counter_on_secure_intent_nonce (test_codec.CodecTests.test_no_counter_on_secure_intent_nonce) ... ok
+test_pair_key_offset_is_fixed_not_length_dependent (test_codec.CodecTests.test_pair_key_offset_is_fixed_not_length_dependent) ... ok
+test_pair_reply_uses_reserved_regions_and_rejects_truncation (test_codec.CodecTests.test_pair_reply_uses_reserved_regions_and_rejects_truncation) ... ok
+test_protocol_discovery_and_unknown_version (test_codec.CodecTests.test_protocol_discovery_and_unknown_version) ... ok
+test_query_pairing_is_flags_not_status (test_codec.CodecTests.test_query_pairing_is_flags_not_status) ... ok
+test_sep_manifest_and_pair_completion_offsets (test_codec.CodecTests.test_sep_manifest_and_pair_completion_offsets) ... ok
+test_session_request_bounds_and_opaque_challenge (test_codec.CodecTests.test_session_request_bounds_and_opaque_challenge) ... ok
+test_transfer_chunk_boundaries_and_same_counter (test_codec.CodecTests.test_transfer_chunk_boundaries_and_same_counter) ... ok
+test_unknown_operation_and_wrong_reply_id_fail (test_codec.CodecTests.test_unknown_operation_and_wrong_reply_id_fail) ... ok
+test_simulator (unittest.loader._FailedTest.test_simulator) ... ERROR
+
+======================================================================
+ERROR: test_simulator (unittest.loader._FailedTest.test_simulator)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_simulator
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_simulator.py", line 2, in <module>
+    from touchid_lab.simulator import Exchange, ScriptedPeer, run_demo, TrustUnavailable
+ModuleNotFoundError: No module named 'touchid_lab.simulator'
+
+
+======================================================================
+FAIL: test_demo_reports_scope (test_cli.CLITests.test_demo_reports_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 29, in test_demo_reports_scope
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : /opt/homebrew/opt/python@3.15/bin/python3.15: No module named touchid_lab.__main__; 'touchid_lab' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_encode_and_decode_literal_request (test_cli.CLITests.test_encode_and_decode_literal_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 16, in test_encode_and_decode_literal_request
+    self.assertEqual(p.returncode,0,p.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : /opt/homebrew/opt/python@3.15/bin/python3.15: No module named touchid_lab.__main__; 'touchid_lab' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_invalid_input_returns_error_without_traceback (test_cli.CLITests.test_invalid_input_returns_error_without_traceback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_cli.py", line 24, in test_invalid_input_returns_error_without_traceback
+    self.assertEqual(p.returncode,2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.090s
+
+FAILED (failures=3, errors=1)

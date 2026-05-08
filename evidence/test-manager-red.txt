@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_manager (unittest.loader._FailedTest.test_manager)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_manager
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_manager.py", line 3, in <module>
+    from touchid_lab import manager as m
+ImportError: cannot import name 'manager' from 'touchid_lab' (/Users/aaron/coding/Touch ID Reverse Engineer/touchid_lab/__init__.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

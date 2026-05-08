@@ -1,0 +1,22 @@
+E
+======================================================================
+ERROR: test_sensor (unittest.loader._FailedTest.test_sensor)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_sensor
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_sensor.py", line 4, in <module>
+    from touchid_lab.sensor import (decode_sensor_report, decode_metadata,
+    ...<2 lines>...
+        decode_calibration_info, decode_feature_finger_state, command_mode_report_id)
+ImportError: cannot import name 'encode_calibration_info' from 'touchid_lab.sensor' (/Users/aaron/coding/Touch ID Reverse Engineer/touchid_lab/sensor.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
