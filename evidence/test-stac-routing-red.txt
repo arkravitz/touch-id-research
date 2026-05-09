@@ -1,0 +1,23 @@
+.....EE....
+======================================================================
+ERROR: test_consumed_response_regions_retain_trailing_bytes (test_stac.StacTests.test_consumed_response_regions_retain_trailing_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_stac.py", line 27, in test_consumed_response_regions_retain_trailing_bytes
+    fields=stac.decode_response(opcode,raw)
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.stac' has no attribute 'decode_response'
+
+======================================================================
+ERROR: test_generic_request_routes_all_observed_opcodes (test_stac.StacTests.test_generic_request_routes_all_observed_opcodes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_stac.py", line 11, in test_generic_request_routes_all_observed_opcodes
+    self.assertEqual(stac.encode_request(opcode,uid=uid),uid)
+                     ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'touchid_lab.stac' has no attribute 'encode_request'
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.002s
+
+FAILED (errors=2)

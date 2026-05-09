@@ -1,0 +1,17 @@
+...............E
+======================================================================
+ERROR: test_unpair_feature_reply_has_status_without_interrupt_header (test_codec.CodecTests.test_unpair_feature_reply_has_status_without_interrupt_header)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/tests/test_codec.py", line 8, in test_unpair_feature_reply_has_status_without_interrupt_header
+    self.assertEqual(c.encode_reply('unpair',status=0x12345678),bytes.fromhex('78563412'))
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aaron/coding/Touch ID Reverse Engineer/touchid_lab/codec.py", line 180, in encode_reply
+    if name not in REPLY_IDS:raise ProtocolError(f'unknown reply {name}')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+touchid_lab.codec.ProtocolError: unknown reply unpair
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+FAILED (errors=1)
